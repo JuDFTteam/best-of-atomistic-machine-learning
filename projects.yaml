@@ -1,19 +1,1404 @@
 configuration:
+  #
+  #
+  #
+  # ######################################################################
+  # Reference: https://github.com/best-of-lists/best-of-generator
+  # ######################################################################
+  #
+  #
+  #
+  min_stars: 5
+  # require_github: True
+  max_trending_projects: 5
+  # allowed_licenses:
+  #   [
+  #     "Unlicense",
+  #     "Apache-2.0",
+  #     "MIT",
+  #     "BSD-3-Clause",
+  #     "BSD-2-Clause",
+  #     "ISC",
+  #     "MPL-2.0",
+  #     "LGPL-2.1"
+  #   ]
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  projects_history_folder: "history"
 
 categories:
+  # # categories example.
   # - category: "data-engineering"
   #   title: "Machine Learning & Data Engineering"
   #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+  #
+  # # categories template.
+  # - category: ""
+  #   title: ""
+  #   subtitle: ""
+  - category: "active-learning"
+    title: "Active learning"
+    subtitle: "Projects that focus on enabling active learning, iterative learning schemes for atomistic ML."
+  - category: "biomolecules"
+    title: "Biomolecules"
+    subtitle: "Projects that focus on biomolecules, protein structure, protein folding, etc. using atomistic ML."
+  - category: "datasets"
+    title: "Datasets"
+    subtitle: "Datasets, databases and trained models for atomistic ML."
+  - category: "data-structures"
+    title: "Data Structures"
+    subtitle: "Projects that focus on providing data structures used in atomistic machine learning."
+  - category: "ml-dft"
+    title: "Density functional theory (ML-DFT)"
+    subtitle: "Projects and models that focus on quantities of DFT, such as density functional approximations (ML-DFA), the charge density, density of states, the Hamiltonian, etc."
+  - category: "educational"
+    title: "Educational Resources"
+    subtitle: "Tutorials, guides, cookbooks, recipes, etc."
+  - category: "xai"
+    title: "Explainable Artificial intelligence (XAI)"
+    subtitle: "Projects that focus on explainability and model interpretability in atomistic ML."
+  - category: "ml-esm"
+    title: "Electronic structure methods (ML-ESM)"
+    subtitle: "Projects and models that focus on quantities of electronic structure methods, which do not fit into either of the categories ML-WFT or ML-DFT."
+  - category: "general-tools"
+    title: "General Tools"
+    subtitle: "General tools for atomistic machine learning."
+  - category: "generative"
+    title: "Generative Models"
+    subtitle: "Projects that implement generative models for atomistic ML."
+  - category: "mlp"
+    title: "Machine Learning Potentials (MLP)"
+    subtitle: "Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for molecular dynamics."
+  - category: "materials-discovery"
+    title: "Materials Discovery"
+    subtitle: "Projects that implement materials discovery methods using atomistic ML."
+  - category: "math"
+    title: "Mathematical tools"
+    subtitle: "Projects that implement mathematical objects used in atomistic machine learning."
+  - category: "md"
+    title: "Molecular Dynamics"
+    subtitle: "Projects that simplify the integration of molecular dynamics and atomistic machine learning."
+  - category: "nlp"
+    title: "Natural Language Processing"
+    subtitle: "Projects that use natural language processing (NLP) and large language models (LLM) for atomistic ML."
+  - category: "probabilistic"
+    title: "Probabilistic ML"
+    subtitle: "Projects that focus on probabilistic, Bayesian, Gaussian process and adversarial methods for atomistic ML, for optimization, uncertainty quantification (UQ), etc."
+  - category: "reinforcement-learning"
+    title: "Reinforcement Learning"
+    subtitle: "Projects that focus on reinforcement learning for atomistic ML."
+  - category: "representation-engineering"
+    title: "Representation Engineering Models"
+    subtitle: "General models that use hand-crafted representations, aka feature engineering."
+  - category: "representation-learning"
+    title: "Representation Learning Models"
+    subtitle: "General models that learn an embedding, such as message-passing neural networks (MPNN)."
+  - category: "representations"
+    title: "Representations"
+    subtitle: "Projects that offer implementations of representations, descriptors, fingerprints of atomistic systems."
+  - category: "unsupervised"
+    title: "Unsupervised Learning"
+    subtitle: "Projects that focus on unsupervised learning for atomistic ML, such as dimensionality reduction, clustering and visualization."
+  - category: "visualization"
+    title: "Visualization"
+    subtitle: "Projects that focus on visualization for atomistic ML."
+  - category: "ml-wft"
+    title: "Wavefunction methods (ML-WFT)"
+    subtitle: "Projects and models that focus on quantities of wavefunction electronic structure methods, such as Monte Carlo techniques, MO theory methods, etc."
 
 labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+  - label: "Python"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/python.ico"
+    description: "Python-related project, non-exclusive"
+  - label: "Julia"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico"
+    description: "Julia-related project, non-exclusive"
+  - label: "Rust"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/rust.ico"
+    description: "Rust-related project, non-exclusive"
+  - label: "C++"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c%2B%2B.ico"
+    description: "C++ - related project, non-exclusive"
+  - label: "C"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico"
+    description: "C-related project, non-exclusive"
+  - label: "Fortran"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/fortran.ico"
+    description: "Fortran-related project, non-exclusive"
+  - label: "JavaScript"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/javascript.ico"
+    description: "JavaScript-related project, non-exclusive"
+  - label: "Java"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico"
+    description: "Java-related project, non-exclusive"
+  - label: "single-paper"
+    # image:
+    description: "Single-paper projects"
+  - label: "active-learning"
+    # image:
+    description: "Active learning"
+  - label: "benchmarking"
+    # image:
+    description: "Benchmarking ML models"
+  - label: "xai"
+    # image:
+    description: "Explainable artificial intelligence (XAI), model interpretability"
+  - label: "generative"
+    # image:
+    subtitle: "Generative models"
+  - label: "knowledgebase"
+    # image:
+    subtitle: "Knowledgebases"
+  - label: "materials-discovery"
+    # image:
+    description: "Materials discovery"
+  - label: "structure-optimization"
+    # image:
+    description: "Materials structure optimization"
+  - label: "structure-prediction"
+    # image:
+    description: "Materials structure prediction"
+  - label: "nlp"
+    # image:
+    subtitle: "Natural language processing (NLP), large language models (LLM)"
+  - label: "pretrained"
+    # image:
+    subtitle: "Pretrained models"
+  - label: "probabilistic"
+    # image:
+    description: "Probabilistic methods: Bayesian, Gaussian processes, adversarial attacks, uncertainty quantification (UQ)"
+  - label: "qml"
+    # image: &#x269B;&#xFE0F;
+    description: "Quantum machine learning (QML)"
+  - label: "recommender"
+    # image:
+    description: "Recommender systems"
+  - label: "workflows"
+    # image:
+    description: "Workflows, pipelines, MLOps"
+  - label: "drug-discovery"
+    # image: &#x1F48A;
+    image: 💊
+    description: "Drug discovery"
+  - label: "electrostatics"
+    # image: &#x26A1;
+    image: ⚡
+    description: "Electrostatics, partial charges, charge transfer, charge equilibration"
+  - label: "magnetism"
+    # image: &#x1F9F2;
+    image: 🧲
+    description: "Magnetism"
+  - label: "optical-properties"
+    # image: &#x1F308;
+    # image: 🌈
+    image: 👁️
+    description: "Optical properties"
+  - label: "biomolecules"
+    # image: &#x1F9EC;
+    image: 🧬
+    description: "Biomolecules, protein structure, protein folding"
+  - label: "superconductor"
+    # image: &#x1F9D8;&#x1F3FE;
+    image: 🧘
+    description: "Superconductivity"
+  - label: "surface-science"
+    # image: &#x1FA9E;
+    image: 🪞
+    description: "Surface science"
+  - label: "transport-phenomena"
+    # image: &#x1F525;
+    image: 🔥
+    description: "Transport phenomena"
+  - label: "xrd"
+    # image: &#x1FA7B;
+    image: 🩻
+    description: "X-ray diffraction"
 
 projects:
+  # # example.
   # - name: best-of-ml-python
   #   github_id: ml-tooling/best-of-ml-python
   #   labels: ["python"]
   #   category: "data-engineering"
+  #
+  # # project full template.
+  # # reference https://github.com/best-of-lists/best-of-generator#project-properties
+  # - name:
+  #   resource:
+  #   category:
+  #   description:
+  #   labels:
+  #   homepage:
+  #   docs_url:
+  #   group:
+  #   group_id:
+  #   license:
+  #   show:
+  #   ignore:
+  #   github_id:
+  #   gitlab_id:
+  #   pypi_id:
+  #   conda_id:
+  #   npm_id:
+  #   dockerhub_id:
+  #   maven_id:
+  #
+  # # project simple template.
+  # - name:
+  #   github_id:
+  #   labels: []
+  #   category: ""
+  #
+- name: Atomic Cluster Expansion
+  resource: true
+  homepage: https://cortner.github.io/ACEweb
+  # group: ACE
+  description: Atomic Cluster Expansion (ACE) community homepage.
+- name: PACE
+  category: mlp
+  description: "The `pair_style` ACE MLP implemented in LAMMPS, aka ML-PACE."
+  homepage: https://cortner.github.io/ACEweb
+  docs_url: https://docs.lammps.org/pair_pace.html
+  # group_id: ACE
+  github_id: ICAMS/lammps-user-pace
+- name: Pacemaker
+  category: mlp
+  description: Python package for fitting ACE potentials
+  homepage: https://cortner.github.io/ACEweb
+  docs_url: https://pacemaker.readthedocs.io
+  # group_id: ACE
+  github_id: ICAMS/python-ace
+  pypi_id: python-ace
+- name: TensorPotential
+  category: mlp
+  homepage: https://cortner.github.io/ACEweb
+  # group_id: ACE
+  github_id: ICAMS/TensorPotential
+- name: ACE1.jl
+  category: mlp
+  labels: ["Julia"]
+  homepage: https://acesuit.github.io/
+  docs_url: https://acesuit.github.io/ACE1pack.jl
+  # group_id: ACE
+  github_id: ACEsuit/ACE1.jl
+- name: ACE1Pack.jl
+  category: mlp
+  description: Provides convenience functionality for the usage of ACE1.jl, ACEfit.jl, JuLIP.jl for fitting interatomic potentials using the ACE model.
+  labels: ["Julia"]
+  homepage: https://github.com/ACEsuit/ACE1pack.jl
+  docs_url: https://acesuit.github.io/ACE1pack.jl
+  # group_id: ACE
+  github_id: ACEsuit/ACE1pack.jl
+- name: MACE
+  category: mlp
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/mace
+- name: MACE-Jax
+  category: mlp
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/mace-jax
+- name: MACE-Layer
+  category: representation-learning
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/mace-layer
+- name: ACE.jl
+  category: mlp
+  labels: ["Julia"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/ACE.jl
+- name: ACE Workflows
+  category: mlp
+  labels: ["Julia", "workflows"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/ACEworkflows
+- name: ACEhamiltonians
+  category: ml-dft
+  description: Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-state systems.
+  labels: ["Julia"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/ACEhamiltonians.jl
+- name: Polynomials4ML.jl
+  category: math
+  labels: ["Julia"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/Polynomials4ML.jl
+- name: ACEatoms
+  category: general-tools
+  labels: ["Julia"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/ACEatoms.jl
+- name: ACEfit
+  category: mlp
+  description:
+  labels: ["Julia"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/ACEfit.jl
+- name: ACEHAL
+  category: active-learning
+  description: Hyperactive Learning (HAL) Python interface for building Atomic Cluster Expansion potentials
+  labels: ["Julia", "active-learning"]
+  homepage: https://acesuit.github.io/
+  # group_id: ACE
+  github_id: ACEsuit/ACEHAL
+- name: DeePKS-kit
+  category: ml-dft
+  github_id: deepmodeling/deepks-kit
+- name: cmlkit
+  category: representation-engineering
+  labels: ["benchmarking"]
+  homepage: https://marcel.science/repbench/
+  github_id: sirmarcel/cmlkit
+  pypi_id: cmlkit
+- name: glp
+  category: mlp
+  github_id: sirmarcel/glp
+- name: gkx: Green-Kubo Method in JAX
+  category: representation-learning
+  labels: ["transport-phenomena"]
+  github_id: sirmarcel/gkx
+- name: Scikit-Matter
+  category: general-tools
+  description:
+  labels: ["scikit-learn"]
+  docs_url: https://scikit-matter.readthedocs.io
+  github_id: lab-cosmo/scikit-matter
+  pypi_id: skmatter
+  conda_id: conda-forge/skmatter
+- name: Equisolve
+  category: math
+  docs_url: https://lab-cosmo.github.io/equisolve
+  github_id: lab-cosmo/equisolve
+- name: Equistore
+  category: data-structures
+  docs_url: https://lab-cosmo.github.io/equistore
+  github_id: lab-cosmo/equistore
+- name: Sketchmap
+  label: ["C++"]
+  category: unsupervised
+  github_id: lab-cosmo/sketchmap
+- name: Wigner Kernels
+  category: math
+  description: Collection of programs to benchmark Wigner kernels.
+  labels: ["benchmarking"]
+  github_id: lab-cosmo/wigner_kernels
+- name: Rascaline
+  category: representations
+  docs_url: https://luthaf.fr/rascaline/
+  github_id: Luthaf/rascaline
+- name: Librascal
+  category: representations
+  docs_url: https://lab-cosmo.github.io/librascal/
+  github_id: lab-cosmo/librascal
+- name: NICE
+  category: representations
+  description: NICE (N-body Iteratively Contracted Equivariants) is a set of tools designed for the calculation of invariant and covariant atomic structure representations.
+  docs_url: https://lab-cosmo.github.io/nice/
+  github_id: lab-cosmo/nice
+- name: SpheriCart
+  category: math
+  docs_url: https://sphericart.readthedocs.io/
+  github_id: lab-cosmo/sphericart
+  pypi_id: sphericart
+- name: COSMO Software Cookbook
+  category: educational
+  docs_url: https://software-cookbook.rtfd.io/
+  github_id: lab-cosmo/software-cookbook
+- name: Chemiscope
+  resource:
+  category:
+  description:
+  labels: ["JavaScript"]
+  homepage: https://chemiscope.org/
+  docs_url: https://chemiscope.org/docs/
+  github_id: lab-cosmo/chemiscope
+  npm_id: chemiscope
+- name: pyLODE
+  category: representations
+  labels: ["electrostatics"]
+  github_id: ceriottm/lode
+- name: iam-notebooks
+  category: educational
+  github_id: ceriottm/iam-notebooks
+- name: COSMO Toolbox
+  resource:
+  category: math
+  github_id: lab-cosmo/toolbox
+- name: COSMO tools
+  github_id: lab-cosmo/cosmo-tools
+- name: crystals.ai
+  resource: true
+  category: datasets
+  description: Curated datasets for reproducible AI in materials science.
+  homepage: https://crystals.ai/
+- name: M3GNet
+  category: mlp
+  homepage: https://crystals.ai/
+  github_id: materialsvirtuallab/m3gnet
+  pypi_id: m3gnet
+- name: MEGNet
+  category: mlp
+  homepage: https://crystals.ai/
+  github_id: materialsvirtuallab/megnet
+  pypi_id: megnet
+- name: MatGL (Materials Graph Library)
+  category: representation-learning
+  homepage: https://crystals.ai/
+  github_id: materialsvirtuallab/matgl
+  pypi_id: m3gnet
+- name: MAML
+  category: general-tools
+  homepage: https://materialsvirtuallab.github.io/maml/
+  github_id: materialsvirtuallab/maml
+  pypi_id: maml
+- name: "Crystal Graph Convolutional Neural Networks (CGCNN)"
+  category: representation-learning
+  homepage: https://crystals.ai/
+  github_id: txie-93/cgcnn
+- name: GATGNN: Global Attention Graph Neural Network
+  category: representation-learning
+  github_id: superlouis/GATGNN
+- name: DeeperGATGNN
+  category: representation-learning
+  github_id: usccolumbia/deeperGATGNN
+- name: MAST-ML
+  category: general-tools
+  github_id: uw-cmg/MAST-ML
+- name: AMP
+  resource:
+  category: representations
+  # category: general-tools
+  description: Amp is an open-source package designed to easily bring machine-learning to atomistic calculations.
+  homepage: https://bitbucket.org/andrewpeterson/amp/
+  docs_url: https://amp.readthedocs.io/
+  pypi_id: amp-atomistics
+- name: AMPtorch
+  category: general-tools
+  docs_url: https://amptorch.readthedocs.io/
+  github_id: ulissigroup/amptorch
+- name: ASAP
+  category: unsupervised
+  docs_url: https://bingqingcheng.github.io/
+  github_id: BingqingCheng/ASAP
+- name: charge-density-models
+  resource:
+  category: ml-dft
+  description: Tools to build charge density models using ocpmodels
+  github_id: ulissigroup/charge-density-models
+- name: ocp
+  category: representation-learning
+  description: ocp is the Open Catalyst Project's library of state-of-the-art machine learning algorithms for catalysis.
+  homepage: https://opencatalystproject.org/
+  github_id: Open-Catalyst-Project/ocp
+- name: AdsorbML
+  category: representation-learning
+  description:
+  labels: ["surface-science", "single-paper"]
+  homepage: https://opencatalystproject.org/
+  github_id: Open-Catalyst-Project/AdsorbML
+- name: DeepDFT
+  category: ml-dft
+  homepage: https://doi.org/10.1038/s41524-022-00863-y
+  github_id: peterbjorgensen/DeepDFT
+- name: SchNetPack
+  category: representation-learning
+  homepage: http://quantum-machine.org/
+  docs_url: https://schnetpack.readthedocs.io/
+  github_id: atomistic-machine-learning/schnetpack
+  pypi_id: schnetpack
+- name: SchNetPack G-SchNet
+  category: generative
+  github_id: atomistic-machine-learning/schnetpack-gschnet
+- name: cG-SchNet
+  category: generative
+  github_id: atomistic-machine-learning/cG-SchNet
+- name: G-SchNet
+  category: generative
+  github_id: atomistic-machine-learning/G-SchNet
+- name: SchNOrb
+  category: ml-wft
+  github_id: atomistic-machine-learning/SchNOrb
+- name: FieldSchNet
+  category: representation-learning
+  github_id: atomistic-machine-learning/field_schnet
+- name: SchNet
+  category: mlp
+  github_id: atomistic-machine-learning/SchNet
+- name: sGDML
+  category: mlp
+  homepage: http://sgdml.org/
+  docs_url: http://docs.sgdml.org/
+  github_id: stefanch/sGDML
+  pypi_id: sgdml
+- name: sGDML Datasets
+  resource: true
+  category: datasets
+  homepage: http://sgdml.org/#datasets
+- name: DTNN
+  category: representation-learning
+  github_id: atomistic-machine-learning/dtnn
+- name: QM7
+  resource: true
+  category: datasets
+  description: "This dataset is a subset of GDB-13 (a database of nearly 1 billion stable and synthetically accessible organic molecules) composed of all molecules of up to 23 atoms (including 7 heavy atoms C, N, O, and S), totalling 7165 molecules."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM7b
+  resource: true
+  category: datasets
+  description: "This dataset is an extension of the QM7 dataset for multitask learning where 13 additional properties (e.g. polarizability, HOMO and LUMO eigenvalues, excitation energies) have to be predicted at different levels of theory (ZINDO, SCS, PBE0, GW)."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM9
+  resource: true
+  category: datasets
+  description: "We report computed geometric, energetic, electronic, and thermodynamic properties for 134k stable small organic molecules made up of CHONF."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM8
+  resource: true
+  category: datasets
+  description: "Dataset with low-lying singlet-singlet vertical electronic spectra of over 20'000 synthetically feasible small organic molecules with up to eight CONF atoms."
+  homepage: http://quantum-machine.org/datasets/
+- name: "MD Trajectories of small molecules"
+  resource: true
+  category: datasets
+  description: "The molecular dynamics (MD) datasets in this package range in size from 150k to nearly 1M conformational geometries."
+  homepage: http://quantum-machine.org/datasets/
+- name: "MD Trajectories of C7O2H10"
+  resource: true
+  category: datasets
+  description: "This data set consists of molecular dynamics trajectories of 113 randomly selected C7O2H10 isomers calculated at a temperature of 500 K and resolution of 1fs using density functional theory with the PBE exchange-correlation potential."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Datasets including densities"
+  resource: true
+  category: datasets
+  description: "These datasets contain not only molecular geometries and energies but also valence densities."
+  homepage: http://quantum-machine.org/datasets/
+- name: ISO17
+  resource: true
+  category: datasets
+  description: "MD Trajectories of C7O2H10 with total energies and atomic forces."
+  homepage: http://quantum-machine.org/datasets/
+- name: "SN2 reactions"
+  resource: true
+  category: datasets
+  description: "Chemical reactions of methyl halides with halide anions"
+  homepage: http://quantum-machine.org/datasets/
+- name: "Solvated protein fragments"
+  resource: true
+  category: datasets
+  description: "Contains structures for all possible 'amons' (hydrogen-saturated covalently bonded fragments) of up to eight heavy atoms (C, N, O, S) that can be derived from chemical graphs of proteins containing the 20 natural amino acids connected via peptide bonds or disulfide bridges."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Molecules generated with G-SchNet"
+  resource: true
+  category: datasets
+  description: "Molecules generated with the G-SchNet architecture trainined on 50k randomly selected structures from QM9. Both databases only contain generated molecules which cannot be found in QM9."
+  homepage: http://quantum-machine.org/datasets/
+- name: "MQMspin database"
+  resource: true
+  category: datasets
+  description: "This data set contains a sample of approx. 5k singlet state and approx. 8k triplet state carbene structures drawn from a systematically constructed large chemical space of approx. 300k carbenes."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Molecular Hamiltonians and overlap matrices "
+  resource: true
+  category: datasets
+  description: "Datasets containing structures, energies, forces, Hamiltonians (Fock or Kohn-Sham matrices) and overlap matrices for water, ethanol, malondialdehyde and uracil used for training the SchNOrb model."
+  homepage: http://quantum-machine.org/datasets/
+- name: "tmQM Dataset"
+  resource: true
+  category: datasets
+  description: "The transition metal quantum mechanics dataset (tmQM) contains the geometries and properties of a chemical compound space comprising 86,665 mononuclear complexes extracted from the Cambridge Structural Database."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Densities dataset"
+  resource: true
+  category: datasets
+  description: "These datasets contain molecular geometries, coupled-cluster energies, DFT energies, and valence electron densities based on the PBE functional."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Molecular response properties in implicit and explicit solvent environments"
+  resource: true
+  category: datasets
+  description: "These datasets contain structures, energies, forces and various response properties (dipole moment, polarizability tensor, nuclear shielding tensors) for ethanol, methanol and allyl-p-tolyl ether used for training the FieldSchNet model."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Alchemical learning"
+  category: mlp
+  description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
+  github_id: Luthaf/alchemical-learning
+- name: ML-in-chemistry-101
+  # resource: true
+  category: educational
+  github_id: BingqingCheng/ML-in-chemistry-101
+- name: Deep Learning for Molecules and Materials Book
+  # resource: true
+  category: educational
+  description:
+  homepage: https://dmol.pub/
+  github_id: whitead/dmol-book
+- name: JAX-MD
+  category: md
+  github_id: ax-md/jax-md
+  pypi_id: jax-md
+- name: Finetuna
+  category: active-learning
+  labels: ["active-learning"]
+  github_id: ulissigroup/finetuna
+- name: Pretrained OCP models
+  resource: true
+  category: mlp
+  labels: ["pretrained"]
+  description: "Pretrained models released as part of the Open Catalyst Project."
+  homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/MODELS.md
+- name: "Computational Autonomy for Materials Discovery (CAMD)"
+  category: materials-discovery
+  github_id: ulissigroup/CAMD
+- name: CatGym
+  category: reinforcement-learning
+  github_id: ulissigroup/catgym
+- name: "uncertainty_benchmarking"
+  category: general-tools
+  labels: ["benchmarking", "probabilistic"]
+  github_id: ulissigroup/uncertainty_benchmarking
+- name: Automatminer
+  category: general-tools
+  homepage: https://hackingmaterials.lbl.gov/automatminer/
+  github_id: hackingmaterials/automatminer
+  pypi_id: automatminer
+- name: Matminer
+  category: general-tools
+  homepage: https://hackingmaterials.github.io/matminer/
+  github_id: hackingmaterials/matminer
+  pypi_id: matminer
+  conda_id: conda-forge/matminer
+- name: JARVIS-Tools
+  category: general-tools
+  docs_url: https://jarvis-tools.readthedocs.io/
+  github_id: usnistgov/jarvis
+  gitlab_id:
+  pypi_id: jarvis-tools
+  conda_id: conda-forge/jarvis-tools
+- name: jarvis-tools-notebooks
+  # resource: true
+  category: educational
+  # description: A Google-Colab Notebook Collection for Materials Design
+  github_id: JARVIS-Materials-Design/jarvis-tools-notebooks
+- name: JARVIS-Leaderboard
+  # resource: true
+  category: datasets
+  labels: ["benchmarking"]
+  homepage: https://pages.nist.gov/jarvis_leaderboard/
+  github_id: usnistgov/jarvis_leaderboard
+- name: ALIGNN
+  category: representation-learning
+  homepage: https://jarvis.nist.gov/login?next=/jalignn/
+  github_id: usnistgov/alignn
+  pypi_id: alignn
+- name: SNAP
+  category: mlp
+  github_id: materialsvirtuallab/snap
+- name: XenonPy
+  category: general-tools
+  docs_url: https://xenonpy.readthedocs.io/
+  github_id: yoshida-lab/XenonPy
+  pypi_id: xenonpy
+- name: Magpie
+  category: general-tools
+  description: Materials Agnostic Platform for Informatics and Exploration (Magpie)
+  labels: ["Java"]
+  homepage: https://bitbucket.org/wolverton/magpie/src/master/
+  license: MIT
+- name: QML
+  category: general-tools
+  homepage: http://www.qmlcode.org/
+  github_id: qmlcode/qml
+  pypi_id: qml
+- name: CBFV
+  category: representations
+  github_id: kaaiian/CBFV
+  pypi_id: CBFV
+- name: DScribe
+  category: representations
+  docs_url: https://singroup.github.io/dscribe/
+  github_id: SINGROUP/dscribe
+  pypi_id: dscribe
+  conda_id: conda-forge/dscribe
+- name: milad
+  category: generative
+  github_id: muhrin/milad
+- name: e3psi
+  category: ml-esm
+  github_id: muhrin/e3psi
+- name: SA-GPR
+  category: representation-engineering
+  labels: ["C"]
+  github_id: dilkins/TENSOAP
+- name: SALTED
+  category: ml-dft
+  github_id: andreagrisafi/SALTED
+- name: Compositionally-Restricted Attention-Based Network (CrabNet)
+  category: representation-learning
+  docs_url: https://crabnet.readthedocs.io/
+  github_id: sparks-baird/CrabNet
+  pypi_id: crabnet
+- name: BestPractices
+  # resource: true
+  category: educational
+  github_id: anthony-wang/BestPractices
+- name: QUIP
+  category: general-tools
+  homepage: https://libatoms.github.io/
+  docs_url: http://libatoms.github.io/QUIP/
+  github_id: libAtoms/QUIP
+  pypi_id: quippy-ase
+  dockerhub_id: libatomsquip/quip
+- name: GAP
+  category: mlp
+  description: Gaussian Approximation Potential (GAP)
+  homepage: https://libatoms.github.io/
+  docs_url: https://libatoms.github.io/GAP
+  github_id: libAtoms/GAP
+- name: testing-framework
+  category: mlp
+  description: "The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of systems (materials or molecules)."
+  labels: ["benchmarking"]
+  github_id: libAtoms/testing-framework
+- name: q-pac
+  category: ml-esm
+  labels: ["electrostatics"]
+  # description: "Kernel charge equilibration method."
+  gitlab_id: jmargraf/kqeq
+- name: kdft
+  category: ml-dft
+  # description: "The Kernel Density Functional (KDF) code allows generating ML based DFT functionals."
+  gitlab_id: jmargraf/kdf
+- name: CatLearn
+  category: representation-engineering
+  description:
+  labels: ["surface-science"]
+  github_id: SUNCAT-Center/CatLearn
+  pypi_id: catlearn
+- name: "Catalysis Hub"
+  resource: true
+  category: datasets
+  description: "A web-platform for sharing data and software for computational catalysis research!"
+  homepage: https://www.catalysis-hub.org/
+- name: FLARE
+  category: general-tools
+  docs_url: https://mir-group.github.io/flare/
+  github_id: mir-group/flare
+- name: flare++
+  category: general-tools
+  labels: ["C++", "active-learning"]
+  docs_url: https://mir-group.github.io/flare_pp
+  github_id: mir-group/flare_pp
+  pypi_id: flare_pp
+- name: BOSS
+  category: materials-discovery
+  description: "Bayesian Optimization Structure Search (BOSS)"
+  labels: ["probabilistic"]
+  docs_url: https://cest-group.gitlab.io/boss/
+  github_id: cest-group/boss
+  pypi_id: aalto-boss
+- name: ML-DFT
+  category: ml-dft
+  github_id: MihailBogojeski/ml-dft
+- name: e3nn
+  category: representation-learning
+  homepage: https://e3nn.org/
+  docs_url: https://docs.e3nn.org/
+  github_id: e3nn/e3nn
+  conda_id: conda-forge/e3nn
+  pypi_id: e3nn
+- name: e3nn-jax
+  category: representation-learning
+  homepage: https://e3nn.org/
+  docs_url: https://e3nn-jax.readthedocs.io/
+  github_id: e3nn/e3nn-jax
+  pypi_id: e3nn-jax
+- name: Deep Graph Library (DGL)
+  category: representation-learning
+  homepage: https://www.dgl.ai/
+  docs_url: https://docs.dgl.ai/
+  github_id: dmlc/dgl
+  pypi_id: dgl
+  conda_id: dglteam/dgl
+- name: dgl-lifesci
+  resource:
+  category: representation-learning
+  docs_url: https://lifesci.dgl.ai
+  github_id: awslabs/dgl-lifesci
+  pypi_id: dgllife
+- name:  benchmarking-gnns
+  category: representation-learning
+  labels: ["single-paper", "benchmarking"]
+  github_id: graphdeeplearning/benchmarking-gnns
+- name: DeepErwin
+  category: ml-wft
+  docs_url: https://mdsunivie.github.io/deeperwin/
+  github_id: mdsunivie/deeperwin
+  pypi_id: deeperwin
+- name: Allegro
+  category: mlp
+  github_id: mir-group/allegro
+- name: NequIP
+  category: mlp
+  github_id: mir-group/nequip
+  pypi_id: nequip
+  conda_id: conda-forge/nequip
+- name: matterverse.ai
+  resource: true
+  category: datasets
+  description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
+  homepage: https://matterverse.ai/
+- name: kgcnn
+  category: representation-learning
+  docs_url: https://kgcnn.readthedocs.io/
+  github_id: aimat-lab/gcnn_keras
+  pypi_id: kgcnn
+- name: Visual Graph Datasets
+  # resource: false
+  category: datasets
+  github_id: aimat-lab/visual_graph_datasets
+- name: ML4pXRDs
+  resource:
+  category: representation-learning
+  labels: ["xrd", "single-paper"]
+  github_id: aimat-lab/ML4pXRDs
+- name: MAChINE
+  category: educational
+  github_id: aimat-lab/MAChINE
+- name: MEGAN: Multi Explanation Graph Attention Student
+  category: xai
+  github_id: aimat-lab/graph_attention_student
+- name: 3DSC Database
+  # resource: false
+  category: datasets
+  labels: ["superconductor", "materials-discovery"]
+  github_id: aimat-lab/3DSC
+- name: NNsforMD
+  resource:
+  category: mlp
+  github_id: aimat-lab/NNsForMD
+  pypi_id: pyNNsMD
+- name: PANNA
+  category: mlp
+  description: A package to train and validate all-to-all connected network models for BP[1] and modified-BP[2] type local atomic environment descriptors and atomic potentials.
+  labels: ["benchmarking"]
+  docs_url: https://pannadevs.gitlab.io/pannadoc/
+  gitlab_id: PANNAdevs/panna
+- name: OpenChem
+  category: general-tools
+  docs_url: https://mariewelt.github.io/OpenChem/
+  github_id: Mariewelt/OpenChem
+- name: ReLeaSE
+  category: reinforcement-learning
+  labels: ["drug-discovery"]
+  github_id: isayev/ReLeaSE
+- name: Libnxc
+  resource:
+  category: ml-dft
+  labels: ["C++", "Fortran"]
+  docs_url: https://libnxc.readthedocs.io/
+  github_id: semodi/libnxc/
+- name: NeuralXC
+  category: ml-dft
+  github_id: semodi/neuralxc
+- name: ANI-1
+  category: mlp
+  github_id: isayev/ASE_ANI
+- name: ANI-1 Dataset
+  # resource: true
+  category: datasets
+  github_id: isayev/ANI1_dataset
+- name: ANI-1x Datasets
+  # resource: true
+  category: datasets
+  github_id: aiqm/ANI1x_datasets
+- name: TorchANI
+  category: mlp
+  docs_url: https://aiqm.github.io/torchani/
+  github_id: aiqm/torchani
+  pypi_id: torchani
+  conda_id: conda-forge/torchani
+- name: AIMNet
+  category: mlp
+  labels: ["single-paper"]
+  github_id: aiqm/aimnet
+- name: COMP6 Benchmark dataset
+  # resource: true
+  category: datasets
+  github_id: isayev/COMP6
+- name: MALA
+  category: ml-dft
+  docs_url: https://mala-project.github.io/mala/
+  github_id: mala-project/mala
+- name: MALADA
+  category: ml-dft
+  github_id: mala-project/malada
+- name: MALA Tutorial
+  # resource: true
+  category: educational
+  github_id: mala-project/mala_tutorial
+- name: rxngenerator
+  category: generative
+  github_id: tsudalab/rxngenerator
+- name: bVAE-IM
+  category: generative
+  labels: ["qml", "single-paper"]
+  github_id: tsudalab/bVAE-IM
+- name: MolSLEPA
+  category: generative
+  labels: ["xai"]
+  github_id: tsudalab/MolSLEPA
+- name: MoLeR
+  category: generative
+  github_id: microsoft/molecule-generation
+  pypi_id: molecule-generation
+- name: paper-qa
+  category: nlp
+  github_id: whitead/paper-qa
+  pypi_id: paper-qa
+- name: MolSkill
+  category: nlp
+  labels: ["drug-discovery", "recommender"]
+  github_id: microsoft/molskill
+  conda_id: msr-ai4science/molskill
+- name: synspace
+  category: generative
+  github_id: whitead/synspace
+  pypi_id: synspace
+- name: nlcc
+  category: nlp
+  labels: ["single-paper"]
+  github_id: whitead/nlcc
+  pypi_id: nlcc
+- name: SingleNN
+  category: mlp
+  description: "An efficient package for training and executing neural-network interatomic potentials"
+  labels: ["C++"]
+  github_id: lmj1029123/SingleNN
+- name: PiNN
+  category: mlp
+  docs_url: https://teoroo-cmc.github.io/PiNN
+  github_id: Teoroo-CMC/PiNN
+  dockerhub_id: teoroo/pinn
+- name: PiNN Lab
+  category: educational
+  github_id: Teoroo-CMC/PiNN_lab
+- name: "Data Handling, DoE and Statistical Analysis for Material Chemists"
+  # resource: true
+  category: educational
+  github_id: Teoroo-CMC/DoE_Course_Material
+- name: "CCS_fit"
+  category: mlp
+  github_id: Teoroo-CMC/CCS
+  pypi_id: ccs_fit
+- name: RuNNer
+  resource: true
+  category: mlp
+  description: "The RuNNer Neural Network Energy Representation is a Fortran-based framework for the construction of Behler-Parrinello-type high-dimensional neural network potentials."
+  labels: ["Fortran"]
+  homepage: https://www.uni-goettingen.de/de/560580.html
+  docs_url: https://theochemgoettingen.gitlab.io/RuNNer/
+- name: "charge_transfer_nnp"
+  category: representation-learning
+  labels: ["electrostatics"]
+  github_id: pfnet-research/charge_transfer_nnp
+- name: SIMPLE-NN
+  category: mlp
+  docs_url: https://simple-nn-v2.readthedocs.io/
+  github_id: MDIL-SNU/SIMPLE-NN
+- name: "SIMPLE-NN v2"
+  category: mlp
+  docs_url: https://simple-nn-v2.readthedocs.io/
+  github_id: MDIL-SNU/SIMPLE-NN_v2
+- name: SPINNER
+  category: materials-discovery
+  labels: ["C++", "structure-prediction"]
+  docs_url: https://spinner-csp.readthedocs.io/
+  github_id: MDIL-SNU/SPINNER
+- name: DeepChem
+  category: general-tools
+  homepage: https://deepchem.io/
+  docs_url: https://deepchem.readthedocs.io/
+  github_id: deepchem/deepchem
+  pypi_id: deepchem
+  conda_id: conda-forge/deepchem
+  dockerhub_id: deepchemio/deepchem
+- name: "DeepChem Models"
+  resource: true
+  category: datasets
+  labels: ["pretrained", "nlp"]
+  homepage: https://huggingface.co/DeepChem
+- name: torchchem
+  category: general-tools
+  github_id: deepchem/torchchem
+- name: JAXChem
+  category: general-tools
+  docs_url: https://jaxchem.readthedocs.io/
+  github_id: deepchem/jaxchem
+- name: MoleculeNet Leaderboard
+  # resource: true
+  category: datasets
+  description:
+  labels: ["benchmarking"]
+  github_id: deepchem/moleculenet
+- name: DeepLearningLifeSciences
+  # resource: true
+  category: educational
+  github_id: deepchem/DeepLearningLifeSciences
+- name: DADApy
+  category: unsupervised
+  docs_url: https://dadapy.readthedocs.io/
+  github_id: sissa-data-science/DADApy
+  pypi_id: dadapy
+- name: "CSPML (crystal structure prediction with machine learning-based element substitution)"
+  category: materials-discovery
+  labels: ["structure-prediction"]
+  github_id: minoru938/cspml
+- name: KmdPlus
+  category: unsupervised
+  github_id: Minoru938/KmdPlus
+- name: n2p2
+  resource:
+  category: mlp
+  labels: ["C++"]
+  docs_url: https://compphysvienna.github.io/n2p2/
+  github_id: CompPhysVienna/n2p2
+- name: "Machine Learning for Materials Hard and Soft"
+  # resource: true
+  category: educational
+  homepage: https://www.esi.ac.at/events/e457/
+  github_id: CompPhysVienna/MLSummerSchoolVienna2022
+- name: aviary
+  category: materials-discovery
+  github_id: CompRhys/aviary
+- name: "SE(3)-Transformers"
+  category: representation-learning
+  labels: ["single-paper"]
+  github_id: FabianFuchsML/se3-transformer-public
+- name: "NVIDIA Deep Learning Examples for Tensor Cores"
+  category: educational
+  labels: ["drug-discovery"]
+  github_id: NVIDIA/DeepLearningExamples
+- name: DeePMD-kit
+  category: mlp
+  labels: ["C++"]
+  docs_url: https://docs.deepmodeling.com/projects/deepmd/
+  github_id: deepmodeling/deepmd-kit
+  pypi_id: deepmd-kit
+  conda_id: deepmodeling/deepmd-kit
+  dockerhub_id: deepmodeling/deepmd-kit
+- name: DP-GEN
+  category: mlp
+  labels: ["workflows"]
+  docs_url: https://docs.deepmodeling.com/projects/dpgen/
+  github_id: deepmodeling/dpgen
+  pypi_id: dpgen
+  conda_id: deepmodeling/dpgen
+- name: dpdata
+  category: data-structures
+  docs_url: https://docs.deepmodeling.com/projects/dpdata/
+  github_id: deepmodeling/dpdata
+  pypi_id: dpdata
+  conda_id: deepmodeling/dpdata
+- name: DMFF
+  category: mlp
+  github_id: deepmodeling/DMFF
+- name: DeePKS-kit
+  category: ml-dft
+  github_id: deepmodeling/deepks-kit
+- name: AI4Science101
+  # resource: true
+  category: educational
+  homepage: https://ai4science101.deepmodeling.com/
+  github_id: deepmodeling/AI4Science101
+- name: Uni-Fold
+  category: biomolecules
+  github_id: dptech-corp/Uni-Fold
+- name: Uni-Mol
+  category: representation-learning
+  labels: ["pretrained"]
+  github_id: dptech-corp/Uni-Mol
+- name: RDKit
+  resource:
+  category: general-tools
+  description:
+  labels: ["C++"]
+  homepage: https://www.rdkit.org/
+  docs_url: https://www.rdkit.org/docs/
+  github_id: rdkit/rdkit
+  pypi_id: rdkit
+  conda_id: rdkit/rdkit
+- name: "RDKit Tutorials"
+  # resource: true
+  category: educational
+  github_id: rdkit/rdkit-tutorials
+- name: "Neural Force Field"
+  category: mlp
+  labels: ["pretrained"]
+  github_id: learningmatter-mit/NeuralForceField
+- name: "atom_by_atom"
+  category: representation-learning
+  labels: ["surface-science", "single-paper"]
+  github_id: learningmatter-mit/atom_by_atom
+- name: Per-Site CGCNN
+  category: representation-learning
+  labels: ["pretrained", "single-paper"]
+  github_id: learningmatter-mit/per-site_cgcnn
+- name: Per-site PAiNN
+  category: representation-learning
+  labels: ["probabilistic", "pretrained", "single-paper"]
+  github_id: learningmatter-mit/per-site_painn
+- name: UVVisML
+  category: representation-learning
+  labels: ["optical-properties", "single-paper", "probabilistic"]
+  github_id: learningmatter-mit/uvvisml
+- name: "Atomistic Adversarial Attacks"
+  category: mlp
+  labels: ["probabilistic"]
+  github_id: learningmatter-mit/Atomistic-Adversarial-Attacks
+- name: GEOM
+  # resource: true
+  category: datasets
+  labels: ["drug-discovery"]
+  github_id: learningmatter-mit/geom
+- name: Coarse-Graining-Auto-encoders
+  category: unsupervised
+  labels: ["single-paper"]
+  github_id: learningmatter-mit/Coarse-Graining-Auto-encoders
+- name: GLAMOUR
+  category: representation-learning
+  labels: ["single-paper"]
+  github_id: learningmatter-mit/GLAMOUR
+- name: DimeNet
+  category: mlp
+  homepage: https://www.cs.cit.tum.de/daml/dimenet/
+  github_id: gasteigerjo/dimenet
+- name: GemNet
+  category: mlp
+  homepage: https://www.cs.cit.tum.de/daml/gemnet/
+  github_id: TUM-DAML/gemnet_pytorch
+- name: GDC
+  category: representation-learning
+  labels: ["generative"]
+  github_id: gasteigerjo/gdc
+- name: "Graph Transport Network"
+  category: representation-learning
+  labels: ["transport-phenomena"]
+  github_id: gasteigerjo/gtn
+- name: PyG Models
+  resource: true
+  category: representation-learning
+  description: Representation learning models implemented in PyTorch Geometric.
+  homepage: https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/nn/models
+- name: AGOX
+  category: materials-discovery
+  description: "AGOX is a package for global optimization of atomic system using e.g. the energy
+calculated from density functional theory as the objective function."
+  labels: ["structure-optimization"]
+  docs_url: https://agox.gitlab.io/agox/
+  gitlab_id: agox/agox
+  pypi_id: agox
+- name: gpax
+  category: math
+  labels: ["probabilistic", "active-learning"]
+  docs_url: https://gpax.readthedocs.io/
+  github_id: ziatdinovmax/gpax
+  pypi_id: gpax
+- name: "Neural fingerprint (nfp)"
+  category: representation-learning
+  github_id: NREL/nfp
+- name: "Applied AI for Materials"
+  # resource: true
+  category: educational
+  github_id: WardLT/applied-ai-for-materials
+- name: KLIFF
+  category: mlp
+  labels: ["probabilistic", "workflows"]
+  docs_url: https://kliff.readthedocs.io/
+  github_id: openkim/kliff
+  pypi_id: kliff
+  conda_id: conda-forge/kliff
+- name: PyXtalFF
+  resource:
+  category: mlp
+  docs_url: https://pyxtal-ff.readthedocs.io/
+  github_id: MaterSim/PyXtal_FF
+  pypi_id: pyxtal_ff
+- name: OpenKIM
+  resource:
+  category: mlp
+  labels: ["knowledgebase"]
+  homepage: https://openkim.org/
+  docs_url: https://kim-api.readthedocs.io/
+  github_id: openkim/kim-api
+- name: MLatom
+  category: general-tools
+  # description: "Machine learning for atomistic simulations"
+  homepage: http://mlatom.com/
+  docs_url: http://mlatom.com/manual/
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  pypi_id: MLatom
+- name: "Quantum Chemistry in the Age of Machine Learning"
+  resource: true
+  category: educational
+  homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
+- name: fplib
+  category: representations
+  labels: ["C", "single-paper"]
+  github_id: zhuligs/fplib
+- name: PhysNet
+  category: mlp
+  labels: ["electrostatics"]
+  github_id: MMunibas/PhysNet
+- name: BenchML
+  category: representation-engineering
+  labels: ["benchmarking"]
+  github_id: capoe/benchml
+  pypi_id: benchml
+- name: linear-regression-benchmarks
+  # resource: true
+  category: datasets
+  labels: ["benchmarking", "single-paper"]
+  github_id: BingqingCheng/linear-regression-benchmarks
+- name: SOAPxx
+  category: representations
+  description: A SOAP implementation.
+  labels: ["C++"]
+  github_id: capoe/soapxx
+- name: matsciml
+  category: representation-learning
+  labels: ["workflows"]
+  github_id: IntelLabs/matsciml
+- name: magnetism-prediction
+  category: representation-engineering
+  labels: ["magnetism", "single-paper"]
+  homepage: https://doi.org/10.1038/s41598-023-30438-w
+  github_id: dppant/magnetism-prediction
+- name: quantum-structure-ml
+  category: general-tools
+  description: "Multi-class classification model for predicting the magnetic order of magnetic structures and a binary classification model for predicting the propogation vector of magnetic structures."
+  labels: ["magnetism", "benchmarking"]
+  homepage: https://doi.org/10.1016/j.isci.2022.105192
+  github_id: hgheiberger/quantum-structure-ml
+- name: So3krates (MLFF)
+  category: mlp
+  github_id: thorben-frank/mlff
+- name: "Descriptor Embedding and Clustering for Atomisitic-environment Framework (DECAF)"
+  category: unsupervised
+  description: "Provides a workflow to obtain clustering of local environments in dataset of structures."
+  homepage: https://gitlab.mpcdf.mpg.de/klai/decaf
+  # manual metrics as of 2023-06-12
+  star_count: 2
+  commit_count: 41
+  contributor_count: 2
+- name: FitSNAP
+  category: mlp
+  docs_url: https://fitsnap.github.io/
+  github_id: FitSNAP/FitSNAP
+  conda_id: conda-forge/fitsnap3
+- name: CGAT
+  category: representation-learning
+  github_id: hyllios/CGAT
+- name: SCFNN
+  category: representation-learning
+  description: "Self-consistent determination of long-range electrostatics in neural network potentials"
+  labels: ["C++", "electrostatics", "single-paper"]
+  homepage: https://doi.org/10.1038/s41467-022-29243-2
+  github_id: andy90/SCFNN
+- name: "SISSO++"
+  category: representations
+  description: "C++ Implementation of SISSO with python bindings"
+  homepage: https://doi.org/10.21105/joss.03960
+  labels: ["C++"]
+  gitlab_id: sissopp_developers/sissopp
+- name: SISSO
+  category: representations
+  labels: ["Fortran"]
+  github_id: rouyang2017/SISSO
+- name: gprep
+  category: ml-dft
+  labels: ["single-paper"]
+  gitlab_id: jmargraf/gprep
+- name: QDF for molecule
+  category: ml-esm
+  description: "Quantum deep field: data-driven wave function, electron density generation, and energy prediction and extrapolation with machine learning"
+  github_id: masashitsubaki/QuantumDeepField_molecule
+- name: "molecularGNN_smiles"
+  category: representation-learning
+  github_id: masashitsubaki/molecularGNN_smiles
+- name: graphite
+  category: representation-learning
+  github_id: llnl/graphite
+- name: DeepH-pack
+  category: ml-dft
+  labels: ["Julia"]
+  docs_url: https://deeph-pack.deepmodeling.com/
+  github_id: mzjb/DeepH-pack
+- name: xDeepH
+  category: ml-dft
+  labels: ["magnetism", "Julia"]
+  github_id: mzjb/xDeepH
+- name: DeepH-E3
+  category: ml-dft
+  description: "General framework for E(3)-equivariant neural network representation of density functional theory Hamiltonian"
+  labels: ["magnetism"]
+  github_id: Xiaoxun-Gong/DeepH-E3
+- name: CSNN
+  category: ml-dft
+  github_id: foxjas/CSNN
+- name: "Ultra-Fast Force Fields (UF3)"
+  category: mlp
+  docs_url: https://uf3.readthedocs.io/
+  github_id: uf3/uf3
+  pypi_id: uf3
+- name: exmol
+  category: xai
+  github_id: ur-whitelab/exmol
+  pypi_id: exmol
+- name: gptchem
+  category: nlp
+  description: "Use GPT-3 to solve chemistry problems."
+  docs_url: https://gptchem.readthedocs.io/
+  github_id: kjappelbaum/gptchem
+  pypi_id: gptchem
+- name: Equiformer
+  category: representation-learning
+  github_id: atomicarchitects/equiformer
+- name: MLIP-3
+  category: mlp
+  description: "MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP)"
+  labels: ["C++"]
+  homepage: https://doi.org/10.48550/arXiv.2304.13144
+  gitlab_id: ashapeev/mlip-3
+- name: interface-lammps-mlip-3
+  category: mlp
+  description: "An interface between LAMMPS and MLIP (version 3)."
+  gitlab_id: ivannovikov/interface-lammps-mlip-3/
+- name: MLDensity
+  category: ml-dft
+  description: "Linear Jacobi-Legendre expansion of the charge density for machine learning-accelerated electronic structure calculations"
+  github_id: StefanoSanvitoGroup/MLdensity
+- name: BERT-PSIE-TC
+  category: nlp
+  labels: ["magnetism"]
+  github_id: StefanoSanvitoGroup/BERT-PSIE-TC
+- name: ALF
+  category: mlp
+  labels: ["active-learning"]
+  github_id: lanl/alf
+- name: hippynn
+  category: representation-learning
+  labels: ["workflows"]
+  docs_url: https://lanl.github.io/hippynn/
+  github_id: lanl/hippynn
+- name: "Point Edge Transformer"
+  category: representation-learning
+  description: "Smooth, exact rotational symmetrization for deep learning on point clouds"
+  homepage: https://zenodo.org/record/7967079
+  docs_url: https://arxiv.org/abs/2305.19302
