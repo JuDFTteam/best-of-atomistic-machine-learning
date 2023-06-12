@@ -47,6 +47,9 @@ categories:
   - category: "biomolecules"
     title: "Biomolecules"
     subtitle: "Projects that focus on biomolecules, protein structure, protein folding, etc. using atomistic ML."
+  - category: "community"
+    title: "Community resources"
+    subtitle: "Projects that foster communication within the atomistic ML community."
   - category: "datasets"
     title: "Datasets"
     subtitle: "Datasets, databases and trained models for atomistic ML."
@@ -257,6 +260,7 @@ projects:
   #
 - name: Atomic Cluster Expansion
   resource: true
+  category: community
   homepage: https://cortner.github.io/ACEweb
   # group: ACE
   description: Atomic Cluster Expansion (ACE) community homepage.
@@ -297,62 +301,62 @@ projects:
   github_id: ACEsuit/ACE1pack.jl
 - name: MACE
   category: mlp
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/mace
 - name: MACE-Jax
   category: mlp
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/mace-jax
 - name: MACE-Layer
   category: representation-learning
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/mace-layer
 - name: ACE.jl
   category: mlp
   labels: ["Julia"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
-  github_id: ACEsuit/ACE.jl
+  github_id: "ACEsuit/ACE.jl"
 - name: ACE Workflows
   category: mlp
   labels: ["Julia", "workflows"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEworkflows
 - name: ACEhamiltonians
   category: ml-dft
   description: Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-state systems.
   labels: ["Julia"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEhamiltonians.jl
 - name: Polynomials4ML.jl
   category: math
   labels: ["Julia"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/Polynomials4ML.jl
 - name: ACEatoms
   category: general-tools
   labels: ["Julia"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEatoms.jl
 - name: ACEfit
   category: mlp
   description:
   labels: ["Julia"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEfit.jl
 - name: ACEHAL
   category: active-learning
   description: Hyperactive Learning (HAL) Python interface for building Atomic Cluster Expansion potentials
   labels: ["Julia", "active-learning"]
-  homepage: https://acesuit.github.io/
+  # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEHAL
 - name: DeePKS-kit
@@ -419,9 +423,7 @@ projects:
   docs_url: https://software-cookbook.rtfd.io/
   github_id: lab-cosmo/software-cookbook
 - name: Chemiscope
-  resource:
-  category:
-  description:
+  category: visualization
   labels: ["JavaScript"]
   homepage: https://chemiscope.org/
   docs_url: https://chemiscope.org/docs/
@@ -447,17 +449,17 @@ projects:
   homepage: https://crystals.ai/
 - name: M3GNet
   category: mlp
-  homepage: https://crystals.ai/
+  # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/m3gnet
   pypi_id: m3gnet
 - name: MEGNet
   category: mlp
-  homepage: https://crystals.ai/
+  # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/megnet
   pypi_id: megnet
 - name: MatGL (Materials Graph Library)
   category: representation-learning
-  homepage: https://crystals.ai/
+  # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/matgl
   pypi_id: m3gnet
 - name: MAML
@@ -467,7 +469,7 @@ projects:
   pypi_id: maml
 - name: "Crystal Graph Convolutional Neural Networks (CGCNN)"
   category: representation-learning
-  homepage: https://crystals.ai/
+  # homepage: https://crystals.ai/
   github_id: txie-93/cgcnn
 - name: "GATGNN: Global Attention Graph Neural Network"
   category: representation-learning
@@ -483,7 +485,7 @@ projects:
   category: representations
   # category: general-tools
   description: Amp is an open-source package designed to easily bring machine-learning to atomistic calculations.
-  homepage: https://bitbucket.org/andrewpeterson/amp/
+  # homepage: https://bitbucket.org/andrewpeterson/amp/
   docs_url: https://amp.readthedocs.io/
   pypi_id: amp-atomistics
 - name: AMPtorch
@@ -502,21 +504,21 @@ projects:
 - name: ocp
   category: representation-learning
   description: ocp is the Open Catalyst Project's library of state-of-the-art machine learning algorithms for catalysis.
-  homepage: https://opencatalystproject.org/
+  # homepage: https://opencatalystproject.org/
   github_id: Open-Catalyst-Project/ocp
 - name: AdsorbML
   category: representation-learning
   description:
   labels: ["surface-science", "single-paper"]
-  homepage: https://opencatalystproject.org/
+  # homepage: https://opencatalystproject.org/
   github_id: Open-Catalyst-Project/AdsorbML
 - name: DeepDFT
   category: ml-dft
-  homepage: https://doi.org/10.1038/s41524-022-00863-y
+  # homepage: https://doi.org/10.1038/s41524-022-00863-y
   github_id: peterbjorgensen/DeepDFT
 - name: SchNetPack
   category: representation-learning
-  homepage: http://quantum-machine.org/
+  # homepage: http://quantum-machine.org/
   docs_url: https://schnetpack.readthedocs.io/
   github_id: atomistic-machine-learning/schnetpack
   pypi_id: schnetpack
@@ -540,7 +542,7 @@ projects:
   github_id: atomistic-machine-learning/SchNet
 - name: sGDML
   category: mlp
-  homepage: http://sgdml.org/
+  # homepage: http://sgdml.org/
   docs_url: http://docs.sgdml.org/
   github_id: stefanch/sGDML
   pypi_id: sgdml
@@ -700,7 +702,7 @@ projects:
   github_id: usnistgov/jarvis_leaderboard
 - name: ALIGNN
   category: representation-learning
-  homepage: https://jarvis.nist.gov/login?next=/jalignn/
+  # homepage: https://jarvis.nist.gov/login?next=/jalignn/
   github_id: usnistgov/alignn
   pypi_id: alignn
 - name: SNAP
@@ -715,7 +717,7 @@ projects:
   category: general-tools
   description: Materials Agnostic Platform for Informatics and Exploration (Magpie)
   labels: ["Java"]
-  homepage: https://bitbucket.org/wolverton/magpie/src/master/
+  homepage: https://bitbucket.org/wolverton/magpie/
   license: MIT
 - name: QML
   category: general-tools
@@ -821,7 +823,7 @@ projects:
   pypi_id: e3nn
 - name: e3nn-jax
   category: representation-learning
-  homepage: https://e3nn.org/
+  # homepage: https://e3nn.org/
   docs_url: https://e3nn-jax.readthedocs.io/
   github_id: e3nn/e3nn-jax
   pypi_id: e3nn-jax
@@ -1078,7 +1080,7 @@ projects:
 - name: "Machine Learning for Materials Hard and Soft"
   # resource: true
   category: educational
-  homepage: https://www.esi.ac.at/events/e457/
+  # homepage: https://www.esi.ac.at/events/e457/
   github_id: CompPhysVienna/MLSummerSchoolVienna2022
 - name: aviary
   category: materials-discovery
@@ -1284,13 +1286,13 @@ calculated from density functional theory as the objective function."
 - name: magnetism-prediction
   category: representation-engineering
   labels: ["magnetism", "single-paper"]
-  homepage: https://doi.org/10.1038/s41598-023-30438-w
+  # homepage: https://doi.org/10.1038/s41598-023-30438-w
   github_id: dppant/magnetism-prediction
 - name: quantum-structure-ml
   category: general-tools
   description: "Multi-class classification model for predicting the magnetic order of magnetic structures and a binary classification model for predicting the propogation vector of magnetic structures."
   labels: ["magnetism", "benchmarking"]
-  homepage: https://doi.org/10.1016/j.isci.2022.105192
+  # homepage: https://doi.org/10.1016/j.isci.2022.105192
   github_id: hgheiberger/quantum-structure-ml
 - name: So3krates (MLFF)
   category: mlp
@@ -1298,7 +1300,7 @@ calculated from density functional theory as the objective function."
 - name: "Descriptor Embedding and Clustering for Atomisitic-environment Framework (DECAF)"
   category: unsupervised
   description: "Provides a workflow to obtain clustering of local environments in dataset of structures."
-  homepage: https://gitlab.mpcdf.mpg.de/klai/decaf
+  # homepage: https://gitlab.mpcdf.mpg.de/klai/decaf
   # manual metrics as of 2023-06-12
   star_count: 2
   commit_count: 41
@@ -1315,12 +1317,12 @@ calculated from density functional theory as the objective function."
   category: representation-learning
   description: "Self-consistent determination of long-range electrostatics in neural network potentials"
   labels: ["C++", "electrostatics", "single-paper"]
-  homepage: https://doi.org/10.1038/s41467-022-29243-2
+  # homepage: https://doi.org/10.1038/s41467-022-29243-2
   github_id: andy90/SCFNN
 - name: "SISSO++"
   category: representations
   description: "C++ Implementation of SISSO with python bindings"
-  homepage: https://doi.org/10.21105/joss.03960
+  # homepage: https://doi.org/10.21105/joss.03960
   labels: ["C++"]
   gitlab_id: sissopp_developers/sissopp
 - name: SISSO
@@ -1380,7 +1382,7 @@ calculated from density functional theory as the objective function."
   category: mlp
   description: "MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP)"
   labels: ["C++"]
-  homepage: https://doi.org/10.48550/arXiv.2304.13144
+  # homepage: https://doi.org/10.48550/arXiv.2304.13144
   gitlab_id: ashapeev/mlip-3
 - name: interface-lammps-mlip-3
   category: mlp
@@ -1411,4 +1413,4 @@ calculated from density functional theory as the objective function."
   category: representation-learning
   description: "Smooth, exact rotational symmetrization for deep learning on point clouds"
   homepage: https://zenodo.org/record/7967079
-  docs_url: https://arxiv.org/abs/2305.19302
+  # docs_url: https://arxiv.org/abs/2305.19302
