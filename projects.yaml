@@ -11,6 +11,7 @@ configuration:
   min_stars: 5
   # require_github: True
   max_trending_projects: 5
+  allowed_licenses: ["all"]
   # allowed_licenses:
   #   [
   #     "Unlicense",
@@ -132,86 +133,87 @@ labels:
     image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico"
     description: "Java-related project, non-exclusive"
   - label: "single-paper"
-    # image:
+    name: "single-paper"
     description: "Single-paper projects"
   - label: "active-learning"
-    # image:
+    name: "active-learning"
     description: "Active learning"
   - label: "benchmarking"
-    # image:
+    name: "benchmarking"
     description: "Benchmarking ML models"
   - label: "xai"
-    # image:
+    name: "XAI"
     description: "Explainable artificial intelligence (XAI), model interpretability"
   - label: "generative"
-    # image:
+    name: "generative"
     subtitle: "Generative models"
   - label: "knowledgebase"
-    # image:
-    subtitle: "Knowledgebases"
+    name: "knowledgebase"
+    subtitle: "Knowledgebases (KB)"
   - label: "materials-discovery"
-    # image:
+    name: "materials-discovery"
     description: "Materials discovery"
   - label: "structure-optimization"
-    # image:
+    name: "structure-optimization"
     description: "Materials structure optimization"
   - label: "structure-prediction"
-    # image:
+    name: "structure-prediction"
     description: "Materials structure prediction"
   - label: "nlp"
-    # image:
+    name: "NLP"
     subtitle: "Natural language processing (NLP), large language models (LLM)"
   - label: "pretrained"
-    # image:
+    name: "pretrained"
     subtitle: "Pretrained models"
   - label: "probabilistic"
-    # image:
+    name: "probabilistic"
     description: "Probabilistic methods: Bayesian, Gaussian processes, adversarial attacks, uncertainty quantification (UQ)"
   - label: "qml"
+    name: "⚛️"
     # image: &#x269B;&#xFE0F;
     description: "Quantum machine learning (QML)"
   - label: "recommender"
-    # image:
+    name: "recommender"
     description: "Recommender systems"
   - label: "workflows"
-    # image:
+    name: "workflows"
     description: "Workflows, pipelines, MLOps"
   - label: "drug-discovery"
-    # image: &#x1F48A;
-    image: 💊
+    name: "💊"
+    # name: "&#x1F48A;"
     description: "Drug discovery"
   - label: "electrostatics"
-    # image: &#x26A1;
-    image: ⚡
+    name: "⚡"
+    # image: "&#x26A1;"
     description: "Electrostatics, partial charges, charge transfer, charge equilibration"
   - label: "magnetism"
-    # image: &#x1F9F2;
-    image: 🧲
+    name: "🧲"
+    # name: "&#x1F9F2;"
     description: "Magnetism"
   - label: "optical-properties"
-    # image: &#x1F308;
-    # image: 🌈
-    image: 👁️
+    name: "👁️"
+    # name: "🌈"
+    # name: "&#x1F308;"
     description: "Optical properties"
   - label: "biomolecules"
-    # image: &#x1F9EC;
-    image: 🧬
+    name: "🧬"
+    # name: "&#x1F9EC;"
     description: "Biomolecules, protein structure, protein folding"
   - label: "superconductor"
-    # image: &#x1F9D8;&#x1F3FE;
-    image: 🧘
+    name: "🧘"
+    # name: "&#x1F9D8;&#x1F3FE;"
     description: "Superconductivity"
   - label: "surface-science"
-    # image: &#x1FA9E;
-    image: 🪞
+    name: "🪞"
+    # name: "&#x1FA9E;"
     description: "Surface science"
   - label: "transport-phenomena"
-    # image: &#x1F525;
-    image: 🔥
+    name: "🔥"
+    # name: "&#x1F525;"
     description: "Transport phenomena"
   - label: "xrd"
-    # image: &#x1FA7B;
-    image: 🩻
+    name: "🩻"
+    # name: "&#x1FA7B;"
     description: "X-ray diffraction"
 
 projects:
