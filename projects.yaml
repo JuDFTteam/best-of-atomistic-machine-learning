@@ -12,6 +12,10 @@ configuration:
   # require_github: True
   max_trending_projects: 5
   allowed_licenses: ["all"]
+  require_license: false
+  require_repo: false
+  max_description_length: 300
+  min_projectrank: 5
   # allowed_licenses:
   #   [
   #     "Unlicense",
@@ -1386,6 +1390,10 @@ calculated from density functional theory as the objective function."
   category: ml-dft
   description: "Linear Jacobi-Legendre expansion of the charge density for machine learning-accelerated electronic structure calculations"
   github_id: StefanoSanvitoGroup/MLdensity
+- name: MLDensity_tutorial
+  # resource: true
+  category: educational
+  github_id: bfocassio/MLDensity_tutorial
 - name: BERT-PSIE-TC
   category: nlp
   labels: ["magnetism"]
