@@ -361,7 +361,7 @@ projects:
 - name: glp
   category: mlp
   github_id: sirmarcel/glp
-- name: gkx: Green-Kubo Method in JAX
+- name: "gkx: Green-Kubo Method in JAX"
   category: representation-learning
   labels: ["transport-phenomena"]
   github_id: sirmarcel/gkx
@@ -463,7 +463,7 @@ projects:
   category: representation-learning
   homepage: https://crystals.ai/
   github_id: txie-93/cgcnn
-- name: GATGNN: Global Attention Graph Neural Network
+- name: "GATGNN: Global Attention Graph Neural Network"
   category: representation-learning
   github_id: superlouis/GATGNN
 - name: DeeperGATGNN
@@ -871,7 +871,7 @@ projects:
 - name: MAChINE
   category: educational
   github_id: aimat-lab/MAChINE
-- name: MEGAN: Multi Explanation Graph Attention Student
+- name: "MEGAN: Multi Explanation Graph Attention Student"
   category: xai
   github_id: aimat-lab/graph_attention_student
 - name: 3DSC Database
