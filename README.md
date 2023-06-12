@@ -15,7 +15,7 @@
     <a href="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/JuDFTteam/best-of-atomistic-machine-learning?color=green&label=updated"></a>
 </p>
 
-This curated list contains 240 awesome open-source projects with a total of 52K stars grouped into 23 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
+This curated list contains 240 awesome open-source projects with a total of 53K stars grouped into 24 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
 
 The current focus of this list is more on simulation data rather than experimental data, and more on materials rather than molecules. Nevertheless, contributions from other fields are warmly welcome!
 
@@ -25,6 +25,7 @@ The current focus of this list is more on simulation data rather than experiment
 
 - [Active learning](#active-learning) _2 projects_
 - [Biomolecules](#biomolecules) _1 projects_
+- [Community resources](#community-resources) _1 projects_
 - [Datasets](#datasets) _30 projects_
 - [Data Structures](#data-structures) _2 projects_
 - [Density functional theory (ML-DFT)](#density-functional-theory-ml-dft) _16 projects_
@@ -36,17 +37,17 @@ The current focus of this list is more on simulation data rather than experiment
 - [Machine Learning Potentials (MLP)](#machine-learning-potentials-mlp) _50 projects_
 - [Materials Discovery](#materials-discovery) _5 projects_
 - [Mathematical tools](#mathematical-tools) _6 projects_
-- [Molecular Dynamics](#molecular-dynamics) _0 projects_
+- [Molecular Dynamics](#molecular-dynamics) _1 projects_
 - [Natural Language Processing](#natural-language-processing) _5 projects_
 - [Probabilistic ML](#probabilistic-ml) _0 projects_
 - [Reinforcement Learning](#reinforcement-learning) _2 projects_
 - [Representation Engineering Models](#representation-engineering-models) _5 projects_
 - [Representation Learning Models](#representation-learning-models) _40 projects_
-- [Representations](#representations) _11 projects_
-- [Unsupervised Learning](#unsupervised-learning) _6 projects_
-- [Visualization](#visualization) _0 projects_
+- [Representations](#representations) _10 projects_
+- [Unsupervised Learning](#unsupervised-learning) _5 projects_
+- [Visualization](#visualization) _1 projects_
 - [Wavefunction methods (ML-WFT)](#wavefunction-methods-ml-wft) _2 projects_
-- [Others](#others) _3 projects_
+- [Others](#others) _1 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -88,7 +89,7 @@ _Projects that focus on enabling active learning, iterative learning schemes for
 	git clone https://github.com/ulissigroup/finetuna
 	```
 </details>
-<details><summary><b><a href="https://acesuit.github.io/">ACEHAL</a></b> (🥉5 ·  ⭐ 7 · 🐣) - Hyperactive Learning (HAL) Python interface for building Atomic Cluster Expansion potentials. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code> <code>active-learning</code></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/ACEHAL">ACEHAL</a></b> (🥉5 ·  ⭐ 7 · 🐣) - Hyperactive Learning (HAL) Python interface for building Atomic Cluster Expansion potentials. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code> <code>active-learning</code></summary>
 
 - [GitHub](https://github.com/ACEsuit/ACEHAL) (👨‍💻 3 · 🔀 2 · 📋 8 - 37% open · ⏱️ 09.05.2023):
 
@@ -112,6 +113,16 @@ _Projects that focus on biomolecules, protein structure, protein folding, etc. u
 	git clone https://github.com/dptech-corp/Uni-Fold
 	```
 </details>
+<br>
+
+## Community resources
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Projects that foster communication within the atomistic ML community._
+
+🔗&nbsp;<b><a href="https://cortner.github.io/ACEweb">Atomic Cluster Expansion</a></b>  - Atomic Cluster Expansion (ACE) community homepage.
+
 <br>
 
 ## Datasets
@@ -260,7 +271,7 @@ _Projects and models that focus on quantities of DFT, such as density functional
 	git clone https://github.com/andreagrisafi/SALTED
 	```
 </details>
-<details><summary><b><a href="https://acesuit.github.io/">ACEhamiltonians</a></b> (🥈7 ·  ⭐ 5) - Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-.. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/ACEhamiltonians.jl">ACEhamiltonians</a></b> (🥈7 ·  ⭐ 5) - Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-.. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/ACEsuit/ACEhamiltonians.jl) (👨‍💻 4 · 🔀 3 · 📋 4 - 25% open · ⏱️ 12.04.2023):
 
@@ -268,7 +279,7 @@ _Projects and models that focus on quantities of DFT, such as density functional
 	git clone https://github.com/ACEsuit/ACEhamiltonians.jl
 	```
 </details>
-<details><summary><b><a href="https://doi.org/10.1038/s41524-022-00863-y">DeepDFT</a></b> (🥉6 ·  ⭐ 32) - Official implementation of DeepDFT model. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/peterbjorgensen/DeepDFT">DeepDFT</a></b> (🥉6 ·  ⭐ 32) - Official implementation of DeepDFT model. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/peterbjorgensen/DeepDFT) (👨‍💻 2 · 🔀 6 · ⏱️ 28.02.2023):
 
@@ -362,7 +373,7 @@ _Tutorials, guides, cookbooks, recipes, etc._
 	git clone https://github.com/deepmodeling/AI4Science101
 	```
 </details>
-<details><summary><b><a href="https://www.esi.ac.at/events/e457/">Machine Learning for Materials Hard and Soft</a></b> (🥉5 ·  ⭐ 29 · 💤) - ESI-DCAFM-TACO-VDSP Summer School on Machine Learning for Materials Hard and Soft. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/CompPhysVienna/MLSummerSchoolVienna2022">Machine Learning for Materials Hard and Soft</a></b> (🥉5 ·  ⭐ 29 · 💤) - ESI-DCAFM-TACO-VDSP Summer School on Machine Learning for Materials Hard and Soft. <code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/CompPhysVienna/MLSummerSchoolVienna2022) (👨‍💻 11 · 🔀 16 · ⏱️ 22.07.2022):
 
@@ -537,7 +548,7 @@ _General tools for atomistic machine learning._
 - [GitHub](https://github.com/scikit-learn-contrib/scikit-matter) (👨‍💻 11 · 🔀 14 · 📦 5 · 📋 65 - 16% open · ⏱️ 01.06.2023):
 
 	```
-	git clone https://github.com/lab-cosmo/scikit-matter
+	git clone https://github.com/scikit-learn-contrib/scikit-matter
 	```
 - [PyPi](https://pypi.org/project/skmatter) (📥 440 / month):
 	```
@@ -585,10 +596,10 @@ _General tools for atomistic machine learning._
 - <b><a href="https://github.com/ulissigroup/uncertainty_benchmarking">uncertainty_benchmarking</a></b> (🥉7 ·  ⭐ 33 · 💀) - Various code/notebooks to benchmark different ways we could estimate uncertainty in ML predictions. <code>❗Unlicensed</code> <code>benchmarking</code> <code>probabilistic</code>
 - <b><a href="https://github.com/deepchem/torchchem">torchchem</a></b> (🥉7 ·  ⭐ 32 · 💀) - An experimental repo for experimenting with PyTorch models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/deepchem/jaxchem">JAXChem</a></b> (🥉5 ·  ⭐ 74 · 💀) - JAXChem is a JAX-based deep learning library for complex and versatile chemical modeling. <code>❗Unlicensed</code>
-- <b><a href="https://acesuit.github.io/">ACEatoms</a></b> (🥉3 ·  ⭐ 2) - Generic code for modelling atomic properties using ACE. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://bitbucket.org/wolverton/magpie/src/master/">Magpie</a></b> (🥉3) - Materials Agnostic Platform for Informatics and Exploration (Magpie). <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="http://mlatom.com/">MLatom</a></b> (🥉3) -  <code><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">❗️Custom</a></code>
-- <b><a href="https://doi.org/10.1016/j.isci.2022.105192">quantum-structure-ml</a></b> (🥉2 ·  ⭐ 1) - Multi-class classification model for predicting the magnetic order of magnetic structures and a binary classification.. <code>❗Unlicensed</code> <code>🧲</code> <code>benchmarking</code>
+- <b><a href="http://mlatom.com/">MLatom</a></b> (🥉4 · 📈) - Machine learning for atomistic simulations. <code><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">❗️Custom</a></code>
+- <b><a href="https://github.com/ACEsuit/ACEatoms.jl">ACEatoms</a></b> (🥉3 ·  ⭐ 2) - Generic code for modelling atomic properties using ACE. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://bitbucket.org/wolverton/magpie/">Magpie</a></b> (🥉3) - Materials Agnostic Platform for Informatics and Exploration (Magpie). <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/hgheiberger/quantum-structure-ml">quantum-structure-ml</a></b> (🥉2 ·  ⭐ 1) - Multi-class classification model for predicting the magnetic order of magnetic structures and a binary classification.. <code>❗Unlicensed</code> <code>🧲</code> <code>benchmarking</code>
 </details>
 <br>
 
@@ -699,7 +710,7 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 	docker pull deepmodeling/deepmd-kit
 	```
 </details>
-<details><summary><b><a href="https://crystals.ai/">MEGNet</a></b> (🥇22 ·  ⭐ 450) - Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/materialsvirtuallab/megnet">MEGNet</a></b> (🥇22 ·  ⭐ 450) - Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/materialsvirtuallab/megnet) (👨‍💻 13 · 🔀 140 · 📦 64 · 📋 74 - 22% open · ⏱️ 27.04.2023):
 
@@ -771,7 +782,7 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 	conda install -c conda-forge fitsnap3
 	```
 </details>
-<details><summary><b><a href="https://crystals.ai/">M3GNet</a></b> (🥈17 ·  ⭐ 160) - Materials graph network with 3-body interactions featuring a DFT surrogate crystal relaxer and a state-of-the-art.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/materialsvirtuallab/m3gnet">M3GNet</a></b> (🥈17 ·  ⭐ 160) - Materials graph network with 3-body interactions featuring a DFT surrogate crystal relaxer and a state-of-the-art.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/materialsvirtuallab/m3gnet) (👨‍💻 14 · 🔀 46 · 📦 9 · 📋 35 - 42% open · ⏱️ 06.06.2023):
 
@@ -783,7 +794,7 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 	pip install m3gnet
 	```
 </details>
-<details><summary><b><a href="http://sgdml.org/">sGDML</a></b> (🥈16 ·  ⭐ 110) - sGDML - Reference implementation of the Symmetric Gradient Domain Machine Learning model. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/stefanch/sGDML">sGDML</a></b> (🥈16 ·  ⭐ 110) - sGDML - Reference implementation of the Symmetric Gradient Domain Machine Learning model. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/stefanch/sGDML) (👨‍💻 7 · 🔀 32 · 📦 8 · 📋 16 - 31% open · ⏱️ 08.06.2023):
 
@@ -831,9 +842,9 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 	git clone https://github.com/CompPhysVienna/n2p2
 	```
 </details>
-<details><summary><b><a href="https://acesuit.github.io/">MACE</a></b> (🥈13 ·  ⭐ 160) - MACE - Fast and accurate machine learning interatomic potentials with higher order equivariant message passing. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/mace">MACE</a></b> (🥈13 ·  ⭐ 160) - MACE - Fast and accurate machine learning interatomic potentials with higher order equivariant message passing. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/ACEsuit/mace) (👨‍💻 11 · 🔀 49 · 📋 40 - 40% open · ⏱️ 23.02.2023):
+- [GitHub](https://github.com/ACEsuit/mace) (👨‍💻 11 · 🔀 49 · 📋 40 - 37% open · ⏱️ 23.02.2023):
 
 	```
 	git clone https://github.com/ACEsuit/mace
@@ -955,7 +966,7 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 	git clone https://github.com/gasteigerjo/dimenet
 	```
 </details>
-<details><summary><b><a href="https://acesuit.github.io/">ACE.jl</a></b> (🥉8 ·  ⭐ 58) - Parameterisation of Equivariant Properties of Particle Systems. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/ACE.jl">ACE.jl</a></b> (🥉8 ·  ⭐ 58) - Parameterisation of Equivariant Properties of Particle Systems. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/ACEsuit/ACE.jl) (👨‍💻 12 · 🔀 14 · 📋 81 - 28% open · ⏱️ 09.06.2023):
 
@@ -1003,7 +1014,7 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 	git clone https://github.com/ICAMS/lammps-user-pace
 	```
 </details>
-<details><summary><b><a href="https://acesuit.github.io/">MACE-Jax</a></b> (🥉5 ·  ⭐ 28 · 🐣) - Equivariant machine learning interatomic potentials in JAX. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/mace-jax">MACE-Jax</a></b> (🥉5 ·  ⭐ 28 · 🐣) - Equivariant machine learning interatomic potentials in JAX. <code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ACEsuit/mace-jax) (👨‍💻 2 · 🔀 1 · ⏱️ 01.06.2023):
 
@@ -1020,16 +1031,16 @@ _Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for
 - <b><a href="https://github.com/materialsvirtuallab/snap">SNAP</a></b> (🥉8 ·  ⭐ 31 · 💀) - Repository for spectral neighbor analysis potential (SNAP) model development. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/aiqm/aimnet">AIMNet</a></b> (🥉7 ·  ⭐ 75 · 💀) - Atoms In Molecules Neural Network Potential. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>single-paper</code>
 - <b><a href="https://github.com/MMunibas/PhysNet">PhysNet</a></b> (🥉7 ·  ⭐ 72 · 💀) - Code for training PhysNet models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>⚡</code>
-- <b><a href="https://acesuit.github.io/">ACEfit</a></b> (🥉7 ·  ⭐ 2) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/ACEsuit/ACEfit.jl">ACEfit</a></b> (🥉7 ·  ⭐ 2) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/MDIL-SNU/SIMPLE-NN_v2">SIMPLE-NN v2</a></b> (🥉6 ·  ⭐ 19) -  <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
 - <b><a href="https://github.com/libAtoms/testing-framework">testing-framework</a></b> (🥉6 ·  ⭐ 11 · 💀) - The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of.. <code>❗Unlicensed</code> <code>benchmarking</code>
 - <b><a href="https://github.com/Luthaf/alchemical-learning">Alchemical learning</a></b> (🥉5 ·  ⭐ 2) - Code for the Modeling high-entropy transition metal alloys with alchemical compression article. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/sirmarcel/glp">glp</a></b> (🥉4 ·  ⭐ 10 · 🐣) - tools for graph-based machine-learning potentials in jax. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://cortner.github.io/ACEweb">TensorPotential</a></b> (🥉4 ·  ⭐ 5) - TensorFlow based interface for ML potentials development, fitting and evaluation. <code>❗Unlicensed</code>
 - <b><a href="https://gitlab.com/PANNAdevs/panna">PANNA</a></b> (🥉4 ·  ⭐ 5 · 💀) - A package to train and validate all-to-all connected network models for BP[1] and modified-BP[2] type local atomic.. <code>❗Unlicensed</code> <code>benchmarking</code>
-- <b><a href="https://acesuit.github.io/">ACE Workflows</a></b> (🥉3 · 🐣) - Workflow Examples for ACE Models. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code> <code>workflows</code>
+- <b><a href="https://github.com/ACEsuit/ACEworkflows">ACE Workflows</a></b> (🥉3 · 🐣) - Workflow Examples for ACE Models. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code> <code>workflows</code>
 - <b><a href="https://github.com/lmj1029123/SingleNN">SingleNN</a></b> (🥉2 ·  ⭐ 5 · 💀) - An efficient package for training and executing neural-network interatomic potentials. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://doi.org/10.48550/arXiv.2304.13144">MLIP-3</a></b> (🥉1 ·  ⭐ 8 · 🐣) - MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP). <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://gitlab.com/ashapeev/mlip-3">MLIP-3</a></b> (🥉1 ·  ⭐ 8 · 🐣) - MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP). <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
@@ -1096,7 +1107,7 @@ _Projects that implement mathematical objects used in atomistic machine learning
 </details>
 <details><summary>Show 3 hidden projects...</summary>
 
-- <b><a href="https://acesuit.github.io/">Polynomials4ML.jl</a></b> (🥈13 ·  ⭐ 3) - Polynomials for ML: fast evaluation, batching, differentiation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/ACEsuit/Polynomials4ML.jl">Polynomials4ML.jl</a></b> (🥈13 ·  ⭐ 3) - Polynomials for ML: fast evaluation, batching, differentiation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/lab-cosmo/equisolve">Equisolve</a></b> (🥉8 ·  ⭐ 3) - A package tasked with taking equistore objects and computing machine learning models using them. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/lab-cosmo/wigner_kernels">Wigner Kernels</a></b> (🥉4 · 🐣) - Collection of programs to benchmark Wigner kernels. <code>❗Unlicensed</code> <code>benchmarking</code>
 </details>
@@ -1108,6 +1119,18 @@ _Projects that implement mathematical objects used in atomistic machine learning
 
 _Projects that simplify the integration of molecular dynamics and atomistic machine learning._
 
+<details><summary><b><a href="https://github.com/jax-md/jax-md">JAX-MD</a></b> (🥇22 ·  ⭐ 940 · 📈) - Differentiable, Hardware Accelerated, Molecular Dynamics. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/jax-md/jax-md) (👨‍💻 21 · 🔀 150 · 📦 24 · 📋 120 - 41% open · ⏱️ 25.05.2023):
+
+	```
+	git clone https://github.com/jax-md/jax-md
+	```
+- [PyPi](https://pypi.org/project/jax-md) (📥 1.4K / month):
+	```
+	pip install jax-md
+	```
+</details>
 <br>
 
 ## Natural Language Processing
@@ -1232,7 +1255,7 @@ _General models that use hand-crafted representations, aka feature engineering._
 <details><summary>Show 2 hidden projects...</summary>
 
 - <b><a href="https://marcel.science/repbench/">cmlkit</a></b> (🥈10 ·  ⭐ 29 · 💀) - tools for machine learning in condensed matter physics and quantum chemistry. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code>
-- <b><a href="https://doi.org/10.1038/s41598-023-30438-w">magnetism-prediction</a></b> (🥉4 ·  ⭐ 1) - DFT-aided Machine Learning Search for Magnetism in Fe-based Bimetallic Chalcogenides. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>🧲</code> <code>single-paper</code>
+- <b><a href="https://github.com/dppant/magnetism-prediction">magnetism-prediction</a></b> (🥉4 ·  ⭐ 1) - DFT-aided Machine Learning Search for Magnetism in Fe-based Bimetallic Chalcogenides. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>🧲</code> <code>single-paper</code>
 </details>
 <br>
 
@@ -1260,7 +1283,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	conda install -c dglteam dgl
 	```
 </details>
-<details><summary><b><a href="http://quantum-machine.org/">SchNetPack</a></b> (🥇25 ·  ⭐ 600) - SchNetPack - Deep Neural Networks for Atomistic Systems. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/atomistic-machine-learning/schnetpack">SchNetPack</a></b> (🥇25 ·  ⭐ 600) - SchNetPack - Deep Neural Networks for Atomistic Systems. <code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/atomistic-machine-learning/schnetpack) (👨‍💻 31 · 🔀 170 · 📦 53 · 📋 200 - 1% open · ⏱️ 07.06.2023):
 
@@ -1312,7 +1335,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	pip install kgcnn
 	```
 </details>
-<details><summary><b><a href="https://opencatalystproject.org/">ocp</a></b> (🥈19 ·  ⭐ 410) - ocp is the Open Catalyst Projects library of state-of-the-art machine learning algorithms for catalysis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Open-Catalyst-Project/ocp">ocp</a></b> (🥈19 ·  ⭐ 410) - ocp is the Open Catalyst Projects library of state-of-the-art machine learning algorithms for catalysis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/Open-Catalyst-Project/ocp) (👨‍💻 30 · 🔀 160 · 📋 110 - 12% open · ⏱️ 06.06.2023):
 
@@ -1320,7 +1343,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	git clone https://github.com/Open-Catalyst-Project/ocp
 	```
 </details>
-<details><summary><b><a href="https://e3nn.org/">e3nn-jax</a></b> (🥈18 ·  ⭐ 110) - jax library for E3 Equivariant Neural Networks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/e3nn/e3nn-jax">e3nn-jax</a></b> (🥈18 ·  ⭐ 110) - jax library for E3 Equivariant Neural Networks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/e3nn/e3nn-jax) (👨‍💻 4 · 🔀 10 · ⏱️ 10.06.2023):
 
@@ -1332,7 +1355,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	pip install e3nn-jax
 	```
 </details>
-<details><summary><b><a href="https://crystals.ai/">MatGL (Materials Graph Library)</a></b> (🥈18 ·  ⭐ 70) - Graph deep learning library for materials. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/materialsvirtuallab/matgl">MatGL (Materials Graph Library)</a></b> (🥈18 ·  ⭐ 70) - Graph deep learning library for materials. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/materialsvirtuallab/matgl) (👨‍💻 9 · 🔀 14 · 📦 1 · 📋 17 - 23% open · ⏱️ 12.06.2023):
 
@@ -1344,7 +1367,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	pip install m3gnet
 	```
 </details>
-<details><summary><b><a href="https://jarvis.nist.gov/login?next=/jalignn/">ALIGNN</a></b> (🥈16 ·  ⭐ 130) - Atomistic Line Graph Neural Network. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/usnistgov/alignn">ALIGNN</a></b> (🥈16 ·  ⭐ 130) - Atomistic Line Graph Neural Network. <code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/usnistgov/alignn) (👨‍💻 6 · 🔀 58 · 📦 3 · 📋 38 - 63% open · ⏱️ 04.06.2023):
 
@@ -1432,7 +1455,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	git clone https://github.com/learningmatter-mit/uvvisml
 	```
 </details>
-<details><summary><b><a href="https://opencatalystproject.org/">AdsorbML</a></b> (🥉7 ·  ⭐ 14) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>🪞</code> <code>single-paper</code></summary>
+<details><summary><b><a href="https://github.com/Open-Catalyst-Project/AdsorbML">AdsorbML</a></b> (🥉7 ·  ⭐ 14) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>🪞</code> <code>single-paper</code></summary>
 
 - [GitHub](https://github.com/Open-Catalyst-Project/AdsorbML) (👨‍💻 4 · 🔀 2 · ⏱️ 08.06.2023):
 
@@ -1480,7 +1503,7 @@ _General models that learn an embedding, such as message-passing neural networks
 	git clone https://github.com/lanl/hippynn
 	```
 </details>
-<details><summary><b><a href="https://acesuit.github.io/">MACE-Layer</a></b> (🥉5 ·  ⭐ 20) - Higher order equivariant graph neural networks for 3D point clouds. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/mace-layer">MACE-Layer</a></b> (🥉5 ·  ⭐ 20) - Higher order equivariant graph neural networks for 3D point clouds. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ACEsuit/mace-layer) (👨‍💻 2 · 🔀 2 · ⏱️ 06.06.2023):
 
@@ -1507,12 +1530,12 @@ _General models that learn an embedding, such as message-passing neural networks
 <details><summary>Show 12 hidden projects...</summary>
 
 - <b><a href="https://github.com/graphdeeplearning/benchmarking-gnns">benchmarking-gnns</a></b> (🥈15 ·  ⭐ 2.2K · 💀) - Repository for benchmarking graph neural networks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>single-paper</code> <code>benchmarking</code>
-- <b><a href="https://crystals.ai/">Crystal Graph Convolutional Neural Networks (CGCNN)</a></b> (🥈12 ·  ⭐ 470 · 💀) - Crystal graph convolutional neural networks for predicting material properties. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/txie-93/cgcnn">Crystal Graph Convolutional Neural Networks (CGCNN)</a></b> (🥈12 ·  ⭐ 470 · 💀) - Crystal graph convolutional neural networks for predicting material properties. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/masashitsubaki/molecularGNN_smiles">molecularGNN_smiles</a></b> (🥈9 ·  ⭐ 240 · 💀) - The code of a graph neural network (GNN) for molecules, which is based on learning representations of r-radius.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/FabianFuchsML/se3-transformer-public">SE(3)-Transformers</a></b> (🥉7 ·  ⭐ 380 · 💀) - code for the SE3 Transformers paper: https://arxiv.org/abs/2006.10503. <code>❗Unlicensed</code> <code>single-paper</code>
 - <b><a href="https://github.com/atomistic-machine-learning/dtnn">DTNN</a></b> (🥉7 ·  ⭐ 77 · 💀) - Deep Tensor Neural Network. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/pfnet-research/charge_transfer_nnp">charge_transfer_nnp</a></b> (🥉5 ·  ⭐ 20 · 💀) - Graph neural network potential with charge transfer. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>⚡</code>
-- <b><a href="https://doi.org/10.1038/s41467-022-29243-2">SCFNN</a></b> (🥉5 ·  ⭐ 13 · 💀) - Self-consistent determination of long-range electrostatics in neural network potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code> <code>⚡</code> <code>single-paper</code>
+- <b><a href="https://github.com/andy90/SCFNN">SCFNN</a></b> (🥉5 ·  ⭐ 13 · 💀) - Self-consistent determination of long-range electrostatics in neural network potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code> <code>⚡</code> <code>single-paper</code>
 - <b><a href="https://github.com/learningmatter-mit/GLAMOUR">GLAMOUR</a></b> (🥉4 ·  ⭐ 17) - Graph Learning over Macromolecule Representations. <code>❗Unlicensed</code> <code>single-paper</code>
 - <b><a href="https://github.com/gasteigerjo/gtn">Graph Transport Network</a></b> (🥉3 ·  ⭐ 14) - Graph transport network (GTN), as proposed in Scalable Optimal Transport in High Dimensions for Graph Distances,.. <code>❗Unlicensed</code> <code>🔥</code>
 - <b><a href="https://github.com/atomistic-machine-learning/field_schnet">FieldSchNet</a></b> (🥉3 ·  ⭐ 9 · 💀) -  <code>❗Unlicensed</code>
@@ -1575,14 +1598,13 @@ _Projects that offer implementations of representations, descriptors, fingerprin
 	git clone https://github.com/lab-cosmo/nice
 	```
 </details>
-<details><summary>Show 6 hidden projects...</summary>
+<details><summary>Show 5 hidden projects...</summary>
 
 - <b><a href="https://github.com/Kaaiian/CBFV">CBFV</a></b> (🥈6 ·  ⭐ 11 · 💀) - Tool to quickly create a composition-based feature vector. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/zhuligs/fplib">fplib</a></b> (🥈6 ·  ⭐ 7 · 💀) - a fingerprint library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code> <code>single-paper</code>
 - <b><a href="https://github.com/capoe/soapxx">SOAPxx</a></b> (🥈6 ·  ⭐ 7 · 💀) - A SOAP implementation. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/ceriottm/lode">pyLODE</a></b> (🥈6 ·  ⭐ 2 · 💤) - Pythonic implementation of LOng Distance Equivariants. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>⚡</code>
-- <b><a href="https://bitbucket.org/andrewpeterson/amp/">AMP</a></b> (🥉2) - Amp is an open-source package designed to easily bring machine-learning to atomistic calculations. <code>❗Unlicensed</code>
-- <b><a href="https://doi.org/10.21105/joss.03960">SISSO++</a></b> (🥉1 ·  ⭐ 1 · 💀) - C++ Implementation of SISSO with python bindings. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://gitlab.com/sissopp_developers/sissopp">SISSO++</a></b> (🥉1 ·  ⭐ 1 · 💀) - C++ Implementation of SISSO with python bindings. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
@@ -1612,11 +1634,10 @@ _Projects that focus on unsupervised learning for atomistic ML, such as dimensio
 	git clone https://github.com/lab-cosmo/sketchmap
 	```
 </details>
-<details><summary>Show 4 hidden projects...</summary>
+<details><summary>Show 3 hidden projects...</summary>
 
 - <b><a href="https://github.com/BingqingCheng/ASAP">ASAP</a></b> (🥈10 ·  ⭐ 100 · 💀) - ASAP is a package that can quickly analyze and visualize datasets of crystal or molecular structures. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/learningmatter-mit/Coarse-Graining-Auto-encoders">Coarse-Graining-Auto-encoders</a></b> (🥉3 ·  ⭐ 18 · 💀) -  <code>❗Unlicensed</code> <code>single-paper</code>
-- <b><a href="https://gitlab.mpcdf.mpg.de/klai/decaf">Descriptor Embedding and Clustering for Atomisitic-environment Framework (DECAF)</a></b> ( ⭐ 2) - Provides a workflow to obtain clustering of local environments in dataset of structures. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/Minoru938/KmdPlus">KmdPlus</a></b> ( ⭐ 1 · 🐣) - This module contains a class for treating kernel mean descriptor (KMD), and a function for generating descriptors with.. <code>❗Unlicensed</code>
 </details>
 <br>
@@ -1627,6 +1648,18 @@ _Projects that focus on unsupervised learning for atomistic ML, such as dimensio
 
 _Projects that focus on visualization for atomistic ML._
 
+<details><summary><b><a href="https://chemiscope.org/">Chemiscope</a></b> (🥇17 ·  ⭐ 86) - An interactive structure/property explorer for materials and molecules. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/javascript.ico" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/lab-cosmo/chemiscope) (👨‍💻 17 · 🔀 26 · 📥 120 · 📦 4 · 📋 100 - 36% open · ⏱️ 24.05.2023):
+
+	```
+	git clone https://github.com/lab-cosmo/chemiscope
+	```
+- [npm](https://www.npmjs.com/package/chemiscope) (📥 10 / month):
+	```
+	npm install chemiscope
+	```
+</details>
 <br>
 
 ## Wavefunction methods (ML-WFT)
@@ -1657,23 +1690,9 @@ _Projects and models that focus on quantities of wavefunction electronic structu
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-🔗&nbsp;<b><a href="https://cortner.github.io/ACEweb">Atomic Cluster Expansion</a></b>  - Atomic Cluster Expansion (ACE) community homepage.
-
-<details><summary><b><a href="https://chemiscope.org/">Chemiscope</a></b> (🥇17 ·  ⭐ 86) -  <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/javascript.ico" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/lab-cosmo/chemiscope) (👨‍💻 17 · 🔀 26 · 📥 120 · 📦 4 · 📋 100 - 36% open · ⏱️ 24.05.2023):
-
-	```
-	git clone https://github.com/lab-cosmo/chemiscope
-	```
-- [npm](https://www.npmjs.com/package/chemiscope) (📥 10 / month):
-	```
-	npm install chemiscope
-	```
-</details>
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/lab-cosmo/cosmo-tools">COSMO tools</a></b> (🥉5 ·  ⭐ 1 · 💤) - Scripts, jupyter nbs, and general helpful stuff from COSMO by COSMO. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/lab-cosmo/cosmo-tools">COSMO tools</a></b> (🥇5 ·  ⭐ 1 · 💤) - Scripts, jupyter nbs, and general helpful stuff from COSMO by COSMO. <code>❗Unlicensed</code>
 </details>
 
 ---
