@@ -15,7 +15,7 @@
     <a href="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/JuDFTteam/best-of-atomistic-machine-learning?color=green&label=updated"></a>
 </p>
 
-This curated list contains 240 awesome open-source projects with a total of 52K stars grouped into 23 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
+This curated list contains 240 awesome open-source projects with a total of 53K stars grouped into 23 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
 
 The current focus of this list is more on simulation data rather than experimental data, and more on materials rather than molecules. Nevertheless, contributions from other fields are warmly welcome!
 
@@ -36,7 +36,7 @@ The current focus of this list is more on simulation data rather than experiment
 - [Machine Learning Potentials (MLP)](#machine-learning-potentials-mlp) _50 projects_
 - [Materials Discovery](#materials-discovery) _5 projects_
 - [Mathematical tools](#mathematical-tools) _6 projects_
-- [Molecular Dynamics](#molecular-dynamics) _0 projects_
+- [Molecular Dynamics](#molecular-dynamics) _1 projects_
 - [Natural Language Processing](#natural-language-processing) _5 projects_
 - [Probabilistic ML](#probabilistic-ml) _0 projects_
 - [Reinforcement Learning](#reinforcement-learning) _2 projects_
@@ -537,7 +537,7 @@ _General tools for atomistic machine learning._
 - [GitHub](https://github.com/scikit-learn-contrib/scikit-matter) (👨‍💻 11 · 🔀 14 · 📦 5 · 📋 65 - 16% open · ⏱️ 01.06.2023):
 
 	```
-	git clone https://github.com/lab-cosmo/scikit-matter
+	git clone https://github.com/scikit-learn-contrib/scikit-matter
 	```
 - [PyPi](https://pypi.org/project/skmatter) (📥 440 / month):
 	```
@@ -585,9 +585,9 @@ _General tools for atomistic machine learning._
 - <b><a href="https://github.com/ulissigroup/uncertainty_benchmarking">uncertainty_benchmarking</a></b> (🥉7 ·  ⭐ 33 · 💀) - Various code/notebooks to benchmark different ways we could estimate uncertainty in ML predictions. <code>❗Unlicensed</code> <code>benchmarking</code> <code>probabilistic</code>
 - <b><a href="https://github.com/deepchem/torchchem">torchchem</a></b> (🥉7 ·  ⭐ 32 · 💀) - An experimental repo for experimenting with PyTorch models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/deepchem/jaxchem">JAXChem</a></b> (🥉5 ·  ⭐ 74 · 💀) - JAXChem is a JAX-based deep learning library for complex and versatile chemical modeling. <code>❗Unlicensed</code>
+- <b><a href="http://mlatom.com/">MLatom</a></b> (🥉4 · 📈) - Machine learning for atomistic simulations. <code><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">❗️Custom</a></code>
 - <b><a href="https://acesuit.github.io/">ACEatoms</a></b> (🥉3 ·  ⭐ 2) - Generic code for modelling atomic properties using ACE. <code>❗Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://bitbucket.org/wolverton/magpie/src/master/">Magpie</a></b> (🥉3) - Materials Agnostic Platform for Informatics and Exploration (Magpie). <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="http://mlatom.com/">MLatom</a></b> (🥉3) -  <code><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">❗️Custom</a></code>
 - <b><a href="https://doi.org/10.1016/j.isci.2022.105192">quantum-structure-ml</a></b> (🥉2 ·  ⭐ 1) - Multi-class classification model for predicting the magnetic order of magnetic structures and a binary classification.. <code>❗Unlicensed</code> <code>🧲</code> <code>benchmarking</code>
 </details>
 <br>
@@ -1108,6 +1108,18 @@ _Projects that implement mathematical objects used in atomistic machine learning
 
 _Projects that simplify the integration of molecular dynamics and atomistic machine learning._
 
+<details><summary><b><a href="https://github.com/jax-md/jax-md">JAX-MD</a></b> (🥇22 ·  ⭐ 940 · 📈) - Differentiable, Hardware Accelerated, Molecular Dynamics. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/jax-md/jax-md) (👨‍💻 21 · 🔀 150 · 📦 24 · 📋 120 - 41% open · ⏱️ 25.05.2023):
+
+	```
+	git clone https://github.com/jax-md/jax-md
+	```
+- [PyPi](https://pypi.org/project/jax-md) (📥 1.4K / month):
+	```
+	pip install jax-md
+	```
+</details>
 <br>
 
 ## Natural Language Processing
