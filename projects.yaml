@@ -647,7 +647,7 @@ projects:
   github_id: whitead/dmol-book
 - name: JAX-MD
   category: md
-  github_id: ax-md/jax-md
+  github_id: jax-md/jax-md
   pypi_id: jax-md
 - name: Finetuna
   category: active-learning
@@ -1245,7 +1245,7 @@ calculated from density functional theory as the objective function."
   github_id: openkim/kim-api
 - name: MLatom
   category: general-tools
-  # description: "Machine learning for atomistic simulations"
+  description: "Machine learning for atomistic simulations"
   homepage: http://mlatom.com/
   docs_url: http://mlatom.com/manual/
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/
