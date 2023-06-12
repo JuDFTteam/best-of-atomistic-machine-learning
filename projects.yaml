@@ -376,7 +376,7 @@ projects:
   description:
   labels: ["scikit-learn"]
   docs_url: https://scikit-matter.readthedocs.io
-  github_id: lab-cosmo/scikit-matter
+  github_id: scikit-learn-contrib/scikit-matter
   pypi_id: skmatter
   conda_id: conda-forge/skmatter
 - name: Equisolve
