@@ -444,6 +444,8 @@ projects:
   github_id: lab-cosmo/toolbox
 - name: COSMO tools
   github_id: lab-cosmo/cosmo-tools
+  ignore: true
+  # feeback from COSMO: intended for internal use
 - name: crystals.ai
   resource: true
   category: datasets
