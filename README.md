@@ -15,7 +15,7 @@
     <a href="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/JuDFTteam/best-of-atomistic-machine-learning?color=green&label=updated"></a>
 </p>
 
-This curated list contains 250 awesome open-source projects with a total of 77K stars grouped into 24 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
+This curated list contains 250 awesome open-source projects with a total of 77K stars grouped into 24 categories. All projects are ranked by a [project-quality score](https://github.com/best-of-lists/best-of-generator#project-quality-score), which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
 
 The current focus of this list is more on simulation data rather than experimental data, and more on materials rather than molecules. Nevertheless, contributions from other fields are warmly welcome!
 
@@ -1136,7 +1136,7 @@ _Projects that implement mathematical objects used in atomistic machine learning
 
 - <b><a href="https://github.com/ACEsuit/Polynomials4ML.jl">Polynomials4ML.jl</a></b> (🥈13 ·  ⭐ 3) - Polynomials for ML: fast evaluation, batching, differentiation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/lab-cosmo/equisolve">Equisolve</a></b> (🥉8 ·  ⭐ 3) - A package tasked with taking equistore objects and computing machine learning models using them. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/risi-kondor/cnine">cnine</a></b> (🥉5 ·  ⭐ 1 · 📈) - Cnine tensor library. <code>Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/risi-kondor/cnine">cnine</a></b> (🥉5 ·  ⭐ 1) - Cnine tensor library. <code>Unlicensed</code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/lab-cosmo/wigner_kernels">Wigner Kernels</a></b> (🥉4 · 🐣) - Collection of programs to benchmark Wigner kernels. <code>Unlicensed</code> <code>benchmarking</code>
 </details>
 <br>
@@ -1675,7 +1675,7 @@ _Projects that offer implementations of representations, descriptors, fingerprin
 - <b><a href="https://github.com/capoe/soapxx">SOAPxx</a></b> (🥈6 ·  ⭐ 7 · 💀) - A SOAP implementation. <code><a href="http://bit.ly/2KucAZR">GPL-2.0</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/ceriottm/lode">pyLODE</a></b> (🥈6 ·  ⭐ 2 · 💤) - Pythonic implementation of LOng Distance Equivariants. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>⚡</code>
 - <b><a href="https://gitlab.com/sissopp_developers/sissopp">SISSO++</a></b> (🥉3 ·  ⭐ 1 · 💀) - C++ Implementation of SISSO with python bindings. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://bitbucket.org/andrewpeterson/amp/">AMP</a></b> (🥉2 · 📈) - Amp is an open-source package designed to easily bring machine-learning to atomistic calculations. <code>Unlicensed</code>
+- <b><a href="https://bitbucket.org/andrewpeterson/amp/">AMP</a></b> (🥉2) - Amp is an open-source package designed to easily bring machine-learning to atomistic calculations. <code>Unlicensed</code>
 </details>
 <br>
 
