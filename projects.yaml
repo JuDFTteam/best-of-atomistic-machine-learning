@@ -262,34 +262,39 @@ projects:
 - name: Atomic Cluster Expansion
   resource: true
   category: community
-  homepage: https://cortner.github.io/ACEweb
+  homepage: https://cortner.github.io/ACEweb/
   # group: ACE
   description: Atomic Cluster Expansion (ACE) community homepage.
 - name: PACE
   category: mlp
-  description: "The `pair_style` ACE MLP implemented in LAMMPS, aka ML-PACE."
-  homepage: https://cortner.github.io/ACEweb
-  docs_url: https://docs.lammps.org/pair_pace.html
+  description: "The LAMMPS MLP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
+  # homepage: https://cortner.github.io/ACEweb/software/
+  # docs_url: https://docs.lammps.org/pair_pace.html
   # group_id: ACE
+  license: https://github.com/ICAMS/lammps-user-pace/blob/main/LICENSE
   github_id: ICAMS/lammps-user-pace
 - name: Pacemaker
   category: mlp
-  description: Python package for fitting ACE potentials
-  homepage: https://cortner.github.io/ACEweb
-  docs_url: https://pacemaker.readthedocs.io
+  description: Python package for fitting atomic cluster expansion (ACE) potentials
+  homepage: https://cortner.github.io/ACEweb/software/
+  # docs_url: https://pacemaker.readthedocs.io
   # group_id: ACE
+  license: https://github.com/ICAMS/python-ace/blob/master/LICENSE.md
   github_id: ICAMS/python-ace
   pypi_id: python-ace
 - name: TensorPotential
   category: mlp
-  homepage: https://cortner.github.io/ACEweb
+  description: "Tensorpotential is a TensorFlow based tool for development, fitting ML interatomic potentials from electronic structure calculations data and perform computations using these potentials [...] Only Atomic Cluster Expansion (ACE) is available at the moment."
+  homepage: https://cortner.github.io/ACEweb/software/
   # group_id: ACE
+  license: https://github.com/ICAMS/TensorPotential/blob/main/LICENSE.md
   github_id: ICAMS/TensorPotential
 - name: ACE1.jl
   category: mlp
   labels: ["Julia"]
   homepage: https://acesuit.github.io/
   docs_url: https://acesuit.github.io/ACE1pack.jl
+  license: https://github.com/ACEsuit/ACE1.jl/blob/main/ASL.md
   # group_id: ACE
   github_id: ACEsuit/ACE1.jl
 - name: ACE1Pack.jl
@@ -304,11 +309,13 @@ projects:
   category: mlp
   # homepage: https://acesuit.github.io/
   # group_id: ACE
+  license: "MIT"
   github_id: ACEsuit/mace
 - name: MACE-Jax
   category: mlp
   # homepage: https://acesuit.github.io/
   # group_id: ACE
+  license: "MIT"
   github_id: ACEsuit/mace-jax
 - name: MACE-Layer
   category: representation-learning
@@ -320,6 +327,7 @@ projects:
   labels: ["Julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
+  license: https://github.com/ACEsuit/ACE.jl/blob/main/license/mit.md
   github_id: "ACEsuit/ACE.jl"
 - name: ACE Workflows
   category: mlp
@@ -331,6 +339,7 @@ projects:
   category: ml-dft
   description: Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-state systems.
   labels: ["Julia"]
+  license: "MIT"
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEhamiltonians.jl
@@ -345,6 +354,7 @@ projects:
   labels: ["Julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
+  license: https://github.com/ACEsuit/ACEatoms.jl/blob/main/ASL.md
   github_id: ACEsuit/ACEatoms.jl
 - name: ACEfit
   category: mlp
@@ -404,6 +414,7 @@ projects:
   github_id: lab-cosmo/wigner_kernels
 - name: Rascaline
   category: representations
+  labels: ["Rust, C++"]
   docs_url: https://luthaf.fr/rascaline/
   github_id: Luthaf/rascaline
 - name: Librascal
@@ -439,8 +450,8 @@ projects:
   category: educational
   github_id: ceriottm/iam-notebooks
 - name: COSMO Toolbox
-  resource:
   category: math
+  labels: ["C++"]
   github_id: lab-cosmo/toolbox
 - name: COSMO tools
   github_id: lab-cosmo/cosmo-tools
@@ -523,7 +534,8 @@ projects:
 - name: SchNetPack
   category: representation-learning
   # homepage: http://quantum-machine.org/
-  docs_url: https://schnetpack.readthedocs.io/
+  # docs_url: https://schnetpack.readthedocs.io/
+  license: "MIT"
   github_id: atomistic-machine-learning/schnetpack
   pypi_id: schnetpack
 - name: SchNetPack G-SchNet
@@ -540,6 +552,7 @@ projects:
   github_id: atomistic-machine-learning/SchNOrb
 - name: FieldSchNet
   category: representation-learning
+  license: "MIT"
   github_id: atomistic-machine-learning/field_schnet
 - name: SchNet
   category: mlp
@@ -648,7 +661,7 @@ projects:
 - name: Deep Learning for Molecules and Materials Book
   # resource: true
   category: educational
-  description:
+  license: https://github.com/whitead/dmol-book/blob/main/LICENSE
   homepage: https://dmol.pub/
   github_id: whitead/dmol-book
 - name: JAX-MD
@@ -670,6 +683,7 @@ projects:
   github_id: ulissigroup/CAMD
 - name: CatGym
   category: reinforcement-learning
+  license: "GPL"
   github_id: ulissigroup/catgym
 - name: "uncertainty_benchmarking"
   category: general-tools
@@ -677,37 +691,42 @@ projects:
   github_id: ulissigroup/uncertainty_benchmarking
 - name: Automatminer
   category: general-tools
-  homepage: https://hackingmaterials.lbl.gov/automatminer/
+  # homepage: https://hackingmaterials.lbl.gov/automatminer/
+  license: https://github.com/hackingmaterials/automatminer/blob/main/LICENSE
   github_id: hackingmaterials/automatminer
   pypi_id: automatminer
 - name: Matminer
   category: general-tools
   homepage: https://hackingmaterials.github.io/matminer/
+  license: https://github.com/hackingmaterials/matminer/blob/main/LICENSE
   github_id: hackingmaterials/matminer
   pypi_id: matminer
   conda_id: conda-forge/matminer
 - name: JARVIS-Tools
   category: general-tools
-  docs_url: https://jarvis-tools.readthedocs.io/
+  # docs_url: https://jarvis-tools.readthedocs.io/
+  license: https://github.com/usnistgov/jarvis/blob/master/LICENSE.rst
   github_id: usnistgov/jarvis
-  gitlab_id:
   pypi_id: jarvis-tools
   conda_id: conda-forge/jarvis-tools
 - name: jarvis-tools-notebooks
   # resource: true
   category: educational
   # description: A Google-Colab Notebook Collection for Materials Design
+  license: "NIST"
   github_id: JARVIS-Materials-Design/jarvis-tools-notebooks
 - name: JARVIS-Leaderboard
   # resource: true
   category: datasets
   labels: ["benchmarking"]
   homepage: https://pages.nist.gov/jarvis_leaderboard/
+  license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
 - name: ALIGNN
   category: representation-learning
   # homepage: https://jarvis.nist.gov/login?next=/jalignn/
   github_id: usnistgov/alignn
+  license: https://github.com/usnistgov/alignn/blob/main/LICENSE.rst
   pypi_id: alignn
 - name: SNAP
   category: mlp
@@ -739,7 +758,9 @@ projects:
   pypi_id: dscribe
   conda_id: conda-forge/dscribe
 - name: milad
-  category: generative
+  category: representations
+  labels: ["generative"]
+  license: GPL-3.0
   github_id: muhrin/milad
 - name: e3psi
   category: ml-esm
@@ -762,8 +783,9 @@ projects:
   github_id: anthony-wang/BestPractices
 - name: QUIP
   category: general-tools
-  homepage: https://libatoms.github.io/
-  docs_url: http://libatoms.github.io/QUIP/
+  # homepage: https://libatoms.github.io/
+  # docs_url: http://libatoms.github.io/QUIP/
+  license: GPL-2.0
   github_id: libAtoms/QUIP
   pypi_id: quippy-ase
   dockerhub_id: libatomsquip/quip
@@ -771,8 +793,13 @@ projects:
   category: mlp
   description: Gaussian Approximation Potential (GAP)
   homepage: https://libatoms.github.io/
-  docs_url: https://libatoms.github.io/GAP
+  # docs_url: https://libatoms.github.io/GAP
+  license: https://github.com/libAtoms/GAP/blob/main/LICENSE.md
   github_id: libAtoms/GAP
+- name: chemrev-gpr
+  # resource: true
+  category: educational
+  github_id: gabor1/chemrev-gpr
 - name: testing-framework
   category: mlp
   description: "The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of systems (materials or molecules)."
@@ -781,6 +808,7 @@ projects:
 - name: q-pac
   category: ml-esm
   labels: ["electrostatics"]
+  license: "MIT"
   # description: "Kernel charge equilibration method."
   gitlab_id: jmargraf/kqeq
 - name: kdft
@@ -820,15 +848,16 @@ projects:
   github_id: MihailBogojeski/ml-dft
 - name: e3nn
   category: representation-learning
-  homepage: https://e3nn.org/
-  docs_url: https://docs.e3nn.org/
+  # homepage: https://e3nn.org/
+  # docs_url: https://docs.e3nn.org/
+  license: "MIT"
   github_id: e3nn/e3nn
   conda_id: conda-forge/e3nn
   pypi_id: e3nn
 - name: e3nn-jax
   category: representation-learning
   # homepage: https://e3nn.org/
-  docs_url: https://e3nn-jax.readthedocs.io/
+  # docs_url: https://e3nn-jax.readthedocs.io/
   github_id: e3nn/e3nn-jax
   pypi_id: e3nn-jax
 - name: Deep Graph Library (DGL)
@@ -850,7 +879,8 @@ projects:
   github_id: graphdeeplearning/benchmarking-gnns
 - name: DeepErwin
   category: ml-wft
-  docs_url: https://mdsunivie.github.io/deeperwin/
+  # docs_url: https://mdsunivie.github.io/deeperwin/
+  license: https://github.com/mdsunivie/deeperwin/blob/master/LICENSE
   github_id: mdsunivie/deeperwin
   pypi_id: deeperwin
 - name: Allegro
@@ -874,6 +904,7 @@ projects:
 - name: Visual Graph Datasets
   # resource: false
   category: datasets
+  license: "MIT"
   github_id: aimat-lab/visual_graph_datasets
 - name: ML4pXRDs
   resource:
@@ -885,11 +916,13 @@ projects:
   github_id: aimat-lab/MAChINE
 - name: "MEGAN: Multi Explanation Graph Attention Student"
   category: xai
+  license: "MIT"
   github_id: aimat-lab/graph_attention_student
 - name: 3DSC Database
   # resource: false
   category: datasets
   labels: ["superconductor", "materials-discovery"]
+  license: https://github.com/aimat-lab/3DSC/blob/main/LICENSE.md
   github_id: aimat-lab/3DSC
 - name: NNsforMD
   resource:
@@ -900,7 +933,8 @@ projects:
   category: mlp
   description: A package to train and validate all-to-all connected network models for BP[1] and modified-BP[2] type local atomic environment descriptors and atomic potentials.
   labels: ["benchmarking"]
-  docs_url: https://pannadevs.gitlab.io/pannadoc/
+  # docs_url: https://pannadevs.gitlab.io/pannadoc/
+  license: "MIT"
   gitlab_id: PANNAdevs/panna
 - name: OpenChem
   category: general-tools
@@ -986,6 +1020,7 @@ projects:
 - name: nlcc
   category: nlp
   labels: ["single-paper"]
+  license: "MIT"
   github_id: whitead/nlcc
   pypi_id: nlcc
 - name: SingleNN
@@ -1010,7 +1045,7 @@ projects:
   github_id: Teoroo-CMC/CCS
   pypi_id: ccs_fit
 - name: RuNNer
-  resource: true
+  # resource: true
   category: mlp
   description: "The RuNNer Neural Network Energy Representation is a Fortran-based framework for the construction of Behler-Parrinello-type high-dimensional neural network potentials."
   labels: ["Fortran"]
@@ -1051,7 +1086,8 @@ projects:
   github_id: deepchem/torchchem
 - name: JAXChem
   category: general-tools
-  docs_url: https://jaxchem.readthedocs.io/
+  # docs_url: https://jaxchem.readthedocs.io/
+  license: "MIT"
   github_id: deepchem/jaxchem
 - name: MoleculeNet Leaderboard
   # resource: true
@@ -1092,10 +1128,12 @@ projects:
 - name: "SE(3)-Transformers"
   category: representation-learning
   labels: ["single-paper"]
+  license: "MIT"
   github_id: FabianFuchsML/se3-transformer-public
 - name: "NVIDIA Deep Learning Examples for Tensor Cores"
   category: educational
   labels: ["drug-discovery"]
+  license: https://github.com/NVIDIA/DeepLearningExamples/blob/master/DGLPyTorch/DrugDiscovery/SE3Transformer/LICENSE
   github_id: NVIDIA/DeepLearningExamples
 - name: DeePMD-kit
   category: mlp
@@ -1127,7 +1165,7 @@ projects:
 - name: AI4Science101
   # resource: true
   category: educational
-  homepage: https://ai4science101.deepmodeling.com/
+  # homepage: https://ai4science101.deepmodeling.com/
   github_id: deepmodeling/AI4Science101
 - name: Uni-Fold
   category: biomolecules
@@ -1149,6 +1187,7 @@ projects:
 - name: "RDKit Tutorials"
   # resource: true
   category: educational
+  license: https://github.com/rdkit/rdkit-tutorials/blob/master/LICENSE
   github_id: rdkit/rdkit-tutorials
 - name: "Neural Force Field"
   category: mlp
@@ -1186,14 +1225,17 @@ projects:
 - name: GLAMOUR
   category: representation-learning
   labels: ["single-paper"]
+  license: "MIT"
   github_id: learningmatter-mit/GLAMOUR
 - name: DimeNet
   category: mlp
-  homepage: https://www.cs.cit.tum.de/daml/dimenet/
+  # homepage: https://www.cs.cit.tum.de/daml/dimenet/
+  license: https://github.com/gasteigerjo/dimenet/blob/master/LICENSE.md
   github_id: gasteigerjo/dimenet
 - name: GemNet
   category: mlp
-  homepage: https://www.cs.cit.tum.de/daml/gemnet/
+  # homepage: https://www.cs.cit.tum.de/daml/gemnet/
+  license: https://github.com/TUM-DAML/gemnet_pytorch/blob/master/LICENSE
   github_id: TUM-DAML/gemnet_pytorch
 - name: GDC
   category: representation-learning
@@ -1202,6 +1244,7 @@ projects:
 - name: "Graph Transport Network"
   category: representation-learning
   labels: ["transport"]
+  license: https://github.com/gasteigerjo/gtn/blob/main/LICENSE.md
   github_id: gasteigerjo/gtn
 - name: PyG Models
   resource: true
@@ -1213,7 +1256,8 @@ projects:
   description: "AGOX is a package for global optimization of atomic system using e.g. the energy
 calculated from density functional theory as the objective function."
   labels: ["structure-optimization"]
-  docs_url: https://agox.gitlab.io/agox/
+  # docs_url: https://agox.gitlab.io/agox/
+  license: "GPL-3.0"
   gitlab_id: agox/agox
   pypi_id: agox
 - name: gpax
@@ -1224,6 +1268,7 @@ calculated from density functional theory as the objective function."
   pypi_id: gpax
 - name: "Neural fingerprint (nfp)"
   category: representation-learning
+  license: https://github.com/NREL/nfp/blob/master/LICENSE
   github_id: NREL/nfp
 - name: "Applied AI for Materials"
   # resource: true
@@ -1239,7 +1284,8 @@ calculated from density functional theory as the objective function."
 - name: PyXtalFF
   resource:
   category: mlp
-  docs_url: https://pyxtal-ff.readthedocs.io/
+  # docs_url: https://pyxtal-ff.readthedocs.io/
+  license: "MIT"
   github_id: MaterSim/PyXtal_FF
   pypi_id: pyxtal_ff
 - name: OpenKIM
@@ -1328,6 +1374,7 @@ calculated from density functional theory as the objective function."
   description: "C++ Implementation of SISSO with python bindings"
   # homepage: https://doi.org/10.21105/joss.03960
   labels: ["C++"]
+  license: "Apache-2.0"
   gitlab_id: sissopp_developers/sissopp
 - name: SISSO
   category: representations
@@ -1336,6 +1383,7 @@ calculated from density functional theory as the objective function."
 - name: gprep
   category: ml-dft
   labels: ["single-paper"]
+  license: "MIT"
   gitlab_id: jmargraf/gprep
 - name: QDF for molecule
   category: ml-esm
@@ -1346,6 +1394,7 @@ calculated from density functional theory as the objective function."
   github_id: masashitsubaki/molecularGNN_smiles
 - name: graphite
   category: representation-learning
+  license: "MIT"
   github_id: llnl/graphite
 - name: DeepH-pack
   category: ml-dft
@@ -1387,6 +1436,7 @@ calculated from density functional theory as the objective function."
   description: "MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP)"
   labels: ["C++"]
   # homepage: https://doi.org/10.48550/arXiv.2304.13144
+  license: "BSD-2-Clause"
   gitlab_id: ashapeev/mlip-3
 - name: interface-lammps-mlip-3
   category: mlp
@@ -1407,16 +1457,19 @@ calculated from density functional theory as the objective function."
 - name: ALF
   category: mlp
   labels: ["active-learning"]
+  license: https://github.com/lanl/ALF/blob/main/LICENSE
   github_id: lanl/alf
 - name: hippynn
   category: representation-learning
   labels: ["workflows"]
+  license: https://github.com/lanl/hippynn/blob/main/LICENSE.txt
   docs_url: https://lanl.github.io/hippynn/
   github_id: lanl/hippynn
 - name: "Point Edge Transformer"
   category: representation-learning
   description: "Smooth, exact rotational symmetrization for deep learning on point clouds"
   homepage: https://zenodo.org/record/7967079
+  license: "CC-BY-4.0"
   # docs_url: https://arxiv.org/abs/2305.19302
 - name: DeepQMC
   category: ml-wft
