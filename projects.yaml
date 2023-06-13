@@ -500,7 +500,7 @@ projects:
   category: representations
   # category: general-tools
   description: Amp is an open-source package designed to easily bring machine-learning to atomistic calculations.
-  # homepage: https://bitbucket.org/andrewpeterson/amp/
+  homepage: https://bitbucket.org/andrewpeterson/amp/
   docs_url: https://amp.readthedocs.io/
   pypi_id: amp-atomistics
 - name: AMPtorch
@@ -1051,6 +1051,7 @@ projects:
   labels: ["Fortran"]
   homepage: https://www.uni-goettingen.de/de/560580.html
   docs_url: https://theochemgoettingen.gitlab.io/RuNNer/
+  license: "GPL-3.0"
 - name: "charge_transfer_nnp"
   category: representation-learning
   labels: ["electrostatics"]
@@ -1350,7 +1351,7 @@ calculated from density functional theory as the objective function."
 - name: "Descriptor Embedding and Clustering for Atomisitic-environment Framework (DECAF)"
   category: unsupervised
   description: "Provides a workflow to obtain clustering of local environments in dataset of structures."
-  # homepage: https://gitlab.mpcdf.mpg.de/klai/decaf
+  homepage: https://gitlab.mpcdf.mpg.de/klai/decaf
   # manual metrics as of 2023-06-12
   star_count: 2
   commit_count: 41
@@ -1497,6 +1498,7 @@ calculated from density functional theory as the objective function."
 - name: Cormorant
   category: representation-learning
   # homepage: https://doi.org/10.48550/arXiv.1906.04015
+  license: https://github.com/risilab/cormorant/blob/master/LICENSE
   github_id: risilab/cormorant
 - name: SphericalNet
   category: representation-learning
