@@ -112,7 +112,7 @@ categories:
     subtitle: "Projects that focus on visualization for atomistic ML."
   - category: "ml-wft"
     title: "Wavefunction methods (ML-WFT)"
-    subtitle: "Projects and models that focus on quantities of wavefunction electronic structure methods, such as Monte Carlo techniques, MO theory methods, etc."
+    subtitle: "Projects and models that focus on quantities of wavefunction electronic structure methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), MO theory methods, etc."
 
 labels:
   - label: "Python"
@@ -1414,3 +1414,25 @@ calculated from density functional theory as the objective function."
   description: "Smooth, exact rotational symmetrization for deep learning on point clouds"
   homepage: https://zenodo.org/record/7967079
   # docs_url: https://arxiv.org/abs/2305.19302
+- name: DeepQMC
+  category: ml-wft
+  github_id: deepqmc/deepqmc
+  homepage: https://deepqmc.github.io/
+  docs_url: https://deepqmc.github.io/
+  pypi_id: deepqmc
+- name: DM21
+  category: ml-dft
+  description: "This package provides a PySCF interface to the DM21 (DeepMind 21) family of exchange-correlation functionals described in the paper 'Pushing the Frontiers of Density Functionals by Solving the Fractional Electron Problem'."
+  homepage: https://github.com/deepmind/deepmind-research/tree/master/density_functional_approximation_dm21
+  github_id: deepmind/deepmind-research
+- name: FermiNet
+  category: ml-wft
+  github_id: deepmind/ferminet
+- name: AlphaFold
+  category: biomolecules
+  github_id: deepmind/alphafold
+- name: KFAC-JAX
+  category: math
+  docs_url: https://kfac-jax.readthedocs.io/
+  github_id: deepmind/alphafold
+  pypi_id: kfac-jax
