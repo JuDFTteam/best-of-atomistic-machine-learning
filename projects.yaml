@@ -13,6 +13,7 @@ configuration:
   max_trending_projects: 5
   allowed_licenses: ["all"]
   require_license: false
+  hide_license_risk: true
   require_repo: false
   max_description_length: 300
   min_projectrank: 5
