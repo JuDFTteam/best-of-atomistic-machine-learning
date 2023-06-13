@@ -1440,3 +1440,23 @@ calculated from density functional theory as the objective function."
   docs_url: https://kfac-jax.readthedocs.io/
   github_id: deepmind/alphafold
   pypi_id: kfac-jax
+- name: Cormorant
+  category: representation-learning
+  # homepage: https://doi.org/10.48550/arXiv.1906.04015
+  github_id: risilab/cormorant
+  pypi_id: cormorant
+- name: SphericalNet
+  category: representation-learning
+  github_id: risilab/SphericalNet
+- name: Autobahn
+  category: representation-learning
+  github_id: risilab/Autobahn
+- name: GElib
+  category: math
+  labels: ["C++"]
+  docs_url: https://risi-kondor.github.io/GElib/
+  github_id: risi-kondor/GElib
+- name: cnine
+  category: math
+  labels: ["C++"]
+  docs_url: https://risi-kondor.github.io/cnine/
