@@ -266,7 +266,7 @@ projects:
   # group: ACE
   description: Atomic Cluster Expansion (ACE) community homepage.
 - name: PACE
-  category: mlp
+  category: md
   description: "The LAMMPS MLP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
   # homepage: https://cortner.github.io/ACEweb/software/
   # docs_url: https://docs.lammps.org/pair_pace.html
@@ -293,7 +293,7 @@ projects:
   category: mlp
   labels: ["Julia"]
   homepage: https://acesuit.github.io/
-  docs_url: https://acesuit.github.io/ACE1pack.jl
+  # docs_url: https://acesuit.github.io/ACE1pack.jl
   license: https://github.com/ACEsuit/ACE1.jl/blob/main/ASL.md
   # group_id: ACE
   github_id: ACEsuit/ACE1.jl
@@ -377,7 +377,7 @@ projects:
 - name: cmlkit
   category: representation-engineering
   labels: ["benchmarking"]
-  homepage: https://marcel.science/repbench/
+  # homepage: https://marcel.science/repbench/
   github_id: sirmarcel/cmlkit
   pypi_id: cmlkit
 - name: glp
@@ -391,17 +391,17 @@ projects:
   category: general-tools
   description:
   labels: ["scikit-learn"]
-  docs_url: https://scikit-matter.readthedocs.io
+  # docs_url: https://scikit-matter.readthedocs.io
   github_id: scikit-learn-contrib/scikit-matter
   pypi_id: skmatter
   conda_id: conda-forge/skmatter
 - name: Equisolve
   category: math
-  docs_url: https://lab-cosmo.github.io/equisolve
+  # docs_url: https://lab-cosmo.github.io/equisolve
   github_id: lab-cosmo/equisolve
 - name: Equistore
   category: data-structures
-  docs_url: https://lab-cosmo.github.io/equistore
+  # docs_url: https://lab-cosmo.github.io/equistore
   github_id: lab-cosmo/equistore
 - name: Sketchmap
   label: ["C++"]
@@ -415,31 +415,31 @@ projects:
 - name: Rascaline
   category: representations
   labels: ["Rust, C++"]
-  docs_url: https://luthaf.fr/rascaline/
+  # docs_url: https://luthaf.fr/rascaline/
   github_id: Luthaf/rascaline
 - name: Librascal
   category: representations
-  docs_url: https://lab-cosmo.github.io/librascal/
+  # docs_url: https://lab-cosmo.github.io/librascal/
   github_id: lab-cosmo/librascal
 - name: NICE
   category: representations
   description: NICE (N-body Iteratively Contracted Equivariants) is a set of tools designed for the calculation of invariant and covariant atomic structure representations.
-  docs_url: https://lab-cosmo.github.io/nice/
+  # docs_url: https://lab-cosmo.github.io/nice/
   github_id: lab-cosmo/nice
 - name: SpheriCart
   category: math
-  docs_url: https://sphericart.readthedocs.io/
+  # docs_url: https://sphericart.readthedocs.io/
   github_id: lab-cosmo/sphericart
   pypi_id: sphericart
 - name: COSMO Software Cookbook
   category: educational
-  docs_url: https://software-cookbook.rtfd.io/
+  # docs_url: https://software-cookbook.rtfd.io/
   github_id: lab-cosmo/software-cookbook
 - name: Chemiscope
   category: visualization
   labels: ["JavaScript"]
-  homepage: https://chemiscope.org/
-  docs_url: https://chemiscope.org/docs/
+  # homepage: https://chemiscope.org/
+  # docs_url: https://chemiscope.org/docs/
   github_id: lab-cosmo/chemiscope
   npm_id: chemiscope
 - name: pyLODE
@@ -479,7 +479,7 @@ projects:
   pypi_id: m3gnet
 - name: MAML
   category: general-tools
-  homepage: https://materialsvirtuallab.github.io/maml/
+  # homepage: https://materialsvirtuallab.github.io/maml/
   github_id: materialsvirtuallab/maml
   pypi_id: maml
 - name: "Crystal Graph Convolutional Neural Networks (CGCNN)"
@@ -505,11 +505,11 @@ projects:
   pypi_id: amp-atomistics
 - name: AMPtorch
   category: general-tools
-  docs_url: https://amptorch.readthedocs.io/
+  # docs_url: https://amptorch.readthedocs.io/
   github_id: ulissigroup/amptorch
 - name: ASAP
   category: unsupervised
-  docs_url: https://bingqingcheng.github.io/
+  # docs_url: https://bingqingcheng.github.io/
   github_id: BingqingCheng/ASAP
 - name: charge-density-models
   resource:
@@ -560,7 +560,7 @@ projects:
 - name: sGDML
   category: mlp
   # homepage: http://sgdml.org/
-  docs_url: http://docs.sgdml.org/
+  # docs_url: http://docs.sgdml.org/
   github_id: stefanch/sGDML
   pypi_id: sgdml
 - name: sGDML Datasets
@@ -697,7 +697,7 @@ projects:
   pypi_id: automatminer
 - name: Matminer
   category: general-tools
-  homepage: https://hackingmaterials.github.io/matminer/
+  # homepage: https://hackingmaterials.github.io/matminer/
   license: https://github.com/hackingmaterials/matminer/blob/main/LICENSE
   github_id: hackingmaterials/matminer
   pypi_id: matminer
@@ -716,7 +716,7 @@ projects:
   license: "NIST"
   github_id: JARVIS-Materials-Design/jarvis-tools-notebooks
 - name: JARVIS-Leaderboard
-  # resource: true
+  resource: true
   category: datasets
   labels: ["benchmarking"]
   homepage: https://pages.nist.gov/jarvis_leaderboard/
@@ -733,7 +733,7 @@ projects:
   github_id: materialsvirtuallab/snap
 - name: XenonPy
   category: general-tools
-  docs_url: https://xenonpy.readthedocs.io/
+  # docs_url: https://xenonpy.readthedocs.io/
   github_id: yoshida-lab/XenonPy
   pypi_id: xenonpy
 - name: Magpie
@@ -744,7 +744,7 @@ projects:
   license: MIT
 - name: QML
   category: general-tools
-  homepage: http://www.qmlcode.org/
+  # homepage: http://www.qmlcode.org/
   github_id: qmlcode/qml
   pypi_id: qml
 - name: CBFV
@@ -753,7 +753,7 @@ projects:
   pypi_id: CBFV
 - name: DScribe
   category: representations
-  docs_url: https://singroup.github.io/dscribe/
+  # docs_url: https://singroup.github.io/dscribe/
   github_id: SINGROUP/dscribe
   pypi_id: dscribe
   conda_id: conda-forge/dscribe
@@ -774,7 +774,7 @@ projects:
   github_id: andreagrisafi/SALTED
 - name: Compositionally-Restricted Attention-Based Network (CrabNet)
   category: representation-learning
-  docs_url: https://crabnet.readthedocs.io/
+  # docs_url: https://crabnet.readthedocs.io/
   github_id: sparks-baird/CrabNet
   pypi_id: crabnet
 - name: BestPractices
@@ -828,20 +828,20 @@ projects:
   homepage: https://www.catalysis-hub.org/
 - name: FLARE
   category: general-tools
-  docs_url: https://mir-group.github.io/flare/
+  # docs_url: https://mir-group.github.io/flare/
   github_id: mir-group/flare
 - name: flare++
   category: general-tools
   labels: ["C++", "active-learning"]
-  docs_url: https://mir-group.github.io/flare_pp
+  # docs_url: https://mir-group.github.io/flare_pp
   github_id: mir-group/flare_pp
   pypi_id: flare_pp
 - name: BOSS
   category: materials-discovery
   description: "Bayesian Optimization Structure Search (BOSS)"
   labels: ["probabilistic"]
-  docs_url: https://cest-group.gitlab.io/boss/
-  github_id: cest-group/boss
+  # docs_url: https://cest-group.gitlab.io/boss/
+  gitlab_id: cest-group/boss
   pypi_id: aalto-boss
 - name: ML-DFT
   category: ml-dft
@@ -862,15 +862,15 @@ projects:
   pypi_id: e3nn-jax
 - name: Deep Graph Library (DGL)
   category: representation-learning
-  homepage: https://www.dgl.ai/
-  docs_url: https://docs.dgl.ai/
+  # homepage: https://www.dgl.ai/
+  # docs_url: https://docs.dgl.ai/
   github_id: dmlc/dgl
   pypi_id: dgl
   conda_id: dglteam/dgl
 - name: dgl-lifesci
   resource:
   category: representation-learning
-  docs_url: https://lifesci.dgl.ai
+  # docs_url: https://lifesci.dgl.ai
   github_id: awslabs/dgl-lifesci
   pypi_id: dgllife
 - name:  benchmarking-gnns
@@ -898,7 +898,7 @@ projects:
   homepage: https://matterverse.ai/
 - name: kgcnn
   category: representation-learning
-  docs_url: https://kgcnn.readthedocs.io/
+  # docs_url: https://kgcnn.readthedocs.io/
   github_id: aimat-lab/gcnn_keras
   pypi_id: kgcnn
 - name: Visual Graph Datasets
@@ -938,7 +938,7 @@ projects:
   gitlab_id: PANNAdevs/panna
 - name: OpenChem
   category: general-tools
-  docs_url: https://mariewelt.github.io/OpenChem/
+  # docs_url: https://mariewelt.github.io/OpenChem/
   github_id: Mariewelt/OpenChem
 - name: ReLeaSE
   category: reinforcement-learning
@@ -948,7 +948,7 @@ projects:
   resource:
   category: ml-dft
   labels: ["C++", "Fortran"]
-  docs_url: https://libnxc.readthedocs.io/
+  # docs_url: https://libnxc.readthedocs.io/
   github_id: semodi/libnxc/
 - name: NeuralXC
   category: ml-dft
@@ -966,7 +966,7 @@ projects:
   github_id: aiqm/ANI1x_datasets
 - name: TorchANI
   category: mlp
-  docs_url: https://aiqm.github.io/torchani/
+  # docs_url: https://aiqm.github.io/torchani/
   github_id: aiqm/torchani
   pypi_id: torchani
   conda_id: conda-forge/torchani
@@ -980,7 +980,7 @@ projects:
   github_id: isayev/COMP6
 - name: MALA
   category: ml-dft
-  docs_url: https://mala-project.github.io/mala/
+  # docs_url: https://mala-project.github.io/mala/
   github_id: mala-project/mala
 - name: MALADA
   category: ml-dft
@@ -1030,7 +1030,7 @@ projects:
   github_id: lmj1029123/SingleNN
 - name: PiNN
   category: mlp
-  docs_url: https://teoroo-cmc.github.io/PiNN
+  # docs_url: https://teoroo-cmc.github.io/PiNN
   github_id: Teoroo-CMC/PiNN
   dockerhub_id: teoroo/pinn
 - name: PiNN Lab
@@ -1057,21 +1057,21 @@ projects:
   github_id: pfnet-research/charge_transfer_nnp
 - name: SIMPLE-NN
   category: mlp
-  docs_url: https://simple-nn-v2.readthedocs.io/
+  # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN
 - name: "SIMPLE-NN v2"
   category: mlp
-  docs_url: https://simple-nn-v2.readthedocs.io/
+  # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN_v2
 - name: SPINNER
   category: materials-discovery
   labels: ["C++", "structure-prediction"]
-  docs_url: https://spinner-csp.readthedocs.io/
+  # docs_url: https://spinner-csp.readthedocs.io/
   github_id: MDIL-SNU/SPINNER
 - name: DeepChem
   category: general-tools
-  homepage: https://deepchem.io/
-  docs_url: https://deepchem.readthedocs.io/
+  # homepage: https://deepchem.io/
+  # docs_url: https://deepchem.readthedocs.io/
   github_id: deepchem/deepchem
   pypi_id: deepchem
   conda_id: conda-forge/deepchem
@@ -1101,7 +1101,7 @@ projects:
   github_id: deepchem/DeepLearningLifeSciences
 - name: DADApy
   category: unsupervised
-  docs_url: https://dadapy.readthedocs.io/
+  # docs_url: https://dadapy.readthedocs.io/
   github_id: sissa-data-science/DADApy
   pypi_id: dadapy
 - name: "CSPML (crystal structure prediction with machine learning-based element substitution)"
@@ -1115,7 +1115,7 @@ projects:
   resource:
   category: mlp
   labels: ["C++"]
-  docs_url: https://compphysvienna.github.io/n2p2/
+  # docs_url: https://compphysvienna.github.io/n2p2/
   github_id: CompPhysVienna/n2p2
 - name: "Machine Learning for Materials Hard and Soft"
   # resource: true
@@ -1138,7 +1138,7 @@ projects:
 - name: DeePMD-kit
   category: mlp
   labels: ["C++"]
-  docs_url: https://docs.deepmodeling.com/projects/deepmd/
+  # docs_url: https://docs.deepmodeling.com/projects/deepmd/
   github_id: deepmodeling/deepmd-kit
   pypi_id: deepmd-kit
   conda_id: deepmodeling/deepmd-kit
@@ -1146,13 +1146,13 @@ projects:
 - name: DP-GEN
   category: mlp
   labels: ["workflows"]
-  docs_url: https://docs.deepmodeling.com/projects/dpgen/
+  # docs_url: https://docs.deepmodeling.com/projects/dpgen/
   github_id: deepmodeling/dpgen
   pypi_id: dpgen
   conda_id: deepmodeling/dpgen
 - name: dpdata
   category: data-structures
-  docs_url: https://docs.deepmodeling.com/projects/dpdata/
+  # docs_url: https://docs.deepmodeling.com/projects/dpdata/
   github_id: deepmodeling/dpdata
   pypi_id: dpdata
   conda_id: deepmodeling/dpdata
@@ -1179,8 +1179,8 @@ projects:
   category: general-tools
   description:
   labels: ["C++"]
-  homepage: https://www.rdkit.org/
-  docs_url: https://www.rdkit.org/docs/
+  # homepage: https://www.rdkit.org/
+  # docs_url: https://www.rdkit.org/docs/
   github_id: rdkit/rdkit
   pypi_id: rdkit
   conda_id: rdkit/rdkit
@@ -1263,7 +1263,7 @@ calculated from density functional theory as the objective function."
 - name: gpax
   category: math
   labels: ["probabilistic", "active-learning"]
-  docs_url: https://gpax.readthedocs.io/
+  # docs_url: http://gpax.rtfd.io/
   github_id: ziatdinovmax/gpax
   pypi_id: gpax
 - name: "Neural fingerprint (nfp)"
@@ -1277,7 +1277,7 @@ calculated from density functional theory as the objective function."
 - name: KLIFF
   category: mlp
   labels: ["probabilistic", "workflows"]
-  docs_url: https://kliff.readthedocs.io/
+  # docs_url: https://kliff.readthedocs.io/
   github_id: openkim/kliff
   pypi_id: kliff
   conda_id: conda-forge/kliff
@@ -1290,10 +1290,10 @@ calculated from density functional theory as the objective function."
   pypi_id: pyxtal_ff
 - name: OpenKIM
   resource:
-  category: mlp
-  labels: ["knowledgebase"]
+  category: datasets
+  labels: ["knowledgebase", "pretrained"]
   homepage: https://openkim.org/
-  docs_url: https://kim-api.readthedocs.io/
+  # docs_url: https://kim-api.readthedocs.io/
   github_id: openkim/kim-api
 - name: MLatom
   category: general-tools
@@ -1356,8 +1356,8 @@ calculated from density functional theory as the objective function."
   commit_count: 41
   contributor_count: 2
 - name: FitSNAP
-  category: mlp
-  docs_url: https://fitsnap.github.io/
+  category: md
+  # docs_url: https://fitsnap.github.io/
   github_id: FitSNAP/FitSNAP
   conda_id: conda-forge/fitsnap3
 - name: CGAT
@@ -1399,7 +1399,7 @@ calculated from density functional theory as the objective function."
 - name: DeepH-pack
   category: ml-dft
   labels: ["Julia"]
-  docs_url: https://deeph-pack.deepmodeling.com/
+  # docs_url: https://deeph-pack.deepmodeling.com/
   github_id: mzjb/DeepH-pack
 - name: xDeepH
   category: ml-dft
@@ -1415,7 +1415,7 @@ calculated from density functional theory as the objective function."
   github_id: foxjas/CSNN
 - name: "Ultra-Fast Force Fields (UF3)"
   category: mlp
-  docs_url: https://uf3.readthedocs.io/
+  # docs_url: https://uf3.readthedocs.io/
   github_id: uf3/uf3
   pypi_id: uf3
 - name: exmol
@@ -1425,7 +1425,7 @@ calculated from density functional theory as the objective function."
 - name: gptchem
   category: nlp
   description: "Use GPT-3 to solve chemistry problems."
-  docs_url: https://gptchem.readthedocs.io/
+  # docs_url: https://gptchem.readthedocs.io/
   github_id: kjappelbaum/gptchem
   pypi_id: gptchem
 - name: Equiformer
@@ -1439,9 +1439,10 @@ calculated from density functional theory as the objective function."
   license: "BSD-2-Clause"
   gitlab_id: ashapeev/mlip-3
 - name: interface-lammps-mlip-3
-  category: mlp
+  category: md
   description: "An interface between LAMMPS and MLIP (version 3)."
-  gitlab_id: ivannovikov/interface-lammps-mlip-3/
+  license: "GPL-2.0"
+  gitlab_id: ivannovikov/interface-lammps-mlip-3
 - name: MLDensity
   category: ml-dft
   description: "Linear Jacobi-Legendre expansion of the charge density for machine learning-accelerated electronic structure calculations"
@@ -1463,7 +1464,7 @@ calculated from density functional theory as the objective function."
   category: representation-learning
   labels: ["workflows"]
   license: https://github.com/lanl/hippynn/blob/main/LICENSE.txt
-  docs_url: https://lanl.github.io/hippynn/
+  # docs_url: https://lanl.github.io/hippynn/
   github_id: lanl/hippynn
 - name: "Point Edge Transformer"
   category: representation-learning
@@ -1473,9 +1474,9 @@ calculated from density functional theory as the objective function."
   # docs_url: https://arxiv.org/abs/2305.19302
 - name: DeepQMC
   category: ml-wft
+  # homepage: https://deepqmc.github.io/
+  # docs_url: https://deepqmc.github.io/
   github_id: deepqmc/deepqmc
-  homepage: https://deepqmc.github.io/
-  docs_url: https://deepqmc.github.io/
   pypi_id: deepqmc
 - name: DM21
   category: ml-dft
@@ -1490,14 +1491,13 @@ calculated from density functional theory as the objective function."
   github_id: deepmind/alphafold
 - name: KFAC-JAX
   category: math
-  docs_url: https://kfac-jax.readthedocs.io/
+  # docs_url: https://kfac-jax.readthedocs.io/
   github_id: deepmind/kfac-jax
   pypi_id: kfac-jax
 - name: Cormorant
   category: representation-learning
   # homepage: https://doi.org/10.48550/arXiv.1906.04015
   github_id: risilab/cormorant
-  pypi_id: cormorant
 - name: SphericalNet
   category: representation-learning
   github_id: risilab/SphericalNet
@@ -1507,9 +1507,10 @@ calculated from density functional theory as the objective function."
 - name: GElib
   category: math
   labels: ["C++"]
-  docs_url: https://risi-kondor.github.io/GElib/
+  # docs_url: https://risi-kondor.github.io/GElib/
   github_id: risi-kondor/GElib
 - name: cnine
   category: math
   labels: ["C++"]
   docs_url: https://risi-kondor.github.io/cnine/
+  github_id: risi-kondor/cnine
