@@ -215,7 +215,7 @@ labels:
     name: "🪞"
     # name: "&#x1FA9E;"
     description: "Surface science"
-  - label: "transport-phenomena"
+  - label: "transport"
     name: "🔥"
     # name: "&#x1F525;"
     description: "Transport phenomena"
@@ -375,7 +375,7 @@ projects:
   github_id: sirmarcel/glp
 - name: "gkx: Green-Kubo Method in JAX"
   category: representation-learning
-  labels: ["transport-phenomena"]
+  labels: ["transport"]
   github_id: sirmarcel/gkx
 - name: Scikit-Matter
   category: general-tools
@@ -1201,7 +1201,7 @@ projects:
   github_id: gasteigerjo/gdc
 - name: "Graph Transport Network"
   category: representation-learning
-  labels: ["transport-phenomena"]
+  labels: ["transport"]
   github_id: gasteigerjo/gtn
 - name: PyG Models
   resource: true
@@ -1438,7 +1438,7 @@ calculated from density functional theory as the objective function."
 - name: KFAC-JAX
   category: math
   docs_url: https://kfac-jax.readthedocs.io/
-  github_id: deepmind/alphafold
+  github_id: deepmind/kfac-jax
   pypi_id: kfac-jax
 - name: Cormorant
   category: representation-learning
