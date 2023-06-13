@@ -355,7 +355,8 @@ projects:
 - name: ACEHAL
   category: active-learning
   description: Hyperactive Learning (HAL) Python interface for building Atomic Cluster Expansion potentials
-  labels: ["Julia", "active-learning"]
+  labels: ["Julia"]
+  # labels: ["Julia", "active-learning"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEHAL
@@ -653,7 +654,7 @@ projects:
   pypi_id: jax-md
 - name: Finetuna
   category: active-learning
-  labels: ["active-learning"]
+  # labels: ["active-learning"]
   github_id: ulissigroup/finetuna
 - name: Pretrained OCP models
   resource: true
