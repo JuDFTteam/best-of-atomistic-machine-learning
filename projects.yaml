@@ -177,8 +177,9 @@ labels:
     name: "probabilistic"
     description: "Probabilistic methods: Bayesian, Gaussian processes, adversarial attacks, uncertainty quantification (UQ)"
   - label: "qml"
-    name: "⚛️"
+    # name: "⚛️"
     # image: &#x269B;&#xFE0F;
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/ed7afb594ccb8383fd15884dbe0d0ef65f6d450b/config/images/qml.svg"
     description: "Quantum machine learning (QML)"
   - label: "recommender"
     name: "recommender"
