@@ -179,7 +179,7 @@ labels:
   - label: "qml"
     # name: "⚛️"
     # image: &#x269B;&#xFE0F;
-    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/ed7afb594ccb8383fd15884dbe0d0ef65f6d450b/config/images/qml.svg"
+    image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/41f7ffd05113cbaacae1ea22b02844c54cd7fca3/config/images/qml.ico"
     description: "Quantum machine learning (QML)"
   - label: "recommender"
     name: "recommender"
