@@ -258,6 +258,10 @@ labels:
     # name: "&#x1FA7B;"
     description: "X-ray diffraction"
     url: "https://en.wikipedia.org/wiki/X-ray_crystallography"
+  - label: "scikit-learn"
+    name: "scikit-learn"
+    description: "Heavily integrates with or extends scikit-learn"
+
 
 projects:
   # # example.
