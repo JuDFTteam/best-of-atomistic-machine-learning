@@ -655,7 +655,7 @@ _Projects that implement generative models for atomistic ML._
 	git clone https://github.com/atomistic-machine-learning/schnetpack-gschnet
 	```
 </details>
-<details><summary><b><a href="https://github.com/tsudalab/bVAE-IM">bVAE-IM</a></b> (🥉9 ·  ⭐ 8 · 🐣) - Implementation of Chemical Design with GPU-based Ising Machine. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/41f7ffd05113cbaacae1ea22b02844c54cd7fca3/config/images/qml.ico" style="display:inline;" width="13" height="13"></code> <code>single-paper</code></summary>
+<details><summary><b><a href="https://github.com/tsudalab/bVAE-IM">bVAE-IM</a></b> (🥉9 ·  ⭐ 8 · 🐣) - Implementation of Chemical Design with GPU-based Ising Machine. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/41f7ffd05113cbaacae1ea22b02844c54cd7fca3/config/images/qml.ico" style="display:inline;" width="13" height="13">qml</code> <code>single-paper</code></summary>
 
 - [GitHub](https://github.com/tsudalab/bVAE-IM) (🔀 2 · ⏱️ 11.07.2023):
 
@@ -1283,7 +1283,7 @@ _General models that use hand-crafted representations, aka feature engineering._
 	pip install catlearn
 	```
 </details>
-<details><summary><b><a href="https://github.com/capoe/benchml">BenchML</a></b> (🥉8 ·  ⭐ 13 · 📉) - ML benchmarking and pipeling framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>benchmarking</code></summary>
+<details><summary><b><a href="https://github.com/capoe/benchml">BenchML</a></b> (🥉8 ·  ⭐ 13) - ML benchmarking and pipeling framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>benchmarking</code></summary>
 
 - [GitHub](https://github.com/capoe/benchml) (👨‍💻 9 · 🔀 2 · 📋 13 - 23% open · ⏱️ 24.05.2023):
 
