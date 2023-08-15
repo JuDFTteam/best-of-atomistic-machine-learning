@@ -32,6 +32,8 @@ configuration:
   markdown_footer_file: "config/footer.md"
   projects_history_folder: "history"
 
+# ################################################################################
+# ################################################################################
 categories:
   # # categories example.
   # - category: "data-engineering"
@@ -69,15 +71,15 @@ categories:
   - category: "ml-esm"
     title: "Electronic structure methods (ML-ESM)"
     subtitle: "Projects and models that focus on quantities of electronic structure methods, which do not fit into either of the categories ML-WFT or ML-DFT."
-  - category: "general-tools"
+  - category: "general-tool"
     title: "General Tools"
     subtitle: "General tools for atomistic machine learning."
   - category: "generative"
     title: "Generative Models"
     subtitle: "Projects that implement generative models for atomistic ML."
-  - category: "mlp"
-    title: "Machine Learning Potentials (MLP)"
-    subtitle: "Machine Learning Potentials (aka MLP, MLIP, MLIAP) and force fields (ML-FF) for molecular dynamics."
+  - category: "mliap"
+    title: "Machine Learning Potentials (MLIAP)"
+    subtitle: "Machine Learning Potentials (aka MLIAP, less unambiguous MLIP, MLP) and force fields (ML-FF) for molecular dynamics."
   - category: "materials-discovery"
     title: "Materials Discovery"
     subtitle: "Projects that implement materials discovery methods using atomistic ML."
@@ -96,26 +98,123 @@ categories:
   - category: "reinforcement-learning"
     title: "Reinforcement Learning"
     subtitle: "Projects that focus on reinforcement learning for atomistic ML."
-  - category: "representation-engineering"
+  - category: "rep-eng"
     title: "Representation Engineering Models"
-    subtitle: "General models that use hand-crafted representations, aka feature engineering."
-  - category: "representation-learning"
+    subtitle: "General models that use hand-crafted representations or features, aka feature engineering."
+  - category: "rep-learn"
     title: "Representation Learning Models"
-    subtitle: "General models that learn an embedding, such as message-passing neural networks (MPNN)."
+    subtitle: "General models that learn a representation or embedding, such as message-passing neural networks (MPNN)."
   - category: "representations"
     title: "Representations"
-    subtitle: "Projects that offer implementations of representations, descriptors, fingerprints of atomistic systems."
+    subtitle: "Projects that offer implementations of representations aka descriptors, fingerprints of atomistic systems."
   - category: "unsupervised"
     title: "Unsupervised Learning"
-    subtitle: "Projects that focus on unsupervised learning for atomistic ML, such as dimensionality reduction, clustering and visualization."
+    subtitle: "Projects that focus on unsupervised learning (USL) for atomistic ML, such as dimensionality reduction, clustering and visualization."
   - category: "visualization"
     title: "Visualization"
-    subtitle: "Projects that focus on visualization for atomistic ML."
+    subtitle: "Projects that focus on visualization (viz.) for atomistic ML."
   - category: "ml-wft"
     title: "Wavefunction methods (ML-WFT)"
     subtitle: "Projects and models that focus on quantities of wavefunction electronic structure methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), MO theory methods, etc."
 
+# ################################################################################
+# ################################################################################
 labels:
+  # Label sections: Category duplicate, Programming - specific, Project - specific, ML - specific, Atomistic Simulation - specific.
+  # ########################################
+  # Category duplicate labels
+  # ########################################
+  - label: "active-learning"
+    # category: "active-learning"
+    name: "active-learning"
+    url: "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"
+  - label: "biomolecules"
+    # category: "biomolecules"
+    name: "biomolecules"
+    # name: "🧬"
+    # name: "&#x1F9EC;"
+    url: "https://en.wikipedia.org/wiki/Biomolecule"
+  - label: "community"
+    # category: "community"
+    name: "community-resource"
+  - label: "datasets"
+    # category: "datasets"
+    name: "datasets"
+  - label: "data-structures"
+    # category: "data-structures"
+    name: "data-structures"
+  - label: "ml-dft"
+    # category: "ml-dft"
+    name: "ML-DFT"
+  - label: "educational"
+    # category: "educational"
+    name: "educational"
+  - label: "xai"
+    # category: "xai"
+    name: "XAI"
+    url: "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+  - label: "ml-esm"
+    # category: "ml-esm"
+    name: "ML-ESM"
+  - label: "general-tool"
+    # category: "general-tool"
+    name: "general-tool"
+  - label: "generative"
+    # category: "generative"
+    name: "generative"
+  - label: "mliap"
+    # category: "mliap"
+    name: "MLIAP"
+  - label: "materials-discovery"
+    # category: "materials-discovery"
+    name: "materials-discovery"
+    url: "https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"
+  - label: "math"
+    # category: "math"
+    name: "math"
+  - label: "md"
+    # category: "md"
+    name: "MD"
+    url: "https://en.wikipedia.org/wiki/Molecular_dynamics"
+  - label: "nlp"
+    # category: "nlp"
+    name: "NLP"
+    url: "https://en.wikipedia.org/wiki/Natural_language_processing"
+  - label: "probabilistic"
+    # category: "probabilistic"
+    name: "probabilistic"
+    description: "Probabilistic methods: Bayesian, Gaussian processes, adversarial attacks, uncertainty quantification (UQ)"
+    # # note: UQ has both probabilistic and non-probabilistic approaches. maybe split off into separate label.
+  - label: "reinforcement-learning"
+    # category: "reinforcement-learning"
+    name: "RL"
+    url: "https://en.wikipedia.org/wiki/Reinforcement_learning"
+  - label: "rep-eng"
+    # category: "rep-eng"
+    name: "rep-eng"
+    url: "https://en.wikipedia.org/wiki/Feature_engineering"
+  - label: "rep-learn"
+    # category: "rep-learn"
+    name: "rep-learn"
+    url: "https://en.wikipedia.org/wiki/Feature_learning"
+  - label: "representations"
+    # category: "representations"
+    name: "reps"
+    url: "https://www.nature.com/articles/s41524-022-00721-x/tables/4"
+  - label: "unsupervised"
+    # category: "unsupervised"
+    name: "USL"
+    url: "https://en.wikipedia.org/wiki/Unsupervised_learning"
+  - label: "visualization"
+    # category: "visualization"
+    name: "viz"
+    url: "https://en.wikipedia.org/wiki/Visualization"
+  - label: "ml-wft"
+    # category: "ml-wft"
+    name: "ML-WFT"
+  # ########################################
+  # Programming - specific labels
+  # ########################################
   - label: "python-lang"
     name: "Python"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/python.ico"
@@ -148,20 +247,18 @@ labels:
     name: "Java"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico"
     description: "Project has a Java interface"
+  # ########################################
+  # Project - specific labels
+  # ########################################
   - label: "single-paper"
     name: "single-paper"
     description: "Single-paper projects"
-  - label: "active-learning"
-    name: "active-learning"
-    description: "Active learning"
-    url: "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"
+  # ########################################
+  # ML - specific labels
+  # ########################################
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
-  - label: "xai"
-    name: "XAI"
-    description: "Explainable artificial intelligence (XAI), model interpretability"
-    url: "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
   - label: "generative"
     name: "generative"
     subtitle: "Generative models"
@@ -170,28 +267,9 @@ labels:
     name: "knowledge-base"
     subtitle: "Knowledge base (KB)"
     url: "https://en.wikipedia.org/wiki/Knowledge_base"
-  - label: "materials-discovery"
-    name: "materials-discovery"
-    description: "Materials discovery"
-    url: "https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"
-  - label: "structure-optimization"
-    name: "structure-optimization"
-    description: "Materials structure optimization"
-    url: "https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"
-  - label: "structure-prediction"
-    name: "structure-prediction"
-    description: "Materials structure prediction"
-  - label: "nlp"
-    name: "NLP"
-    subtitle: "Natural language processing (NLP), large language models (LLM)"
-    url: "https://en.wikipedia.org/wiki/Natural_language_processing"
   - label: "pre-trained"
     name: "pre-trained"
     subtitle: "Pre-trained models"
-  - label: "probabilistic"
-    name: "probabilistic"
-    description: "Probabilistic methods: Bayesian, Gaussian processes, adversarial attacks, uncertainty quantification (UQ)"
-    # note: UQ has both probabilistic and non-probabilistic approaches. maybe split off into separate label.
   - label: "qml"
     name: "QML"
     # name: "⚛️"
@@ -203,9 +281,15 @@ labels:
     name: "recommender"
     description: "Recommender systems"
     url: "https://en.wikipedia.org/wiki/Recommender_system"
+  - label: "scikit-learn"
+    name: "scikit-learn"
+    description: "Heavily integrates with or extends scikit-learn"
   - label: "workflows"
     name: "workflows"
     description: "Workflows, pipelines, MLOps"
+  # ########################################
+  # Atomistic Simulation - specific labels
+  # ########################################
   - label: "drug-discovery"
     name: "drug-discovery"
     # name: "💊"
@@ -228,12 +312,13 @@ labels:
     # name: "&#x1F308;"
     description: "Optical properties"
     url: "https://en.wikipedia.org/wiki/Optical_properties"
-  - label: "biomolecules"
-    name: "biomolecules"
-    # name: "🧬"
-    # name: "&#x1F9EC;"
-    description: "Biomolecules, protein structure, protein folding"
-    url: "https://en.wikipedia.org/wiki/Biomolecule"
+  - label: "structure-optimization"
+    name: "structure-optimization"
+    description: "Materials structure optimization"
+    url: "https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"
+  - label: "structure-prediction"
+    name: "structure-prediction"
+    description: "Materials structure prediction"
   - label: "superconductors"
     name: "superconductors"
     # name: "🧘"
@@ -258,11 +343,9 @@ labels:
     # name: "&#x1FA7B;"
     description: "X-ray diffraction"
     url: "https://en.wikipedia.org/wiki/X-ray_crystallography"
-  - label: "scikit-learn"
-    name: "scikit-learn"
-    description: "Heavily integrates with or extends scikit-learn"
 
-
+# ################################################################################
+# ################################################################################
 projects:
   # # example.
   # - name: best-of-ml-python
@@ -306,14 +389,14 @@ projects:
   description: Atomic Cluster Expansion (ACE) community homepage.
 - name: PACE
   category: md
-  description: "The LAMMPS MLP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
+  description: "The LAMMPS MLIAP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
   # homepage: https://cortner.github.io/ACEweb/software/
   # docs_url: https://docs.lammps.org/pair_pace.html
   # group_id: ACE
   license: https://github.com/ICAMS/lammps-user-pace/blob/main/LICENSE
   github_id: ICAMS/lammps-user-pace
 - name: Pacemaker
-  category: mlp
+  category: mliap
   description: Python package for fitting atomic cluster expansion (ACE) potentials
   homepage: https://cortner.github.io/ACEweb/software/
   # docs_url: https://pacemaker.readthedocs.io
@@ -322,14 +405,14 @@ projects:
   github_id: ICAMS/python-ace
   pypi_id: python-ace
 - name: TensorPotential
-  category: mlp
+  category: mliap
   description: "Tensorpotential is a TensorFlow based tool for development, fitting ML interatomic potentials from electronic structure calculations data and perform computations using these potentials [...] Only Atomic Cluster Expansion (ACE) is available at the moment."
   homepage: https://cortner.github.io/ACEweb/software/
   # group_id: ACE
   license: https://github.com/ICAMS/TensorPotential/blob/main/LICENSE.md
   github_id: ICAMS/TensorPotential
 - name: ACE1.jl
-  category: mlp
+  category: mliap
   labels: ["julia-lang"]
   homepage: https://acesuit.github.io/
   # docs_url: https://acesuit.github.io/ACE1pack.jl
@@ -337,7 +420,7 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/ACE1.jl
 - name: ACE1Pack.jl
-  category: mlp
+  category: mliap
   description: Provides convenience functionality for the usage of ACE1.jl, ACEfit.jl, JuLIP.jl for fitting interatomic potentials using the ACE model.
   labels: ["julia-lang"]
   homepage: https://github.com/ACEsuit/ACE1pack.jl
@@ -345,31 +428,31 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/ACE1pack.jl
 - name: MACE
-  category: mlp
+  category: mliap
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: "MIT"
   github_id: ACEsuit/mace
 - name: MACE-Jax
-  category: mlp
+  category: mliap
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: "MIT"
   github_id: ACEsuit/mace-jax
 - name: MACE-Layer
-  category: representation-learning
+  category: rep-learn
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/mace-layer
 - name: ACE.jl
-  category: mlp
+  category: mliap
   labels: ["julia-lang"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: https://github.com/ACEsuit/ACE.jl/blob/main/license/mit.md
   github_id: "ACEsuit/ACE.jl"
 - name: ACE Workflows
-  category: mlp
+  category: mliap
   labels: ["julia-lang", "workflows"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
@@ -389,14 +472,14 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/Polynomials4ML.jl
 - name: ACEatoms
-  category: general-tools
+  category: general-tool
   labels: ["julia-lang"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: https://github.com/ACEsuit/ACEatoms.jl/blob/main/ASL.md
   github_id: ACEsuit/ACEatoms.jl
 - name: ACEfit
-  category: mlp
+  category: mliap
   description:
   labels: ["julia-lang"]
   # homepage: https://acesuit.github.io/
@@ -414,28 +497,27 @@ projects:
   category: ml-dft
   github_id: deepmodeling/deepks-kit
 - name: cmlkit
-  category: representation-engineering
+  category: rep-eng
   labels: ["benchmarking"]
   # homepage: https://marcel.science/repbench/
   github_id: sirmarcel/cmlkit
   pypi_id: cmlkit
 - name: glp
-  category: mlp
+  category: mliap
   github_id: sirmarcel/glp
 - name: "gkx: Green-Kubo Method in JAX"
-  category: representation-learning
+  category: rep-learn
   labels: ["transport-phenomena"]
   github_id: sirmarcel/gkx
 - name: Scikit-Matter
-  category: general-tools
-  description:
+  category: general-tool
   labels: ["scikit-learn"]
   # docs_url: https://scikit-matter.readthedocs.io
   github_id: scikit-learn-contrib/scikit-matter
   pypi_id: skmatter
   conda_id: conda-forge/skmatter
 - name: Equisolve
-  category: math
+  category: general-tool
   # docs_url: https://lab-cosmo.github.io/equisolve
   github_id: lab-cosmo/equisolve
 - name: Equistore
@@ -443,7 +525,7 @@ projects:
   # docs_url: https://lab-cosmo.github.io/equistore
   github_id: lab-cosmo/equistore
 - name: Sketchmap
-  label: ["cpp-lang"]
+  labels: ["cpp-lang"]
   category: unsupervised
   github_id: lab-cosmo/sketchmap
 - name: Wigner Kernels
@@ -502,48 +584,48 @@ projects:
   description: Curated datasets for reproducible AI in materials science.
   homepage: https://crystals.ai/
 - name: M3GNet
-  category: mlp
+  category: mliap
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/m3gnet
   pypi_id: m3gnet
 - name: MEGNet
-  category: mlp
+  category: mliap
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/megnet
   pypi_id: megnet
 - name: MatGL (Materials Graph Library)
-  category: representation-learning
+  category: rep-learn
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/matgl
   pypi_id: m3gnet
 - name: MAML
-  category: general-tools
+  category: general-tool
   # homepage: https://materialsvirtuallab.github.io/maml/
   github_id: materialsvirtuallab/maml
   pypi_id: maml
 - name: "Crystal Graph Convolutional Neural Networks (CGCNN)"
-  category: representation-learning
+  category: rep-learn
   # homepage: https://crystals.ai/
   github_id: txie-93/cgcnn
 - name: "GATGNN: Global Attention Graph Neural Network"
-  category: representation-learning
+  category: rep-learn
   github_id: superlouis/GATGNN
 - name: DeeperGATGNN
-  category: representation-learning
+  category: rep-learn
   github_id: usccolumbia/deeperGATGNN
 - name: MAST-ML
-  category: general-tools
+  category: general-tool
   github_id: uw-cmg/MAST-ML
 - name: AMP
   resource:
   category: representations
-  # category: general-tools
+  # category: general-tool
   description: Amp is an open-source package designed to easily bring machine-learning to atomistic calculations.
   homepage: https://bitbucket.org/andrewpeterson/amp/
   docs_url: https://amp.readthedocs.io/
   pypi_id: amp-atomistics
 - name: AMPtorch
-  category: general-tools
+  category: general-tool
   # docs_url: https://amptorch.readthedocs.io/
   github_id: ulissigroup/amptorch
 - name: ASAP
@@ -556,12 +638,12 @@ projects:
   description: Tools to build charge density models using ocpmodels
   github_id: ulissigroup/charge-density-models
 - name: ocp
-  category: representation-learning
+  category: rep-learn
   description: ocp is the Open Catalyst Project's library of state-of-the-art machine learning algorithms for catalysis.
   # homepage: https://opencatalystproject.org/
   github_id: Open-Catalyst-Project/ocp
 - name: AdsorbML
-  category: representation-learning
+  category: rep-learn
   description:
   labels: ["surface-science", "single-paper"]
   # homepage: https://opencatalystproject.org/
@@ -571,7 +653,7 @@ projects:
   # homepage: https://doi.org/10.1038/s41524-022-00863-y
   github_id: peterbjorgensen/DeepDFT
 - name: SchNetPack
-  category: representation-learning
+  category: rep-learn
   # homepage: http://quantum-machine.org/
   # docs_url: https://schnetpack.readthedocs.io/
   license: "MIT"
@@ -590,14 +672,14 @@ projects:
   category: ml-wft
   github_id: atomistic-machine-learning/SchNOrb
 - name: FieldSchNet
-  category: representation-learning
+  category: rep-learn
   license: "MIT"
   github_id: atomistic-machine-learning/field_schnet
 - name: SchNet
-  category: mlp
+  category: mliap
   github_id: atomistic-machine-learning/SchNet
 - name: sGDML
-  category: mlp
+  category: mliap
   # homepage: http://sgdml.org/
   # docs_url: http://docs.sgdml.org/
   github_id: stefanch/sGDML
@@ -607,7 +689,7 @@ projects:
   category: datasets
   homepage: http://sgdml.org/#datasets
 - name: DTNN
-  category: representation-learning
+  category: rep-learn
   github_id: atomistic-machine-learning/dtnn
 - name: QM7
   resource: true
@@ -690,7 +772,7 @@ projects:
   description: "These datasets contain structures, energies, forces and various response properties (dipole moment, polarizability tensor, nuclear shielding tensors) for ethanol, methanol and allyl-p-tolyl ether used for training the FieldSchNet model."
   homepage: http://quantum-machine.org/datasets/
 - name: "Alchemical learning"
-  category: mlp
+  category: mliap
   description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
   github_id: Luthaf/alchemical-learning
 - name: ML-in-chemistry-101
@@ -713,7 +795,7 @@ projects:
   github_id: ulissigroup/finetuna
 - name: Pretrained OCP models
   resource: true
-  category: mlp
+  category: mliap
   labels: ["pre-trained"]
   description: "Pretrained models released as part of the Open Catalyst Project."
   homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/MODELS.md
@@ -725,24 +807,24 @@ projects:
   license: "GPL"
   github_id: ulissigroup/catgym
 - name: "uncertainty_benchmarking"
-  category: general-tools
+  category: general-tool
   labels: ["benchmarking", "probabilistic"]
   github_id: ulissigroup/uncertainty_benchmarking
 - name: Automatminer
-  category: general-tools
+  category: general-tool
   # homepage: https://hackingmaterials.lbl.gov/automatminer/
   license: https://github.com/hackingmaterials/automatminer/blob/main/LICENSE
   github_id: hackingmaterials/automatminer
   pypi_id: automatminer
 - name: Matminer
-  category: general-tools
+  category: general-tool
   # homepage: https://hackingmaterials.github.io/matminer/
   license: https://github.com/hackingmaterials/matminer/blob/main/LICENSE
   github_id: hackingmaterials/matminer
   pypi_id: matminer
   conda_id: conda-forge/matminer
 - name: JARVIS-Tools
-  category: general-tools
+  category: general-tool
   # docs_url: https://jarvis-tools.readthedocs.io/
   license: https://github.com/usnistgov/jarvis/blob/master/LICENSE.rst
   github_id: usnistgov/jarvis
@@ -762,27 +844,27 @@ projects:
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
 - name: ALIGNN
-  category: representation-learning
+  category: rep-learn
   # homepage: https://jarvis.nist.gov/login?next=/jalignn/
   github_id: usnistgov/alignn
   license: https://github.com/usnistgov/alignn/blob/main/LICENSE.rst
   pypi_id: alignn
 - name: SNAP
-  category: mlp
+  category: mliap
   github_id: materialsvirtuallab/snap
 - name: XenonPy
-  category: general-tools
+  category: general-tool
   # docs_url: https://xenonpy.readthedocs.io/
   github_id: yoshida-lab/XenonPy
   pypi_id: xenonpy
 - name: Magpie
-  category: general-tools
+  category: general-tool
   description: Materials Agnostic Platform for Informatics and Exploration (Magpie)
   labels: ["java-lang"]
   homepage: https://bitbucket.org/wolverton/magpie/
   license: MIT
 - name: QML
-  category: general-tools
+  category: general-tool
   # homepage: http://www.qmlcode.org/
   github_id: qmlcode/qml
   pypi_id: qml
@@ -805,14 +887,14 @@ projects:
   category: ml-esm
   github_id: muhrin/e3psi
 - name: SA-GPR
-  category: representation-engineering
+  category: rep-eng
   labels: ["c-lang"]
   github_id: dilkins/TENSOAP
 - name: SALTED
   category: ml-dft
   github_id: andreagrisafi/SALTED
 - name: Compositionally-Restricted Attention-Based Network (CrabNet)
-  category: representation-learning
+  category: rep-learn
   # docs_url: https://crabnet.readthedocs.io/
   github_id: sparks-baird/CrabNet
   pypi_id: crabnet
@@ -821,7 +903,7 @@ projects:
   category: educational
   github_id: anthony-wang/BestPractices
 - name: QUIP
-  category: general-tools
+  category: general-tool
   # homepage: https://libatoms.github.io/
   # docs_url: http://libatoms.github.io/QUIP/
   license: GPL-2.0
@@ -829,7 +911,7 @@ projects:
   pypi_id: quippy-ase
   dockerhub_id: libatomsquip/quip
 - name: GAP
-  category: mlp
+  category: mliap
   description: Gaussian Approximation Potential (GAP)
   homepage: https://libatoms.github.io/
   # docs_url: https://libatoms.github.io/GAP
@@ -840,7 +922,7 @@ projects:
   category: educational
   github_id: gabor1/chemrev-gpr
 - name: testing-framework
-  category: mlp
+  category: mliap
   description: "The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of systems (materials or molecules)."
   labels: ["benchmarking"]
   github_id: libAtoms/testing-framework
@@ -855,7 +937,7 @@ projects:
   # description: "The Kernel Density Functional (KDF) code allows generating ML based DFT functionals."
   gitlab_id: jmargraf/kdf
 - name: CatLearn
-  category: representation-engineering
+  category: rep-eng
   description:
   labels: ["surface-science"]
   github_id: SUNCAT-Center/CatLearn
@@ -866,11 +948,11 @@ projects:
   description: "A web-platform for sharing data and software for computational catalysis research!"
   homepage: https://www.catalysis-hub.org/
 - name: FLARE
-  category: general-tools
+  category: general-tool
   # docs_url: https://mir-group.github.io/flare/
   github_id: mir-group/flare
 - name: flare++
-  category: general-tools
+  category: general-tool
   labels: ["cpp-lang", "active-learning"]
   # docs_url: https://mir-group.github.io/flare_pp
   github_id: mir-group/flare_pp
@@ -886,7 +968,7 @@ projects:
   category: ml-dft
   github_id: MihailBogojeski/ml-dft
 - name: e3nn
-  category: representation-learning
+  category: rep-learn
   # homepage: https://e3nn.org/
   # docs_url: https://docs.e3nn.org/
   license: "MIT"
@@ -894,13 +976,13 @@ projects:
   conda_id: conda-forge/e3nn
   pypi_id: e3nn
 - name: e3nn-jax
-  category: representation-learning
+  category: rep-learn
   # homepage: https://e3nn.org/
   # docs_url: https://e3nn-jax.readthedocs.io/
   github_id: e3nn/e3nn-jax
   pypi_id: e3nn-jax
 - name: Deep Graph Library (DGL)
-  category: representation-learning
+  category: rep-learn
   # homepage: https://www.dgl.ai/
   # docs_url: https://docs.dgl.ai/
   github_id: dmlc/dgl
@@ -908,12 +990,12 @@ projects:
   conda_id: dglteam/dgl
 - name: dgl-lifesci
   resource:
-  category: representation-learning
+  category: rep-learn
   # docs_url: https://lifesci.dgl.ai
   github_id: awslabs/dgl-lifesci
   pypi_id: dgllife
 - name:  benchmarking-gnns
-  category: representation-learning
+  category: rep-learn
   labels: ["single-paper", "benchmarking"]
   github_id: graphdeeplearning/benchmarking-gnns
 - name: DeepErwin
@@ -923,10 +1005,10 @@ projects:
   github_id: mdsunivie/deeperwin
   pypi_id: deeperwin
 - name: Allegro
-  category: mlp
+  category: mliap
   github_id: mir-group/allegro
 - name: NequIP
-  category: mlp
+  category: mliap
   github_id: mir-group/nequip
   pypi_id: nequip
   conda_id: conda-forge/nequip
@@ -936,7 +1018,7 @@ projects:
   description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
   homepage: https://matterverse.ai/
 - name: kgcnn
-  category: representation-learning
+  category: rep-learn
   # docs_url: https://kgcnn.readthedocs.io/
   github_id: aimat-lab/gcnn_keras
   pypi_id: kgcnn
@@ -947,7 +1029,7 @@ projects:
   github_id: aimat-lab/visual_graph_datasets
 - name: ML4pXRDs
   resource:
-  category: representation-learning
+  category: rep-learn
   labels: ["xrd", "single-paper"]
   github_id: aimat-lab/ML4pXRDs
 - name: MAChINE
@@ -965,18 +1047,18 @@ projects:
   github_id: aimat-lab/3DSC
 - name: NNsforMD
   resource:
-  category: mlp
+  category: mliap
   github_id: aimat-lab/NNsForMD
   pypi_id: pyNNsMD
 - name: PANNA
-  category: mlp
+  category: mliap
   description: A package to train and validate all-to-all connected network models for BP[1] and modified-BP[2] type local atomic environment descriptors and atomic potentials.
   labels: ["benchmarking"]
   # docs_url: https://pannadevs.gitlab.io/pannadoc/
   license: "MIT"
   gitlab_id: PANNAdevs/panna
 - name: OpenChem
-  category: general-tools
+  category: general-tool
   # docs_url: https://mariewelt.github.io/OpenChem/
   github_id: Mariewelt/OpenChem
 - name: ReLeaSE
@@ -993,7 +1075,7 @@ projects:
   category: ml-dft
   github_id: semodi/neuralxc
 - name: ANI-1
-  category: mlp
+  category: mliap
   github_id: isayev/ASE_ANI
 - name: ANI-1 Dataset
   # resource: true
@@ -1004,13 +1086,13 @@ projects:
   category: datasets
   github_id: aiqm/ANI1x_datasets
 - name: TorchANI
-  category: mlp
+  category: mliap
   # docs_url: https://aiqm.github.io/torchani/
   github_id: aiqm/torchani
   pypi_id: torchani
   conda_id: conda-forge/torchani
 - name: AIMNet
-  category: mlp
+  category: mliap
   labels: ["single-paper"]
   github_id: aiqm/aimnet
 - name: COMP6 Benchmark dataset
@@ -1063,12 +1145,12 @@ projects:
   github_id: whitead/nlcc
   pypi_id: nlcc
 - name: SingleNN
-  category: mlp
+  category: mliap
   description: "An efficient package for training and executing neural-network interatomic potentials"
   labels: ["cpp-lang"]
   github_id: lmj1029123/SingleNN
 - name: PiNN
-  category: mlp
+  category: mliap
   # docs_url: https://teoroo-cmc.github.io/PiNN
   github_id: Teoroo-CMC/PiNN
   dockerhub_id: teoroo/pinn
@@ -1080,27 +1162,27 @@ projects:
   category: educational
   github_id: Teoroo-CMC/DoE_Course_Material
 - name: "CCS_fit"
-  category: mlp
+  category: mliap
   github_id: Teoroo-CMC/CCS
   pypi_id: ccs_fit
 - name: RuNNer
   # resource: true
-  category: mlp
+  category: mliap
   description: "The RuNNer Neural Network Energy Representation is a Fortran-based framework for the construction of Behler-Parrinello-type high-dimensional neural network potentials."
   labels: ["fortran-lang"]
   homepage: https://www.uni-goettingen.de/de/560580.html
   docs_url: https://theochemgoettingen.gitlab.io/RuNNer/
   license: "GPL-3.0"
 - name: "charge_transfer_nnp"
-  category: representation-learning
+  category: rep-learn
   labels: ["electrostatics"]
   github_id: pfnet-research/charge_transfer_nnp
 - name: SIMPLE-NN
-  category: mlp
+  category: mliap
   # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN
 - name: "SIMPLE-NN v2"
-  category: mlp
+  category: mliap
   # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN_v2
 - name: SPINNER
@@ -1109,7 +1191,7 @@ projects:
   # docs_url: https://spinner-csp.readthedocs.io/
   github_id: MDIL-SNU/SPINNER
 - name: DeepChem
-  category: general-tools
+  category: general-tool
   # homepage: https://deepchem.io/
   # docs_url: https://deepchem.readthedocs.io/
   github_id: deepchem/deepchem
@@ -1122,10 +1204,10 @@ projects:
   labels: ["pre-trained", "nlp"]
   homepage: https://huggingface.co/DeepChem
 - name: torchchem
-  category: general-tools
+  category: general-tool
   github_id: deepchem/torchchem
 - name: JAXChem
-  category: general-tools
+  category: general-tool
   # docs_url: https://jaxchem.readthedocs.io/
   license: "MIT"
   github_id: deepchem/jaxchem
@@ -1153,7 +1235,7 @@ projects:
   github_id: Minoru938/KmdPlus
 - name: n2p2
   resource:
-  category: mlp
+  category: mliap
   labels: ["cpp-lang"]
   # docs_url: https://compphysvienna.github.io/n2p2/
   github_id: CompPhysVienna/n2p2
@@ -1166,7 +1248,7 @@ projects:
   category: materials-discovery
   github_id: CompRhys/aviary
 - name: "SE(3)-Transformers"
-  category: representation-learning
+  category: rep-learn
   labels: ["single-paper"]
   license: "MIT"
   github_id: FabianFuchsML/se3-transformer-public
@@ -1176,7 +1258,7 @@ projects:
   license: https://github.com/NVIDIA/DeepLearningExamples/blob/master/DGLPyTorch/DrugDiscovery/SE3Transformer/LICENSE
   github_id: NVIDIA/DeepLearningExamples
 - name: DeePMD-kit
-  category: mlp
+  category: mliap
   labels: ["cpp-lang"]
   # docs_url: https://docs.deepmodeling.com/projects/deepmd/
   github_id: deepmodeling/deepmd-kit
@@ -1184,7 +1266,7 @@ projects:
   conda_id: deepmodeling/deepmd-kit
   dockerhub_id: deepmodeling/deepmd-kit
 - name: DP-GEN
-  category: mlp
+  category: mliap
   labels: ["workflows"]
   # docs_url: https://docs.deepmodeling.com/projects/dpgen/
   github_id: deepmodeling/dpgen
@@ -1197,7 +1279,7 @@ projects:
   pypi_id: dpdata
   conda_id: deepmodeling/dpdata
 - name: DMFF
-  category: mlp
+  category: mliap
   github_id: deepmodeling/DMFF
 - name: DeePKS-kit
   category: ml-dft
@@ -1211,12 +1293,12 @@ projects:
   category: biomolecules
   github_id: dptech-corp/Uni-Fold
 - name: Uni-Mol
-  category: representation-learning
+  category: rep-learn
   labels: ["pre-trained"]
   github_id: dptech-corp/Uni-Mol
 - name: RDKit
   resource:
-  category: general-tools
+  category: general-tool
   description:
   labels: ["cpp-lang"]
   # homepage: https://www.rdkit.org/
@@ -1230,27 +1312,27 @@ projects:
   license: https://github.com/rdkit/rdkit-tutorials/blob/master/LICENSE
   github_id: rdkit/rdkit-tutorials
 - name: "Neural Force Field"
-  category: mlp
+  category: mliap
   labels: ["pre-trained"]
   github_id: learningmatter-mit/NeuralForceField
 - name: "atom_by_atom"
-  category: representation-learning
+  category: rep-learn
   labels: ["surface-science", "single-paper"]
   github_id: learningmatter-mit/atom_by_atom
 - name: Per-Site CGCNN
-  category: representation-learning
+  category: rep-learn
   labels: ["pre-trained", "single-paper"]
   github_id: learningmatter-mit/per-site_cgcnn
 - name: Per-site PAiNN
-  category: representation-learning
+  category: rep-learn
   labels: ["probabilistic", "pre-trained", "single-paper"]
   github_id: learningmatter-mit/per-site_painn
 - name: UVVisML
-  category: representation-learning
+  category: rep-learn
   labels: ["optical-properties", "single-paper", "probabilistic"]
   github_id: learningmatter-mit/uvvisml
 - name: "Atomistic Adversarial Attacks"
-  category: mlp
+  category: mliap
   labels: ["probabilistic"]
   github_id: learningmatter-mit/Atomistic-Adversarial-Attacks
 - name: GEOM
@@ -1263,32 +1345,32 @@ projects:
   labels: ["single-paper"]
   github_id: learningmatter-mit/Coarse-Graining-Auto-encoders
 - name: GLAMOUR
-  category: representation-learning
+  category: rep-learn
   labels: ["single-paper"]
   license: "MIT"
   github_id: learningmatter-mit/GLAMOUR
 - name: DimeNet
-  category: mlp
+  category: mliap
   # homepage: https://www.cs.cit.tum.de/daml/dimenet/
   license: https://github.com/gasteigerjo/dimenet/blob/master/LICENSE.md
   github_id: gasteigerjo/dimenet
 - name: GemNet
-  category: mlp
+  category: mliap
   # homepage: https://www.cs.cit.tum.de/daml/gemnet/
   license: https://github.com/TUM-DAML/gemnet_pytorch/blob/master/LICENSE
   github_id: TUM-DAML/gemnet_pytorch
 - name: GDC
-  category: representation-learning
+  category: rep-learn
   labels: ["generative"]
   github_id: gasteigerjo/gdc
 - name: "Graph Transport Network"
-  category: representation-learning
+  category: rep-learn
   labels: ["transport-phenomena"]
   license: https://github.com/gasteigerjo/gtn/blob/main/LICENSE.md
   github_id: gasteigerjo/gtn
 - name: PyG Models
   resource: true
-  category: representation-learning
+  category: rep-learn
   description: Representation learning models implemented in PyTorch Geometric.
   homepage: https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/nn/models
 - name: AGOX
@@ -1307,7 +1389,7 @@ calculated from density functional theory as the objective function."
   github_id: ziatdinovmax/gpax
   pypi_id: gpax
 - name: "Neural fingerprint (nfp)"
-  category: representation-learning
+  category: rep-learn
   license: https://github.com/NREL/nfp/blob/master/LICENSE
   github_id: NREL/nfp
 - name: "Applied AI for Materials"
@@ -1315,7 +1397,7 @@ calculated from density functional theory as the objective function."
   category: educational
   github_id: WardLT/applied-ai-for-materials
 - name: KLIFF
-  category: mlp
+  category: mliap
   labels: ["probabilistic", "workflows"]
   # docs_url: https://kliff.readthedocs.io/
   github_id: openkim/kliff
@@ -1323,7 +1405,7 @@ calculated from density functional theory as the objective function."
   conda_id: conda-forge/kliff
 - name: PyXtalFF
   resource:
-  category: mlp
+  category: mliap
   # docs_url: https://pyxtal-ff.readthedocs.io/
   license: "MIT"
   github_id: MaterSim/PyXtal_FF
@@ -1336,7 +1418,7 @@ calculated from density functional theory as the objective function."
   # docs_url: https://kim-api.readthedocs.io/
   github_id: openkim/kim-api
 - name: MLatom
-  category: general-tools
+  category: general-tool
   description: "Machine learning for atomistic simulations"
   homepage: http://mlatom.com/
   docs_url: http://mlatom.com/manual/
@@ -1351,11 +1433,11 @@ calculated from density functional theory as the objective function."
   labels: ["c-lang", "single-paper"]
   github_id: zhuligs/fplib
 - name: PhysNet
-  category: mlp
+  category: mliap
   labels: ["electrostatics"]
   github_id: MMunibas/PhysNet
 - name: BenchML
-  category: representation-engineering
+  category: rep-eng
   labels: ["benchmarking"]
   github_id: capoe/benchml
   pypi_id: benchml
@@ -1370,22 +1452,22 @@ calculated from density functional theory as the objective function."
   labels: ["cpp-lang"]
   github_id: capoe/soapxx
 - name: matsciml
-  category: representation-learning
+  category: rep-learn
   labels: ["workflows"]
   github_id: IntelLabs/matsciml
 - name: magnetism-prediction
-  category: representation-engineering
+  category: rep-eng
   labels: ["magnetism", "single-paper"]
   # homepage: https://doi.org/10.1038/s41598-023-30438-w
   github_id: dppant/magnetism-prediction
 - name: quantum-structure-ml
-  category: general-tools
+  category: general-tool
   description: "Multi-class classification model for predicting the magnetic order of magnetic structures and a binary classification model for predicting the propogation vector of magnetic structures."
   labels: ["magnetism", "benchmarking"]
   # homepage: https://doi.org/10.1016/j.isci.2022.105192
   github_id: hgheiberger/quantum-structure-ml
 - name: So3krates (MLFF)
-  category: mlp
+  category: mliap
   github_id: thorben-frank/mlff
 - name: "Descriptor Embedding and Clustering for Atomisitic-environment Framework (DECAF)"
   category: unsupervised
@@ -1401,10 +1483,10 @@ calculated from density functional theory as the objective function."
   github_id: FitSNAP/FitSNAP
   conda_id: conda-forge/fitsnap3
 - name: CGAT
-  category: representation-learning
+  category: rep-learn
   github_id: hyllios/CGAT
 - name: SCFNN
-  category: representation-learning
+  category: rep-learn
   description: "Self-consistent determination of long-range electrostatics in neural network potentials"
   labels: ["cpp-lang", "electrostatics", "single-paper"]
   # homepage: https://doi.org/10.1038/s41467-022-29243-2
@@ -1430,10 +1512,10 @@ calculated from density functional theory as the objective function."
   description: "Quantum deep field: data-driven wave function, electron density generation, and energy prediction and extrapolation with machine learning"
   github_id: masashitsubaki/QuantumDeepField_molecule
 - name: "molecularGNN_smiles"
-  category: representation-learning
+  category: rep-learn
   github_id: masashitsubaki/molecularGNN_smiles
 - name: graphite
-  category: representation-learning
+  category: rep-learn
   license: "MIT"
   github_id: llnl/graphite
 - name: DeepH-pack
@@ -1454,7 +1536,7 @@ calculated from density functional theory as the objective function."
   category: ml-dft
   github_id: foxjas/CSNN
 - name: "Ultra-Fast Force Fields (UF3)"
-  category: mlp
+  category: mliap
   # docs_url: https://uf3.readthedocs.io/
   github_id: uf3/uf3
   pypi_id: uf3
@@ -1469,10 +1551,10 @@ calculated from density functional theory as the objective function."
   github_id: kjappelbaum/gptchem
   pypi_id: gptchem
 - name: Equiformer
-  category: representation-learning
+  category: rep-learn
   github_id: atomicarchitects/equiformer
 - name: MLIP-3
-  category: mlp
+  category: mliap
   description: "MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP)"
   labels: ["cpp-lang"]
   # homepage: https://doi.org/10.48550/arXiv.2304.13144
@@ -1496,18 +1578,18 @@ calculated from density functional theory as the objective function."
   labels: ["magnetism"]
   github_id: StefanoSanvitoGroup/BERT-PSIE-TC
 - name: ALF
-  category: mlp
+  category: mliap
   labels: ["active-learning"]
   license: https://github.com/lanl/ALF/blob/main/LICENSE
   github_id: lanl/alf
 - name: hippynn
-  category: representation-learning
+  category: rep-learn
   labels: ["workflows"]
   license: https://github.com/lanl/hippynn/blob/main/LICENSE.txt
   # docs_url: https://lanl.github.io/hippynn/
   github_id: lanl/hippynn
 - name: "Point Edge Transformer"
-  category: representation-learning
+  category: rep-learn
   description: "Smooth, exact rotational symmetrization for deep learning on point clouds"
   homepage: https://zenodo.org/record/7967079
   license: "CC-BY-4.0"
@@ -1535,15 +1617,15 @@ calculated from density functional theory as the objective function."
   github_id: deepmind/kfac-jax
   pypi_id: kfac-jax
 - name: Cormorant
-  category: representation-learning
+  category: rep-learn
   # homepage: https://doi.org/10.48550/arXiv.1906.04015
   license: https://github.com/risilab/cormorant/blob/master/LICENSE
   github_id: risilab/cormorant
 - name: SphericalNet
-  category: representation-learning
+  category: rep-learn
   github_id: risilab/SphericalNet
 - name: Autobahn
-  category: representation-learning
+  category: rep-learn
   github_id: risilab/Autobahn
 - name: GElib
   category: math
