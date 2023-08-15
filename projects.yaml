@@ -518,6 +518,7 @@ projects:
   conda_id: conda-forge/skmatter
 - name: Equisolve
   category: general-tool
+  labels: ["mliap"]
   # docs_url: https://lab-cosmo.github.io/equisolve
   github_id: lab-cosmo/equisolve
 - name: Equistore
@@ -948,12 +949,13 @@ projects:
   description: "A web-platform for sharing data and software for computational catalysis research!"
   homepage: https://www.catalysis-hub.org/
 - name: FLARE
-  category: general-tool
+  category: active-learning
+  labels: ["cpp-lang", "mliap"]
   # docs_url: https://mir-group.github.io/flare/
   github_id: mir-group/flare
 - name: flare++
-  category: general-tool
-  labels: ["cpp-lang", "active-learning"]
+  category: active-learning
+  labels: ["cpp-lang", "mliap"]
   # docs_url: https://mir-group.github.io/flare_pp
   github_id: mir-group/flare_pp
   pypi_id: flare_pp
