@@ -99,14 +99,11 @@ categories:
     title: "Reinforcement Learning"
     subtitle: "Projects that focus on reinforcement learning for atomistic ML."
   - category: "rep-eng"
-    title: "Representation Engineering Models"
-    subtitle: "General models that use hand-crafted representations or features, aka feature engineering."
+    title: "Representation Engineering"
+    subtitle: "Projects that offer implementations of representations aka descriptors, fingerprints of atomistic systems, and models built with them, aka feature engineering."
   - category: "rep-learn"
-    title: "Representation Learning Models"
-    subtitle: "General models that learn a representation or embedding, such as message-passing neural networks (MPNN)."
-  - category: "representations"
-    title: "Representations"
-    subtitle: "Projects that offer implementations of representations aka descriptors, fingerprints of atomistic systems."
+    title: "Representation Learning"
+    subtitle: "General models that learn a representations aka embeddings of atomistic systems, such as message-passing neural networks (MPNN)."
   - category: "unsupervised"
     title: "Unsupervised Learning"
     subtitle: "Projects that focus on unsupervised learning (USL) for atomistic ML, such as dimensionality reduction, clustering and visualization."
@@ -193,14 +190,11 @@ labels:
     # category: "rep-eng"
     name: "rep-eng"
     url: "https://en.wikipedia.org/wiki/Feature_engineering"
+    # url: "https://www.nature.com/articles/s41524-022-00721-x/tables/4"
   - label: "rep-learn"
     # category: "rep-learn"
     name: "rep-learn"
     url: "https://en.wikipedia.org/wiki/Feature_learning"
-  - label: "representations"
-    # category: "representations"
-    name: "reps"
-    url: "https://www.nature.com/articles/s41524-022-00721-x/tables/4"
   - label: "unsupervised"
     # category: "unsupervised"
     name: "USL"
@@ -535,16 +529,16 @@ projects:
   labels: ["benchmarking"]
   github_id: lab-cosmo/wigner_kernels
 - name: Rascaline
-  category: representations
+  category: rep-eng
   labels: ["rust-lang", "cpp-lang"]
   # docs_url: https://luthaf.fr/rascaline/
   github_id: Luthaf/rascaline
 - name: Librascal
-  category: representations
+  category: rep-eng
   # docs_url: https://lab-cosmo.github.io/librascal/
   github_id: lab-cosmo/librascal
 - name: NICE
-  category: representations
+  category: rep-eng
   description: NICE (N-body Iteratively Contracted Equivariants) is a set of tools designed for the calculation of invariant and covariant atomic structure representations.
   # docs_url: https://lab-cosmo.github.io/nice/
   github_id: lab-cosmo/nice
@@ -565,7 +559,7 @@ projects:
   github_id: lab-cosmo/chemiscope
   npm_id: chemiscope
 - name: pyLODE
-  category: representations
+  category: rep-eng
   labels: ["electrostatics"]
   github_id: ceriottm/lode
 - name: iam-notebooks
@@ -619,7 +613,7 @@ projects:
   github_id: uw-cmg/MAST-ML
 - name: AMP
   resource:
-  category: representations
+  category: rep-eng
   # category: general-tool
   description: Amp is an open-source package designed to easily bring machine-learning to atomistic calculations.
   homepage: https://bitbucket.org/andrewpeterson/amp/
@@ -870,17 +864,17 @@ projects:
   github_id: qmlcode/qml
   pypi_id: qml
 - name: CBFV
-  category: representations
+  category: rep-eng
   github_id: kaaiian/CBFV
   pypi_id: CBFV
 - name: DScribe
-  category: representations
+  category: rep-eng
   # docs_url: https://singroup.github.io/dscribe/
   github_id: SINGROUP/dscribe
   pypi_id: dscribe
   conda_id: conda-forge/dscribe
 - name: milad
-  category: representations
+  category: rep-eng
   labels: ["generative"]
   license: GPL-3.0
   github_id: muhrin/milad
@@ -1431,7 +1425,7 @@ calculated from density functional theory as the objective function."
   category: educational
   homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
 - name: fplib
-  category: representations
+  category: rep-eng
   labels: ["c-lang", "single-paper"]
   github_id: zhuligs/fplib
 - name: PhysNet
@@ -1449,7 +1443,7 @@ calculated from density functional theory as the objective function."
   labels: ["benchmarking", "single-paper"]
   github_id: BingqingCheng/linear-regression-benchmarks
 - name: SOAPxx
-  category: representations
+  category: rep-eng
   description: A SOAP implementation.
   labels: ["cpp-lang"]
   github_id: capoe/soapxx
@@ -1494,14 +1488,14 @@ calculated from density functional theory as the objective function."
   # homepage: https://doi.org/10.1038/s41467-022-29243-2
   github_id: andy90/SCFNN
 - name: "SISSO++"
-  category: representations
+  category: rep-eng
   description: "C++ Implementation of SISSO with python bindings"
   # homepage: https://doi.org/10.21105/joss.03960
   labels: ["cpp-lang"]
   license: "Apache-2.0"
   gitlab_id: sissopp_developers/sissopp
 - name: SISSO
-  category: representations
+  category: rep-eng
   labels: ["fortran-lang"]
   github_id: rouyang2017/SISSO
 - name: gprep
