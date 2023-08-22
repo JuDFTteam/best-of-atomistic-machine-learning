@@ -209,35 +209,35 @@ labels:
   # ########################################
   # Programming - specific labels
   # ########################################
-  - label: "c-lang"
-    name: "C-lang"
+  - label: "lang-c"
+    name: "TmpClang"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico"
     description: "Project has a C interface"
-  - label: "cpp-lang"
+  - label: "lang-cpp"
     name: "C++"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c%2B%2B.ico"
     description: "Project has a C++ interface"
-  - label: "fortran-lang"
+  - label: "lang-fortran"
     name: "Fortran"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/fortran.ico"
     description: "Project has a Fortran interface"
-  - label: "java-lang"
+  - label: "lang-java"
     name: "Java"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/java.ico"
     description: "Project has a Java interface"
-  - label: "javascript-lang"
+  - label: "lang-js"
     name: "JavaScript"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/073d9ecaf3e28d0f1378e9f660cd4f631bf71fd7/config/images/javascript.ico"
     description: "Project has a JavaScript interface"
-  - label: "julia-lang"
+  - label: "lang-julia"
     name: "Julia"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/julia.ico"
     description: "Project has a Julia interface"
-  - label: "python-lang"
+  - label: "lang-py"
     name: "Python"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/python.ico"
     description: "Project has a Python interface"
-  - label: "rust-lang"
+  - label: "lang-rust"
     name: "Rust"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/rust.ico"
     description: "Project has a Rust interface"
@@ -248,7 +248,7 @@ labels:
     name: "single-paper"
     description: "Single-paper projects"
   # ########################################
-  # ML - specific labels
+  # ML & Computing - specific labels
   # ########################################
   - label: "benchmarking"
     name: "benchmarking"
@@ -257,6 +257,10 @@ labels:
     name: "generative"
     subtitle: "Generative models"
     url: "https://en.wikipedia.org/wiki/Generative_model"
+  - label: "htc"
+    name: "HTC"
+    description: "High-throughput computing"
+    url: "https://en.wikipedia.org/wiki/High-throughput_computing"
   - label: "knowledge-base"
     name: "knowledge-base"
     subtitle: "Knowledge base (KB)"
@@ -306,6 +310,10 @@ labels:
     # name: "&#x1F308;"
     description: "Optical properties"
     url: "https://en.wikipedia.org/wiki/Optical_properties"
+  - label: "cheminformatics"
+    name: "cheminformatics"
+    description: "Cheminformatics"
+    url: "https://en.wikipedia.org/wiki/Cheminformatics"
   - label: "structure-optimization"
     name: "structure-optimization"
     description: "Materials structure optimization"
@@ -407,7 +415,7 @@ projects:
   github_id: ICAMS/TensorPotential
 - name: ACE1.jl
   category: mliap
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   homepage: https://acesuit.github.io/
   # docs_url: https://acesuit.github.io/ACE1pack.jl
   license: https://github.com/ACEsuit/ACE1.jl/blob/main/ASL.md
@@ -416,7 +424,7 @@ projects:
 - name: ACE1Pack.jl
   category: mliap
   description: Provides convenience functionality for the usage of ACE1.jl, ACEfit.jl, JuLIP.jl for fitting interatomic potentials using the ACE model.
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   homepage: https://github.com/ACEsuit/ACE1pack.jl
   docs_url: https://acesuit.github.io/ACE1pack.jl
   # group_id: ACE
@@ -440,34 +448,34 @@ projects:
   github_id: ACEsuit/mace-layer
 - name: ACE.jl
   category: mliap
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: https://github.com/ACEsuit/ACE.jl/blob/main/license/mit.md
   github_id: "ACEsuit/ACE.jl"
 - name: ACE Workflows
   category: mliap
-  labels: ["julia-lang", "workflows"]
+  labels: ["lang-julia", "workflows"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEworkflows
 - name: ACEhamiltonians
   category: ml-dft
   description: Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-state systems.
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   license: "MIT"
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEhamiltonians.jl
 - name: Polynomials4ML.jl
   category: math
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/Polynomials4ML.jl
 - name: ACEatoms
   category: general-tool
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: https://github.com/ACEsuit/ACEatoms.jl/blob/main/ASL.md
@@ -475,15 +483,15 @@ projects:
 - name: ACEfit
   category: mliap
   description:
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEfit.jl
 - name: ACEHAL
   category: active-learning
   description: Hyperactive Learning (HAL) Python interface for building Atomic Cluster Expansion potentials
-  labels: ["julia-lang"]
-  # labels: ["julia-lang", "active-learning"]
+  labels: ["lang-julia"]
+  # labels: ["lang-julia", "active-learning"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   github_id: ACEsuit/ACEHAL
@@ -520,7 +528,7 @@ projects:
   # docs_url: https://lab-cosmo.github.io/equistore
   github_id: lab-cosmo/equistore
 - name: Sketchmap
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   category: unsupervised
   github_id: lab-cosmo/sketchmap
 - name: Wigner Kernels
@@ -530,7 +538,7 @@ projects:
   github_id: lab-cosmo/wigner_kernels
 - name: Rascaline
   category: rep-eng
-  labels: ["rust-lang", "cpp-lang"]
+  labels: ["lang-rust", "lang-cpp"]
   # docs_url: https://luthaf.fr/rascaline/
   github_id: Luthaf/rascaline
 - name: Librascal
@@ -553,7 +561,7 @@ projects:
   github_id: lab-cosmo/software-cookbook
 - name: Chemiscope
   category: visualization
-  labels: ["javascript-lang"]
+  labels: ["lang-js"]
   # homepage: https://chemiscope.org/
   # docs_url: https://chemiscope.org/docs/
   github_id: lab-cosmo/chemiscope
@@ -567,7 +575,7 @@ projects:
   github_id: ceriottm/iam-notebooks
 - name: COSMO Toolbox
   category: math
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   github_id: lab-cosmo/toolbox
 - name: COSMO tools
   github_id: lab-cosmo/cosmo-tools
@@ -788,11 +796,11 @@ projects:
   category: active-learning
   # labels: ["active-learning"]
   github_id: ulissigroup/finetuna
-- name: Pretrained OCP models
+- name: Pre-trained OCP models
   resource: true
   category: mliap
   labels: ["pre-trained"]
-  description: "Pretrained models released as part of the Open Catalyst Project."
+  description: "Pre-trained models released as part of the Open Catalyst Project."
   homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/MODELS.md
 - name: "Computational Autonomy for Materials Discovery (CAMD)"
   category: materials-discovery
@@ -855,7 +863,7 @@ projects:
 - name: Magpie
   category: general-tool
   description: Materials Agnostic Platform for Informatics and Exploration (Magpie)
-  labels: ["java-lang"]
+  labels: ["lang-java"]
   homepage: https://bitbucket.org/wolverton/magpie/
   license: MIT
 - name: QML
@@ -883,7 +891,7 @@ projects:
   github_id: muhrin/e3psi
 - name: SA-GPR
   category: rep-eng
-  labels: ["c-lang"]
+  labels: ["lang-c"]
   github_id: dilkins/TENSOAP
 - name: SALTED
   category: ml-dft
@@ -944,12 +952,12 @@ projects:
   homepage: https://www.catalysis-hub.org/
 - name: FLARE
   category: active-learning
-  labels: ["cpp-lang", "mliap"]
+  labels: ["lang-cpp", "mliap"]
   # docs_url: https://mir-group.github.io/flare/
   github_id: mir-group/flare
 - name: flare++
   category: active-learning
-  labels: ["cpp-lang", "mliap"]
+  labels: ["lang-cpp", "mliap"]
   # docs_url: https://mir-group.github.io/flare_pp
   github_id: mir-group/flare_pp
   pypi_id: flare_pp
@@ -1064,7 +1072,7 @@ projects:
 - name: Libnxc
   resource:
   category: ml-dft
-  labels: ["cpp-lang", "fortran-lang"]
+  labels: ["lang-cpp", "lang-fortran"]
   # docs_url: https://libnxc.readthedocs.io/
   github_id: semodi/libnxc/
 - name: NeuralXC
@@ -1143,7 +1151,7 @@ projects:
 - name: SingleNN
   category: mliap
   description: "An efficient package for training and executing neural-network interatomic potentials"
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   github_id: lmj1029123/SingleNN
 - name: PiNN
   category: mliap
@@ -1165,7 +1173,7 @@ projects:
   # resource: true
   category: mliap
   description: "The RuNNer Neural Network Energy Representation is a Fortran-based framework for the construction of Behler-Parrinello-type high-dimensional neural network potentials."
-  labels: ["fortran-lang"]
+  labels: ["lang-fortran"]
   homepage: https://www.uni-goettingen.de/de/560580.html
   docs_url: https://theochemgoettingen.gitlab.io/RuNNer/
   license: "GPL-3.0"
@@ -1183,7 +1191,7 @@ projects:
   github_id: MDIL-SNU/SIMPLE-NN_v2
 - name: SPINNER
   category: materials-discovery
-  labels: ["cpp-lang", "structure-prediction"]
+  labels: ["lang-cpp", "structure-prediction"]
   # docs_url: https://spinner-csp.readthedocs.io/
   github_id: MDIL-SNU/SPINNER
 - name: DeepChem
@@ -1232,7 +1240,7 @@ projects:
 - name: n2p2
   resource:
   category: mliap
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   # docs_url: https://compphysvienna.github.io/n2p2/
   github_id: CompPhysVienna/n2p2
 - name: "Machine Learning for Materials Hard and Soft"
@@ -1255,7 +1263,7 @@ projects:
   github_id: NVIDIA/DeepLearningExamples
 - name: DeePMD-kit
   category: mliap
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   # docs_url: https://docs.deepmodeling.com/projects/deepmd/
   github_id: deepmodeling/deepmd-kit
   pypi_id: deepmd-kit
@@ -1296,7 +1304,7 @@ projects:
   resource:
   category: general-tool
   description:
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   # homepage: https://www.rdkit.org/
   # docs_url: https://www.rdkit.org/docs/
   github_id: rdkit/rdkit
@@ -1426,7 +1434,7 @@ calculated from density functional theory as the objective function."
   homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
 - name: fplib
   category: rep-eng
-  labels: ["c-lang", "single-paper"]
+  labels: ["lang-c", "single-paper"]
   github_id: zhuligs/fplib
 - name: PhysNet
   category: mliap
@@ -1445,7 +1453,7 @@ calculated from density functional theory as the objective function."
 - name: SOAPxx
   category: rep-eng
   description: A SOAP implementation.
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   github_id: capoe/soapxx
 - name: matsciml
   category: rep-learn
@@ -1484,19 +1492,19 @@ calculated from density functional theory as the objective function."
 - name: SCFNN
   category: rep-learn
   description: "Self-consistent determination of long-range electrostatics in neural network potentials"
-  labels: ["cpp-lang", "electrostatics", "single-paper"]
+  labels: ["lang-cpp", "electrostatics", "single-paper"]
   # homepage: https://doi.org/10.1038/s41467-022-29243-2
   github_id: andy90/SCFNN
 - name: "SISSO++"
   category: rep-eng
   description: "C++ Implementation of SISSO with python bindings"
   # homepage: https://doi.org/10.21105/joss.03960
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   license: "Apache-2.0"
   gitlab_id: sissopp_developers/sissopp
 - name: SISSO
   category: rep-eng
-  labels: ["fortran-lang"]
+  labels: ["lang-fortran"]
   github_id: rouyang2017/SISSO
 - name: gprep
   category: ml-dft
@@ -1516,12 +1524,12 @@ calculated from density functional theory as the objective function."
   github_id: llnl/graphite
 - name: DeepH-pack
   category: ml-dft
-  labels: ["julia-lang"]
+  labels: ["lang-julia"]
   # docs_url: https://deeph-pack.deepmodeling.com/
   github_id: mzjb/DeepH-pack
 - name: xDeepH
   category: ml-dft
-  labels: ["magnetism", "julia-lang"]
+  labels: ["magnetism", "lang-julia"]
   github_id: mzjb/xDeepH
 - name: DeepH-E3
   category: ml-dft
@@ -1552,7 +1560,7 @@ calculated from density functional theory as the objective function."
 - name: MLIP-3
   category: mliap
   description: "MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP)"
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   # homepage: https://doi.org/10.48550/arXiv.2304.13144
   license: "BSD-2-Clause"
   gitlab_id: ashapeev/mlip-3
@@ -1625,11 +1633,11 @@ calculated from density functional theory as the objective function."
   github_id: risilab/Autobahn
 - name: GElib
   category: math
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   # docs_url: https://risi-kondor.github.io/GElib/
   github_id: risi-kondor/GElib
 - name: cnine
   category: math
-  labels: ["cpp-lang"]
+  labels: ["lang-cpp"]
   docs_url: https://risi-kondor.github.io/cnine/
   github_id: risi-kondor/cnine
