@@ -423,100 +423,16 @@ projects:
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
-- name: crystals.ai
-  resource: true
-  category: datasets
-  description: Curated datasets for reproducible AI in materials science.
-  homepage: https://crystals.ai/
-- name: "Datasets including densities"
-  resource: true
-  category: datasets
-  description: "These datasets contain not only molecular geometries and energies but also valence densities."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Densities dataset"
-  resource: true
-  category: datasets
-  description: "These datasets contain molecular geometries, coupled-cluster energies, DFT energies, and valence electron densities based on the PBE functional."
-  homepage: http://quantum-machine.org/datasets/
-- name: ISO17
-  resource: true
-  category: datasets
-  description: "MD Trajectories of C7O2H10 with total energies and atomic forces."
-  homepage: http://quantum-machine.org/datasets/
-- name: "MD Trajectories of C7O2H10"
-  resource: true
-  category: datasets
-  description: "This data set consists of molecular dynamics trajectories of 113 randomly selected C7O2H10 isomers calculated at a temperature of 500 K and resolution of 1fs using density functional theory with the PBE exchange-correlation potential."
-  homepage: http://quantum-machine.org/datasets/
-- name: "MD Trajectories of small molecules"
-  resource: true
-  category: datasets
-  description: "The molecular dynamics (MD) datasets in this package range in size from 150k to nearly 1M conformational geometries."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Molecular Hamiltonians and overlap matrices "
-  resource: true
-  category: datasets
-  description: "Datasets containing structures, energies, forces, Hamiltonians (Fock or Kohn-Sham matrices) and overlap matrices for water, ethanol, malondialdehyde and uracil used for training the SchNOrb model."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Molecular response properties in implicit and explicit solvent environments"
-  resource: true
-  category: datasets
-  description: "These datasets contain structures, energies, forces and various response properties (dipole moment, polarizability tensor, nuclear shielding tensors) for ethanol, methanol and allyl-p-tolyl ether used for training the FieldSchNet model."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Molecules generated with G-SchNet"
-  resource: true
-  category: datasets
-  description: "Molecules generated with the G-SchNet architecture trainined on 50k randomly selected structures from QM9. Both databases only contain generated molecules which cannot be found in QM9."
-  homepage: http://quantum-machine.org/datasets/
-- name: "MQMspin database"
-  resource: true
-  category: datasets
-  description: "This data set contains a sample of approx. 5k singlet state and approx. 8k triplet state carbene structures drawn from a systematically constructed large chemical space of approx. 300k carbenes."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM7
-  resource: true
-  category: datasets
-  description: "This dataset is a subset of GDB-13 (a database of nearly 1 billion stable and synthetically accessible organic molecules) composed of all molecules of up to 23 atoms (including 7 heavy atoms C, N, O, and S), totalling 7165 molecules."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM7b
-  resource: true
-  category: datasets
-  description: "This dataset is an extension of the QM7 dataset for multitask learning where 13 additional properties (e.g. polarizability, HOMO and LUMO eigenvalues, excitation energies) have to be predicted at different levels of theory (ZINDO, SCS, PBE0, GW)."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM8
-  resource: true
-  category: datasets
-  description: "Dataset with low-lying singlet-singlet vertical electronic spectra of over 20'000 synthetically feasible small organic molecules with up to eight CONF atoms."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM9
-  resource: true
-  category: datasets
-  description: "We report computed geometric, energetic, electronic, and thermodynamic properties for 134k stable small organic molecules made up of CHONF."
-  homepage: http://quantum-machine.org/datasets/
-- name: sGDML Datasets
-  resource: true
-  category: datasets
-  homepage: http://sgdml.org/#datasets
-- name: "SN2 reactions"
-  resource: true
-  category: datasets
-  description: "Chemical reactions of methyl halides with halide anions"
-  homepage: http://quantum-machine.org/datasets/
-- name: "Solvated protein fragments"
-  resource: true
-  category: datasets
-  description: "Contains structures for all possible 'amons' (hydrogen-saturated covalently bonded fragments) of up to eight heavy atoms (C, N, O, S) that can be derived from chemical graphs of proteins containing the 20 natural amino acids connected via peptide bonds or disulfide bridges."
-  homepage: http://quantum-machine.org/datasets/
-- name: "tmQM Dataset"
-  resource: true
-  category: datasets
-  description: "The transition metal quantum mechanics dataset (tmQM) contains the geometries and properties of a chemical compound space comprising 86,665 mononuclear complexes extracted from the Cambridge Structural Database."
-  homepage: http://quantum-machine.org/datasets/
 - name: "Catalysis Hub"
   resource: true
   category: datasets
   description: "A web-platform for sharing data and software for computational catalysis research!"
   homepage: https://www.catalysis-hub.org/
+- name: crystals.ai
+  resource: true
+  category: datasets
+  description: Curated datasets for reproducible AI in materials science.
+  homepage: https://crystals.ai/
 - name: "DeepChem Models"
   resource: true
   category: datasets
@@ -534,6 +450,14 @@ projects:
   category: datasets
   description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
   homepage: https://matterverse.ai/
+- name: "Quantum-Machine.org Datasets"
+  resource: true
+  description: "Collection of datasets, including QM7, QM7b, QM8, QM9, molecular geometries, MD trajectories, DFT charge densities, Hamiltonian matrices, response properties, reactions, etc. of small organic molecules, proteins, TM complexes, etc."
+  homepage: http://quantum-machine.org/datasets/
+- name: sGDML Datasets
+  resource: true
+  category: datasets
+  homepage: http://sgdml.org/#datasets
   # ################################################################################
   # DATASETS with resource: false (sorted by CI/CD)
   # ################################################################################
