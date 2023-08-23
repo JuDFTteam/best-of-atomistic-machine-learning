@@ -19,4 +19,6 @@ This curated list contains {project_count} awesome open-source projects with a t
 
 The current focus of this list is more on simulation data rather than experimental data, and more on materials rather than molecules. Nevertheless, contributions from other fields are warmly welcome!
 
+See [Related Resources](#Related-Resources) below for similar lists.
+
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
