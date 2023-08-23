@@ -349,7 +349,11 @@ labels:
 # ################################################################################
 # ################################################################################
 projects:
-  # # generic example (not matching this list's categories etc.)
+  # ################################################################################
+  # DOCUMENTATION
+  # ################################################################################
+  #
+  # # project generic example (not matching this list's categories etc.)
   # - name: best-of-ml-python
   #   category: data-engineering
   #   labels: ["lang-py"]
@@ -413,8 +417,175 @@ projects:
   #   resource: true
   #   category:
   #   homepage:
-
   #
+  # ################################################################################
+
+  # ################################################################################
+  # DATASETS with resource: true (list here alphabetically)
+  # ################################################################################
+- name: crystals.ai
+  resource: true
+  category: datasets
+  description: Curated datasets for reproducible AI in materials science.
+  homepage: https://crystals.ai/
+- name: "Datasets including densities"
+  resource: true
+  category: datasets
+  description: "These datasets contain not only molecular geometries and energies but also valence densities."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Densities dataset"
+  resource: true
+  category: datasets
+  description: "These datasets contain molecular geometries, coupled-cluster energies, DFT energies, and valence electron densities based on the PBE functional."
+  homepage: http://quantum-machine.org/datasets/
+- name: ISO17
+  resource: true
+  category: datasets
+  description: "MD Trajectories of C7O2H10 with total energies and atomic forces."
+  homepage: http://quantum-machine.org/datasets/
+- name: "MD Trajectories of C7O2H10"
+  resource: true
+  category: datasets
+  description: "This data set consists of molecular dynamics trajectories of 113 randomly selected C7O2H10 isomers calculated at a temperature of 500 K and resolution of 1fs using density functional theory with the PBE exchange-correlation potential."
+  homepage: http://quantum-machine.org/datasets/
+- name: "MD Trajectories of small molecules"
+  resource: true
+  category: datasets
+  description: "The molecular dynamics (MD) datasets in this package range in size from 150k to nearly 1M conformational geometries."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Molecular Hamiltonians and overlap matrices "
+  resource: true
+  category: datasets
+  description: "Datasets containing structures, energies, forces, Hamiltonians (Fock or Kohn-Sham matrices) and overlap matrices for water, ethanol, malondialdehyde and uracil used for training the SchNOrb model."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Molecular response properties in implicit and explicit solvent environments"
+  resource: true
+  category: datasets
+  description: "These datasets contain structures, energies, forces and various response properties (dipole moment, polarizability tensor, nuclear shielding tensors) for ethanol, methanol and allyl-p-tolyl ether used for training the FieldSchNet model."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Molecules generated with G-SchNet"
+  resource: true
+  category: datasets
+  description: "Molecules generated with the G-SchNet architecture trainined on 50k randomly selected structures from QM9. Both databases only contain generated molecules which cannot be found in QM9."
+  homepage: http://quantum-machine.org/datasets/
+- name: "MQMspin database"
+  resource: true
+  category: datasets
+  description: "This data set contains a sample of approx. 5k singlet state and approx. 8k triplet state carbene structures drawn from a systematically constructed large chemical space of approx. 300k carbenes."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM7
+  resource: true
+  category: datasets
+  description: "This dataset is a subset of GDB-13 (a database of nearly 1 billion stable and synthetically accessible organic molecules) composed of all molecules of up to 23 atoms (including 7 heavy atoms C, N, O, and S), totalling 7165 molecules."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM7b
+  resource: true
+  category: datasets
+  description: "This dataset is an extension of the QM7 dataset for multitask learning where 13 additional properties (e.g. polarizability, HOMO and LUMO eigenvalues, excitation energies) have to be predicted at different levels of theory (ZINDO, SCS, PBE0, GW)."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM8
+  resource: true
+  category: datasets
+  description: "Dataset with low-lying singlet-singlet vertical electronic spectra of over 20'000 synthetically feasible small organic molecules with up to eight CONF atoms."
+  homepage: http://quantum-machine.org/datasets/
+- name: QM9
+  resource: true
+  category: datasets
+  description: "We report computed geometric, energetic, electronic, and thermodynamic properties for 134k stable small organic molecules made up of CHONF."
+  homepage: http://quantum-machine.org/datasets/
+- name: sGDML Datasets
+  resource: true
+  category: datasets
+  homepage: http://sgdml.org/#datasets
+- name: "SN2 reactions"
+  resource: true
+  category: datasets
+  description: "Chemical reactions of methyl halides with halide anions"
+  homepage: http://quantum-machine.org/datasets/
+- name: "Solvated protein fragments"
+  resource: true
+  category: datasets
+  description: "Contains structures for all possible 'amons' (hydrogen-saturated covalently bonded fragments) of up to eight heavy atoms (C, N, O, S) that can be derived from chemical graphs of proteins containing the 20 natural amino acids connected via peptide bonds or disulfide bridges."
+  homepage: http://quantum-machine.org/datasets/
+- name: "tmQM Dataset"
+  resource: true
+  category: datasets
+  description: "The transition metal quantum mechanics dataset (tmQM) contains the geometries and properties of a chemical compound space comprising 86,665 mononuclear complexes extracted from the Cambridge Structural Database."
+  homepage: http://quantum-machine.org/datasets/
+- name: "Catalysis Hub"
+  resource: true
+  category: datasets
+  description: "A web-platform for sharing data and software for computational catalysis research!"
+  homepage: https://www.catalysis-hub.org/
+- name: "DeepChem Models"
+  resource: true
+  category: datasets
+  labels: ["pre-trained", "lm"]
+  homepage: https://huggingface.co/DeepChem
+- name: JARVIS-Leaderboard
+  resource: true
+  category: datasets
+  labels: ["benchmarking"]
+  homepage: https://pages.nist.gov/jarvis_leaderboard/
+  license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
+  github_id: usnistgov/jarvis_leaderboard
+- name: matterverse.ai
+  resource: true
+  category: datasets
+  description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
+  homepage: https://matterverse.ai/
+  # ################################################################################
+  # DATASETS with resource: false (sorted by CI/CD)
+  # ################################################################################
+- name: Visual Graph Datasets
+  # resource: false
+  category: datasets
+  license: "MIT"
+  github_id: aimat-lab/visual_graph_datasets
+- name: 3DSC Database
+  # resource: false
+  category: datasets
+  labels: ["superconductors", "materials-discovery"]
+  license: https://github.com/aimat-lab/3DSC/blob/main/LICENSE.md
+  github_id: aimat-lab/3DSC
+- name: ANI-1 Dataset
+  # resource: true
+  category: datasets
+  github_id: isayev/ANI1_dataset
+- name: ANI-1x Datasets
+  # resource: true
+  category: datasets
+  github_id: aiqm/ANI1x_datasets
+- name: COMP6 Benchmark dataset
+  # resource: true
+  category: datasets
+  github_id: isayev/COMP6
+- name: MoleculeNet Leaderboard
+  # resource: true
+  category: datasets
+  description:
+  labels: ["benchmarking"]
+  github_id: deepchem/moleculenet
+- name: GEOM
+  # resource: true
+  category: datasets
+  labels: ["drug-discovery"]
+  github_id: learningmatter-mit/geom
+- name: OpenKIM
+  # resource: true
+  category: datasets
+  labels: ["knowledge-base", "pre-trained"]
+  homepage: https://openkim.org/
+  # docs_url: https://kim-api.readthedocs.io/
+  github_id: openkim/kim-api
+- name: linear-regression-benchmarks
+  # resource: true
+  category: datasets
+  labels: ["benchmarking", "single-paper"]
+  github_id: BingqingCheng/linear-regression-benchmarks
+  # ################################################################################
+  # ALL THE REST (sorted by CI/CD)
+  # ################################################################################
 - name: Atomic Cluster Expansion
   resource: true
   category: community
@@ -613,11 +784,6 @@ projects:
   github_id: lab-cosmo/cosmo-tools
   ignore: true
   # feeback from COSMO: intended for internal use
-- name: crystals.ai
-  resource: true
-  category: datasets
-  description: Curated datasets for reproducible AI in materials science.
-  homepage: https://crystals.ai/
 - name: M3GNet
   category: mliap
   # homepage: https://crystals.ai/
@@ -719,93 +885,9 @@ projects:
   # docs_url: http://docs.sgdml.org/
   github_id: stefanch/sGDML
   pypi_id: sgdml
-- name: sGDML Datasets
-  resource: true
-  category: datasets
-  homepage: http://sgdml.org/#datasets
 - name: DTNN
   category: rep-learn
   github_id: atomistic-machine-learning/dtnn
-- name: QM7
-  resource: true
-  category: datasets
-  description: "This dataset is a subset of GDB-13 (a database of nearly 1 billion stable and synthetically accessible organic molecules) composed of all molecules of up to 23 atoms (including 7 heavy atoms C, N, O, and S), totalling 7165 molecules."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM7b
-  resource: true
-  category: datasets
-  description: "This dataset is an extension of the QM7 dataset for multitask learning where 13 additional properties (e.g. polarizability, HOMO and LUMO eigenvalues, excitation energies) have to be predicted at different levels of theory (ZINDO, SCS, PBE0, GW)."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM9
-  resource: true
-  category: datasets
-  description: "We report computed geometric, energetic, electronic, and thermodynamic properties for 134k stable small organic molecules made up of CHONF."
-  homepage: http://quantum-machine.org/datasets/
-- name: QM8
-  resource: true
-  category: datasets
-  description: "Dataset with low-lying singlet-singlet vertical electronic spectra of over 20'000 synthetically feasible small organic molecules with up to eight CONF atoms."
-  homepage: http://quantum-machine.org/datasets/
-- name: "MD Trajectories of small molecules"
-  resource: true
-  category: datasets
-  description: "The molecular dynamics (MD) datasets in this package range in size from 150k to nearly 1M conformational geometries."
-  homepage: http://quantum-machine.org/datasets/
-- name: "MD Trajectories of C7O2H10"
-  resource: true
-  category: datasets
-  description: "This data set consists of molecular dynamics trajectories of 113 randomly selected C7O2H10 isomers calculated at a temperature of 500 K and resolution of 1fs using density functional theory with the PBE exchange-correlation potential."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Datasets including densities"
-  resource: true
-  category: datasets
-  description: "These datasets contain not only molecular geometries and energies but also valence densities."
-  homepage: http://quantum-machine.org/datasets/
-- name: ISO17
-  resource: true
-  category: datasets
-  description: "MD Trajectories of C7O2H10 with total energies and atomic forces."
-  homepage: http://quantum-machine.org/datasets/
-- name: "SN2 reactions"
-  resource: true
-  category: datasets
-  description: "Chemical reactions of methyl halides with halide anions"
-  homepage: http://quantum-machine.org/datasets/
-- name: "Solvated protein fragments"
-  resource: true
-  category: datasets
-  description: "Contains structures for all possible 'amons' (hydrogen-saturated covalently bonded fragments) of up to eight heavy atoms (C, N, O, S) that can be derived from chemical graphs of proteins containing the 20 natural amino acids connected via peptide bonds or disulfide bridges."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Molecules generated with G-SchNet"
-  resource: true
-  category: datasets
-  description: "Molecules generated with the G-SchNet architecture trainined on 50k randomly selected structures from QM9. Both databases only contain generated molecules which cannot be found in QM9."
-  homepage: http://quantum-machine.org/datasets/
-- name: "MQMspin database"
-  resource: true
-  category: datasets
-  description: "This data set contains a sample of approx. 5k singlet state and approx. 8k triplet state carbene structures drawn from a systematically constructed large chemical space of approx. 300k carbenes."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Molecular Hamiltonians and overlap matrices "
-  resource: true
-  category: datasets
-  description: "Datasets containing structures, energies, forces, Hamiltonians (Fock or Kohn-Sham matrices) and overlap matrices for water, ethanol, malondialdehyde and uracil used for training the SchNOrb model."
-  homepage: http://quantum-machine.org/datasets/
-- name: "tmQM Dataset"
-  resource: true
-  category: datasets
-  description: "The transition metal quantum mechanics dataset (tmQM) contains the geometries and properties of a chemical compound space comprising 86,665 mononuclear complexes extracted from the Cambridge Structural Database."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Densities dataset"
-  resource: true
-  category: datasets
-  description: "These datasets contain molecular geometries, coupled-cluster energies, DFT energies, and valence electron densities based on the PBE functional."
-  homepage: http://quantum-machine.org/datasets/
-- name: "Molecular response properties in implicit and explicit solvent environments"
-  resource: true
-  category: datasets
-  description: "These datasets contain structures, energies, forces and various response properties (dipole moment, polarizability tensor, nuclear shielding tensors) for ethanol, methanol and allyl-p-tolyl ether used for training the FieldSchNet model."
-  homepage: http://quantum-machine.org/datasets/
 - name: "Alchemical learning"
   category: mliap
   description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
@@ -871,13 +953,6 @@ projects:
   # description: A Google-Colab Notebook Collection for Materials Design
   license: "NIST"
   github_id: JARVIS-Materials-Design/jarvis-tools-notebooks
-- name: JARVIS-Leaderboard
-  resource: true
-  category: datasets
-  labels: ["benchmarking"]
-  homepage: https://pages.nist.gov/jarvis_leaderboard/
-  license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
-  github_id: usnistgov/jarvis_leaderboard
 - name: ALIGNN
   category: rep-learn
   # homepage: https://jarvis.nist.gov/login?next=/jalignn/
@@ -977,11 +1052,6 @@ projects:
   labels: ["surface-science"]
   github_id: SUNCAT-Center/CatLearn
   pypi_id: catlearn
-- name: "Catalysis Hub"
-  resource: true
-  category: datasets
-  description: "A web-platform for sharing data and software for computational catalysis research!"
-  homepage: https://www.catalysis-hub.org/
 - name: FLARE
   category: active-learning
   labels: ["lang-cpp", "mliap"]
@@ -1048,21 +1118,11 @@ projects:
   github_id: mir-group/nequip
   pypi_id: nequip
   conda_id: conda-forge/nequip
-- name: matterverse.ai
-  resource: true
-  category: datasets
-  description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
-  homepage: https://matterverse.ai/
 - name: kgcnn
   category: rep-learn
   # docs_url: https://kgcnn.readthedocs.io/
   github_id: aimat-lab/gcnn_keras
   pypi_id: kgcnn
-- name: Visual Graph Datasets
-  # resource: false
-  category: datasets
-  license: "MIT"
-  github_id: aimat-lab/visual_graph_datasets
 - name: ML4pXRDs
   resource:
   category: rep-learn
@@ -1075,12 +1135,6 @@ projects:
   category: xai
   license: "MIT"
   github_id: aimat-lab/graph_attention_student
-- name: 3DSC Database
-  # resource: false
-  category: datasets
-  labels: ["superconductors", "materials-discovery"]
-  license: https://github.com/aimat-lab/3DSC/blob/main/LICENSE.md
-  github_id: aimat-lab/3DSC
 - name: NNsforMD
   resource:
   category: mliap
@@ -1113,14 +1167,6 @@ projects:
 - name: ANI-1
   category: mliap
   github_id: isayev/ASE_ANI
-- name: ANI-1 Dataset
-  # resource: true
-  category: datasets
-  github_id: isayev/ANI1_dataset
-- name: ANI-1x Datasets
-  # resource: true
-  category: datasets
-  github_id: aiqm/ANI1x_datasets
 - name: TorchANI
   category: mliap
   # docs_url: https://aiqm.github.io/torchani/
@@ -1131,10 +1177,6 @@ projects:
   category: mliap
   labels: ["single-paper"]
   github_id: aiqm/aimnet
-- name: COMP6 Benchmark dataset
-  # resource: true
-  category: datasets
-  github_id: isayev/COMP6
 - name: MALA
   category: ml-dft
   # docs_url: https://mala-project.github.io/mala/
@@ -1234,11 +1276,6 @@ projects:
   pypi_id: deepchem
   conda_id: conda-forge/deepchem
   dockerhub_id: deepchemio/deepchem
-- name: "DeepChem Models"
-  resource: true
-  category: datasets
-  labels: ["pre-trained", "lm"]
-  homepage: https://huggingface.co/DeepChem
 - name: torchchem
   category: general-tool
   github_id: deepchem/torchchem
@@ -1247,12 +1284,6 @@ projects:
   # docs_url: https://jaxchem.readthedocs.io/
   license: "MIT"
   github_id: deepchem/jaxchem
-- name: MoleculeNet Leaderboard
-  # resource: true
-  category: datasets
-  description:
-  labels: ["benchmarking"]
-  github_id: deepchem/moleculenet
 - name: DeepLearningLifeSciences
   # resource: true
   category: educational
@@ -1371,11 +1402,6 @@ projects:
   category: mliap
   labels: ["probabilistic"]
   github_id: learningmatter-mit/Atomistic-Adversarial-Attacks
-- name: GEOM
-  # resource: true
-  category: datasets
-  labels: ["drug-discovery"]
-  github_id: learningmatter-mit/geom
 - name: Coarse-Graining-Auto-encoders
   category: unsupervised
   labels: ["single-paper"]
@@ -1446,13 +1472,6 @@ calculated from density functional theory as the objective function."
   license: "MIT"
   github_id: MaterSim/PyXtal_FF
   pypi_id: pyxtal_ff
-- name: OpenKIM
-  resource:
-  category: datasets
-  labels: ["knowledge-base", "pre-trained"]
-  homepage: https://openkim.org/
-  # docs_url: https://kim-api.readthedocs.io/
-  github_id: openkim/kim-api
 - name: MLatom
   category: general-tool
   description: "Machine learning for atomistic simulations"
@@ -1477,11 +1496,6 @@ calculated from density functional theory as the objective function."
   labels: ["benchmarking"]
   github_id: capoe/benchml
   pypi_id: benchml
-- name: linear-regression-benchmarks
-  # resource: true
-  category: datasets
-  labels: ["benchmarking", "single-paper"]
-  github_id: BingqingCheng/linear-regression-benchmarks
 - name: SOAPxx
   category: rep-eng
   description: A SOAP implementation.
