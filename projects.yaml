@@ -77,6 +77,9 @@ categories:
   - category: "generative"
     title: "Generative Models"
     subtitle: "Projects that implement generative models for atomistic ML."
+  - category: "lm"
+    title: "Language Models"
+    subtitle: "Projects that use (large) language models (LMs, LLMs) or natural language procesing (NLP) techniques for atomistic ML."
   - category: "mliap"
     title: "Machine Learning Potentials (MLIAP)"
     subtitle: "Machine Learning Potentials (aka MLIAP, less unambiguous MLIP, MLP) and force fields (ML-FF) for molecular dynamics."
@@ -89,9 +92,6 @@ categories:
   - category: "md"
     title: "Molecular Dynamics"
     subtitle: "Projects that simplify the integration of molecular dynamics and atomistic machine learning."
-  - category: "nlp"
-    title: "Natural Language Processing"
-    subtitle: "Projects that use natural language processing (NLP) and large language models (LLM) for atomistic ML."
   - category: "probabilistic"
     title: "Probabilistic ML"
     subtitle: "Projects that focus on probabilistic, Bayesian, Gaussian process and adversarial methods for atomistic ML, for optimization, uncertainty quantification (UQ), etc."
@@ -159,6 +159,10 @@ labels:
   - label: "generative"
     # category: "generative"
     name: "generative"
+  - label: "lm"
+    # category: "lm"
+    name: "LM"
+    url: "https://en.wikipedia.org/wiki/Language_model"
   - label: "mliap"
     # category: "mliap"
     name: "MLIAP"
@@ -173,10 +177,6 @@ labels:
     # category: "md"
     name: "MD"
     url: "https://en.wikipedia.org/wiki/Molecular_dynamics"
-  - label: "nlp"
-    # category: "nlp"
-    name: "NLP"
-    url: "https://en.wikipedia.org/wiki/Natural_language_processing"
   - label: "probabilistic"
     # category: "probabilistic"
     name: "probabilistic"
@@ -1130,11 +1130,11 @@ projects:
   github_id: microsoft/molecule-generation
   pypi_id: molecule-generation
 - name: paper-qa
-  category: nlp
+  category: lm
   github_id: whitead/paper-qa
   pypi_id: paper-qa
 - name: MolSkill
-  category: nlp
+  category: lm
   labels: ["drug-discovery", "recommender"]
   github_id: microsoft/molskill
   conda_id: msr-ai4science/molskill
@@ -1143,7 +1143,7 @@ projects:
   github_id: whitead/synspace
   pypi_id: synspace
 - name: nlcc
-  category: nlp
+  category: lm
   labels: ["single-paper"]
   license: "MIT"
   github_id: whitead/nlcc
@@ -1205,7 +1205,7 @@ projects:
 - name: "DeepChem Models"
   resource: true
   category: datasets
-  labels: ["pre-trained", "nlp"]
+  labels: ["pre-trained", "lm"]
   homepage: https://huggingface.co/DeepChem
 - name: torchchem
   category: general-tool
@@ -1549,7 +1549,7 @@ calculated from density functional theory as the objective function."
   github_id: ur-whitelab/exmol
   pypi_id: exmol
 - name: gptchem
-  category: nlp
+  category: lm
   description: "Use GPT-3 to solve chemistry problems."
   # docs_url: https://gptchem.readthedocs.io/
   github_id: kjappelbaum/gptchem
@@ -1578,7 +1578,7 @@ calculated from density functional theory as the objective function."
   category: educational
   github_id: bfocassio/MLDensity_tutorial
 - name: BERT-PSIE-TC
-  category: nlp
+  category: lm
   labels: ["magnetism"]
   github_id: StefanoSanvitoGroup/BERT-PSIE-TC
 - name: ALF
