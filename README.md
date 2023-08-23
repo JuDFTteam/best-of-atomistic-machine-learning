@@ -28,7 +28,7 @@ See [Related Resources](#Related-Resources) below for thematically related lists
 - [Active learning](#active-learning) _4 projects_
 - [Biomolecules](#biomolecules) _2 projects_
 - [Community resources](#community-resources) _1 projects_
-- [Datasets](#datasets) _15 projects_
+- [Datasets](#datasets) _16 projects_
 - [Data Structures](#data-structures) _2 projects_
 - [Density functional theory (ML-DFT)](#density-functional-theory-ml-dft) _17 projects_
 - [Educational Resources](#educational-resources) _19 projects_
@@ -48,7 +48,7 @@ See [Related Resources](#Related-Resources) below for thematically related lists
 - [Unsupervised Learning](#unsupervised-learning) _6 projects_
 - [Visualization](#visualization) _1 projects_
 - [Wavefunction methods (ML-WFT)](#wavefunction-methods-ml-wft) _4 projects_
-- [Others](#others) _2 projects_
+- [Others](#others) _1 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -145,6 +145,8 @@ _Datasets, databases and trained models for atomistic ML._
 🔗&nbsp;<b><a href="https://pages.nist.gov/jarvis_leaderboard/">JARVIS-Leaderboard</a></b> ( ⭐ 39)  - This project provides benchmark-performances for materials science applications including Artificial Intelligence.. <code>benchmarking</code>
 
 🔗&nbsp;<b><a href="https://matterverse.ai/">matterverse.ai</a></b>  - Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms.
+
+🔗&nbsp;<b><a href="http://quantum-machine.org/datasets/">Quantum-Machine.org Datasets</a></b>  - Collection of datasets, including QM7, QM7b, QM8, QM9, molecular geometries, MD trajectories, DFT charge densities,..
 
 🔗&nbsp;<b><a href="http://sgdml.org/#datasets">sGDML Datasets</a></b>  
 
@@ -424,7 +426,7 @@ _General tools for atomistic machine learning._
 
 <details><summary><b><a href="https://github.com/deepchem/deepchem">DeepChem</a></b> (🥇36 ·  ⭐ 4.5K) - Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/deepchem/deepchem) (👨‍💻 220 · 🔀 1.4K · 📦 240 · 📋 1.6K - 25% open · ⏱️ 20.08.2023):
+- [GitHub](https://github.com/deepchem/deepchem) (👨‍💻 220 · 🔀 1.4K · 📦 240 · 📋 1.6K - 25% open · ⏱️ 23.08.2023):
 
 	```
 	git clone https://github.com/deepchem/deepchem
@@ -1708,8 +1710,6 @@ _Projects and models that focus on quantities of wavefunction electronic structu
 ## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-🔗&nbsp;<b><a href="http://quantum-machine.org/datasets/">Quantum Machine Datasets</a></b>  - Collection of datasets, including QM7, QM7b, QM8, QM9, molecular geometries, MD trajectories, DFT charge densities,..
 
 <details><summary>Show 1 hidden projects...</summary>
 
