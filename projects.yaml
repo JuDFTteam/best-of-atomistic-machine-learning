@@ -453,7 +453,7 @@ projects:
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
-  description: "Collection of datasets, including QM7, QM7b, QM8, QM9, molecular geometries, MD trajectories, DFT charge densities, Hamiltonian matrices, response properties, reactions, etc. of small organic molecules, proteins, TM complexes, etc."
+  description: "Collection of datasets, including QM7, QM7b, QM8, QM9, etc. Trajectories and various properties of mainly small organic molecules."
   homepage: http://quantum-machine.org/datasets/
 - name: sGDML Datasets
   resource: true
