@@ -349,11 +349,11 @@ labels:
 # ################################################################################
 # ################################################################################
 projects:
-  # # example.
+  # # generic example (not matching this list's categories etc.)
   # - name: best-of-ml-python
+  #   category: data-engineering
+  #   labels: ["lang-py"]
   #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
   #
   # # project full template.
   # # reference https://github.com/best-of-lists/best-of-generator#project-properties
@@ -377,11 +377,43 @@ projects:
   #   dockerhub_id:
   #   maven_id:
   #
+  # Style guide for list best-of-atomistic-machine-learning (this list).
+  #
+  # - Use the simple template for projects and resources.
+  # - Putting property values in quotes is mostly not needed, see examples below.
+  # - Resources are those that don't have a repo (github_id etc.). See examples below.
+  # - URLs: The project link in the README.md will point to link in prop, in order:
+  #   homepage, docs_url, one of {github_id, gitlab_id, etc., whichever provided}.
+  #   In most cases, only provide the repo_id URL. Cause it usually point to
+  #   the other URLs, while the latter don't always point to the repo. If the other
+  #   URLs exist, but the repo doesn't point to them, add them as props, but comment
+  #   them out. See examples below.
+  # - Category & labels: Every category has a corresponding label, not every label has a
+  #   corresponding category. View the category as the emphasized label. Labels / tags are
+  #   generally preferred over tree-based classification (in this case, categories, one-
+  #   dimensional). So, be generous with labeling. The label selected as category should
+  # - If a project's category is changed, view this as emphasized label change.
+  #   Consequently, add the old category as label, if not incorrect.
+  # - If the repo_id's project description is missing or unhelpful, add description prop.
+  #   Prefer to copy headline oneliner from project's README, if useful.
+  # - You can use groups props (group_id = group definition, group = group association)
+  #   for keeping track of related projects (eg all from same devlopers; though that
+  #   is usually clear from the repo_id parent folder.) However, comment them out, because
+  #   they might interfere when grouped projects are in different categories (I think).
+  #
   # # project simple template.
   # - name:
-  #   github_id:
+  #   category:
   #   labels: []
-  #   category: ""
+  #   license:
+  #   github_id:
+  #
+  # # resource simple template.
+  # - name:
+  #   resource: true
+  #   category:
+  #   homepage:
+
   #
 - name: Atomic Cluster Expansion
   resource: true
