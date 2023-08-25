@@ -210,7 +210,7 @@ labels:
   # Programming - specific labels
   # ########################################
   - label: "lang-c"
-    name: "TmpClang"
+    name: "C-lang"
     # image: "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/e143de7faaa0dff3bc6a2c9fbaa46d209e56cb5e/config/images/c.ico"
     description: "Project has a C interface"
   - label: "lang-cpp"
@@ -455,6 +455,7 @@ projects:
   labels: ["lm", "generative", "pre-trained"]
   license: https://materialis.ai/terms.html
   # package managers: none
+  description: Generate a crystal structure from a composition.
 - name: matsci.org
   resource: true
   category: community
@@ -513,13 +514,6 @@ projects:
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
-- name: 2DMD dataset
-  resource: true
-  category: datasets
-  labels: ["material-defect"]
-  # license: # none found
-  homepage: https://rolos.com/open/2d-materials-point-defects/#physics
-  # - docs_url: https://doi.org/10.1038/s41699-023-00369-1
 - name: "Catalysis Hub"
   resource: true
   category: datasets
@@ -529,7 +523,8 @@ projects:
   resource: true
   category: datasets
   license: MIT
-  homepage: https://citrination.com/datasets
+  homepage: https://citrination.com/
+  description: AI-Powered Materials Data Platform. Open Citrination has been decommissioned.
 - name: crystals.ai
   resource: true
   category: datasets
@@ -540,6 +535,7 @@ projects:
   category: datasets
   labels: ["pre-trained", "lm"]
   homepage: https://huggingface.co/DeepChem
+  description: DeepChem models on HuggingFace.
 - name: JARVIS-Leaderboard
   resource: true
   category: datasets
@@ -552,6 +548,7 @@ projects:
   category: datasets
   # license: # none found
   homepage: https://materialsproject.org/ml/charge_densities
+  description: Materials Project has started offering charge density information available for download via their public API.
 - name: matterverse.ai
   resource: true
   category: datasets
@@ -566,6 +563,7 @@ projects:
   resource: true
   category: datasets
   homepage: http://sgdml.org/#datasets
+  description: MD17, MD22, DFT datasets.
   # ################################################################################
   # DATASETS with resource: false (sorted by CI/CD)
   # ################################################################################
@@ -643,6 +641,12 @@ projects:
   license: MIT
   github_id: openmm/spice-dataset
   # package managers: none
+- name: 2DMD dataset
+  category: datasets
+  labels: ["material-defect"]
+  # license: # none found
+  homepage: https://github.com/HSE-LAMBDA/ai4material_design/blob/main/docs/DATA.md
+  github_id: HSE-LAMBDA/ai4material_design
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
@@ -650,6 +654,7 @@ projects:
   resource: true
   category: educational
   homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
+  description: Book, 2022.
   # ################################################################################
   # EDUCATIONAL with resource: false (sorted by CI/CD)
   # ################################################################################
@@ -1836,12 +1841,6 @@ calculated from density functional theory as the objective function."
   labels: ["lang-julia"]
   github_id: aced-differentiate/EquivariantOperators.jl
   license: MIT
-- name: Closed-loop acceleration benchmarks
-  category: materials-discovery
-  labels: ["materials-discovery", "active-learning", "single-paper"]
-  license: MIT
-  github_id: aced-differentiate/closed-loop-acceleration-benchmarks
-  # package managers: none
 - name: cdk
   github_id: cdk/cdk
   category: rep-eng
