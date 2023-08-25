@@ -400,7 +400,7 @@ projects:
   #   - If a project is a subfolder of a repo, provide both props homepage (link to the repo
   #     subfolder containing the project) and the repo id (e.g., github_id). See example
   #     project DM21 below. That way, the project quality score is calculuated, and the
-  #     project link points to the correct loacation.
+  #     project link points to the correct location. Don't set resource: true.
   # - Category & labels: Every category has a corresponding label, not every label has a
   #   corresponding category. View the category as the emphasized label. Labels / tags are
   #   generally preferred over tree-based classification (in this case, categories, one-
