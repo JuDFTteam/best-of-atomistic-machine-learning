@@ -1,38 +1,17 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
     <!-- ⚛️🧬❄️,  🤖🧠🦾✨, ▶️⏩➡️↔️🔄🔁♻️-->    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <br> 
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">        
     Best of Atomistic Machine Learning 
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
     <br>
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
-    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">        
 </h1>
+
+<p align="center">
+    <!-- Note: For image preview, use path relative to source file, config/header.md. For production, use path relative to README.md. -->
+    <img src="config/images/emoji-neural-network-like-atom_nn-purple.svg" width="40">       
+    <img src="config/images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <!-- <img src="./images/emoji-dna.svg" width="40"> -->
+    <!-- <img src="./images/emoji-gem-stone.svg" width="40"> -->
+</p>
 
 <p align="center">
     <strong>🏆&nbsp; A ranked list of awesome atomistic machine learning (AML) projects. Updated quarterly.</strong>
@@ -311,7 +290,7 @@ _Datasets, databases and trained models for atomistic ML._
 <details><summary>Show 7 hidden projects...</summary>
 
 - <b><a href="https://openkim.org/">OpenKIM</a></b> (🥈11 ·  ⭐ 29 · 💀) - The Open Knowledgebase of Interatomic Models (OpenKIM) aims to be an online resource for standardized testing, long-.. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <a href="https://en.wikipedia.org/wiki/Knowledge_base"><code>knowledge-base</code></a> <code>pre-trained</code>
-- <b><a href="https://github.com/HSE-LAMBDA/ai4material_design/blob/main/docs/DATA.md">2DMD dataset</a></b> (🥈10 ·  ⭐ 1 · 📈) - Code for Kazeev, N., Al-Maeeni, A.R., Romanov, I. et al. Sparse representation for machine learning the properties of.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Crystallographic_defect"><code>material-defect</code></a>
+- <b><a href="https://github.com/HSE-LAMBDA/ai4material_design/blob/main/docs/DATA.md">2DMD dataset</a></b> (🥈10 ·  ⭐ 1) - Code for Kazeev, N., Al-Maeeni, A.R., Romanov, I. et al. Sparse representation for machine learning the properties of.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Crystallographic_defect"><code>material-defect</code></a>
 - <b><a href="https://github.com/deepchem/moleculenet">MoleculeNet Leaderboard</a></b> (🥈8 ·  ⭐ 73 · 💀) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code>
 - <b><a href="https://github.com/aiqm/ANI1x_datasets">ANI-1x Datasets</a></b> (🥉6 ·  ⭐ 45 · 💀) - The ANI-1ccx and ANI-1x data sets, coupled-cluster and density functional theory properties for organic molecules. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/isayev/COMP6">COMP6 Benchmark dataset</a></b> (🥉6 ·  ⭐ 35 · 💀) - COMP6 Benchmark dataset for ML potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
