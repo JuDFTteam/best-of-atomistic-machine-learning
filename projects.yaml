@@ -503,7 +503,7 @@ projects:
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
-  description: "Collection of datasets, including QM7, QM7b, QM9, etc. MD and DFT data of various systems. Mostly small organic molecules."
+  description: "Collection of datasets, including QM7, QM9, etc. MD, DFT. Small organic molecules, mostly."
   homepage: http://quantum-machine.org/datasets/
 - name: sGDML Datasets
   resource: true
