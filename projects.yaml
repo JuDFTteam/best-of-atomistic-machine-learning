@@ -461,7 +461,6 @@ projects:
   github_id: ml-tooling/best-of-ml-python
 - name: Awesome Materials Informatics
   category: community
-  labels: topics/materials-informatics
   license: https://github.com/tilde-lab/awesome-materials-informatics#license
   github_id: tilde-lab/awesome-materials-informatics
 - name: GitHub topic materials-informatics
