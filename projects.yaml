@@ -250,12 +250,12 @@ labels:
   # ########################################
   # ML & Computing - specific labels
   # ########################################
-  - label: "general-ml"
-    name: "general-ml"
-    description: "General machine learning"
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
+  - label: "general-ml"
+    name: "general-ml"
+    description: "General machine learning"
   - label: "generative"
     name: "generative"
     subtitle: "Generative models"
@@ -291,11 +291,16 @@ labels:
   # ########################################
   # Atomistic Simulation - specific labels
   # ########################################
+  - label: "cheminformatics"
+    name: "cheminformatics"
+    description: "Cheminformatics"
+    url: "https://en.wikipedia.org/wiki/Cheminformatics"
   - label: "drug-discovery"
     name: "drug-discovery"
     # name: "💊"
     # name: "&#x1F48A;"
     description: "Drug discovery"
+    url: "https://en.wikipedia.org/wiki/Drug_design#Computer-aided_drug_design"
   - label: "electrostatics"
     name: "electrostatics"
     # name: "⚡"
@@ -317,10 +322,6 @@ labels:
     # name: "&#x1F308;"
     description: "Optical properties"
     url: "https://en.wikipedia.org/wiki/Optical_properties"
-  - label: "cheminformatics"
-    name: "cheminformatics"
-    description: "Cheminformatics"
-    url: "https://en.wikipedia.org/wiki/Cheminformatics"
   - label: "structure-optimization"
     name: "structure-optimization"
     description: "Materials structure optimization"
