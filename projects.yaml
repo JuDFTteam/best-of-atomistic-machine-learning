@@ -385,7 +385,7 @@ projects:
   #   dockerhub_id:
   #   maven_id:
   #
-  # Style guide for list best-of-atomistic-machine-learning (this list).
+  # Style guide / guidelines for list best-of-atomistic-machine-learning (this list).
   #
   # - Use the simple template for projects and resources.
   # - Putting property values in quotes is mostly not needed, see examples below.
@@ -396,6 +396,10 @@ projects:
   #   the other URLs, while the latter don't always point to the repo. If the other
   #   URLs exist, but the repo doesn't point to them, add them as props, but comment
   #   them out. See examples below.
+  # - Projects:
+  #   - If a project is a subfolder of a repo, provide both props homepage (link to the repo
+  #     subfolder containing the project) and the repo id (e.g., github_id). See example
+  #     project DM21 below.
   # - Category & labels: Every category has a corresponding label, not every label has a
   #   corresponding category. View the category as the emphasized label. Labels / tags are
   #   generally preferred over tree-based classification (in this case, categories, one-
