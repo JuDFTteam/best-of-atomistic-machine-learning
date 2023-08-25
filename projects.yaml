@@ -52,7 +52,7 @@ categories:
     subtitle: "Projects that focus on biomolecules, protein structure, protein folding, etc. using atomistic ML."
   - category: "community"
     title: "Community resources"
-    subtitle: "Projects that foster communication within the atomistic ML community."
+    subtitle: "Projects that collect atomistic ML resources or foster communication within community."
   - category: "datasets"
     title: "Datasets"
     subtitle: "Datasets, databases and trained models for atomistic ML."
@@ -119,7 +119,7 @@ categories:
 labels:
   # Label sections: Category duplicate, Programming - specific, Project - specific, ML - specific, Atomistic Simulation - specific.
   # ########################################
-  # Category duplicate labels
+  # Category-mirrored labels
   # ########################################
   - label: "active-learning"
     # category: "active-learning"
@@ -250,6 +250,9 @@ labels:
   # ########################################
   # ML & Computing - specific labels
   # ########################################
+  - label: "general-ml"
+    name: "general-ml"
+    description: "General machine learning"
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
@@ -430,6 +433,45 @@ projects:
   # ################################################################################
 
   # ################################################################################
+  # COMMUNITY with resource: true (list here alphabetically)
+  # ################################################################################
+- name: Atomic Cluster Expansion
+  resource: true
+  category: community
+  homepage: https://cortner.github.io/ACEweb/
+  # group: ACE
+  description: Atomic Cluster Expansion (ACE) community homepage.
+  # ################################################################################
+  # COMMUNITY with resource: false (sorted by CI/CD)
+  # ################################################################################
+- name: The Collection of Database and Dataset Resources in Materials Science
+  category: community
+  labels: ["datasets"]
+  # license: None found
+  github_id: sedaoturak/data-resources-for-materials-science
+- name: Graph-based Deep Learning Literature
+  category: community
+  labels: ["general-ml", "rep-learn"]
+  license: MIT
+  github_id: naganandy/graph-based-deep-learning-literature
+- name: Best-of Machine Learning with Python
+  category: community
+  labels: ["general-ml", "lang-py"]
+  license: "CC-BY-4.0"
+  github_id: ml-tooling/best-of-ml-python
+- name: Awesome Materials Informatics
+  category: community
+  labels: topics/materials-informatics
+  license: https://github.com/tilde-lab/awesome-materials-informatics#license
+  github_id: tilde-lab/awesome-materials-informatics
+- name: GitHub topic materials-informatics
+  category: community
+  homepage: https://github.com/topics/materials-informatics
+- name: A Highly Opinionated List of Open-Source Materials Informatics Resources
+  category: community
+  license: MIT
+  github_id: ncfrey/resources
+  # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
 - name: "Catalysis Hub"
@@ -518,14 +560,90 @@ projects:
   labels: ["benchmarking", "single-paper"]
   github_id: BingqingCheng/linear-regression-benchmarks
   # ################################################################################
+  # EDUCATIONAL with resource: true (list here alphabetically)
+  # ################################################################################
+- name: "Quantum Chemistry in the Age of Machine Learning"
+  resource: true
+  category: educational
+  homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
+  # ################################################################################
+  # EDUCATIONAL with resource: false (sorted by CI/CD)
+  # ################################################################################
+- name: COSMO Software Cookbook
+  category: educational
+  # docs_url: https://software-cookbook.rtfd.io/
+  github_id: lab-cosmo/software-cookbook
+- name: iam-notebooks
+  category: educational
+  github_id: ceriottm/iam-notebooks
+- name: ML-in-chemistry-101
+  # resource: true
+  category: educational
+  github_id: BingqingCheng/ML-in-chemistry-101
+- name: Deep Learning for Molecules and Materials Book
+  # resource: true
+  category: educational
+  license: https://github.com/whitead/dmol-book/blob/main/LICENSE
+  homepage: https://dmol.pub/
+  github_id: whitead/dmol-book
+- name: jarvis-tools-notebooks
+  # resource: true
+  category: educational
+  # description: A Google-Colab Notebook Collection for Materials Design
+  license: "NIST"
+  github_id: JARVIS-Materials-Design/jarvis-tools-notebooks
+- name: BestPractices
+  # resource: true
+  category: educational
+  github_id: anthony-wang/BestPractices
+- name: chemrev-gpr
+  # resource: true
+  category: educational
+  github_id: gabor1/chemrev-gpr
+- name: MAChINE
+  category: educational
+  github_id: aimat-lab/MAChINE
+- name: MALA Tutorial
+  # resource: true
+  category: educational
+  github_id: mala-project/mala_tutorial
+- name: PiNN Lab
+  category: educational
+  github_id: Teoroo-CMC/PiNN_lab
+- name: "Data Handling, DoE and Statistical Analysis for Material Chemists"
+  # resource: true
+  category: educational
+  github_id: Teoroo-CMC/DoE_Course_Material
+- name: DeepLearningLifeSciences
+  # resource: true
+  category: educational
+  github_id: deepchem/DeepLearningLifeSciences
+- name: "Machine Learning for Materials Hard and Soft"
+  # resource: true
+  category: educational
+  # homepage: https://www.esi.ac.at/events/e457/
+  github_id: CompPhysVienna/MLSummerSchoolVienna2022
+- name: AI4Science101
+  # resource: true
+  category: educational
+  # homepage: https://ai4science101.deepmodeling.com/
+  github_id: deepmodeling/AI4Science101
+- name: "RDKit Tutorials"
+  # resource: true
+  category: educational
+  license: https://github.com/rdkit/rdkit-tutorials/blob/master/LICENSE
+  github_id: rdkit/rdkit-tutorials
+- name: "Applied AI for Materials"
+  # resource: true
+  category: educational
+  github_id: WardLT/applied-ai-for-materials
+- name: MLDensity_tutorial
+  # resource: true
+  category: educational
+  github_id: bfocassio/MLDensity_tutorial
+  # ################################################################################
   # ALL THE REST (sorted by CI/CD)
   # ################################################################################
-- name: Atomic Cluster Expansion
-  resource: true
-  category: community
-  homepage: https://cortner.github.io/ACEweb/
-  # group: ACE
-  description: Atomic Cluster Expansion (ACE) community homepage.
 - name: PACE
   category: md
   description: "The LAMMPS MLIAP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
@@ -692,10 +810,6 @@ projects:
   # docs_url: https://sphericart.readthedocs.io/
   github_id: lab-cosmo/sphericart
   pypi_id: sphericart
-- name: COSMO Software Cookbook
-  category: educational
-  # docs_url: https://software-cookbook.rtfd.io/
-  github_id: lab-cosmo/software-cookbook
 - name: Chemiscope
   category: visualization
   labels: ["lang-js"]
@@ -707,9 +821,6 @@ projects:
   category: rep-eng
   labels: ["electrostatics"]
   github_id: ceriottm/lode
-- name: iam-notebooks
-  category: educational
-  github_id: ceriottm/iam-notebooks
 - name: COSMO Toolbox
   category: math
   labels: ["lang-cpp"]
@@ -826,16 +937,6 @@ projects:
   category: mliap
   description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
   github_id: Luthaf/alchemical-learning
-- name: ML-in-chemistry-101
-  # resource: true
-  category: educational
-  github_id: BingqingCheng/ML-in-chemistry-101
-- name: Deep Learning for Molecules and Materials Book
-  # resource: true
-  category: educational
-  license: https://github.com/whitead/dmol-book/blob/main/LICENSE
-  homepage: https://dmol.pub/
-  github_id: whitead/dmol-book
 - name: JAX-MD
   category: md
   github_id: jax-md/jax-md
@@ -881,12 +982,6 @@ projects:
   github_id: usnistgov/jarvis
   pypi_id: jarvis-tools
   conda_id: conda-forge/jarvis-tools
-- name: jarvis-tools-notebooks
-  # resource: true
-  category: educational
-  # description: A Google-Colab Notebook Collection for Materials Design
-  license: "NIST"
-  github_id: JARVIS-Materials-Design/jarvis-tools-notebooks
 - name: ALIGNN
   category: rep-learn
   # homepage: https://jarvis.nist.gov/login?next=/jalignn/
@@ -942,10 +1037,6 @@ projects:
   # docs_url: https://crabnet.readthedocs.io/
   github_id: sparks-baird/CrabNet
   pypi_id: crabnet
-- name: BestPractices
-  # resource: true
-  category: educational
-  github_id: anthony-wang/BestPractices
 - name: QUIP
   category: general-tool
   # homepage: https://libatoms.github.io/
@@ -961,10 +1052,6 @@ projects:
   # docs_url: https://libatoms.github.io/GAP
   license: https://github.com/libAtoms/GAP/blob/main/LICENSE.md
   github_id: libAtoms/GAP
-- name: chemrev-gpr
-  # resource: true
-  category: educational
-  github_id: gabor1/chemrev-gpr
 - name: testing-framework
   category: mliap
   description: "The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of systems (materials or molecules)."
@@ -1062,9 +1149,6 @@ projects:
   category: rep-learn
   labels: ["xrd", "single-paper"]
   github_id: aimat-lab/ML4pXRDs
-- name: MAChINE
-  category: educational
-  github_id: aimat-lab/MAChINE
 - name: "MEGAN: Multi Explanation Graph Attention Student"
   category: xai
   license: "MIT"
@@ -1118,10 +1202,6 @@ projects:
 - name: MALADA
   category: ml-dft
   github_id: mala-project/malada
-- name: MALA Tutorial
-  # resource: true
-  category: educational
-  github_id: mala-project/mala_tutorial
 - name: rxngenerator
   category: generative
   github_id: tsudalab/rxngenerator
@@ -1166,13 +1246,6 @@ projects:
   # docs_url: https://teoroo-cmc.github.io/PiNN
   github_id: Teoroo-CMC/PiNN
   dockerhub_id: teoroo/pinn
-- name: PiNN Lab
-  category: educational
-  github_id: Teoroo-CMC/PiNN_lab
-- name: "Data Handling, DoE and Statistical Analysis for Material Chemists"
-  # resource: true
-  category: educational
-  github_id: Teoroo-CMC/DoE_Course_Material
 - name: "CCS_fit"
   category: mliap
   github_id: Teoroo-CMC/CCS
@@ -1218,10 +1291,6 @@ projects:
   # docs_url: https://jaxchem.readthedocs.io/
   license: "MIT"
   github_id: deepchem/jaxchem
-- name: DeepLearningLifeSciences
-  # resource: true
-  category: educational
-  github_id: deepchem/DeepLearningLifeSciences
 - name: DADApy
   category: unsupervised
   # docs_url: https://dadapy.readthedocs.io/
@@ -1240,11 +1309,6 @@ projects:
   labels: ["lang-cpp"]
   # docs_url: https://compphysvienna.github.io/n2p2/
   github_id: CompPhysVienna/n2p2
-- name: "Machine Learning for Materials Hard and Soft"
-  # resource: true
-  category: educational
-  # homepage: https://www.esi.ac.at/events/e457/
-  github_id: CompPhysVienna/MLSummerSchoolVienna2022
 - name: aviary
   category: materials-discovery
   github_id: CompRhys/aviary
@@ -1254,9 +1318,10 @@ projects:
   license: "MIT"
   github_id: FabianFuchsML/se3-transformer-public
 - name: "NVIDIA Deep Learning Examples for Tensor Cores"
-  category: educational
-  labels: ["drug-discovery"]
+  category: "rep-learn"
+  labels: ["educational", "drug-discovery"]
   license: https://github.com/NVIDIA/DeepLearningExamples/blob/master/DGLPyTorch/DrugDiscovery/SE3Transformer/LICENSE
+  homepage: https://github.com/NVIDIA/DeepLearningExamples#graph-neural-networks
   github_id: NVIDIA/DeepLearningExamples
 - name: DeePMD-kit
   category: mliap
@@ -1285,11 +1350,6 @@ projects:
 - name: DeePKS-kit
   category: ml-dft
   github_id: deepmodeling/deepks-kit
-- name: AI4Science101
-  # resource: true
-  category: educational
-  # homepage: https://ai4science101.deepmodeling.com/
-  github_id: deepmodeling/AI4Science101
 - name: Uni-Fold
   category: biomolecules
   github_id: dptech-corp/Uni-Fold
@@ -1307,11 +1367,6 @@ projects:
   github_id: rdkit/rdkit
   pypi_id: rdkit
   conda_id: rdkit/rdkit
-- name: "RDKit Tutorials"
-  # resource: true
-  category: educational
-  license: https://github.com/rdkit/rdkit-tutorials/blob/master/LICENSE
-  github_id: rdkit/rdkit-tutorials
 - name: "Neural Force Field"
   category: mliap
   labels: ["pre-trained"]
@@ -1388,10 +1443,6 @@ calculated from density functional theory as the objective function."
   category: rep-learn
   license: https://github.com/NREL/nfp/blob/master/LICENSE
   github_id: NREL/nfp
-- name: "Applied AI for Materials"
-  # resource: true
-  category: educational
-  github_id: WardLT/applied-ai-for-materials
 - name: KLIFF
   category: mliap
   labels: ["probabilistic", "workflows"]
@@ -1413,10 +1464,6 @@ calculated from density functional theory as the objective function."
   docs_url: http://mlatom.com/manual/
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/
   pypi_id: MLatom
-- name: "Quantum Chemistry in the Age of Machine Learning"
-  resource: true
-  category: educational
-  homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
 - name: fplib
   category: rep-eng
   labels: ["lang-c", "single-paper"]
@@ -1553,10 +1600,6 @@ calculated from density functional theory as the objective function."
   category: ml-dft
   description: "Linear Jacobi-Legendre expansion of the charge density for machine learning-accelerated electronic structure calculations"
   github_id: StefanoSanvitoGroup/MLdensity
-- name: MLDensity_tutorial
-  # resource: true
-  category: educational
-  github_id: bfocassio/MLDensity_tutorial
 - name: BERT-PSIE-TC
   category: lm
   labels: ["magnetism"]

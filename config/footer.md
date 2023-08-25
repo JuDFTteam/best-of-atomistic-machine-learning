@@ -1,28 +1,6 @@
 
 ---
 
-## Related Resources
-
-Datasets.
-
-- [**The Collection of Database and Dataset Resources in Materials Science**](https://github.com/sedaoturak/data-resources-for-materials-science).
-
-General machine learning.
-
-- [**Graph-based Deep Learning Literature**](https://github.com/naganandy/graph-based-deep-learning-literature). The repository contains links primarily to conference publications in graph-based deep learning
-- [**best-of-ml-python**](https://github.com/ml-tooling/best-of-ml-python): A ranked list of awesome machine learning Python libraries.
-- [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
-
-Materials informatics.
-
-- [**tilde-lab - Awesome Materials Informatics**](https://github.com/tilde-lab/awesome-materials-informatics).
-- [**GitHub Topic > materials-informatics**](https://github.com/topics/materials-informatics)
-- [**A Highly Opinionated List of Open-Source Materials Informatics Resources**](https://github.com/ncfrey/resources). Last update 2022.
-
-Quantum physics.
-
-- [**Github Topic > tensor-networks**](https://github.com/topics/tensor-networks)
-
 ## Contribution
 
 Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
