@@ -436,12 +436,35 @@ projects:
   # ################################################################################
   # COMMUNITY with resource: true (list here alphabetically)
   # ################################################################################
+- name: AI for Science Map
+  resource: true
+  category: community
+  license: GPL-3.0 license
+  homepage: https://www.air4.science/map
+  description: Interactive mindmap of the AI4Science research field, including atomistic machine learning, including papers, packages, learning resources.
 - name: Atomic Cluster Expansion
   resource: true
   category: community
   homepage: https://cortner.github.io/ACEweb/
   # group: ACE
   description: Atomic Cluster Expansion (ACE) community homepage.
+- name: CrystaLLM
+  resource: true
+  homepage: https://crystallm.com
+  category: community
+  labels: ["lm", "generative", "pre-trained"]
+  license: https://materialis.ai/terms.html
+  # package managers: none
+- name: matsci.org
+  resource: true
+  category: community
+  homepage: https://matsci.org/
+  description: "A community forum for the discussion of anything materials science, with a focus on computational materials science research."
+- name: Matter Modeling Stack Exchange - Machine Learning
+  resource: true
+  category: community
+  homepage: https://mattermodeling.stackexchange.com/questions/tagged/machine-learning
+  description: Forum StackExchange, site Matter Modeling, ML-tagged questions.
   # ################################################################################
   # COMMUNITY with resource: false (sorted by CI/CD)
   # ################################################################################
@@ -471,14 +494,42 @@ projects:
   category: community
   license: MIT
   github_id: ncfrey/resources
+- name: MatBench
+  category: community
+  labels: ["datasets", "benchmarking"]
+  license: MIT
+  github_id: materialsproject/matbench
+  pypi_id: matbench
+- name: AI for Science Resources
+  category: community
+  license: GPL-3.0 license
+  homepage: https://github.com/divelab/AIRS/blob/main/Overview/resources.md
+  github_id: divelab/AIRS
+  description: List of resources for AI4Science research, including learning resources.
+- name: MateriApps
+  category: community
+  homepage: https://ma.issp.u-tokyo.ac.jp/en/
+  # license: None found
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
+- name: 2DMD dataset
+  resource: true
+  category: datasets
+  labels: ["material-defect"]
+  # license: # none found
+  homepage: https://rolos.com/open/2d-materials-point-defects/#physics
+  # - docs_url: https://doi.org/10.1038/s41699-023-00369-1
 - name: "Catalysis Hub"
   resource: true
   category: datasets
   description: "A web-platform for sharing data and software for computational catalysis research!"
   homepage: https://www.catalysis-hub.org/
+- name: Citrination Datasets
+  resource: true
+  category: datasets
+  license: MIT
+  homepage: https://citrination.com/datasets
 - name: crystals.ai
   resource: true
   category: datasets
@@ -496,6 +547,11 @@ projects:
   homepage: https://pages.nist.gov/jarvis_leaderboard/
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
+- name: Materials Project - Charge Densities
+  resource: true
+  category: datasets
+  # license: # none found
+  homepage: https://materialsproject.org/ml/charge_densities
 - name: matterverse.ai
   resource: true
   category: datasets
@@ -559,6 +615,34 @@ projects:
   category: datasets
   labels: ["benchmarking", "single-paper"]
   github_id: BingqingCheng/linear-regression-benchmarks
+- name: Open Catalyst datasets
+  category: datasets
+  license: CC-BY-4.0
+  description: The datasets of the Open Catalyst project, OC20, OC22
+  homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/DATASET.md
+  github_id: Open-Catalyst-Project/ocp
+- name: MPContribs
+  category: datasets
+  license: MIT
+  github_id: materialsproject/MPContribs
+  pypi_id: mpcontribs-client
+- name: SciGlass
+  category: datasets
+  license: MIT
+  github_id: drcassar/SciGlass
+  # alt. github_id: CitrineInformatics-ERD-public/SciGlass
+- name: Visual Graph Datasets
+  category: datasets
+  labels: ["xai", "rep-learn"]
+  github_id: aimat-lab/visual_graph_datasets
+  license: MIT
+  # package managers: none
+- name: SPICE
+  category: datasets
+  labels: ["mliap", "md"]
+  license: MIT
+  github_id: openmm/spice-dataset
+  # package managers: none
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
@@ -1664,3 +1748,182 @@ calculated from density functional theory as the objective function."
   labels: ["lang-cpp"]
   docs_url: https://risi-kondor.github.io/cnine/
   github_id: risi-kondor/cnine
+- name: mp-pyrho
+  category: data-structures
+  labels: ["ml-dft"]
+  license: https://github.com/materialsproject/pyrho
+  github_id: materialsproject/pyrho
+  pypi_id: mp-pyrho
+- name: tensorfieldnetworks
+  category: rep-learn
+  license: MIT
+  github_id: tensorfieldnetworks/tensorfieldnetworks
+- name: escnn
+  category: rep-learn
+  license: https://github.com/QUVA-Lab/escnn/blob/master/LICENSE
+  github_id: QUVA-Lab/escnn
+  pypi_id: escnn
+- name: DeepCDP
+  category: ml-dft
+  # license: None found
+  github_id: siddarthachar/deepcdp
+  # package managers: none
+- name: ai4material_design
+  category: rep-learn
+  labels: ["pre-trained", "material-defect"]
+  license: Apache-2.0
+  github_id: HSE-LAMBDA/ai4material_design
+  # package managers: none
+- name: escnn_jax
+  category: rep-learn
+  license: https://github.com/emilemathieu/escnn_jax/blob/master/LICENSE
+  github_id: emilemathieu/escnn_jax
+  pypi_id: escnn_jax
+- name: CraTENet
+  category: rep-learn
+  labels: ["transport-phenomena"]
+  license: MIT
+  github_id: lantunes/CraTENet
+  # package managers: none
+- name: Atom2Vec
+  category: rep-learn
+  # license: None found
+  github_id: idocx/Atom2Vec
+  pypi_id: atom2vec
+- name: mat2vec
+  category: lm
+  labels: ["rep-learn"]
+  license: MIT
+  github_id: materialsintelligence/mat2vec
+  # package managers: none
+- name: SkipAtom
+  category: rep-eng
+  license: MIT
+  github_id: lantunes/skipatom
+  pypi_id: skipatom
+  conda_id: conda-forge/skipatom
+- name: Artificial Intelligence for Science (AIRS)
+  category: general-tool
+  labels: ["rep-learn", "generative", "mliap", "md", "ml-dft", "ml-wft", "biomolecules"]
+  license: GPL-3.0 license
+  github_id: divelab/AIRS
+  # package managers: none
+- name: GlassPy
+  category: rep-eng
+  license: GPL-3.0
+  github_id: drcassar/glasspy
+  # alt. github_id: CitrineInformatics-ERD-public/glasspy
+  pypi_id: glasspy
+- name: sl_discovery
+  category: materials-discovery
+  labels: ["materials-discovery", "single-paper"]
+  license: Apache-2.0
+  github_id: CitrineInformatics-ERD-public/sl_discovery
+  # package managers: none
+- name: Linear vs blackbox
+  category: xai
+  labels: ["xai", "single-paper", "rep-eng"]
+  # license: None found
+  github_id: CitrineInformatics-ERD-public/linear-vs-blackbox
+- name: closed-loop-acceleration-benchmarks
+  category: materials-discovery
+  labels: ["materials-discovery", "active-learning", "single-paper"]
+  license: MIT
+  github_id: aced-differentiate/closed-loop-acceleration-benchmarks
+  # package managers: none
+- name: EquivariantOperators.jl
+  category: math
+  labels: ["lang-julia"]
+  github_id: aced-differentiate/EquivariantOperators.jl
+  license: MIT
+- name: Closed-loop acceleration benchmarks
+  category: materials-discovery
+  labels: ["materials-discovery", "active-learning", "single-paper"]
+  license: MIT
+  github_id: aced-differentiate/closed-loop-acceleration-benchmarks
+  # package managers: none
+- name: cdk
+  github_id: cdk/cdk
+  category: rep-eng
+  labels: ["cheminformatics", "lang-java"]
+  license: LGPL-2.1
+  maven_id: org.openscience.cdk:cdk-bundle
+- name: wfl
+  category: mliap
+  labels: ["workflows", "htc"]
+  # license: None found
+  github_id: libAtoms/workflow
+  # package managers: none
+  description: Workflow is a Python toolkit for building interatomic potential creation and atomistic simulation workflows.
+- name: MEGAN
+  category: xai
+  labels: ["xai", "rep-learn"]
+  license: MIT
+  github_id: aimat-lab/graph_attention_student
+  # package managers: none
+- name: ML-for-CurieTemp-Predictions
+  category: rep-eng
+  labels: ["single-paper", "magnetism"]
+  license: MIT
+  github_id: msg-byu/ML-for-CurieTemp-Predictions
+  # package managers: none
+  description: Machine Learning Predictions of High-Curie-Temperature Materials
+- name: EDM
+  description: E(3) Equivariant Diffusion Model for Molecule Generation in 3D.
+  github_id: ehoogeboom/e3_diffusion_for_molecules
+  category: generative
+  license: MIT
+  # package managers: none
+- name: EquiformerV2
+  category: rep-learn
+  # license: None found
+  github_id: atomicarchitects/equiformer_v2
+  # package managers: none
+- name: GT4SD
+  category: generative
+  labels: ["pre-trained", "drug-discovery", "rep-learn"]
+  github_id: GT4SD/gt4sd-core
+  license: MIT
+  pypi_id: gt4sd
+- name: OpenMM-ML
+  category: md
+  labels: ["mliap"]
+  license: MIT
+  github_id: openmm/openmm-ml
+  conda_id: conda-forge/openmm-ml
+- name: NNPOps
+  category: mliap
+  labels: ["md", "lang-cpp"]
+  license: MIT
+  github_id: openmm/NNPOps
+  conda_id: conda-forge/nnpops
+- name: openmm-torch
+  category: md
+  labels: ["mliap", "lang-cpp"]
+  license: https://github.com/openmm/openmm-torch#license
+  github_id: openmm/openmm-torch
+  conda_id: conda-forge/openmm-torch
+- name: CHGNet
+  category: mliap
+  labels: ["md", "pre-trained", "electrostatics", "magnetism", "structure-relaxation"]
+  license: https://github.com/CederGroupHub/chgnet/blob/main/LICENSE
+  github_id: CederGroupHub/chgnet
+  pypi_id: chgnet
+- name: PROPhet
+  category: ml-dft
+  labels: ["mliap", "md", "single-paper", "lang-cpp"]
+  license: GPL-3.0
+  github_id: biklooost/PROPhet
+  # package managers: none
+- name: TensorMol
+  category: mliap
+  labels: ["single-paper"]
+  license: GPL-3.0
+  github_id: jparkhill/TensorMol
+  # package managers: none
+- name: Element encoder
+  category: rep-learn
+  labels: ["single-paper"]
+  license: GPL-3.0
+  github_id: jeherr/element-encoder
+  # package managers: none
