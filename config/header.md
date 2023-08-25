@@ -1,11 +1,41 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
-    best-of-atomistic-machine-learning
+    <!-- ⚛️🧬❄️,  🤖🧠🦾✨, ▶️⏩➡️↔️🔄🔁♻️-->    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <br> 
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">        
+    Best of Atomistic Machine Learning 
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
     <br>
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">    
+    <img src="./images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="./images/emoji-neural-network-like-atom_nn-cyan.svg" width="40">        
 </h1>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome atomistic machine learning (AML) projects. Updated monthly.</strong>
+    <strong>🏆&nbsp; A ranked list of awesome atomistic machine learning (AML) projects. Updated quarterly.</strong>
 </p>
 
 <p align="center">
