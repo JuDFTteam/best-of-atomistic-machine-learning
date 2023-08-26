@@ -1035,11 +1035,11 @@ projects:
   # labels: ["active-learning"]
   github_id: ulissigroup/finetuna
 - name: Pre-trained OCP models
-  resource: true
   category: mliap
   labels: ["pre-trained"]
   description: "Pre-trained models released as part of the Open Catalyst Project."
   homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/MODELS.md
+  github_id: https://github.com/Open-Catalyst-Project/ocp
 - name: "Computational Autonomy for Materials Discovery (CAMD)"
   category: materials-discovery
   github_id: ulissigroup/CAMD
