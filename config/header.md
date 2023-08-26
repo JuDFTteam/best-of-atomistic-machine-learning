@@ -1,15 +1,15 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
     <!-- ⚛️🧬❄️/💎,  🤖🧠🦾✨, ▶️⏩➡️↔️🔄🔁♻️-->    
-    Best of Atomistic Machine Learning 
+    Best of Atomistic Machine Learning ⚛️🧬❄️
     <br>
 </h1>
 
 <p align="center">
     <!-- Note: For image preview, use path relative to source file, config/header.md. For production, use path relative to README.md. -->
     <!-- Either only Atom + NN, or NN + Atom, DNA, Crystal, standing for materials & molecules -->
-    <img src="config/images/emoji-neural-network-like-atom_atom.svg" width="40">
-    <img src="config/images/emoji-neural-network-like-atom_nn-purple.svg" width="40">       
+    <!-- <img src="config/images/emoji-neural-network-like-atom_atom.svg" width="40"> -->
+    <!-- <img src="config/images/emoji-neural-network-like-atom_nn-purple.svg" width="40"> -->
     <!-- <img src="./images/emoji-dna.svg" width="40"> -->
     <!-- <img src="./images/emoji-gem-stone.svg" width="40"> -->
 </p>    
