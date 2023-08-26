@@ -77,12 +77,12 @@ categories:
   - category: "generative"
     title: "Generative Models"
     subtitle: "Projects that implement generative models for atomistic ML."
+  - category: "ml-iap"
+    title: "Interatomic Potentials (ML-IAP)"
+    subtitle: "Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and force fields (ML-FF) for molecular dynamics."
   - category: "lm"
     title: "Language Models"
     subtitle: "Projects that use (large) language models (LMs, LLMs) or natural language procesing (NLP) techniques for atomistic ML."
-  - category: "mliap"
-    title: "Machine Learning Potentials (MLIAP)"
-    subtitle: "Machine Learning Potentials (aka MLIAP, less unambiguous MLIP, MLP) and force fields (ML-FF) for molecular dynamics."
   - category: "materials-discovery"
     title: "Materials Discovery"
     subtitle: "Projects that implement materials discovery methods using atomistic ML."
@@ -163,9 +163,9 @@ labels:
     # category: "lm"
     name: "LM"
     url: "https://en.wikipedia.org/wiki/Language_model"
-  - label: "mliap"
-    # category: "mliap"
-    name: "MLIAP"
+  - label: "ml-iap"
+    # category: "ml-iap"
+    name: "ML-IAP"
   - label: "materials-discovery"
     # category: "materials-discovery"
     name: "materials-discovery"
@@ -637,7 +637,7 @@ projects:
   # package managers: none
 - name: SPICE
   category: datasets
-  labels: ["mliap", "md"]
+  labels: ["ml-iap", "md"]
   license: MIT
   github_id: openmm/spice-dataset
   # package managers: none
@@ -735,14 +735,14 @@ projects:
   # ################################################################################
 - name: PACE
   category: md
-  description: "The LAMMPS MLIAP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
+  description: "The LAMMPS ML-IAP `pair_style pace`, aka Atomic Cluster Expansion (ACE), aka ML-PACE, https://cortner.github.io/ACEweb/software/."
   # homepage: https://cortner.github.io/ACEweb/software/
   # docs_url: https://docs.lammps.org/pair_pace.html
   # group_id: ACE
   license: https://github.com/ICAMS/lammps-user-pace/blob/main/LICENSE
   github_id: ICAMS/lammps-user-pace
 - name: Pacemaker
-  category: mliap
+  category: ml-iap
   description: Python package for fitting atomic cluster expansion (ACE) potentials
   homepage: https://cortner.github.io/ACEweb/software/
   # docs_url: https://pacemaker.readthedocs.io
@@ -751,14 +751,14 @@ projects:
   github_id: ICAMS/python-ace
   pypi_id: python-ace
 - name: TensorPotential
-  category: mliap
+  category: ml-iap
   description: "Tensorpotential is a TensorFlow based tool for development, fitting ML interatomic potentials from electronic structure calculations data and perform computations using these potentials [...] Only Atomic Cluster Expansion (ACE) is available at the moment."
   homepage: https://cortner.github.io/ACEweb/software/
   # group_id: ACE
   license: https://github.com/ICAMS/TensorPotential/blob/main/LICENSE.md
   github_id: ICAMS/TensorPotential
 - name: ACE1.jl
-  category: mliap
+  category: ml-iap
   labels: ["lang-julia"]
   homepage: https://acesuit.github.io/
   # docs_url: https://acesuit.github.io/ACE1pack.jl
@@ -766,7 +766,7 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/ACE1.jl
 - name: ACE1Pack.jl
-  category: mliap
+  category: ml-iap
   description: Provides convenience functionality for the usage of ACE1.jl, ACEfit.jl, JuLIP.jl for fitting interatomic potentials using the ACE model.
   labels: ["lang-julia"]
   homepage: https://github.com/ACEsuit/ACE1pack.jl
@@ -774,13 +774,13 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/ACE1pack.jl
 - name: MACE
-  category: mliap
+  category: ml-iap
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: "MIT"
   github_id: ACEsuit/mace
 - name: MACE-Jax
-  category: mliap
+  category: ml-iap
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: "MIT"
@@ -791,14 +791,14 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/mace-layer
 - name: ACE.jl
-  category: mliap
+  category: ml-iap
   labels: ["lang-julia"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
   license: https://github.com/ACEsuit/ACE.jl/blob/main/license/mit.md
   github_id: "ACEsuit/ACE.jl"
 - name: ACE Workflows
-  category: mliap
+  category: ml-iap
   labels: ["lang-julia", "workflows"]
   # homepage: https://acesuit.github.io/
   # group_id: ACE
@@ -825,7 +825,7 @@ projects:
   license: https://github.com/ACEsuit/ACEatoms.jl/blob/main/ASL.md
   github_id: ACEsuit/ACEatoms.jl
 - name: ACEfit
-  category: mliap
+  category: ml-iap
   description:
   labels: ["lang-julia"]
   # homepage: https://acesuit.github.io/
@@ -849,7 +849,7 @@ projects:
   github_id: sirmarcel/cmlkit
   pypi_id: cmlkit
 - name: glp
-  category: mliap
+  category: ml-iap
   github_id: sirmarcel/glp
 - name: "gkx: Green-Kubo Method in JAX"
   category: rep-learn
@@ -864,7 +864,7 @@ projects:
   conda_id: conda-forge/skmatter
 - name: Equisolve
   category: general-tool
-  labels: ["mliap"]
+  labels: ["ml-iap"]
   # docs_url: https://lab-cosmo.github.io/equisolve
   github_id: lab-cosmo/equisolve
 - name: Equistore
@@ -919,12 +919,12 @@ projects:
   ignore: true
   # feeback from COSMO: intended for internal use
 - name: M3GNet
-  category: mliap
+  category: ml-iap
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/m3gnet
   pypi_id: m3gnet
 - name: MEGNet
-  category: mliap
+  category: ml-iap
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/megnet
   pypi_id: megnet
@@ -1011,10 +1011,10 @@ projects:
   license: "MIT"
   github_id: atomistic-machine-learning/field_schnet
 - name: SchNet
-  category: mliap
+  category: ml-iap
   github_id: atomistic-machine-learning/SchNet
 - name: sGDML
-  category: mliap
+  category: ml-iap
   # homepage: http://sgdml.org/
   # docs_url: http://docs.sgdml.org/
   github_id: stefanch/sGDML
@@ -1023,7 +1023,7 @@ projects:
   category: rep-learn
   github_id: atomistic-machine-learning/dtnn
 - name: "Alchemical learning"
-  category: mliap
+  category: ml-iap
   description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
   github_id: Luthaf/alchemical-learning
 - name: JAX-MD
@@ -1035,7 +1035,7 @@ projects:
   # labels: ["active-learning"]
   github_id: ulissigroup/finetuna
 - name: Pre-trained OCP models
-  category: mliap
+  category: ml-iap
   labels: ["pre-trained"]
   description: "Pre-trained models released as part of the Open Catalyst Project."
   homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/MODELS.md
@@ -1078,7 +1078,7 @@ projects:
   license: https://github.com/usnistgov/alignn/blob/main/LICENSE.rst
   pypi_id: alignn
 - name: SNAP
-  category: mliap
+  category: ml-iap
   github_id: materialsvirtuallab/snap
 - name: XenonPy
   category: general-tool
@@ -1135,14 +1135,14 @@ projects:
   pypi_id: quippy-ase
   dockerhub_id: libatomsquip/quip
 - name: GAP
-  category: mliap
+  category: ml-iap
   description: Gaussian Approximation Potential (GAP)
   homepage: https://libatoms.github.io/
   # docs_url: https://libatoms.github.io/GAP
   license: https://github.com/libAtoms/GAP/blob/main/LICENSE.md
   github_id: libAtoms/GAP
 - name: testing-framework
-  category: mliap
+  category: ml-iap
   description: "The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of systems (materials or molecules)."
   labels: ["benchmarking"]
   github_id: libAtoms/testing-framework
@@ -1164,12 +1164,12 @@ projects:
   pypi_id: catlearn
 - name: FLARE
   category: active-learning
-  labels: ["lang-cpp", "mliap"]
+  labels: ["lang-cpp", "ml-iap"]
   # docs_url: https://mir-group.github.io/flare/
   github_id: mir-group/flare
 - name: flare++
   category: active-learning
-  labels: ["lang-cpp", "mliap"]
+  labels: ["lang-cpp", "ml-iap"]
   # docs_url: https://mir-group.github.io/flare_pp
   github_id: mir-group/flare_pp
   pypi_id: flare_pp
@@ -1221,10 +1221,10 @@ projects:
   github_id: mdsunivie/deeperwin
   pypi_id: deeperwin
 - name: Allegro
-  category: mliap
+  category: ml-iap
   github_id: mir-group/allegro
 - name: NequIP
-  category: mliap
+  category: ml-iap
   github_id: mir-group/nequip
   pypi_id: nequip
   conda_id: conda-forge/nequip
@@ -1244,11 +1244,11 @@ projects:
   github_id: aimat-lab/graph_attention_student
 - name: NNsforMD
   resource:
-  category: mliap
+  category: ml-iap
   github_id: aimat-lab/NNsForMD
   pypi_id: pyNNsMD
 - name: PANNA
-  category: mliap
+  category: ml-iap
   description: A package to train and validate all-to-all connected network models for BP[1] and modified-BP[2] type local atomic environment descriptors and atomic potentials.
   labels: ["benchmarking"]
   # docs_url: https://pannadevs.gitlab.io/pannadoc/
@@ -1272,16 +1272,16 @@ projects:
   category: ml-dft
   github_id: semodi/neuralxc
 - name: ANI-1
-  category: mliap
+  category: ml-iap
   github_id: isayev/ASE_ANI
 - name: TorchANI
-  category: mliap
+  category: ml-iap
   # docs_url: https://aiqm.github.io/torchani/
   github_id: aiqm/torchani
   pypi_id: torchani
   conda_id: conda-forge/torchani
 - name: AIMNet
-  category: mliap
+  category: ml-iap
   labels: ["single-paper"]
   github_id: aiqm/aimnet
 - name: MALA
@@ -1326,22 +1326,22 @@ projects:
   github_id: whitead/nlcc
   pypi_id: nlcc
 - name: SingleNN
-  category: mliap
+  category: ml-iap
   description: "An efficient package for training and executing neural-network interatomic potentials"
   labels: ["lang-cpp"]
   github_id: lmj1029123/SingleNN
 - name: PiNN
-  category: mliap
+  category: ml-iap
   # docs_url: https://teoroo-cmc.github.io/PiNN
   github_id: Teoroo-CMC/PiNN
   dockerhub_id: teoroo/pinn
 - name: "CCS_fit"
-  category: mliap
+  category: ml-iap
   github_id: Teoroo-CMC/CCS
   pypi_id: ccs_fit
 - name: RuNNer
   # resource: true
-  category: mliap
+  category: ml-iap
   description: "The RuNNer Neural Network Energy Representation is a Fortran-based framework for the construction of Behler-Parrinello-type high-dimensional neural network potentials."
   labels: ["lang-fortran"]
   homepage: https://www.uni-goettingen.de/de/560580.html
@@ -1352,11 +1352,11 @@ projects:
   labels: ["electrostatics"]
   github_id: pfnet-research/charge_transfer_nnp
 - name: SIMPLE-NN
-  category: mliap
+  category: ml-iap
   # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN
 - name: "SIMPLE-NN v2"
-  category: mliap
+  category: ml-iap
   # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN_v2
 - name: SPINNER
@@ -1394,7 +1394,7 @@ projects:
   github_id: Minoru938/KmdPlus
 - name: n2p2
   resource:
-  category: mliap
+  category: ml-iap
   labels: ["lang-cpp"]
   # docs_url: https://compphysvienna.github.io/n2p2/
   github_id: CompPhysVienna/n2p2
@@ -1413,7 +1413,7 @@ projects:
   homepage: https://github.com/NVIDIA/DeepLearningExamples#graph-neural-networks
   github_id: NVIDIA/DeepLearningExamples
 - name: DeePMD-kit
-  category: mliap
+  category: ml-iap
   labels: ["lang-cpp"]
   # docs_url: https://docs.deepmodeling.com/projects/deepmd/
   github_id: deepmodeling/deepmd-kit
@@ -1421,7 +1421,7 @@ projects:
   conda_id: deepmodeling/deepmd-kit
   dockerhub_id: deepmodeling/deepmd-kit
 - name: DP-GEN
-  category: mliap
+  category: ml-iap
   labels: ["workflows"]
   # docs_url: https://docs.deepmodeling.com/projects/dpgen/
   github_id: deepmodeling/dpgen
@@ -1434,7 +1434,7 @@ projects:
   pypi_id: dpdata
   conda_id: deepmodeling/dpdata
 - name: DMFF
-  category: mliap
+  category: ml-iap
   github_id: deepmodeling/DMFF
 - name: DeePKS-kit
   category: ml-dft
@@ -1457,7 +1457,7 @@ projects:
   pypi_id: rdkit
   conda_id: rdkit/rdkit
 - name: "Neural Force Field"
-  category: mliap
+  category: ml-iap
   labels: ["pre-trained"]
   github_id: learningmatter-mit/NeuralForceField
 - name: "atom_by_atom"
@@ -1477,7 +1477,7 @@ projects:
   labels: ["optical-properties", "single-paper", "probabilistic"]
   github_id: learningmatter-mit/uvvisml
 - name: "Atomistic Adversarial Attacks"
-  category: mliap
+  category: ml-iap
   labels: ["probabilistic"]
   github_id: learningmatter-mit/Atomistic-Adversarial-Attacks
 - name: Coarse-Graining-Auto-encoders
@@ -1490,12 +1490,12 @@ projects:
   license: "MIT"
   github_id: learningmatter-mit/GLAMOUR
 - name: DimeNet
-  category: mliap
+  category: ml-iap
   # homepage: https://www.cs.cit.tum.de/daml/dimenet/
   license: https://github.com/gasteigerjo/dimenet/blob/master/LICENSE.md
   github_id: gasteigerjo/dimenet
 - name: GemNet
-  category: mliap
+  category: ml-iap
   # homepage: https://www.cs.cit.tum.de/daml/gemnet/
   license: https://github.com/TUM-DAML/gemnet_pytorch/blob/master/LICENSE
   github_id: TUM-DAML/gemnet_pytorch
@@ -1534,7 +1534,7 @@ calculated from density functional theory as the objective function."
   license: https://github.com/NREL/nfp/blob/master/LICENSE
   github_id: NREL/nfp
 - name: KLIFF
-  category: mliap
+  category: ml-iap
   labels: ["probabilistic", "workflows"]
   # docs_url: https://kliff.readthedocs.io/
   github_id: openkim/kliff
@@ -1542,7 +1542,7 @@ calculated from density functional theory as the objective function."
   conda_id: conda-forge/kliff
 - name: PyXtalFF
   resource:
-  category: mliap
+  category: ml-iap
   # docs_url: https://pyxtal-ff.readthedocs.io/
   license: "MIT"
   github_id: MaterSim/PyXtal_FF
@@ -1559,7 +1559,7 @@ calculated from density functional theory as the objective function."
   labels: ["lang-c", "single-paper"]
   github_id: zhuligs/fplib
 - name: PhysNet
-  category: mliap
+  category: ml-iap
   labels: ["electrostatics"]
   github_id: MMunibas/PhysNet
 - name: BenchML
@@ -1588,7 +1588,7 @@ calculated from density functional theory as the objective function."
   # homepage: https://doi.org/10.1016/j.isci.2022.105192
   github_id: hgheiberger/quantum-structure-ml
 - name: So3krates (MLFF)
-  category: mliap
+  category: ml-iap
   github_id: thorben-frank/mlff
 - name: "Descriptor Embedding and Clustering for Atomisitic-environment Framework (DECAF)"
   category: unsupervised
@@ -1657,7 +1657,7 @@ calculated from density functional theory as the objective function."
   category: ml-dft
   github_id: foxjas/CSNN
 - name: "Ultra-Fast Force Fields (UF3)"
-  category: mliap
+  category: ml-iap
   # docs_url: https://uf3.readthedocs.io/
   github_id: uf3/uf3
   pypi_id: uf3
@@ -1675,7 +1675,7 @@ calculated from density functional theory as the objective function."
   category: rep-learn
   github_id: atomicarchitects/equiformer
 - name: MLIP-3
-  category: mliap
+  category: ml-iap
   description: "MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP)"
   labels: ["lang-cpp"]
   # homepage: https://doi.org/10.48550/arXiv.2304.13144
@@ -1695,7 +1695,7 @@ calculated from density functional theory as the objective function."
   labels: ["magnetism"]
   github_id: StefanoSanvitoGroup/BERT-PSIE-TC
 - name: ALF
-  category: mliap
+  category: ml-iap
   labels: ["active-learning"]
   license: https://github.com/lanl/ALF/blob/main/LICENSE
   github_id: lanl/alf
@@ -1810,7 +1810,7 @@ calculated from density functional theory as the objective function."
   conda_id: conda-forge/skipatom
 - name: Artificial Intelligence for Science (AIRS)
   category: general-tool
-  labels: ["rep-learn", "generative", "mliap", "md", "ml-dft", "ml-wft", "biomolecules"]
+  labels: ["rep-learn", "generative", "ml-iap", "md", "ml-dft", "ml-wft", "biomolecules"]
   license: GPL-3.0 license
   github_id: divelab/AIRS
   # package managers: none
@@ -1849,7 +1849,7 @@ calculated from density functional theory as the objective function."
   license: LGPL-2.1
   maven_id: org.openscience.cdk:cdk-bundle
 - name: wfl
-  category: mliap
+  category: ml-iap
   labels: ["workflows", "htc"]
   # license: None found
   github_id: libAtoms/workflow
@@ -1887,36 +1887,36 @@ calculated from density functional theory as the objective function."
   pypi_id: gt4sd
 - name: OpenMM-ML
   category: md
-  labels: ["mliap"]
+  labels: ["ml-iap"]
   license: MIT
   github_id: openmm/openmm-ml
   conda_id: conda-forge/openmm-ml
 - name: NNPOps
-  category: mliap
+  category: ml-iap
   labels: ["md", "lang-cpp"]
   license: MIT
   github_id: openmm/NNPOps
   conda_id: conda-forge/nnpops
 - name: openmm-torch
   category: md
-  labels: ["mliap", "lang-cpp"]
+  labels: ["ml-iap", "lang-cpp"]
   license: https://github.com/openmm/openmm-torch#license
   github_id: openmm/openmm-torch
   conda_id: conda-forge/openmm-torch
 - name: CHGNet
-  category: mliap
+  category: ml-iap
   labels: ["md", "pre-trained", "electrostatics", "magnetism", "structure-relaxation"]
   license: https://github.com/CederGroupHub/chgnet/blob/main/LICENSE
   github_id: CederGroupHub/chgnet
   pypi_id: chgnet
 - name: PROPhet
   category: ml-dft
-  labels: ["mliap", "md", "single-paper", "lang-cpp"]
+  labels: ["ml-iap", "md", "single-paper", "lang-cpp"]
   license: GPL-3.0
   github_id: biklooost/PROPhet
   # package managers: none
 - name: TensorMol
-  category: mliap
+  category: ml-iap
   labels: ["single-paper"]
   license: GPL-3.0
   github_id: jparkhill/TensorMol
