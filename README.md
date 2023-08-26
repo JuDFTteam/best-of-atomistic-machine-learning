@@ -1967,7 +1967,7 @@ _Projects that focus on visualization (viz.) for atomistic ML._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Projects and models that focus on quantities of wavefunction electronic structure methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), MO theory methods, etc._
+_Projects and models that focus on quantities of wavefunction theory methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), quantum chemistry methods, etc._
 
 <details><summary><b><a href="https://github.com/deepqmc/deepqmc">DeepQMC</a></b> (🥇20 ·  ⭐ 300) - Deep learning quantum Monte Carlo for electrons in real space. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
