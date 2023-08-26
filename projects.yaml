@@ -112,7 +112,7 @@ categories:
     subtitle: "Projects that focus on visualization (viz.) for atomistic ML."
   - category: "ml-wft"
     title: "Wavefunction methods (ML-WFT)"
-    subtitle: "Projects and models that focus on quantities of wavefunction electronic structure methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), MO theory methods, etc."
+    subtitle: "Projects and models that focus on quantities of wavefunction theory methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), quantum chemistry methods, etc."
 
 # ################################################################################
 # ################################################################################
