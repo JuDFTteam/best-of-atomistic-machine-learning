@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
     <!-- ⚛️🧬❄️/💎,  🤖🧠🦾✨, ▶️⏩➡️↔️🔄🔁♻️-->    
-    Best of Atomistic Machine Learning ⚛️🧬❄️
+    Best of Atomistic Machine Learning ⚛️🧬💎
     <br>
 </h1>
 
