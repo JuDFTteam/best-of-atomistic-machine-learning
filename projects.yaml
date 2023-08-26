@@ -1760,6 +1760,7 @@ calculated from density functional theory as the objective function."
   license: https://github.com/materialsproject/pyrho
   github_id: materialsproject/pyrho
   pypi_id: mp-pyrho
+  description: Tools for re-griding volumetric quantum chemistry data for machine-learning purposes.
 - name: tensorfieldnetworks
   category: rep-learn
   license: MIT
