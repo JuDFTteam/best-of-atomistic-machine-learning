@@ -7,11 +7,12 @@
 
 <p align="center">
     <!-- Note: For image preview, use path relative to source file, config/header.md. For production, use path relative to README.md. -->
-    <img src="config/images/emoji-neural-network-like-atom_nn-purple.svg" width="40">       
+    <!-- Either only Atom + NN, or NN + Atom, DNA, Crystal, standing for materials & molecules -->
     <img src="config/images/emoji-neural-network-like-atom_atom.svg" width="40">
+    <img src="config/images/emoji-neural-network-like-atom_nn-purple.svg" width="40">       
     <!-- <img src="./images/emoji-dna.svg" width="40"> -->
     <!-- <img src="./images/emoji-gem-stone.svg" width="40"> -->
-</p>
+</p>  
 
 <p align="center">
     <strong>🏆&nbsp; A ranked list of awesome atomistic machine learning (AML) projects. Updated quarterly.</strong>
