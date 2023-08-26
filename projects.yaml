@@ -1509,10 +1509,11 @@ projects:
   license: https://github.com/gasteigerjo/gtn/blob/main/LICENSE.md
   github_id: gasteigerjo/gtn
 - name: PyG Models
-  resource: true
   category: rep-learn
+  labels: ["general-ml"]
   description: Representation learning models implemented in PyTorch Geometric.
   homepage: https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/nn/models
+  github_id: https://github.com/pyg-team/pytorch_geometric
 - name: AGOX
   category: materials-discovery
   description: "AGOX is a package for global optimization of atomic system using e.g. the energy
