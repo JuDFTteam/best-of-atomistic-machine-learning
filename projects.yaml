@@ -554,6 +554,13 @@ projects:
   category: datasets
   description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
   homepage: https://matterverse.ai/
+- name: Open Databases Integration for Materials Design (OPTIMADE)
+  resource: true
+  category: datasets
+  description: Specification of a common REST API for access to 25+ materials databases
+  homepage: https://optimade.org
+  license: https://github.com/Materials-Consortia/OPTIMADE?tab=CC-BY-4.0-1-ov-file#readme
+  github_id: Materials-Consortia/OPTIMADE
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
@@ -1928,3 +1935,9 @@ calculated from density functional theory as the objective function."
   license: GPL-3.0
   github_id: jeherr/element-encoder
   # package managers: none
+- name: MODNet
+  category: general-tool
+  description: "MODNet: a framework for machine learning materials properties"
+  license: MIT
+  github_id: ppdebreuck/modnet
+  homepage: https://modnet.readthedocs.io/
