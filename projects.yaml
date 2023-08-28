@@ -1523,8 +1523,7 @@ projects:
   github_id: pyg-team/pytorch_geometric
 - name: AGOX
   category: materials-discovery
-  description: "AGOX is a package for global optimization of atomic system using e.g. the energy
-calculated from density functional theory as the objective function."
+  description: "AGOX is a package for global optimization of atomic system using e.g. the energy calculated from density functional theory as the objective function."
   labels: ["structure-optimization"]
   # docs_url: https://agox.gitlab.io/agox/
   license: "GPL-3.0"
