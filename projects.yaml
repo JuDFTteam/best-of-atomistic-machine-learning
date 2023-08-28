@@ -501,6 +501,12 @@ projects:
   license: MIT
   github_id: materialsproject/matbench
   pypi_id: matbench
+- name: MatBench Discovery
+  category: community
+  labels: ["datasets", "benchmarking"]
+  license: MIT
+  github_id: janosh/matbench-discovery
+  pypi_id: matbench-discovery
 - name: AI for Science Resources
   category: community
   license: GPL-3.0 license
