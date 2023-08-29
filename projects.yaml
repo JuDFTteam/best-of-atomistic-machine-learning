@@ -285,6 +285,13 @@ labels:
   - label: "scikit-learn"
     name: "scikit-learn"
     description: "Heavily integrates with or extends scikit-learn"
+  - label: "small-data"
+    name: "small-data"
+    description: "Project optimizes for small data, limited data availability"
+  - label: "transfer-learning"
+    name: "transfer-learning"
+    description: "Project implements a transfer learning technique"
+    url: "https://en.wikipedia.org/wiki/Transfer_learning"
   - label: "workflows"
     name: "workflows"
     description: "Workflows, pipelines, MLOps"
@@ -554,13 +561,6 @@ projects:
   category: datasets
   description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
   homepage: https://matterverse.ai/
-- name: Open Databases Integration for Materials Design (OPTIMADE)
-  resource: true
-  category: datasets
-  description: Specification of a common REST API for access to 25+ materials databases
-  homepage: https://optimade.org
-  license: https://github.com/Materials-Consortia/OPTIMADE?tab=CC-BY-4.0-1-ov-file#readme
-  github_id: Materials-Consortia/OPTIMADE
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
@@ -574,6 +574,12 @@ projects:
   # ################################################################################
   # DATASETS with resource: false (sorted by CI/CD)
   # ################################################################################
+- name: Open Databases Integration for Materials Design (OPTIMADE)
+  category: datasets
+  license: CC-BY-4.0
+  github_id: Materials-Consortia/OPTIMADE    
+  # homepage: https://optimade.org
+  # description: Specification of a common REST API for access to 25+ materials databases
 - name: Visual Graph Datasets
   # resource: false
   category: datasets
@@ -1935,8 +1941,8 @@ projects:
   github_id: jeherr/element-encoder
   # package managers: none
 - name: MODNet
-  category: general-tool
-  description: "MODNet: a framework for machine learning materials properties"
+  category: rep-eng
+  labels: ["pre-trained", "small-data", "transfer-learning"]
   license: MIT
   github_id: ppdebreuck/modnet
-  homepage: https://modnet.readthedocs.io/
+  # homepage: https://modnet.readthedocs.io/
