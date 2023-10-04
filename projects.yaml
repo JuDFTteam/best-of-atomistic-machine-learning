@@ -886,10 +886,10 @@ projects:
   labels: ["ml-iap"]
   # docs_url: https://lab-cosmo.github.io/equisolve
   github_id: lab-cosmo/equisolve
-- name: Equistore
+- name: Metatensor
   category: data-structures
-  # docs_url: https://lab-cosmo.github.io/equistore
-  github_id: lab-cosmo/equistore
+  # docs_url: https://lab-cosmo.github.io/metatensor
+  github_id: lab-cosmo/metatensor
 - name: Sketchmap
   labels: ["lang-cpp"]
   category: unsupervised
