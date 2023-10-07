@@ -1592,7 +1592,7 @@ projects:
   github_id: capoe/soapxx
 - name: matsciml
   category: rep-learn
-  labels: ["workflows"]
+  labels: ["workflows", "benchmarking"]
   github_id: IntelLabs/matsciml
 - name: magnetism-prediction
   category: rep-eng
