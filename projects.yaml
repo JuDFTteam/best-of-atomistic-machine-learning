@@ -313,6 +313,10 @@ labels:
     # name: "⚡"
     # image: "&#x26A1;"
     description: "Electrostatics, partial charges, charge transfer, charge equilibration"
+  - label: "enhanced-sampling"
+    name: "enhanced-sampling"
+    description: "Projects that simplify the application of machine-learning-aided enhanced sampling methods."
+    # reference: issue #175 https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/175
   - label: "magnetism"
     name: "magnetism"
     # name: "🧲"
@@ -583,7 +587,7 @@ projects:
 - name: Open Databases Integration for Materials Design (OPTIMADE)
   category: datasets
   license: CC-BY-4.0
-  github_id: Materials-Consortia/OPTIMADE    
+  github_id: Materials-Consortia/OPTIMADE
   # homepage: https://optimade.org
   # description: Specification of a common REST API for access to 25+ materials databases
 - name: Visual Graph Datasets
@@ -1952,3 +1956,10 @@ projects:
   license: MIT
   github_id: ppdebreuck/modnet
   # homepage: https://modnet.readthedocs.io/
+- name: mlcolvar
+  category: md
+  labels: ["enhanced-sampling"]
+  license: MIT
+  # docs_url: https://mlcolvar.readthedocs.io/
+  github_id: luigibonati/mlcolvar
+  pypi_id: mlcolvar
