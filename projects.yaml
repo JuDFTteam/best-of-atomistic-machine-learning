@@ -292,6 +292,10 @@ labels:
     name: "transfer-learning"
     description: "Project implements a transfer learning technique"
     url: "https://en.wikipedia.org/wiki/Transfer_learning"
+  - label: "transformer"
+    name: "transformer"
+    description: "Project uses transformer deep learning architecture"
+    url: "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"
   - label: "workflows"
     name: "workflows"
     description: "Workflows, pipelines, MLOps"
@@ -463,7 +467,7 @@ projects:
   resource: true
   homepage: https://crystallm.com
   category: community
-  labels: ["lm", "generative", "pre-trained"]
+  labels: ["lm", "generative", "pre-trained", "transformer"]
   license: https://materialis.ai/terms.html
   # package managers: none
   description: Generate a crystal structure from a composition.
@@ -892,6 +896,7 @@ projects:
   github_id: lab-cosmo/equisolve
 - name: Metatensor
   category: data-structures
+  labels: ["lang-rust", "lang-c", "lang-cpp", "lang-py"]
   # docs_url: https://lab-cosmo.github.io/metatensor
   github_id: lab-cosmo/metatensor
 - name: Sketchmap
@@ -1426,7 +1431,7 @@ projects:
   github_id: CompRhys/aviary
 - name: "SE(3)-Transformers"
   category: rep-learn
-  labels: ["single-paper"]
+  labels: ["single-paper", "transformer"]
   license: "MIT"
   github_id: FabianFuchsML/se3-transformer-public
 - name: "NVIDIA Deep Learning Examples for Tensor Cores"
@@ -1695,6 +1700,7 @@ projects:
   pypi_id: gptchem
 - name: Equiformer
   category: rep-learn
+  labels: ["transformer"]
   github_id: atomicarchitects/equiformer
 - name: MLIP-3
   category: ml-iap
@@ -1746,6 +1752,7 @@ projects:
   github_id: deepmind/deepmind-research
 - name: FermiNet
   category: ml-wft
+  labels: ["transformer"]
   github_id: deepmind/ferminet
 - name: AlphaFold
   category: biomolecules
