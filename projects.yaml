@@ -17,9 +17,10 @@ configuration:
   require_repo: false
   max_description_length: 300
   min_projectrank: 5
+  hide_empty_categories: true
   # allowed_licenses:
   #   [
-  #     "Unlicense",
+  #     "Unlicensed",
   #     "Apache-2.0",
   #     "MIT",
   #     "BSD-3-Clause",
@@ -2160,6 +2161,7 @@ projects:
   category: language-models
   license: MIT
   pypi_id: chemcrow
+  show: true # hack, was hidden, metrics indicate otherwise
 - name: MoLFormer
   github_id: IBM/molformer
   category: language-models
@@ -2317,6 +2319,7 @@ projects:
   category: materials-discovery
   labels: ["rep-learn", "datasets"]
   license: Apache-2.0
+  show: true # hack, was hidden, metrics indicate otherwise
   # package managers: none
 - name: halex
   github_id: ecignoni/halex
