@@ -161,7 +161,7 @@ labels:
     name: "generative"
   - label: "language-models"
     # category: "language-models"
-    name: "Language models"
+    name: "language-models"
     url: "https://en.wikipedia.org/wiki/Language_model"
   - label: "ml-iap"
     # category: "ml-iap"
@@ -336,6 +336,10 @@ labels:
     name: "enhanced-sampling"
     description: "Projects that simplify the application of machine-learning-aided enhanced sampling methods."
     # reference: issue #175 https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/175
+  - label: "excited-states"
+    name: "excited-states"
+    description: "Excited states"
+    url: "https://en.wikipedia.org/wiki/Excited_state"
   - label: "magnetism"
     name: "magnetism"
     # name: "🧲"
@@ -552,6 +556,7 @@ projects:
   category: community
   homepage: https://ma.issp.u-tokyo.ac.jp/en/
   # license: # none found
+  description: "A Portal Site of Materials Science Simulation."
 - name: Awesome Neural Geometry
   github_id: neurreps/awesome-neural-geometry
   category: community
@@ -565,6 +570,7 @@ projects:
   labels: ["transformer", "language-models", "pre-trained", "drug-discovery"]
   license: Apache-2.0
   # package managers: none
+  description: "A family of foundation models trained on chemicals."
 - name: GT4SD - Generative Toolkit for Scientific Discovery
   homepage: https://huggingface.co/GT4SD
   github_id: GT4SD/gt4sd-core
@@ -573,6 +579,13 @@ projects:
   license: MIT
   # package managers: none
   description: "Gradio apps of generative models in GT4SD."
+- name: GNoME Explorer
+  homepage: https://next-gen.materialsproject.org/materials/gnome
+  github_id: google-deepmind/materials_discovery
+  category: community
+  labels: ["datasets", "materials-discovery"]
+  license: Apache-2.0
+  description: "Graph Networks for Materials Exploration Database"
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -2294,3 +2307,27 @@ projects:
   labels: ["lang-cpp"]
   license: Apache-2.0
   # package managers: none
+- name: FAENet
+  github_id: vict0rsch/faenet
+  category: rep-learn
+  license: MIT
+  pypi_id: faenet
+- name: "Materials Discovery: GNoME"
+  github_id: google-deepmind/materials_discovery
+  category: materials-discovery
+  labels: rep-learn, datasets
+  license: Apache-2.0
+  # package managers: none
+- name: halex
+  github_id: ecignoni/halex
+  category: ml-dft
+  labels: ["ml-wft", "excited-states"]
+  # license: # none found
+  # package managers: nonePackage Managers: None
+  description: "Hamiltonian Learning for Excited States https://doi.org/10.48550/arXiv.2311.00844"
+- name: pymatviz
+  github_id: janosh/pymatviz
+  category: visualization
+  labels: ["general-tool", "probabilistic"]
+  license: MIT
+  pypi_id: pymatviz
