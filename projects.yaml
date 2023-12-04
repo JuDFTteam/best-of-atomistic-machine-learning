@@ -2315,13 +2315,13 @@ projects:
 - name: "Materials Discovery: GNoME"
   github_id: google-deepmind/materials_discovery
   category: materials-discovery
-  labels: rep-learn, datasets
+  labels: ["rep-learn", "datasets"]
   license: Apache-2.0
   # package managers: none
 - name: halex
   github_id: ecignoni/halex
-  category: ml-dft
-  labels: ["ml-wft", "excited-states"]
+  category: ml-wft
+  labels: ["ml-dft", "excited-states"]
   # license: # none found
   # package managers: nonePackage Managers: None
   description: "Hamiltonian Learning for Excited States https://doi.org/10.48550/arXiv.2311.00844"
