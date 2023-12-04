@@ -1273,6 +1273,7 @@ projects:
   pypi_id: crabnet
 - name: QUIP
   category: general-tool
+  labels: ["md", "ml-iap", "rep-eng", "lang-fortran"]
   # homepage: https://libatoms.github.io/
   # docs_url: http://libatoms.github.io/QUIP/
   license: GPL-2.0
@@ -2323,8 +2324,8 @@ projects:
   # package managers: none
 - name: halex
   github_id: ecignoni/halex
-  category: ml-wft
-  labels: ["ml-dft", "excited-states"]
+  category: ml-esm
+  labels: ["excited-states"]
   # license: # none found
   # package managers: nonePackage Managers: None
   description: "Hamiltonian Learning for Excited States https://doi.org/10.48550/arXiv.2311.00844"
@@ -2334,3 +2335,9 @@ projects:
   labels: ["general-tool", "probabilistic"]
   license: MIT
   pypi_id: pymatviz
+- name: TorchMD-NET
+  github_id: torchmd/torchmd-net
+  category: md
+  labels: ["ml-iap", "rep-learn", "tranformer", "pre-trained"]
+  license: MIT
+  conda_id: conda-forge/torchmd-net
