@@ -2337,7 +2337,7 @@ projects:
   pypi_id: pymatviz
 - name: TorchMD-NET
   github_id: torchmd/torchmd-net
-  category: md
-  labels: ["ml-iap", "rep-learn", "tranformer", "pre-trained"]
+  category: ml-iap
+  labels: ["md", "rep-learn", "transformer", "pre-trained"]
   license: MIT
   conda_id: conda-forge/torchmd-net
