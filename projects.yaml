@@ -2360,7 +2360,7 @@ projects:
 - name: LLM-Prop
   github_id: vertaix/LLM-Prop
   category: language-models
-  license: None found
+  # license: # none found
   # package managers: none
 - name: MLXDM
   github_id: RowleyGroup/MLXDM
