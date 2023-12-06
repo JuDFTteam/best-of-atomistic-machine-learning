@@ -341,6 +341,10 @@ labels:
     name: "excited-states"
     description: "Excited states"
     url: "https://en.wikipedia.org/wiki/Excited_state"
+  - label: "long-range"
+    name: "long-range"
+    description: "Long-range interactions"
+    # url: "https://en.wikipedia.org/wiki/Excited_state"
   - label: "magnetism"
     name: "magnetism"
     # name: "🧲"
@@ -769,6 +773,12 @@ projects:
   category: datasets
   labels: ["ml-dft"]
   license: CC-BY-NC-SA 4.0
+  # package managers: none
+- name: paper-data-redundancy
+  github_id: mathsphy/paper-data-redundancy
+  category: datasets
+  labels: ["small-data", "single-paper"]
+  license: BSD-3-Clause
   # package managers: none
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
@@ -2341,3 +2351,21 @@ projects:
   labels: ["md", "rep-learn", "transformer", "pre-trained"]
   license: MIT
   conda_id: conda-forge/torchmd-net
+- name:  paper-ml-robustness-material-property
+  github_id: mathsphy/paper-ml-robustness-material-property
+  category: unsupervised
+  labels: datasets, single-paper
+  license:  BSD-3-Clause
+  # package managers: none
+- name: LLM-Prop
+  github_id: vertaix/LLM-Prop
+  category: language-models
+  license: None found
+  # package managers: none
+- name: MLXDM
+  github_id: RowleyGroup/MLXDM
+  category: ml-iap
+  labels: ["long-range"]
+  license: MIT
+  # package managers: none
+  description: "A Neural Network Potential with Rigorous Treatment of Long-Range Dispersion https://doi.org/10.1039/D2DD00150K"
