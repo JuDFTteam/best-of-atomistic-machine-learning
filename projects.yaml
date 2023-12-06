@@ -623,6 +623,11 @@ projects:
   homepage: https://pages.nist.gov/jarvis_leaderboard/
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
+- name: The Materials Data Facility
+  category: datasets
+  homepage: https://www.materialsdatafacility.org
+  description: A simple way to publish, discover, and access materials datasets. Publication of very large datasets supported (e.g., multi-TB or millions of files)
+  github_id: materials-data-facility
 - name: Materials Project - Charge Densities
   resource: true
   category: datasets
