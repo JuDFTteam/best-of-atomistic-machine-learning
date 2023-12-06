@@ -2354,7 +2354,7 @@ projects:
 - name:  paper-ml-robustness-material-property
   github_id: mathsphy/paper-ml-robustness-material-property
   category: unsupervised
-  labels: datasets, single-paper
+  labels: ["datasets", "single-paper"]
   license:  BSD-3-Clause
   # package managers: none
 - name: LLM-Prop
