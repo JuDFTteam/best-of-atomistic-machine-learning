@@ -439,10 +439,22 @@ projects:
   # - Resources are those that don't have a repo (github_id etc.). See examples below.
   # - URLs: The project link in the README.md will point to link in prop, in order:
   #   homepage, docs_url, one of {github_id, gitlab_id, etc., whichever provided}.
-  #   In most cases, only provide the repo_id URL. Cause it usually point to
+  #   This means that, in fact, the README entry does not use the other links at all.
+  #   For that reason, in most cases only provide the repo_id URL. It usually points to
   #   the other URLs, while the latter don't always point to the repo. If the other
   #   URLs exist, but the repo doesn't point to them, add them as props, but comment
   #   them out. See examples below.
+  # - Special case resource-like projects (e.g. datasets, educational, community resource).
+  #   Often, for these projects, the 'homepage' prop is the main URL. However, quality metrics
+  #   are only collected from repo URLs and package managers, not individual homepages. For that
+  #   reason, such projects then usually get the 'resource: true' property (the default is
+  #   'resource: false'). This setting disables metrics collection for that project. Such projects
+  #   get listed in the READMe as a static, alphabetically ordered list appended to their category,
+  #   followed by the non-resource, metrics-ordered projects. Preference should be given to metrics
+  #   ordering whenever possible. Therefore, if a resource-like project is added and can be
+  #   associated with a directly related repo (e.g. a client for a database), then add both the
+  #   'homepage' and repo URL (github_id or gitlab_id) and DON't set the resource property.
+  #   See examples categories community, datasets, educationl.
   # - If a project is a subfolder of a repo, provide both props homepage (link to the repo
   #   subfolder containing the project) and the repo id (e.g., github_id). See example
   #   project DM21 below. That way, the project quality score is calculuated, and the
