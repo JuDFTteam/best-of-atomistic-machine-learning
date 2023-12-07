@@ -623,11 +623,6 @@ projects:
   homepage: https://pages.nist.gov/jarvis_leaderboard/
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
-- name: The Materials Data Facility
-  category: datasets
-  homepage: https://www.materialsdatafacility.org
-  description: A simple way to publish, discover, and access materials datasets. Publication of very large datasets supported (e.g., multi-TB or millions of files)
-  github_id: materials-data-facility
 - name: Materials Project - Charge Densities
   resource: true
   category: datasets
@@ -637,39 +632,43 @@ projects:
 - name: matterverse.ai
   resource: true
   category: datasets
-  description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
   homepage: https://matterverse.ai/
+  description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
+- name: NRELMatDB
+  resource: true
+  category: datasets
+  homepage: https://materials.nrel.gov/
+  description: "Computational materials database with the specific focus on materials for renewable energy applications including, but not limited to, photovoltaic materials, materials for photo-electrochemical water splitting, thermoelectrics, etc."
+  # license: # none found
+  # package managers: none
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
-  description: "Collection of datasets, including QM7, QM9, etc. MD, DFT. Small organic molecules, mostly."
   homepage: http://quantum-machine.org/datasets/
+  description: "Collection of datasets, including QM7, QM9, etc. MD, DFT. Small organic molecules, mostly."
 - name: sGDML Datasets
   resource: true
   category: datasets
   homepage: http://sgdml.org/#datasets
   description: MD17, MD22, DFT datasets.
 - name: MoleculeNet
-  homepage: https://moleculenet.org/
   resource: true
   category: datasets
   labels: ["benchmarking"]
-  license: TBD
-  # package managers: none
+  # license: # none found
+  homepage: https://moleculenet.org/
 - name: ZINC15
   resource: true
-  homepage: https://zinc15.docking.org/
   category: datasets
   labels: ["graph", "biomolecules"]
-  license:
-  # package managers: none
+  # license: # none found
+  homepage: https://zinc15.docking.org/
 - name: ZINC
   resource: true
-  homepage: https://zinc.docking.org/
   category: datasets
   labels: ["graph", "biomolecules"]
-  license:
-  # package managers: none
+  # license: # none found
+  homepage: https://zinc.docking.org/
   # ################################################################################
   # DATASETS with resource: false (sorted by CI/CD)
   # ################################################################################
@@ -759,13 +758,6 @@ projects:
   # license: # none found
   homepage: https://github.com/HSE-LAMBDA/ai4material_design/blob/main/docs/DATA.md
   github_id: HSE-LAMBDA/ai4material_design
-- name: NRELMatDB
-  homepage: https://materials.nrel.gov/
-  category: datasets
-  description: "Computational materials database with the specific focus on materials for renewable energy applications including, but not limited to, photovoltaic materials, materials for photo-electrochemical water splitting, thermoelectrics, etc."
-  resource: true
-  # license: # none found
-  # package managers: none
 - name: ATOM3D
   github_id: drorlab/atom3d
   category: datasets
@@ -785,6 +777,11 @@ projects:
   labels: ["small-data", "single-paper"]
   license: BSD-3-Clause
   # package managers: none
+- name: Materials Data Facility (MDF)
+  category: datasets
+  homepage: https://www.materialsdatafacility.org
+  github_id: materials-data-facility/connect_client
+  description: "A simple way to publish, discover, and access materials datasets. Publication of very large datasets supported (e.g., multi-TB or millions of files)"
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
