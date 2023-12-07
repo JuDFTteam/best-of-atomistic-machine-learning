@@ -488,7 +488,7 @@ _Projects and models that focus on quantities of DFT, such as density functional
 	git clone https://github.com/deepmodeling/deepks-kit
 	```
 </details>
-<details><summary><b><a href="https://github.com/andreagrisafi/SALTED">SALTED</a></b> (🥈7 ·  ⭐ 14 · 📉) - Symmetry-Adapted Learning of Three-dimensional Electron Densities. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/andreagrisafi/SALTED">SALTED</a></b> (🥈7 ·  ⭐ 14) - Symmetry-Adapted Learning of Three-dimensional Electron Densities. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/andreagrisafi/SALTED) (👨‍💻 13 · 🔀 2 · ⏱️ 30.11.2023):
 
@@ -1925,7 +1925,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 	pip install kgcnn
 	```
 </details>
-<details><summary><b><a href="https://github.com/materialsvirtuallab/matgl">MatGL (Materials Graph Library)</a></b> (🥈22 ·  ⭐ 150 · 📈) - Graph deep learning library for materials. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/materialsvirtuallab/matgl">MatGL (Materials Graph Library)</a></b> (🥈22 ·  ⭐ 150) - Graph deep learning library for materials. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/materialsvirtuallab/matgl) (👨‍💻 13 · 🔀 35 · 📦 17 · 📋 46 - 6% open · ⏱️ 27.11.2023):
 
@@ -2270,7 +2270,7 @@ _Projects that focus on visualization (viz.) for atomistic ML._
 
 _Projects and models that focus on quantities of wavefunction theory methods, such as Monte Carlo techniques like deep learning variational Monte Carlo (DL-VMC), quantum chemistry methods, etc._
 
-<details><summary><b><a href="https://github.com/deepqmc/deepqmc">DeepQMC</a></b> (🥇22 ·  ⭐ 310 · 📈) - Deep learning quantum Monte Carlo for electrons in real space. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/deepqmc/deepqmc">DeepQMC</a></b> (🥇22 ·  ⭐ 310) - Deep learning quantum Monte Carlo for electrons in real space. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/deepqmc/deepqmc) (👨‍💻 13 · 🔀 56 · 📦 1 · 📋 39 - 7% open · ⏱️ 20.11.2023):
 
