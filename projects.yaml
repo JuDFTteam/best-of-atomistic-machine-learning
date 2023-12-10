@@ -245,6 +245,9 @@ labels:
   # ########################################
   # Project - specific labels
   # ########################################
+  - label: "for-fun"
+    name: "for-fun"
+    description: "For-fun, thought-provoking projects. Not necessarily intended for scientific publication."
   - label: "single-paper"
     name: "single-paper"
     description: "Single-paper projects"
@@ -603,6 +606,18 @@ projects:
   labels: ["datasets", "materials-discovery"]
   license: Apache-2.0
   description: "Graph Networks for Materials Exploration Database"
+- name: Does this material exist?
+  homepage: https://thismaterialdoesnotexist.com/
+  github_id: ml-evs/this-material-does-not-exist
+  category: community
+  labels: ["for-fun", "materials-discovery"]
+  license: MIT
+- name: optimade.science
+  homepage: https://optimade.science
+  github_id: tilde-lab/optimade.science
+  category: community
+  labels: ["datasets"]
+  license: MIT
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -669,18 +684,21 @@ projects:
   labels: ["benchmarking"]
   # license: # none found
   homepage: https://moleculenet.org/
+  description: "A Benchmark for Molecular Machine Learning"
 - name: ZINC15
   resource: true
   category: datasets
   labels: ["graph", "biomolecules"]
   # license: # none found
   homepage: https://zinc15.docking.org/
-- name: ZINC
+  description: "A free database of commercially-available compounds for virtual screening. ZINC contains over 230 million purchasable compounds in ready-to-dock, 3D formats."
+- name: ZINC20
   resource: true
   category: datasets
   labels: ["graph", "biomolecules"]
   # license: # none found
   homepage: https://zinc.docking.org/
+  description: "A free database of commercially-available compounds for virtual screening. ZINC contains over 230 million purchasable compounds in ready-to-dock, 3D formats."
   # ################################################################################
   # DATASETS with resource: false (sorted by CI/CD)
   # ################################################################################
@@ -794,6 +812,17 @@ projects:
   homepage: https://www.materialsdatafacility.org
   github_id: materials-data-facility/connect_client
   description: "A simple way to publish, discover, and access materials datasets. Publication of very large datasets supported (e.g., multi-TB or millions of files)"
+- name: OPTIMADE Python tools
+  category: datasets
+  github_id: Materials-Consortia/optimade-python-tools
+  license: MIT
+  pypi_id: optimade
+  conda_id: conda-forge/optimade
+- name: OPTIMADE providers dashboard
+  category: datasets
+  homepage: https://www.optimade.org/providers-dashboard/
+  github_id: Materials-Consortia/providers-dashboard
+  # license: # none found
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
@@ -897,7 +926,11 @@ projects:
   labels: ["ml-iap", "rep-learn", "md"]
   license: MIT
   # package managers: none
-
+- name: OPTIMADE Tutorial Exercises
+  github_id: Materials-Consortia/optimade-tutorial-exercises
+  category: educational
+  labels: ["datasets"]
+  license: MIT
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
   # ################################################################################
@@ -2346,6 +2379,7 @@ projects:
   license: Apache-2.0
   show: true # hack, was hidden, metrics indicate otherwise
   # package managers: none
+  description: "Graph Networks for Materials Science (GNoME) and dataset of 381,000 novel stable materials."
 - name: halex
   github_id: ecignoni/halex
   category: ml-esm
