@@ -1,0 +1,65 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Best of Atomistic Machine Learning
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Johannes
+    family-names: Wasmer
+    email: johannes.wasmer@gmail.com
+    affiliation: Forschungszentrum Jülich
+    orcid: 'https://orcid.org/0000-0001-5113-3119'
+  - given-names: Matthew
+    name-particle: L
+    family-names: Evans
+    email: matthew.evans@uclouvain.be
+    affiliation: Université Catholique de Louvain
+    orcid: 'https://orcid.org/0000-0002-1182-9098'
+  - given-names: Ben
+    family-names: Blaiszik
+    affiliation: University of Chicago
+    orcid: 'https://orcid.org/0000-0002-5326-4902'
+    email: blaiszik@uchicago.edu
+  - given-names: Janosh
+    family-names: Riebesell
+    email: janosh.riebesell@gmail.com
+    affiliation: University of Cambridge
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10430261
+    description: >-
+      This DOI represents all versions, and will always
+      resolve to the latest one.
+repository-code: >-
+  https://github.com/JuDFTteam/best-of-atomistic-machine-learning
+url: >-
+  https://github.com/JuDFTteam/best-of-atomistic-machine-learning
+abstract: >-
+  A ranked list of awesome atomistic machine learning
+  projects.
+keywords:
+  - ai4science
+  - 'atomistic-machine-learning '
+  - scientific-machine-learning
+  - community-resource
+  - living-document
+  - best-of-list
+  - 'awesome-list '
+  - molecular-dynamics
+  - density-functional-theory
+  - 'computational-materials-science '
+  - computational-chemistry
+  - quantum-chemistry
+  - materials-discovery
+  - materials-informatics
+  - drug-discovery
+  - surrogate-models
+  - electronic-structure
+  - interatomic-potentials
+  - materials-datasets
+  - chemistry-datasets
+license: CC-BY-SA-4.0
