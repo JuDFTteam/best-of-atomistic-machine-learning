@@ -2428,4 +2428,20 @@ projects:
   category: ml-iap
   labels: ["md", "lang-cpp", "electrostatics"]
   license: GPL-3.0
+  # package managers: none
   description: "GPUMD is a highly efficient general-purpose molecular dynamic (MD) package and enables machine-learned potentials called neuroevolution potentials (NEPs)"
+- name: calorine
+  gitlab_id: materials-modeling/calorine
+  category: ml-iap
+  license: https://gitlab.com/materials-modeling/calorine/-/blob/master/LICENSE
+  pypi_id: calorine
+  description: A Python package for constructing and sampling neuroevolution potential models. https://doi.org/10.21105/joss.06264
+- name: PyNEP
+  category: ml-iap
+  license: MIT
+  description: A python interface of the machine learning potential NEP used in GPUMD.
+- name: SOMD
+  category: md
+  labels: ["ml-iap", "active-learning"]
+  license: AGPL-3.0
+  # package managers: none
