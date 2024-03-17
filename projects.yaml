@@ -2438,10 +2438,12 @@ projects:
   pypi_id: calorine
   description: A Python package for constructing and sampling neuroevolution potential models. https://doi.org/10.21105/joss.06264
 - name: PyNEP
+  github_id: bigd4/PyNEP
   category: ml-iap
   license: MIT
   description: A python interface of the machine learning potential NEP used in GPUMD.
 - name: SOMD
+  github_id: initqp/somd
   category: md
   labels: ["ml-iap", "active-learning"]
   license: AGPL-3.0
