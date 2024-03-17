@@ -45,11 +45,11 @@ The current focus of this list is more on simulation data rather than experiment
 - [Electronic structure methods (ML-ESM)](#electronic-structure-methods-ml-esm) _3 projects_
 - [General Tools](#general-tools) _22 projects_
 - [Generative Models](#generative-models) _11 projects_
-- [Interatomic Potentials (ML-IAP)](#interatomic-potentials-ml-iap) _63 projects_
+- [Interatomic Potentials (ML-IAP)](#interatomic-potentials-ml-iap) _64 projects_
 - [Language Models](#language-models) _16 projects_
 - [Materials Discovery](#materials-discovery) _9 projects_
 - [Mathematical tools](#mathematical-tools) _11 projects_
-- [Molecular Dynamics](#molecular-dynamics) _9 projects_
+- [Molecular Dynamics](#molecular-dynamics) _10 projects_
 - [Reinforcement Learning](#reinforcement-learning) _2 projects_
 - [Representation Engineering](#representation-engineering) _23 projects_
 - [Representation Learning](#representation-learning) _55 projects_
@@ -467,7 +467,7 @@ _Projects that focus on providing data structures used in atomistic machine lear
 
 _Projects and models that focus on quantities of DFT, such as density functional approximations (ML-DFA), the charge density, density of states, the Hamiltonian, etc._
 
-<details><summary><b><a href="https://github.com/google-research/google-research/tree/master/jax_dft">JAX-DFT</a></b> (🥇25 ·  ⭐ 32K) - Google Research. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/google-research/google-research/tree/master/jax_dft">JAX-DFT</a></b> (🥇25 ·  ⭐ 32K) - This library provides basic building blocks that can construct DFT calculations as a differentiable program. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/google-research/google-research) (👨‍💻 770 · 🔀 7.5K · 📋 1.2K - 73% open · ⏱️ 14.03.2024):
 
@@ -1346,6 +1346,14 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 	git clone https://github.com/ACEsuit/ACEfit.jl
 	```
 </details>
+<details><summary><b><a href="https://github.com/bigd4/PyNEP">PyNEP</a></b> (🥉8 ·  ⭐ 36 · 📈) - A python interface of the machine learning potential NEP used in GPUMD. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/bigd4/PyNEP) (👨‍💻 7 · 🔀 15 · 📋 10 - 40% open · ⏱️ 01.02.2024):
+
+	```
+	git clone https://github.com/bigd4/PyNEP
+	```
+</details>
 <details><summary><b><a href="https://github.com/lanl/ALF">ALF</a></b> (🥉8 ·  ⭐ 22) - A framework for performing active learning for training machine-learned interatomic potentials. <code><a href="https://github.com/lanl/ALF/blob/main/LICENSE">Custom</a></code> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a></summary>
 
 - [GitHub](https://github.com/lanl/ALF) (👨‍💻 5 · 🔀 9 · ⏱️ 29.01.2024):
@@ -1751,6 +1759,14 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 
 	```
 	git clone https://github.com/mir-group/pair_allegro
+	```
+</details>
+<details><summary><b><a href="https://github.com/initqp/somd">SOMD</a></b> (🥉6 ·  ⭐ 10 · 📈) - Molecular dynamics package designed for the SIESTA DFT code. <code><a href="http://bit.ly/3pwmjO5">AGPL-3.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a></summary>
+
+- [GitHub](https://github.com/initqp/somd) (🔀 2 · ⏱️ 12.03.2024):
+
+	```
+	git clone https://github.com/initqp/somd
 	```
 </details>
 <details><summary>Show 2 hidden projects...</summary>
