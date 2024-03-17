@@ -2187,6 +2187,7 @@ projects:
   category: ml-dft
   license: Apache-2.0
   # package managers: none
+  description: This library provides basic building blocks that can construct DFT calculations as a differentiable program.
 - name: pretrained-gnns
   github_id: snap-stanford/pretrain-gnns
   category: representation-learning
