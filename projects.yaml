@@ -2450,7 +2450,6 @@ projects:
   # package managers: none
 - name: apax
   category: ml-iap
-  # homepage: https://acesuit.github.io/
-  # group_id: ACE
   license: "MIT"
   github_id: apax-hub/apax
+  pypi_id: apax
