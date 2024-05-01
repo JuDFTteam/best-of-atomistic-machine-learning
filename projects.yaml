@@ -2448,3 +2448,8 @@ projects:
   labels: ["ml-iap", "active-learning"]
   license: AGPL-3.0
   # package managers: none
+- name: apax
+  category: ml-iap
+  license: "MIT"
+  github_id: apax-hub/apax
+  pypi_id: apax
