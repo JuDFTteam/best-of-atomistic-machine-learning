@@ -2458,3 +2458,9 @@ projects:
   category: language-models
   labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py"]
   license: BSD-3-Clause
+- name: IPSuite
+  category: ml-iap
+  license: "EPL-2.0"
+  labels: ["workflows", "htc", "active-learning", "community", "general-tool", "md", ]
+  github_id: zincware/IPSuite
+  description: IPSuite is a Python toolkit for FAIR development and deployment of MLPs.
