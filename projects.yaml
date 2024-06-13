@@ -2456,5 +2456,11 @@ projects:
 - name: LLaMP
   github_id: chiang-yuan/llamp
   category: language-models
-  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py"]
+  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py", "general-tool"]
   license: BSD-3-Clause
+- name: IPSuite
+  category: active-learning
+  license: "EPL-2.0"
+  labels: ["workflows", "htc", "lang-py", "active-learning", "community", "md"]
+  github_id: zincware/IPSuite
+  description: IPSuite is a Python toolkit for FAIR development and deployment of MLPs.
