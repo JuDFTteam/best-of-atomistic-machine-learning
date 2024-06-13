@@ -12,22 +12,32 @@ authors:
     family-names: Wasmer
     email: johannes.wasmer@gmail.com
     affiliation: Forschungszentrum Jülich
-    orcid: 'https://orcid.org/0000-0001-5113-3119'
+    orcid: "https://orcid.org/0000-0001-5113-3119"
+    website: "https://github.com/Irratzo"
   - given-names: Matthew
     name-particle: L
     family-names: Evans
     email: matthew.evans@uclouvain.be
     affiliation: Université Catholique de Louvain
-    orcid: 'https://orcid.org/0000-0002-1182-9098'
+    orcid: "https://orcid.org/0000-0002-1182-9098"
+    website: "https://github.com/ml-evs"
   - given-names: Ben
     family-names: Blaiszik
     affiliation: University of Chicago
-    orcid: 'https://orcid.org/0000-0002-5326-4902'
+    orcid: "https://orcid.org/0000-0002-5326-4902"
     email: blaiszik@uchicago.edu
+    website: "https://github.com/blaiszik"
   - given-names: Janosh
     family-names: Riebesell
     email: janosh.riebesell@gmail.com
     affiliation: University of Cambridge
+    website: "https://github.com/janosh"
+  - given-names: Fabian
+    family-names: Zills
+    affiliation: University of Stuttgart
+    orcid: "https://orcid.org/0000-0002-6936-4692"
+    email: faibian.zills@icp.uni-stuttgart.de
+    website: "https://github.com/PythonFZ"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.10430261
@@ -43,15 +53,15 @@ abstract: >-
   projects.
 keywords:
   - ai4science
-  - 'atomistic-machine-learning '
+  - "atomistic-machine-learning"
   - scientific-machine-learning
   - community-resource
   - living-document
   - best-of-list
-  - 'awesome-list '
+  - "awesome-list"
   - molecular-dynamics
   - density-functional-theory
-  - 'computational-materials-science '
+  - "computational-materials-science"
   - computational-chemistry
   - quantum-chemistry
   - materials-discovery
