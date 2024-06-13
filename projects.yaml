@@ -2453,3 +2453,8 @@ projects:
   license: "MIT"
   github_id: apax-hub/apax
   pypi_id: apax
+- name: LLaMP
+  github_id: chiang-yuan/llamp
+  category: language-models
+  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py"]
+  license: BSD-3-Clause
