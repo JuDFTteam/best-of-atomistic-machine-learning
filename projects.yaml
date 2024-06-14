@@ -2471,3 +2471,4 @@ projects:
   labels: ["lang-js", "lang-py", "general-tool", "generative", "viz", ]
   github_id: zincware/ZnDraw
   pypi_id: zndraw
+  homepage: https://zndraw.icp.uni-stuttgart.de
