@@ -2459,16 +2459,17 @@ projects:
   labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py", "general-tool"]
   license: BSD-3-Clause
 - name: IPSuite
+  github_id: zincware/IPSuite
   category: active-learning
   license: "EPL-2.0"
-  labels: ["workflows", "htc", "lang-py", "active-learning", "community", "md"]
-  github_id: zincware/IPSuite
-  description: IPSuite is a Python toolkit for FAIR development and deployment of MLPs.
+  labels: ["ml-iap", "md", "workflows", "htc"]
   pypi_id: ipsuite
+  description: A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials.  
 - name: ZnDraw
-  category: visualization
-  license: "EPL-2.0"
-  labels: ["lang-js", "lang-py", "general-tool", "generative", "viz", ]
   github_id: zincware/ZnDraw
+  # homepage: https://zndraw.icp.uni-stuttgart.de  
+  category: visualization
+  labels: ["md", "generative", "lang-js"]  
+  license: "EPL-2.0"
   pypi_id: zndraw
-  homepage: https://zndraw.icp.uni-stuttgart.de
+  description: A powerful tool for visualizing, modifying, and analysing atomistic systems.
