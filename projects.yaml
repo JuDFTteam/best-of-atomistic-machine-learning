@@ -2464,3 +2464,10 @@ projects:
   labels: ["workflows", "htc", "lang-py", "active-learning", "community", "md"]
   github_id: zincware/IPSuite
   description: IPSuite is a Python toolkit for FAIR development and deployment of MLPs.
+  pypi_id: ipsuite
+- name: ZnDraw
+  category: visualization
+  license: "EPL-2.0"
+  labels: ["lang-js", "lang-py", "general-tool", "generative", "viz", ]
+  github_id: zincware/ZnDraw
+  pypi_id: zndraw
