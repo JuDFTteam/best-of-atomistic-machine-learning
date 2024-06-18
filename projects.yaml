@@ -754,12 +754,12 @@ projects:
   category: datasets
   labels: ["benchmarking", "single-paper"]
   github_id: BingqingCheng/linear-regression-benchmarks
-- name: Open Catalyst datasets
+- name: FAIR Chemistry datasets
   category: datasets
-  license: CC-BY-4.0
-  description: The datasets of the Open Catalyst project, OC20, OC22
-  homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/DATASET.md
-  github_id: Open-Catalyst-Project/ocp
+  labels: ["catalysis"]
+  license: MIT
+  description: Datasets OC20, OC22, etc. Formerly known as Open Catalyst Project.
+  github_id: FAIR-Chem/fairchem
 - name: MPContribs
   category: datasets
   license: MIT
@@ -1175,16 +1175,12 @@ projects:
   category: unsupervised
   # docs_url: https://bingqingcheng.github.io/
   github_id: BingqingCheng/ASAP
-- name: charge-density-models
-  resource:
-  category: ml-dft
-  description: Tools to build charge density models using ocpmodels
-  github_id: ulissigroup/charge-density-models
-- name: ocp
-  category: rep-learn
-  description: ocp is the Open Catalyst Project's library of state-of-the-art machine learning algorithms for catalysis.
+- name: fairchem
+  category: ml-iap
+  labels: ["pre-trained", "rep-learn", "catalysis"]
+  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project (ocp).
   # homepage: https://opencatalystproject.org/
-  github_id: Open-Catalyst-Project/ocp
+  github_id: FAIR-Chem/fairchem
 - name: AdsorbML
   category: rep-learn
   description:
@@ -1242,12 +1238,6 @@ projects:
   category: active-learning
   # labels: ["active-learning"]
   github_id: ulissigroup/finetuna
-- name: Pre-trained OCP models
-  category: ml-iap
-  labels: ["pre-trained"]
-  description: "Pre-trained models released as part of the Open Catalyst Project."
-  homepage: https://github.com/Open-Catalyst-Project/ocp/blob/main/MODELS.md
-  github_id: Open-Catalyst-Project/ocp
 - name: "Computational Autonomy for Materials Discovery (CAMD)"
   category: materials-discovery
   github_id: ulissigroup/CAMD
@@ -2362,7 +2352,7 @@ projects:
   labels: ["rep-learn"]
   license: MIT
   # package managers: none
-  description: Tools to build charge density models using [ocpmodels](https://github.com/Open-Catalyst-Project/ocp)
+  description: Tools to build charge density models using [fairchem](https://github.com/FAIR-Chem/fairchem)
 - name: SciBot
   github_id: CFN-softbio/SciBot
   category: language-models
@@ -2464,12 +2454,12 @@ projects:
   license: "EPL-2.0"
   labels: ["ml-iap", "md", "workflows", "htc"]
   pypi_id: ipsuite
-  description: A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials.  
+  description: A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials.
 - name: ZnDraw
   github_id: zincware/ZnDraw
-  # homepage: https://zndraw.icp.uni-stuttgart.de  
+  # homepage: https://zndraw.icp.uni-stuttgart.de
   category: visualization
-  labels: ["md", "generative", "lang-js"]  
+  labels: ["md", "generative", "lang-js"]
   license: "EPL-2.0"
   pypi_id: zndraw
   description: A powerful tool for visualizing, modifying, and analysing atomistic systems.
