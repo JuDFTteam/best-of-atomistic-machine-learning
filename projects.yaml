@@ -2322,10 +2322,10 @@ projects:
   # license: # none found
   # package managers: none
 - name: Point Edge Transformer (PET)
-  github_id: serfg/pet
+  github_id: spozdn/pet
   category: ml-iap
   labels: ["rep-learn", "transformer"]
-  # license: # none found
+  license: MIT
   # package managers: none
 - name: TurboGAP
   github_id: mcaroba/turbogap
