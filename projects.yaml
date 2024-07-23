@@ -646,7 +646,7 @@ projects:
 - name: JARVIS-Leaderboard
   resource: true
   category: datasets
-  labels: ["benchmarking"]
+  labels: ["benchmarking", "community", "educational"]
   homepage: https://pages.nist.gov/jarvis_leaderboard/
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
