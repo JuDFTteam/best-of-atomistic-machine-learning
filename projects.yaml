@@ -105,6 +105,9 @@ categories:
   - category: "rep-learn"
     title: "Representation Learning"
     subtitle: "General models that learn a representations aka embeddings of atomistic systems, such as message-passing neural networks (MPNN)."
+  - category: "uip"
+    title: "Universal Potentials"
+    subtitle: "Machine-learned interatomic potentials (ML-IAP) that have been trained on large, chemically and structural diverse datasets. For materials, this means e.g. datasets that include a majority of the periodic table."
   - category: "unsupervised"
     title: "Unsupervised Learning"
     subtitle: "Projects that focus on unsupervised learning (USL) for atomistic ML, such as dimensionality reduction, clustering and visualization."
@@ -196,6 +199,10 @@ labels:
     # category: "rep-learn"
     name: "rep-learn"
     url: "https://en.wikipedia.org/wiki/Feature_learning"
+  - label: "uip"
+    # category: "uip"
+    name: "UIP"
+    url: "https://www.google.com/search?q=universal+interatomic+potential"
   - label: "unsupervised"
     # category: "unsupervised"
     name: "USL"
@@ -1127,7 +1134,8 @@ projects:
   ignore: true
   # feeback from COSMO: intended for internal use
 - name: M3GNet
-  category: ml-iap
+  category: uip
+  labels: ["ml-iap", "pre-trained"]
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/m3gnet
   pypi_id: m3gnet
@@ -2105,8 +2113,8 @@ projects:
   github_id: openmm/openmm-torch
   conda_id: conda-forge/openmm-torch
 - name: CHGNet
-  category: ml-iap
-  labels: ["md", "pre-trained", "electrostatics", "magnetism", "structure-relaxation"]
+  category: uip
+  labels: ["ml-iap", "md", "pre-trained", "electrostatics", "magnetism", "structure-relaxation"]
   license: https://github.com/CederGroupHub/chgnet/blob/main/LICENSE
   github_id: CederGroupHub/chgnet
   pypi_id: chgnet
@@ -2372,7 +2380,7 @@ projects:
 - name: "Materials Discovery: GNoME"
   github_id: google-deepmind/materials_discovery
   category: materials-discovery
-  labels: ["rep-learn", "datasets"]
+  labels: ["uip", "datasets", "rep-learn"]
   license: Apache-2.0
   show: true # hack, was hidden, metrics indicate otherwise
   # package managers: none
