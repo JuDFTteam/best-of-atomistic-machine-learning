@@ -289,13 +289,17 @@ labels:
   - label: "literature-data"
     name: "literature-data"
     subtitle: "Literature data"
+  - label: "model-repository"
+    name: "model-repository"
+    subtitle: "Model repository"
   - label: "multifidelity"
     name: "multifidelity"
     subtitle: "Multifidelity machine learning"
     url: "https://en.wikipedia.org/wiki/Multifidelity_simulation"
-  - label: "model-repository"
-    name: "model-repository"
-    subtitle: "Model repository"
+  - label: "multimodal"
+    name: "multimodal"
+    subtitle: "Multimodal learning"
+    url: "https://en.wikipedia.org/wiki/Multimodal_learning"
   - label: "pretrained"
     name: "pretrained"
     subtitle: "Pretrained models"
@@ -2173,7 +2177,7 @@ projects:
 - name: COATI
   github_id: terraytherapeutics/COATI
   category: generative
-  labels: ["drug-discovery", "pretrained", "rep-learn"]
+  labels: ["drug-discovery", "multimodal", "pretrained", "rep-learn"]
   license: Apache 2.0
   # package managers: none
 - name: ML-DFT
@@ -2468,7 +2472,7 @@ projects:
 - name: LLaMP
   github_id: chiang-yuan/llamp
   category: language-models
-  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py", "general-tool"]
+  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "multimodal", "language-models", "lang-py", "general-tool"]
   license: BSD-3-Clause
 - name: IPSuite
   github_id: zincware/IPSuite
