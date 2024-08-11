@@ -265,6 +265,11 @@ labels:
   # ########################################
   # ML & Computing - specific labels
   # ########################################
+  - label: "ai-agent"
+    name: "ai-agent"
+    subtitle: "AI agents"
+    url: "https://en.wikipedia.org/wiki/Large_language_model#Agency"
+    # url: "https://en.wikipedia.org/wiki/Intelligent_agent"
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
@@ -1541,6 +1546,7 @@ projects:
   pypi_id: molecule-generation
 - name: paper-qa
   category: language-models
+  labels: ["ai-agent"]
   github_id: whitead/paper-qa
   pypi_id: paper-qa
 - name: MolSkill
@@ -2248,6 +2254,7 @@ projects:
 - name: ChemCrow
   github_id: ur-whitelab/chemcrow-public
   category: language-models
+  labels: ["ai-agent"]
   license: MIT
   pypi_id: chemcrow
   show: true # hack, was hidden, metrics indicate otherwise
@@ -2303,7 +2310,7 @@ projects:
 - name: MAPI_LLM
   github_id: maykcaldas/MAPI_LLM
   category: language-models
-  labels: ["dataset"]
+  labels: ["ai-agent", "dataset"]
   license: MIT
   # package managers: none
   description: "A LLM application developed during the LLM March MADNESS Hackathon https://doi.org/10.1039/D3DD00113J"
@@ -2390,6 +2397,7 @@ projects:
 - name: SciBot
   github_id: CFN-softbio/SciBot
   category: language-models
+  labels: ["ai-agent"]
   # license: # none found
   # package managers: none
 - name: dlpack
