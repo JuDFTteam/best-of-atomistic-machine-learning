@@ -805,7 +805,8 @@ projects:
   labels: ["biomolecules", "benchmarking"]
   license: MIT
   pypi_id: atom3d
-- name: "QH9: A Quantum Hamiltonian Prediction Benchmark"
+- name: "QH9"
+  description: "A Quantum Hamiltonian Prediction Benchmark"
   homepage: https://github.com/divelab/AIRS/tree/main/OpenDFT/QHBench/QH9
   github_id: divelab/AIRS
   category: datasets
