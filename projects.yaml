@@ -273,6 +273,10 @@ labels:
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
+  - label: "FAIR"
+    name: "FAIR"
+    subtitle: "FAIR Principles"
+    url: "https://www.go-fair.org/fair-principles/"
   - label: "general-ml"
     name: "general-ml"
     description: "General machine learning"
@@ -2494,7 +2498,7 @@ projects:
   github_id: zincware/IPSuite
   category: active-learning
   license: "EPL-2.0"
-  labels: ["ml-iap", "md", "workflows", "htc"]
+  labels: ["ml-iap", "md", "workflows", "htc", "FAIR"]
   pypi_id: ipsuite
   description: A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials.
 - name: ZnDraw
