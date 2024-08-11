@@ -289,9 +289,9 @@ labels:
   - label: "literature-data"
     name: "literature-data"
     subtitle: "Literature data"
-  - label: "pre-trained"
-    name: "pre-trained"
-    subtitle: "Pre-trained models"
+  - label: "pretrained"
+    name: "pretrained"
+    subtitle: "pretrained models"
   - label: "qml"
     name: "QML"
     # name: "⚛️"
@@ -522,7 +522,7 @@ projects:
   resource: true
   homepage: https://crystallm.com
   category: community
-  labels: ["language-models", "generative", "pre-trained", "transformer"]
+  labels: ["language-models", "generative", "pretrained", "transformer"]
   license: https://materialis.ai/terms.html
   # package managers: none
   description: Generate a crystal structure from a composition.
@@ -598,7 +598,7 @@ projects:
   homepage: https://molformer.res.ibm.com/
   github_id: IBM/molformer
   category: community
-  labels: ["transformer", "language-models", "pre-trained", "drug-discovery"]
+  labels: ["transformer", "language-models", "pretrained", "drug-discovery"]
   license: Apache-2.0
   # package managers: none
   description: "A family of foundation models trained on chemicals."
@@ -606,7 +606,7 @@ projects:
   homepage: https://huggingface.co/GT4SD
   github_id: GT4SD/gt4sd-core
   category: community
-  labels: ["generative", "pre-trained", "drug-discovery"]
+  labels: ["generative", "pretrained", "drug-discovery"]
   license: MIT
   # package managers: none
   description: "Gradio apps of generative models in GT4SD."
@@ -651,7 +651,7 @@ projects:
 - name: "DeepChem Models"
   resource: true
   category: datasets
-  labels: ["pre-trained", "language-models"]
+  labels: ["pretrained", "language-models"]
   homepage: https://huggingface.co/DeepChem
   description: DeepChem models on HuggingFace.
 - name: JARVIS-Leaderboard
@@ -756,7 +756,7 @@ projects:
 - name: OpenKIM
   # resource: true
   category: datasets
-  labels: ["knowledge-base", "pre-trained"]
+  labels: ["knowledge-base", "pretrained"]
   homepage: https://openkim.org/
   # docs_url: https://kim-api.readthedocs.io/
   github_id: openkim/kim-api
@@ -1139,7 +1139,7 @@ projects:
   # feeback from COSMO: intended for internal use
 - name: M3GNet
   category: uip
-  labels: ["ml-iap", "pre-trained"]
+  labels: ["ml-iap", "pretrained"]
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/m3gnet
   pypi_id: m3gnet
@@ -1189,7 +1189,7 @@ projects:
   github_id: BingqingCheng/ASAP
 - name: fairchem
   category: ml-iap
-  labels: ["pre-trained", "rep-learn", "catalysis"]
+  labels: ["pretrained", "rep-learn", "catalysis"]
   description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project (ocp).
   # homepage: https://opencatalystproject.org/
   github_id: FAIR-Chem/fairchem
@@ -1655,7 +1655,7 @@ projects:
   github_id: dptech-corp/Uni-Fold
 - name: Uni-Mol
   category: rep-learn
-  labels: ["pre-trained"]
+  labels: ["pretrained"]
   github_id: dptech-corp/Uni-Mol
 - name: RDKit
   resource:
@@ -1669,7 +1669,7 @@ projects:
   conda_id: rdkit/rdkit
 - name: "Neural Force Field"
   category: ml-iap
-  labels: ["pre-trained"]
+  labels: ["pretrained"]
   github_id: learningmatter-mit/NeuralForceField
 - name: "atom_by_atom"
   category: rep-learn
@@ -1677,11 +1677,11 @@ projects:
   github_id: learningmatter-mit/atom_by_atom
 - name: Per-Site CGCNN
   category: rep-learn
-  labels: ["pre-trained", "single-paper"]
+  labels: ["pretrained", "single-paper"]
   github_id: learningmatter-mit/per-site_cgcnn
 - name: Per-site PAiNN
   category: rep-learn
-  labels: ["probabilistic", "pre-trained", "single-paper"]
+  labels: ["probabilistic", "pretrained", "single-paper"]
   github_id: learningmatter-mit/per-site_painn
 - name: UVVisML
   category: rep-learn
@@ -1989,7 +1989,7 @@ projects:
   # package managers: none
 - name: ai4material_design
   category: rep-learn
-  labels: ["pre-trained", "material-defect"]
+  labels: ["pretrained", "material-defect"]
   license: Apache-2.0
   github_id: HSE-LAMBDA/ai4material_design
   # package managers: none
@@ -2094,7 +2094,7 @@ projects:
   # package managers: none
 - name: GT4SD
   category: generative
-  labels: ["pre-trained", "drug-discovery", "rep-learn"]
+  labels: ["pretrained", "drug-discovery", "rep-learn"]
   github_id: GT4SD/gt4sd-core
   license: MIT
   pypi_id: gt4sd
@@ -2118,7 +2118,7 @@ projects:
   conda_id: conda-forge/openmm-torch
 - name: CHGNet
   category: uip
-  labels: ["ml-iap", "md", "pre-trained", "electrostatics", "magnetism", "structure-relaxation"]
+  labels: ["ml-iap", "md", "pretrained", "electrostatics", "magnetism", "structure-relaxation"]
   license: https://github.com/CederGroupHub/chgnet/blob/main/LICENSE
   github_id: CederGroupHub/chgnet
   pypi_id: chgnet
@@ -2142,7 +2142,7 @@ projects:
   # package managers: none
 - name: MODNet
   category: rep-eng
-  labels: ["pre-trained", "small-data", "transfer-learning"]
+  labels: ["pretrained", "small-data", "transfer-learning"]
   license: MIT
   github_id: ppdebreuck/modnet
   # homepage: https://modnet.readthedocs.io/
@@ -2163,7 +2163,7 @@ projects:
 - name: COATI
   github_id: terraytherapeutics/COATI
   category: generative
-  labels: ["drug-discovery", "pre-trained", "rep-learn"]
+  labels: ["drug-discovery", "pretrained", "rep-learn"]
   license: Apache 2.0
   # package managers: none
 - name: ML-DFT
@@ -2193,7 +2193,7 @@ projects:
 - name: pretrained-gnns
   github_id: snap-stanford/pretrain-gnns
   category: representation-learning
-  labels: ["pre-trained"]
+  labels: ["pretrained"]
   license: MIT
   # package managers: none
 - name: A3MD
@@ -2232,13 +2232,13 @@ projects:
 - name: MoLFormer
   github_id: IBM/molformer
   category: language-models
-  labels: ["transformer", "pre-trained", "drug-discovery"]
+  labels: ["transformer", "pretrained", "drug-discovery"]
   license: Apache-2.0
   # package managers: none
 - name: GT4SD
   github_id: GT4SD/gt4sd-core
   category: generative
-  labels: ["drug-discovery", "pre-trained"]
+  labels: ["drug-discovery", "pretrained"]
   license: MIT
   pypi_id: gt4sd
 - name: QHNet
@@ -2405,7 +2405,7 @@ projects:
 - name: TorchMD-NET
   github_id: torchmd/torchmd-net
   category: ml-iap
-  labels: ["md", "rep-learn", "transformer", "pre-trained"]
+  labels: ["md", "rep-learn", "transformer", "pretrained"]
   license: MIT
   conda_id: conda-forge/torchmd-net
 - name:  paper-ml-robustness-material-property
