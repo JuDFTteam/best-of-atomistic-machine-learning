@@ -255,6 +255,10 @@ labels:
   - label: "for-fun"
     name: "for-fun"
     description: "For-fun, thought-provoking projects. Not necessarily intended for scientific publication."
+  - label: "proprietary"
+    name: "proprietary"
+    description: "Proprietaryfor software."
+    url: "https://en.wikipedia.org/wiki/Proprietary_software"
   - label: "single-paper"
     name: "single-paper"
     description: "Single-paper projects"
@@ -2380,7 +2384,7 @@ projects:
 - name: "Materials Discovery: GNoME"
   github_id: google-deepmind/materials_discovery
   category: materials-discovery
-  labels: ["uip", "datasets", "rep-learn"]
+  labels: ["uip", "datasets", "rep-learn", "proprietary"]
   license: Apache-2.0
   show: true # hack, was hidden, metrics indicate otherwise
   # package managers: none
