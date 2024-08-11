@@ -289,9 +289,12 @@ labels:
   - label: "literature-data"
     name: "literature-data"
     subtitle: "Literature data"
+  - label: "model-repository"
+    name: "model-repository"
+    subtitle: "Model repository"
   - label: "pretrained"
     name: "pretrained"
-    subtitle: "pretrained models"
+    subtitle: "Pretrained models"
   - label: "qml"
     name: "QML"
     # name: "⚛️"
@@ -567,13 +570,13 @@ projects:
   github_id: ncfrey/resources
 - name: MatBench
   category: community
-  labels: ["datasets", "benchmarking"]
+  labels: ["datasets", "benchmarking", "model-repository"]
   license: MIT
   github_id: materialsproject/matbench
   pypi_id: matbench
 - name: MatBench Discovery
   category: community
-  labels: ["datasets", "benchmarking"]
+  labels: ["datasets", "benchmarking", "model-repository"]
   license: MIT
   github_id: janosh/matbench-discovery
   pypi_id: matbench-discovery
@@ -606,7 +609,7 @@ projects:
   homepage: https://huggingface.co/GT4SD
   github_id: GT4SD/gt4sd-core
   category: community
-  labels: ["generative", "pretrained", "drug-discovery"]
+  labels: ["generative", "pretrained", "drug-discovery", "model-repository"]
   license: MIT
   # package managers: none
   description: "Gradio apps of generative models in GT4SD."
@@ -651,13 +654,13 @@ projects:
 - name: "DeepChem Models"
   resource: true
   category: datasets
-  labels: ["pretrained", "language-models"]
+  labels: ["model-repository", "pretrained", "language-models"]
   homepage: https://huggingface.co/DeepChem
   description: DeepChem models on HuggingFace.
 - name: JARVIS-Leaderboard
   resource: true
   category: datasets
-  labels: ["benchmarking", "community", "educational"]
+  labels: ["model-repository", "benchmarking", "community", "educational"]
   homepage: https://pages.nist.gov/jarvis_leaderboard/
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
@@ -756,7 +759,7 @@ projects:
 - name: OpenKIM
   # resource: true
   category: datasets
-  labels: ["knowledge-base", "pretrained"]
+  labels: ["model-repository", "knowledge-base", "pretrained"]
   homepage: https://openkim.org/
   # docs_url: https://kim-api.readthedocs.io/
   github_id: openkim/kim-api
