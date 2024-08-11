@@ -289,6 +289,10 @@ labels:
   - label: "literature-data"
     name: "literature-data"
     subtitle: "Literature data"
+  - label: "multifidelity"
+    name: "multifidelity"
+    subtitle: "Multifidelity machine learning"
+    url: "https://en.wikipedia.org/wiki/Multifidelity_simulation"
   - label: "model-repository"
     name: "model-repository"
     subtitle: "Model repository"
@@ -1149,11 +1153,13 @@ projects:
   pypi_id: m3gnet
 - name: MEGNet
   category: ml-iap
+  labels: ["multifidelity"]
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/megnet
   pypi_id: megnet
 - name: MatGL (Materials Graph Library)
   category: rep-learn
+  labels: ["multifidelity"]
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/matgl
   pypi_id: m3gnet
