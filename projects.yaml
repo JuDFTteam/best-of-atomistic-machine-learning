@@ -271,7 +271,7 @@ labels:
     url: "https://en.wikipedia.org/wiki/Large_language_model#Agency"
     # url: "https://en.wikipedia.org/wiki/Intelligent_agent"
   - label: "automl"
-    name: "automl"
+    name: "autoML"
     subtitle: "Automated machine learning (AutoML)"
     url: "https://en.wikipedia.org/wiki/Automated_machine_learning"
   - label: "benchmarking"
