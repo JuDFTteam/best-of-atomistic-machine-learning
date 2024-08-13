@@ -105,9 +105,6 @@ categories:
   - category: "rep-learn"
     title: "Representation Learning"
     subtitle: "General models that learn a representations aka embeddings of atomistic systems, such as message-passing neural networks (MPNN)."
-  - category: "uip"
-    title: "Universal Potentials"
-    subtitle: "Machine-learned interatomic potentials (ML-IAP) that have been trained on large, chemically and structural diverse datasets. For materials, this means e.g. datasets that include a majority of the periodic table."
   - category: "unsupervised"
     title: "Unsupervised Learning"
     subtitle: "Projects that focus on unsupervised learning (USL) for atomistic ML, such as dimensionality reduction, clustering and visualization."
@@ -199,10 +196,6 @@ labels:
     # category: "rep-learn"
     name: "rep-learn"
     url: "https://en.wikipedia.org/wiki/Feature_learning"
-  - label: "uip"
-    # category: "uip"
-    name: "UIP"
-    url: "https://www.google.com/search?q=universal+interatomic+potential"
   - label: "unsupervised"
     # category: "unsupervised"
     name: "USL"
@@ -255,28 +248,15 @@ labels:
   - label: "for-fun"
     name: "for-fun"
     description: "For-fun, thought-provoking projects. Not necessarily intended for scientific publication."
-  - label: "proprietary"
-    name: "proprietary"
-    description: "Proprietaryfor software."
-    url: "https://en.wikipedia.org/wiki/Proprietary_software"
   - label: "single-paper"
     name: "single-paper"
     description: "Single-paper projects"
   # ########################################
   # ML & Computing - specific labels
   # ########################################
-  - label: "ai-agent"
-    name: "ai-agent"
-    subtitle: "AI agents"
-    url: "https://en.wikipedia.org/wiki/Large_language_model#Agency"
-    # url: "https://en.wikipedia.org/wiki/Intelligent_agent"
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
-  - label: "FAIR"
-    name: "FAIR"
-    subtitle: "FAIR Principles"
-    url: "https://www.go-fair.org/fair-principles/"
   - label: "general-ml"
     name: "general-ml"
     description: "General machine learning"
@@ -298,28 +278,9 @@ labels:
   - label: "literature-data"
     name: "literature-data"
     subtitle: "Literature data"
-  - label: "model-repository"
-    name: "model-repository"
-    subtitle: "Model repository"
-  - label: "multifidelity"
-    name: "multifidelity"
-    subtitle: "Multifidelity machine learning"
-    url: "https://en.wikipedia.org/wiki/Multifidelity_simulation"
-  - label: "multimodal"
-    name: "multimodal"
-    subtitle: "Multimodal learning"
-    url: "https://en.wikipedia.org/wiki/Multimodal_learning"
-  - label: "neural-operator"
-    name: "neural-operator"
-    subtitle: "Neural operators"
-    url: "https://en.wikipedia.org/wiki/Neural_operators"
-  - label: "pinn"
-    name: "pinn"
-    subtitle: "Physics-informed neural networks"
-    url: "https://en.wikipedia.org/wiki/Physics-informed_neural_networks"
-  - label: "pretrained"
-    name: "pretrained"
-    subtitle: "Pretrained models"
+  - label: "pre-trained"
+    name: "pre-trained"
+    subtitle: "Pre-trained models"
   - label: "qml"
     name: "QML"
     # name: "⚛️"
@@ -550,7 +511,7 @@ projects:
   resource: true
   homepage: https://crystallm.com
   category: community
-  labels: ["language-models", "generative", "pretrained", "transformer"]
+  labels: ["language-models", "generative", "pre-trained", "transformer"]
   license: https://materialis.ai/terms.html
   # package managers: none
   description: Generate a crystal structure from a composition.
@@ -595,13 +556,13 @@ projects:
   github_id: ncfrey/resources
 - name: MatBench
   category: community
-  labels: ["datasets", "benchmarking", "model-repository"]
+  labels: ["datasets", "benchmarking"]
   license: MIT
   github_id: materialsproject/matbench
   pypi_id: matbench
 - name: MatBench Discovery
   category: community
-  labels: ["datasets", "benchmarking", "model-repository"]
+  labels: ["datasets", "benchmarking"]
   license: MIT
   github_id: janosh/matbench-discovery
   pypi_id: matbench-discovery
@@ -626,7 +587,7 @@ projects:
   homepage: https://molformer.res.ibm.com/
   github_id: IBM/molformer
   category: community
-  labels: ["transformer", "language-models", "pretrained", "drug-discovery"]
+  labels: ["transformer", "language-models", "pre-trained", "drug-discovery"]
   license: Apache-2.0
   # package managers: none
   description: "A family of foundation models trained on chemicals."
@@ -634,7 +595,7 @@ projects:
   homepage: https://huggingface.co/GT4SD
   github_id: GT4SD/gt4sd-core
   category: community
-  labels: ["generative", "pretrained", "drug-discovery", "model-repository"]
+  labels: ["generative", "pre-trained", "drug-discovery"]
   license: MIT
   # package managers: none
   description: "Gradio apps of generative models in GT4SD."
@@ -679,13 +640,13 @@ projects:
 - name: "DeepChem Models"
   resource: true
   category: datasets
-  labels: ["model-repository", "pretrained", "language-models"]
+  labels: ["pre-trained", "language-models"]
   homepage: https://huggingface.co/DeepChem
   description: DeepChem models on HuggingFace.
 - name: JARVIS-Leaderboard
   resource: true
   category: datasets
-  labels: ["model-repository", "benchmarking", "community", "educational"]
+  labels: ["benchmarking", "community", "educational"]
   homepage: https://pages.nist.gov/jarvis_leaderboard/
   license: https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst
   github_id: usnistgov/jarvis_leaderboard
@@ -784,7 +745,7 @@ projects:
 - name: OpenKIM
   # resource: true
   category: datasets
-  labels: ["model-repository", "knowledge-base", "pretrained"]
+  labels: ["knowledge-base", "pre-trained"]
   homepage: https://openkim.org/
   # docs_url: https://kim-api.readthedocs.io/
   github_id: openkim/kim-api
@@ -833,8 +794,7 @@ projects:
   labels: ["biomolecules", "benchmarking"]
   license: MIT
   pypi_id: atom3d
-- name: "QH9"
-  description: "A Quantum Hamiltonian Prediction Benchmark"
+- name: "QH9: A Quantum Hamiltonian Prediction Benchmark"
   homepage: https://github.com/divelab/AIRS/tree/main/OpenDFT/QHBench/QH9
   github_id: divelab/AIRS
   category: datasets
@@ -1167,20 +1127,17 @@ projects:
   ignore: true
   # feeback from COSMO: intended for internal use
 - name: M3GNet
-  category: uip
-  labels: ["ml-iap", "pretrained"]
+  category: ml-iap
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/m3gnet
   pypi_id: m3gnet
 - name: MEGNet
   category: ml-iap
-  labels: ["multifidelity"]
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/megnet
   pypi_id: megnet
 - name: MatGL (Materials Graph Library)
   category: rep-learn
-  labels: ["multifidelity"]
   # homepage: https://crystals.ai/
   github_id: materialsvirtuallab/matgl
   pypi_id: m3gnet
@@ -1220,7 +1177,7 @@ projects:
   github_id: BingqingCheng/ASAP
 - name: fairchem
   category: ml-iap
-  labels: ["pretrained", "rep-learn", "catalysis"]
+  labels: ["pre-trained", "rep-learn", "catalysis"]
   description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project (ocp).
   # homepage: https://opencatalystproject.org/
   github_id: FAIR-Chem/fairchem
@@ -1550,7 +1507,6 @@ projects:
   pypi_id: molecule-generation
 - name: paper-qa
   category: language-models
-  labels: ["ai-agent"]
   github_id: whitead/paper-qa
   pypi_id: paper-qa
 - name: MolSkill
@@ -1687,7 +1643,7 @@ projects:
   github_id: dptech-corp/Uni-Fold
 - name: Uni-Mol
   category: rep-learn
-  labels: ["pretrained"]
+  labels: ["pre-trained"]
   github_id: dptech-corp/Uni-Mol
 - name: RDKit
   resource:
@@ -1701,7 +1657,7 @@ projects:
   conda_id: rdkit/rdkit
 - name: "Neural Force Field"
   category: ml-iap
-  labels: ["pretrained"]
+  labels: ["pre-trained"]
   github_id: learningmatter-mit/NeuralForceField
 - name: "atom_by_atom"
   category: rep-learn
@@ -1709,11 +1665,11 @@ projects:
   github_id: learningmatter-mit/atom_by_atom
 - name: Per-Site CGCNN
   category: rep-learn
-  labels: ["pretrained", "single-paper"]
+  labels: ["pre-trained", "single-paper"]
   github_id: learningmatter-mit/per-site_cgcnn
 - name: Per-site PAiNN
   category: rep-learn
-  labels: ["probabilistic", "pretrained", "single-paper"]
+  labels: ["probabilistic", "pre-trained", "single-paper"]
   github_id: learningmatter-mit/per-site_painn
 - name: UVVisML
   category: rep-learn
@@ -2021,7 +1977,7 @@ projects:
   # package managers: none
 - name: ai4material_design
   category: rep-learn
-  labels: ["pretrained", "material-defect"]
+  labels: ["pre-trained", "material-defect"]
   license: Apache-2.0
   github_id: HSE-LAMBDA/ai4material_design
   # package managers: none
@@ -2126,7 +2082,7 @@ projects:
   # package managers: none
 - name: GT4SD
   category: generative
-  labels: ["pretrained", "drug-discovery", "rep-learn"]
+  labels: ["pre-trained", "drug-discovery", "rep-learn"]
   github_id: GT4SD/gt4sd-core
   license: MIT
   pypi_id: gt4sd
@@ -2149,8 +2105,8 @@ projects:
   github_id: openmm/openmm-torch
   conda_id: conda-forge/openmm-torch
 - name: CHGNet
-  category: uip
-  labels: ["ml-iap", "md", "pretrained", "electrostatics", "magnetism", "structure-relaxation"]
+  category: ml-iap
+  labels: ["md", "pre-trained", "electrostatics", "magnetism", "structure-relaxation"]
   license: https://github.com/CederGroupHub/chgnet/blob/main/LICENSE
   github_id: CederGroupHub/chgnet
   pypi_id: chgnet
@@ -2174,7 +2130,7 @@ projects:
   # package managers: none
 - name: MODNet
   category: rep-eng
-  labels: ["pretrained", "small-data", "transfer-learning"]
+  labels: ["pre-trained", "small-data", "transfer-learning"]
   license: MIT
   github_id: ppdebreuck/modnet
   # homepage: https://modnet.readthedocs.io/
@@ -2195,7 +2151,7 @@ projects:
 - name: COATI
   github_id: terraytherapeutics/COATI
   category: generative
-  labels: ["drug-discovery", "multimodal", "pretrained", "rep-learn"]
+  labels: ["drug-discovery", "pre-trained", "rep-learn"]
   license: Apache 2.0
   # package managers: none
 - name: ML-DFT
@@ -2225,7 +2181,7 @@ projects:
 - name: pretrained-gnns
   github_id: snap-stanford/pretrain-gnns
   category: representation-learning
-  labels: ["pretrained"]
+  labels: ["pre-trained"]
   license: MIT
   # package managers: none
 - name: A3MD
@@ -2258,20 +2214,19 @@ projects:
 - name: ChemCrow
   github_id: ur-whitelab/chemcrow-public
   category: language-models
-  labels: ["ai-agent"]
   license: MIT
   pypi_id: chemcrow
   show: true # hack, was hidden, metrics indicate otherwise
 - name: MoLFormer
   github_id: IBM/molformer
   category: language-models
-  labels: ["transformer", "pretrained", "drug-discovery"]
+  labels: ["transformer", "pre-trained", "drug-discovery"]
   license: Apache-2.0
   # package managers: none
 - name: GT4SD
   github_id: GT4SD/gt4sd-core
   category: generative
-  labels: ["drug-discovery", "pretrained"]
+  labels: ["drug-discovery", "pre-trained"]
   license: MIT
   pypi_id: gt4sd
 - name: QHNet
@@ -2314,7 +2269,7 @@ projects:
 - name: MAPI_LLM
   github_id: maykcaldas/MAPI_LLM
   category: language-models
-  labels: ["ai-agent", "dataset"]
+  labels: ["dataset"]
   license: MIT
   # package managers: none
   description: "A LLM application developed during the LLM March MADNESS Hackathon https://doi.org/10.1039/D3DD00113J"
@@ -2401,7 +2356,6 @@ projects:
 - name: SciBot
   github_id: CFN-softbio/SciBot
   category: language-models
-  labels: ["ai-agent"]
   # license: # none found
   # package managers: none
 - name: dlpack
@@ -2418,7 +2372,7 @@ projects:
 - name: "Materials Discovery: GNoME"
   github_id: google-deepmind/materials_discovery
   category: materials-discovery
-  labels: ["uip", "datasets", "rep-learn", "proprietary"]
+  labels: ["rep-learn", "datasets"]
   license: Apache-2.0
   show: true # hack, was hidden, metrics indicate otherwise
   # package managers: none
@@ -2439,7 +2393,7 @@ projects:
 - name: TorchMD-NET
   github_id: torchmd/torchmd-net
   category: ml-iap
-  labels: ["md", "rep-learn", "transformer", "pretrained"]
+  labels: ["md", "rep-learn", "transformer", "pre-trained"]
   license: MIT
   conda_id: conda-forge/torchmd-net
 - name:  paper-ml-robustness-material-property
@@ -2492,13 +2446,13 @@ projects:
 - name: LLaMP
   github_id: chiang-yuan/llamp
   category: language-models
-  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "multimodal", "language-models", "lang-py", "general-tool"]
+  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "language-models", "lang-py", "general-tool"]
   license: BSD-3-Clause
 - name: IPSuite
   github_id: zincware/IPSuite
   category: active-learning
   license: "EPL-2.0"
-  labels: ["ml-iap", "md", "workflows", "htc", "FAIR"]
+  labels: ["ml-iap", "md", "workflows", "htc"]
   pypi_id: ipsuite
   description: A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials.
 - name: ZnDraw
