@@ -558,13 +558,6 @@ projects:
   license: https://materialis.ai/terms.html
   # package managers: none
   description: Generate a crystal structure from a composition.
-- name: GAP-ML.org community homepage
-  resource: true
-  homepage:  https://gap-ml.org/
-  category: community
-  labels: ["ml-iap"]
-  # license: # none found
-  # package managers: none
 - name: matsci.org
   resource: true
   category: community
@@ -668,62 +661,9 @@ projects:
   category: community
   labels: ["datasets"]
   license: MIT
-- name: OpenML
-  github_id: openml/OpenML
-  # homepage:  https://www.openml.org
-  # resource: true
-  category: community
-  labels: ["datasets"]
-  license: BSD-3
-  # package managers: none
-- name: MADICES Awesome Interoperability
-  github_id: MADICES/MADICES.github.io/blob/main/docs/awesome_interoperability.md
-  description: Linked data interoperability resources of the Machine-actionable data interoperability for the chemical sciences (MADICES) project
-  # homepage:  https://madices.github.io/docs/awesome_interoperability
-  category: community
-  labels: ["datasets"]
-  license: MIT
-  # package managers: none
-- name: Awesome Neural SBI
-  github_id: smsharma/awesome-neural-sbi
-  category: community
-  labels: ["active-learning"]
-  license: MIT
-  # package managers: none
-- name: Geometric-GNNs
-  github_id: AlexDuvalinho/geometric-gnns
-  category: community
-  labels: ["datasets", "educational", "rep-learn"]
-  # license: # none found
-  # package managers: none
-- name: Awesome-Graph-Generation
-  description: A curated list of up-to-date graph generation papers and resources.
-  github_id: yuanqidu/awesome-graph-generation
-  category: community
-  labels: ["rep-learn"]
-  # license: # none found
-  # package managers: none
-- name: Neural-Network-Models-for-Chemistry
-  github_id: Eipgen/Neural-Network-Models-for-Chemistry
-  category: community
-  labels: ["rep-learn"]
-  # license: # none found
-  # package managers: none
-- name: AI for Science paper collection
-  github_id: sherrylixuecheng/AI_for_Science_paper_collection
-  category: community
-  license: Apache-2.0
-  # package managers: none
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
-- name: Alexandria Materials Database
-  resource: true
-  description: A database of millions of theoretical crystal structures (3D, 2D and 1D) discovered by machine learning accelerated density functional theory high-throughput searches.
-  homepage:  https://alexandria.icams.rub.de/
-  category: datasets
-  license: CC-BY-4.0
-  # package managers: none
 - name: "Catalysis Hub"
   resource: true
   category: datasets
@@ -746,22 +686,6 @@ projects:
   labels: ["model-repository", "pretrained", "language-models"]
   homepage: https://huggingface.co/DeepChem
   description: DeepChem models on HuggingFace.
-- name: Graphs of Materials Project 20190401
-  resource: true
-  description: The dataset used to train the MEGNet interatomic potential.
-  homepage:  https://figshare.com/articles/dataset/Graphs_of_Materials_Project_20190401/8097992
-  category: datasets
-  labels: ["ml-iap"]
-  license: MIT
-  # package managers: none
-- name: HME21 Dataset
-  resource: true
-  description: High-temperature multi-element 2021 dataset for the PreFerred Potential (PFP) https://doi.org/10.1038/s41467-022-30687-9.
-  homepage:  https://doi.org/10.6084/m9.figshare.19658538
-  category: datasets
-  labels: ["uip"]
-  # license: # none found
-  # package managers: none
 - name: JARVIS-Leaderboard
   resource: true
   category: datasets
@@ -775,27 +699,11 @@ projects:
   # license: # none found
   homepage: https://materialsproject.org/ml/charge_densities
   description: Materials Project has started offering charge density information available for download via their public API.
-- name: Materials Project Trajectory (MPtrj) Dataset
-  description: The dataset used to train the CHGNet universal potential.
-  resource: true
-  homepage:  https://figshare.com/articles/dataset/Materials_Project_Trjectory_MPtrj_Dataset/23713842
-  category: datasets
-  labels: ["uip"]
-  license: MIT
-  # package managers: none
 - name: matterverse.ai
   resource: true
   category: datasets
   homepage: https://matterverse.ai/
   description: Database of yet-to-be-sythesized materials predicted using state-of-the-art machine learning algorithms
-- name: MPF.2021.2.8
-  resource: true
-  description: The dataset used to train the M3GNet universal potential.
-  homepage:  https://figshare.com/articles/dataset/MPF_2021_2_8/19470599
-  category: datasets
-  labels: ["uip"]
-  # license: # none found
-  # package managers: none
 - name: NRELMatDB
   resource: true
   category: datasets
@@ -965,49 +873,14 @@ projects:
   labels: ["ml-iap", "md", "transport-phenomena"]
   # license: # none found
   description: "Data related to the NEP machine-learned potential of GPUMD."
-- name: tmQM_wB97MV Dataset
-  github_id: ulissigroup/tmqm_wB97MV
-  category: datasets
-  labels: ["catalysis", "rep-learn"]
-  # license: # none found
-  # package managers: none
-- name: GDB-9-Ex9 and ORNL_AISD-Ex
-  github_id: ORNL/Analysis-of-Large-Scale-Molecular-Datasets-with-Python
-  category: datasets
-  # license: # none found
-  # package managers: none
-- name: The Perovskite Database Project
-  # homepage:  https://www.perovskitedatabase.com
-  description: Perovskite Database Project aims at making all perovskite device data, both past and future, available in a form adherent to the FAIR data principles
-  github_id: Jesperkemist/perovskitedatabase
-  category: datasets
-  labels: ["community"]
-  # license: # none found
-  # package managers: none
-- name: load-atoms
-  github_id: jla-gardner/load-atoms
-  category: datasets
-  labels: ["data-structures"]
-  license: MIT
-  pypi_id: load-atoms
-- name: AIS Square
-  description: "A collaborative and open-source platform for sharing AI for Science datasets, models, and workflows. Home of the OpenLAM initiative."
-  # homepage:  https://www.aissquare.com/
-  github_id: deepmodeling/AIS-Square
-  category: datasets
-  labels: ["community", "model-repository"]
-  license: LGPL-3.0
-  # package managers: none
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
-- name: AI for Science 101
-  homepage:  https://ai4science101.github.io/
+- name: "Quantum Chemistry in the Age of Machine Learning"
   resource: true
-  category: education
-  labels: ["community", "rep-learn"]
-  # license: # none found
-  # package managers: none
+  category: educational
+  homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
+  description: Book, 2022.
 - name: AL4MS 2023 workshop tutorials
   resource: true
   homepage: https://sites.utu.fi/al4ms2023/media-and-tutorials/
@@ -1015,11 +888,6 @@ projects:
   labels: ["active-learning"]
   # license: # none found
   # package managers: none
-- name: "Quantum Chemistry in the Age of Machine Learning"
-  resource: true
-  category: educational
-  homepage: https://www.elsevier.com/books-and-journals/book-companion/9780323900492
-  description: Book, 2022.
   # ################################################################################
   # EDUCATIONAL with resource: false (sorted by CI/CD)
   # ################################################################################
@@ -1113,25 +981,6 @@ projects:
   category: educational
   labels: ["datasets"]
   license: MIT
-- name: ML for catalysis tutorials
-  github_id: ulissigroup/ml_catalysis_tutorials
-  # homepage:  https://ulissigroup.cheme.cmu.edu/ml_catalysis_tutorials
-  category: educational
-  license: MIT
-  # package managers: none
-- name: AI4Chemistry course
-  github_id: schwallergroup/ai4chem_course
-  description: EPFL AI for chemistry course, Spring 2023. https://schwallergroup.github.io/ai4chem_course
-  category: educational
-  labels: ["chemistry"]
-  license: MIT
-  # package managers: none
-- name: AI4ChemMat Hands-On Series
-  github_id: ai4chemmat/ai4chemmat.github.io
-  # homepage:  https://ai4chemmat.github.io/
-  category: educational
-  license: MPL-2.0
-  # package managers: none
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
   # ################################################################################
@@ -2665,258 +2514,3 @@ projects:
   license: "EPL-2.0"
   pypi_id: zndraw
   description: A powerful tool for visualizing, modifying, and analysing atomistic systems.
-- name: HydraGNN
-  github_id: ORNL/HydraGNN
-  category: rep-learn
-  license:  BSD-3
-  # package managers: none-----
-- name: MatterGen
-  resource: true
-  homepage:  https://www.microsoft.com/en-us/research/blog/mattergen-property-guided-materials-design/
-  description: A generative model for inorganic materials design https://doi.org/10.48550/arXiv.2312.03687
-  category: materials-discovery
-  labels: ["generative", "proprietary"]
-  # license: # none found
-  # package managers: none
-- name: ACEpsi.jl
-  github_id: ACEsuit/ACEpsi.jl
-  category: ml-wft
-  labels: ["rep-eng", "lang-julia"]
-  license: MIT
-  # package managers: none-----
-- name: MAGUS
-  gitlab_id: bigd4/magus
-  category: materials-discovery
-  labels: ["structure-prediction", "active-learning"]
-  # license: # none found
-  # package managers: none
-- name: HamGNN
-  github_id: QuantumLab-ZY/HamGNN
-  category: ml-dft
-  labels: ["rep-learn", "magnetism", "lang-c"]
-  license: GPL-3.0
-  # package managers: none-----
-- name: MACE-MP
-  description: Pretrained foundation models for materials chemistry
-  github_id: ACEsuit/mace-mp
-  category: uip
-  labels: ["ml-iap", "pretrained", "rep-learn", "md"]
-  license: MIT
-  pypi_id: mace-torch-----
-- name: QMLearn
-  description: Quantum Machine Learning by learning one-body reduced density matrices in the AO basis. https://doi.org/10.1038/s41467-023-41953-9
-  gitlab_id: pavanello-research-group/qmlearn
-  category: ml-esm
-- Documentation: http://qmlearn.rutgers.edu/
-  license: MIT
-  # package managers: none
-- name: rho_learn
-  github_id: jwa7/rho_learn
-  category: ml-dft
-  license: MIT
-  # package managers: none
-- name: Q-stack
-  github_id: lcmd-epfl/Q-stack
-  category: ml-dft
-  labels: ["excited-states", "general-tool"]
-  license: MIT
-  # package managers: none
-- name: KSR-DFT
-  github_id: pedersor/ksr_dft
-  category: ML-DFT
-  # labels: # none
-  license: Apache-2.0
-  # package managers: none-----
-- name: Allegro-Legato
-  description: An extension of Allegro with enhanced robustness and time-to-failure.
-  github_id: ibayashi-hikaru/allegro-legato
-  category: ml-iap
-  labels: ["md"]
-  license: MIT
-  # package managers: none
-- name: mag-ace
-  description: Magnetic ACE potential. FORTRAN interface for LAMMPS SPIN package.
-  github_id: mttrin93/mag-ace
-  category: ml-iap
-  labels: ["magnetism", "md", "lang-fortran"]
-  # license: # none found
-  # package managers: none-----
-- name: crystal-text-llm
-  github_id: facebookresearch/crystal-text-llm
-  category: language-models
-  labels: ["materials-discovery"]
-  license: CC-BY-NC-4.0
-  # package managers: none-----
-- name: EGraFFBench
-  github_id: M3RG-IITD/MDBENCHGNN
-  category: rep-learn
-  labels: ["single-paper", "benchmarking", "ml-iap"]
-  # license: # none found (file exists but empty)
-  # package managers: none
-- name: automl-materials
-  github_id: mm-tud/automl-materials
-  category: rep-eng
-  labels: ["automl", "benchmarking", "single-paper"]
-  license: MIT
-  # package managers: none
-- name: ML-atomate
-  github_id: takahashi-akira-36m/ml_atomate
-  category: materials-discovery
-  labels: ["active-learning", "workflows"]
-  license: GPL-3.0
-  # package managers: none
-- name: ChargE3Net
-  github_id: AIforGreatGood/charge3net
-  category: ml-dft
-  labels: ["rep-learn"]
-  license: MIT
-  # package managers: none
-- name: InfGCN for Electron Density Estimation
-  github_id: ccr-cheng/infgcn-pytorch
-  category: ml-dft
-  labels: ["rep-learn"]
-  license: MIT
-  # package managers: none
-- name: MXenes4HER
-  description: Predicting hydrogen evolution (HER) activity over 4500 MXene materials https://doi.org/10.1039/D3TA00344B.
-- Github URL: cnislab/MXenes4HER
-  category: rep-eng
-  labels: ["materials-discovery", "catalysis", "scikit-learn", "single-paper"]
-  license: GPL-3.0
-  # package managers: none
-- name: Mapping out phase diagrams with generative classifiers
-  github_id: arnoldjulian/Mapping-out-phase-diagrams-with-generative-classifiers
-  category: generative
-  labels: ["phase-transition"]
-  license: MIT
-  # package managers: none
-- name: ChatMOF
-  github_id: Yeonghun1675/ChatMOF
-  category: language-models
-  labels: ["generative"]
-  license: MIT
-  pypi_id: chatmof
-- name: PMTransformer
-  github_id: hspark1212/MOFTransformer
-  category: generative
-  labels: ["transfer-learning", "pretrained", "transformer"]
-  license: MIT
-  pypi_id: moftransformer
-- name: PyFLAME
-  gitlab_id: flame-code/PyFLAME
-  description: An automated approach for developing neural network interatomic potentials with FLAME https://doi.org/10.1016/j.commatsci.2021.110567
-  category: ml-iap
-  labels: ["active-learning", "structure-prediction", "structure-optimization", "rep-eng", "lang-fortran"]
-  # license: # none found
-  # package managers: none
-- name: IKS-PIML
-  description: Code and generated data for the paper "Inverting the Kohn-Sham equations with physics-informed machine learning" htttps://doi.org/10.1088/2632-2153/ad3159
-  resource: true
-  homepage:  https://rodare.hzdr.de/record/2720
-  category: ml-dft
-  labels: ["neural-operator", "pinn", "datasets", "single-paper"]
-  # license: # none found
-  # package managers: none-----
-- name: Graphormer
-  github_id: microsoft/Graphormer
-  category: rep-learn
-  labels: ["transformer", "pretrained"]
-  license: MIT
-  # package managers: none
-- name: Joint Multidomain Pre-Training (JMP)
-  # homepage:  https://nima.sh/jmp/
-  github_id: facebookresearch/JMP
-  category: uip
-  labels: ["pretrained", "ml-iap", "general-tool"]
-  license: CC-BY-NC-4.0
-  # package managers: none
-- name: AisNet
-  description: A Universal Interatomic Potential Neural Network with Encoded Local Environment Features https://doi.org/10.1021/acs.jcim.3c00077
-  github_id: loilisxka/AisNet
-  category: ml-iap
-  license: MIT
-  # package managers: none
-- name: DPA-2
-  description: Towards a universal large atomic model for molecular and material simulation https://doi.org/10.48550/arXiv.2312.15492
-- GitHub URL: https://github.com/deepmodeling/deepmd-kit
-  # homepage:  https://github.com/deepmodeling/deepmd-kit/discussions/3772
-  category: uip
-  labels: ["ml-iap", "pretrained", "workflows", "datasets"]
-  # license: # none found
-  # package managers: none
-- name: nnp-pre-training
-  description: Synthetic pre-training for neural-network interatomic potentials
-  github_id: jla-gardner/nnp-pre-training
-  category: ml-iap
-  labels: ["pretrained", "md"]
-  # license: # none found
-  # package managers: none
-- name: SiMGen
-  github_id: RokasEl/simgen
-  category: generative
-  labels: ["visualization"]
-  license: MIT
-  pypi_id: simgen
-- name: TeaNet
-  homepage:  https://doi.org/10.24433/CO.0749085.v1
-  resource: true
-  description: Universal neural network interatomic potential inspired by iterative electronic relaxations https://doi.org/10.1016/j.commatsci.2022.111280
-  category: uip
-  labels: ["ml-iap"]
-  # license: # none found
-  # package managers: none
-- name: PreFerred Potential (PFP)
-  resource: true
-  homepage:  https://www.nature.com/articles/s41467-022-30687-9#code-availability
-  description: Universal neural network potential for material discovery https://doi.org/10.1038/s41467-022-30687-9
-  category: uip
-  labels: ["ml-iap", "proprietary"]
-  # license: # none found
-  # package managers: none-----
-- name: GN-MM
-  description: "The Gaussian Moment Neural Network (GM-NN) package developed for large-scale atomistic simulations employing
-atomistic neural networks based on Gaussian Moments"
-  gitlab_id: zaverkin_v/gmnn
-  category: ml-iap
-  labels: ["active-learning", "md", "rep-eng", "magnetism"]
-  license: MIT
-  # package managers: none
-- name: apax
-  github_id: apax-hub/apax
-  category: ml-iap
-  labels: ["md"]
-  license: MIT
-  pypi_id: apax
-- name: ALEBREW
-  github_id: nec-research/alebrew
-  category: active-learning
-  labels: ["ml-iap", "md"]
-  license: https://github.com/nec-research/alebrew/blob/main/LICENSE.txt
-  # package managers: none-----
-- name: Cephalo
-  description: Multimodal Vision-Language Models for Bio-Inspired Materials Analysis and Design
-  github_id: lamm-mit/Cephalo
-  category: language-models
-  labels: ["generative", "multimodal", "pretrained"]
-  license: Apache-2.0
-  # package managers: none-----
-- name: SevenNet
-  github_id: MDIL-SNU/SevenNet
-  category: uip
-  labels: ["ml-iap", "md", "pretrained"]
-  license: GPL-3.0
-  # package managers: none
-  description: SevenNet (Scalable EquiVariance Enabled Neural Network) is a graph neural network interatomic potential package that supports parallel molecular dynamics simulations with LAMMPS.
-- name: MatterSim
-  resource: true
-  homepage:  https://www.microsoft.com/en-us/research/blog/mattersim-a-deep-learning-model-for-materials-under-real-world-conditions/
-  description: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures https://doi.org/10.48550/arXiv.2405.04967
-  category: uip
-  labels: ["ml-iap", "active-learning", "proprietary"]
-  # license: # none found
-  # package managers: none-----
-- name: Awesome-Crystal-GNNs
-  github_id: kdmsit/Awesome-Crystal-GNNs
-  category: community
-  license: MIT
-  # package managers: none
