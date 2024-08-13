@@ -598,7 +598,6 @@ projects:
   license: https://github.com/tilde-lab/awesome-materials-informatics#license
   github_id: tilde-lab/awesome-materials-informatics
 - name: GitHub topic materials-informatics
-  description: GitHub topic materials-informatics
   category: community
   homepage: https://github.com/topics/materials-informatics
 - name: A Highly Opinionated List of Open-Source Materials Informatics Resources
@@ -678,8 +677,7 @@ projects:
   license: BSD-3
   # package managers: none
 - name: MADICES Awesome Interoperability
-  github_id: MADICES/MADICES.github.io
-  homepage: MADICES/MADICES.github.io/blob/main/docs/awesome_interoperability.md
+  github_id: MADICES/MADICES.github.io/blob/main/docs/awesome_interoperability.md
   description: Linked data interoperability resources of the Machine-actionable data interoperability for the chemical sciences (MADICES) project
   # homepage:  https://madices.github.io/docs/awesome_interoperability
   category: community
@@ -848,7 +846,6 @@ projects:
 - name: Visual Graph Datasets
   # resource: false
   category: datasets
-  labels: ["xai", "rep-learn"]
   license: "MIT"
   github_id: aimat-lab/visual_graph_datasets
 - name: 3DSC Database
@@ -908,6 +905,12 @@ projects:
   license: MIT
   github_id: drcassar/SciGlass
   # alt. github_id: CitrineInformatics-ERD-public/SciGlass
+- name: Visual Graph Datasets
+  category: datasets
+  labels: ["xai", "rep-learn"]
+  github_id: aimat-lab/visual_graph_datasets
+  license: MIT
+  # package managers: none
 - name: SPICE
   category: datasets
   labels: ["ml-iap", "md"]
@@ -1001,7 +1004,7 @@ projects:
 - name: AI for Science 101
   homepage:  https://ai4science101.github.io/
   resource: true
-  category: educational
+  category: education
   labels: ["community", "rep-learn"]
   # license: # none found
   # package managers: none
@@ -1055,7 +1058,6 @@ projects:
 - name: PiNN Lab
   category: educational
   github_id: Teoroo-CMC/PiNN_lab
-  description: Material for running a lab session on atomic neural networks.
 - name: "Data Handling, DoE and Statistical Analysis for Material Chemists"
   category: educational
   github_id: Teoroo-CMC/DoE_Course_Material
@@ -1092,7 +1094,6 @@ projects:
   license: CCO-1.0
   # package managers: none
 - name: Geometric GNN Dojo
-  # note: chaitjo/geometric-gnn-dojo duplicate on purpose. this one for educational.
   homepage: https://github.com/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb
   github_id: chaitjo/geometric-gnn-dojo
   category: educational
@@ -1118,7 +1119,6 @@ projects:
   category: educational
   license: MIT
   # package managers: none
-  description: A jupyter book repo for tutorial on how to use OCP ML models for catalysis.
 - name: AI4Chemistry course
   github_id: schwallergroup/ai4chem_course
   description: EPFL AI for chemistry course, Spring 2023. https://schwallergroup.github.io/ai4chem_course
@@ -1131,7 +1131,6 @@ projects:
   # homepage:  https://ai4chemmat.github.io/
   category: educational
   license: MPL-2.0
-  description: Hands-On Series organized by Chemistry and Materials working group at Argonne Nat Lab.
   # package managers: none
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
@@ -1413,7 +1412,6 @@ projects:
   category: rep-learn
   license: "MIT"
   github_id: atomistic-machine-learning/field_schnet
-  description: Deep neural network for molecules in external fields
 - name: SchNet
   category: ml-iap
   github_id: atomistic-machine-learning/SchNet
@@ -1550,8 +1548,8 @@ projects:
   category: ml-esm
   labels: ["electrostatics"]
   license: "MIT"
-  # description: "Python package mainly focused on the kernel Charge Equilibration method."
-  gitlab_id: jmargraf/qpac
+  # description: "Kernel charge equilibration method."
+  gitlab_id: jmargraf/kqeq
 - name: kdft
   category: ml-dft
   # description: "The Kernel Density Functional (KDF) code allows generating ML based DFT functionals."
@@ -1667,7 +1665,7 @@ projects:
   category: ml-dft
   labels: ["lang-cpp", "lang-fortran"]
   # docs_url: https://libnxc.readthedocs.io/
-  github_id: semodi/libnxc
+  github_id: semodi/libnxc/
 - name: NeuralXC
   category: ml-dft
   github_id: semodi/neuralxc
@@ -1760,7 +1758,6 @@ projects:
   category: ml-iap
   # docs_url: https://simple-nn-v2.readthedocs.io/
   github_id: MDIL-SNU/SIMPLE-NN_v2
-  description: SIMPLE-NN is an open package that constructs Behler-Parrinello-type neural-network interatomic potentials from ab initio data.
 - name: SPINNER
   category: materials-discovery
   labels: ["lang-cpp", "structure-prediction"]
@@ -1847,7 +1844,7 @@ projects:
 - name: Uni-Mol
   category: rep-learn
   labels: ["pretrained"]
-  github_id: deepmodeling/Uni-Mol
+  github_id: dptech-corp/Uni-Mol
 - name: RDKit
   resource:
   category: general-tool
@@ -1886,7 +1883,6 @@ projects:
   category: unsupervised
   labels: ["single-paper"]
   github_id: learningmatter-mit/Coarse-Graining-Auto-encoders
-  description: Implementation of coarse-graining Autoencoders
 - name: GLAMOUR
   category: rep-learn
   labels: ["single-paper"]
@@ -2123,19 +2119,19 @@ projects:
 - name: DM21
   category: ml-dft
   description: "This package provides a PySCF interface to the DM21 (DeepMind 21) family of exchange-correlation functionals described in the paper 'Pushing the Frontiers of Density Functionals by Solving the Fractional Electron Problem'."
-  homepage: https://github.com/google-deepmind/deepmind-research/tree/master/density_functional_approximation_dm21
-  github_id: google-deepmind/deepmind-research
+  homepage: https://github.com/deepmind/deepmind-research/tree/master/density_functional_approximation_dm21
+  github_id: deepmind/deepmind-research
 - name: FermiNet
   category: ml-wft
   labels: ["transformer"]
-  github_id: google-deepmind/ferminet
+  github_id: deepmind/ferminet
 - name: AlphaFold
   category: biomolecules
-  github_id: google-deepmind/alphafold
+  github_id: deepmind/alphafold
 - name: KFAC-JAX
   category: math
   # docs_url: https://kfac-jax.readthedocs.io/
-  github_id: google-deepmind/kfac-jax
+  github_id: deepmind/kfac-jax
   pypi_id: kfac-jax
 - name: Cormorant
   category: rep-learn
@@ -2169,7 +2165,6 @@ projects:
   category: rep-learn
   license: MIT
   github_id: tensorfieldnetworks/tensorfieldnetworks
-  description: Rotation- and translation-equivariant neural networks for 3D point clouds.
 - name: escnn
   category: rep-learn
   license: https://github.com/QUVA-Lab/escnn/blob/master/LICENSE
@@ -2190,7 +2185,7 @@ projects:
   category: rep-learn
   license: https://github.com/emilemathieu/escnn_jax/blob/master/LICENSE
   github_id: emilemathieu/escnn_jax
-  # pypi_id: escnn_jax # listed in README, but not existing on PyPI
+  pypi_id: escnn_jax
 - name: CraTENet
   category: rep-learn
   labels: ["transport-phenomena"]
@@ -2248,7 +2243,6 @@ projects:
   labels: ["lang-julia"]
   github_id: aced-differentiate/EquivariantOperators.jl
   license: MIT
-  description: This package is deprecated. Functionalities are migrating to Porcupine.jl
 - name: cdk
   github_id: cdk/cdk
   category: rep-eng
@@ -2371,7 +2365,6 @@ projects:
   labels: ["spectroscopy"]
   license: MIT
   # package managers: none
-  description: Density of States Prediction for Materials Discovery via Contrastive Learning from Probabilistic Embeddings
 - name: APET
   github_id: emotionor/APET
   category: ml-dft
@@ -2387,14 +2380,14 @@ projects:
   description: This library provides basic building blocks that can construct DFT calculations as a differentiable program.
 - name: pretrained-gnns
   github_id: snap-stanford/pretrain-gnns
-  category: rep-learn
+  category: representation-learning
   labels: ["pretrained"]
   license: MIT
   # package managers: none
 - name: A3MD
   github_id: brunocuevas/a3md
   category: ml-dft
-  labels: ["rep-learn", "single-paper"]
+  labels: ["representation-learning", "single-paper"]
   # license: # none found
   # package managers: none
 - name: torch_spex
@@ -2424,13 +2417,19 @@ projects:
   labels: ["ai-agent"]
   license: MIT
   pypi_id: chemcrow
-  description: Open source package for the accurate solution of reasoning-intensive chemical tasks.
+  show: true # hack, was hidden, metrics indicate otherwise
 - name: MoLFormer
   github_id: IBM/molformer
   category: language-models
   labels: ["transformer", "pretrained", "drug-discovery"]
   license: Apache-2.0
   # package managers: none
+- name: GT4SD
+  github_id: GT4SD/gt4sd-core
+  category: generative
+  labels: ["drug-discovery", "pretrained"]
+  license: MIT
+  pypi_id: gt4sd
 - name: QHNet
   homepage: https://github.com/divelab/AIRS/tree/main/OpenDFT/QHNet
   github_id: divelab/AIRS
@@ -2455,7 +2454,7 @@ projects:
   category: language-models
   labels: ["literature-data"]
   license: MIT
-  # pypi_id: chemdatawriter # readme says it's available, PyPI says it's not.
+  pypi_id: chemdatawriter
 - name: T-e3nn
   github_id: Hongyu-yu/T-e3nn
   category: rep-learn
@@ -2572,7 +2571,6 @@ projects:
   category: rep-learn
   license: MIT
   pypi_id: faenet
-  description: Frame Averaging Equivariant GNN for materials modeling
 - name: "Materials Discovery: GNoME"
   github_id: google-deepmind/materials_discovery
   category: materials-discovery
@@ -2606,7 +2604,6 @@ projects:
   labels: ["datasets", "single-paper"]
   license:  BSD-3-Clause
   # package managers: none
-  description: A critical examination of robustness and generalizability of machine learning prediction of materials properties
 - name: LLM-Prop
   github_id: vertaix/LLM-Prop
   category: language-models
@@ -2672,7 +2669,7 @@ projects:
   github_id: ORNL/HydraGNN
   category: rep-learn
   license:  BSD-3
-  # package managers: none
+  # package managers: none-----
 - name: MatterGen
   resource: true
   homepage:  https://www.microsoft.com/en-us/research/blog/mattergen-property-guided-materials-design/
@@ -2686,27 +2683,26 @@ projects:
   category: ml-wft
   labels: ["rep-eng", "lang-julia"]
   license: MIT
-  # package managers: none
+  # package managers: none-----
 - name: MAGUS
   gitlab_id: bigd4/magus
   category: materials-discovery
   labels: ["structure-prediction", "active-learning"]
   # license: # none found
   # package managers: none
-  description: Machine learning And Graph theory assisted Universal structure Searcher
 - name: HamGNN
   github_id: QuantumLab-ZY/HamGNN
   category: ml-dft
   labels: ["rep-learn", "magnetism", "lang-c"]
   license: GPL-3.0
-  # package managers: none
+  # package managers: none-----
 - name: MACE-MP
   description: Pretrained foundation models for materials chemistry
   github_id: ACEsuit/mace-mp
   category: uip
   labels: ["ml-iap", "pretrained", "rep-learn", "md"]
   license: MIT
-  pypi_id: mace-torch
+  pypi_id: mace-torch-----
 - name: QMLearn
   description: Quantum Machine Learning by learning one-body reduced density matrices in the AO basis. https://doi.org/10.1038/s41467-023-41953-9
   gitlab_id: pavanello-research-group/qmlearn
@@ -2730,7 +2726,7 @@ projects:
   category: ML-DFT
   # labels: # none
   license: Apache-2.0
-  # package managers: none
+  # package managers: none-----
 - name: Allegro-Legato
   description: An extension of Allegro with enhanced robustness and time-to-failure.
   github_id: ibayashi-hikaru/allegro-legato
@@ -2744,13 +2740,13 @@ projects:
   category: ml-iap
   labels: ["magnetism", "md", "lang-fortran"]
   # license: # none found
-  # package managers: none
+  # package managers: none-----
 - name: crystal-text-llm
   github_id: facebookresearch/crystal-text-llm
   category: language-models
   labels: ["materials-discovery"]
   license: CC-BY-NC-4.0
-  # package managers: none
+  # package managers: none-----
 - name: EGraFFBench
   github_id: M3RG-IITD/MDBENCHGNN
   category: rep-learn
@@ -2783,7 +2779,7 @@ projects:
   # package managers: none
 - name: MXenes4HER
   description: Predicting hydrogen evolution (HER) activity over 4500 MXene materials https://doi.org/10.1039/D3TA00344B.
-  github_id: cnislab/MXenes4HER
+- Github URL: cnislab/MXenes4HER
   category: rep-eng
   labels: ["materials-discovery", "catalysis", "scikit-learn", "single-paper"]
   license: GPL-3.0
@@ -2820,7 +2816,7 @@ projects:
   category: ml-dft
   labels: ["neural-operator", "pinn", "datasets", "single-paper"]
   # license: # none found
-  # package managers: none
+  # package managers: none-----
 - name: Graphormer
   github_id: microsoft/Graphormer
   category: rep-learn
@@ -2842,7 +2838,7 @@ projects:
   # package managers: none
 - name: DPA-2
   description: Towards a universal large atomic model for molecular and material simulation https://doi.org/10.48550/arXiv.2312.15492
-  github_id: deepmodeling/deepmd-kit
+- GitHub URL: https://github.com/deepmodeling/deepmd-kit
   # homepage:  https://github.com/deepmodeling/deepmd-kit/discussions/3772
   category: uip
   labels: ["ml-iap", "pretrained", "workflows", "datasets"]
@@ -2876,7 +2872,7 @@ projects:
   category: uip
   labels: ["ml-iap", "proprietary"]
   # license: # none found
-  # package managers: none
+  # package managers: none-----
 - name: GN-MM
   description: "The Gaussian Moment Neural Network (GM-NN) package developed for large-scale atomistic simulations employing
 atomistic neural networks based on Gaussian Moments"
@@ -2896,14 +2892,14 @@ atomistic neural networks based on Gaussian Moments"
   category: active-learning
   labels: ["ml-iap", "md"]
   license: https://github.com/nec-research/alebrew/blob/main/LICENSE.txt
-  # package managers: none
+  # package managers: none-----
 - name: Cephalo
   description: Multimodal Vision-Language Models for Bio-Inspired Materials Analysis and Design
   github_id: lamm-mit/Cephalo
   category: language-models
   labels: ["generative", "multimodal", "pretrained"]
   license: Apache-2.0
-  # package managers: none
+  # package managers: none-----
 - name: SevenNet
   github_id: MDIL-SNU/SevenNet
   category: uip
@@ -2918,7 +2914,7 @@ atomistic neural networks based on Gaussian Moments"
   category: uip
   labels: ["ml-iap", "active-learning", "proprietary"]
   # license: # none found
-  # package managers: none
+  # package managers: none-----
 - name: Awesome-Crystal-GNNs
   github_id: kdmsit/Awesome-Crystal-GNNs
   category: community
