@@ -270,10 +270,6 @@ labels:
     subtitle: "AI agents"
     url: "https://en.wikipedia.org/wiki/Large_language_model#Agency"
     # url: "https://en.wikipedia.org/wiki/Intelligent_agent"
-  - label: "automl"
-    name: "automl"
-    subtitle: "Automated machine learning (AutoML)"
-    url: "https://en.wikipedia.org/wiki/Automated_machine_learning"
   - label: "benchmarking"
     name: "benchmarking"
     description: "Benchmarking ML models"
@@ -1298,7 +1294,6 @@ projects:
   github_id: ulissigroup/uncertainty_benchmarking
 - name: Automatminer
   category: general-tool
-  labels: ["automl"]
   # homepage: https://hackingmaterials.lbl.gov/automatminer/
   license: https://github.com/hackingmaterials/automatminer/blob/main/LICENSE
   github_id: hackingmaterials/automatminer
