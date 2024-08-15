@@ -2711,9 +2711,10 @@ projects:
   description: Quantum Machine Learning by learning one-body reduced density matrices in the AO basis. https://doi.org/10.1038/s41467-023-41953-9
   gitlab_id: pavanello-research-group/qmlearn
   category: ml-esm
-  # homepage: http://qmlearn.rutgers.edu/
+  homepage: http://qmlearn.rutgers.edu/
   license: MIT
   # package managers: none
+  # Note. Documentation not linked in repo README at time of writing. So, making an exception and adding it here as homepage.
 - name: rho_learn
   github_id: jwa7/rho_learn
   category: ml-dft
