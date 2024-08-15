@@ -1,6 +1,6 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
-    <!-- ⚛️🧬❄️/💎,  🤖🧠🦾✨, ▶️⏩➡️↔️🔄🔁♻️-->    
+    <!-- ⚛️🧬❄️/💎,  🤖🧠🦾✨, ▶️⏩➡️↔️🔄🔁♻️-->
     Best of Atomistic Machine Learning ⚛️🧬💎
     <br>
 </h1>
@@ -12,10 +12,10 @@
     <!-- <img src="config/images/emoji-neural-network-like-atom_nn-purple.svg" width="40"> -->
     <!-- <img src="./images/emoji-dna.svg" width="40"> -->
     <!-- <img src="./images/emoji-gem-stone.svg" width="40"> -->
-</p>    
+</p>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome atomistic machine learning (AML) projects. Updated quarterly.</strong>
+    <strong>🏆&nbsp; A ranked list of awesome atomistic machine learning (AML) projects. Updated regularly.</strong>
 </p>
 
 <p align="center">
