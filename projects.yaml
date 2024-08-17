@@ -2815,7 +2815,7 @@ projects:
   # license: # none found
   # package managers: none
 - name: IKS-PIML
-  description: Code and generated data for the paper "Inverting the Kohn-Sham equations with physics-informed machine learning" htttps://doi.org/10.1088/2632-2153/ad3159
+  description: Code and generated data for the paper "Inverting the Kohn-Sham equations with physics-informed machine learning" https://doi.org/10.1088/2632-2153/ad3159
   resource: true
   homepage: https://rodare.hzdr.de/record/2720
   category: ml-dft
