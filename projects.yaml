@@ -1952,11 +1952,12 @@ projects:
   github_id: MaterSim/PyXtal_FF
   pypi_id: pyxtal_ff
 - name: MLatom
+  github_id: dralgroup/mlatom
   category: general-tool
-  description: "Machine learning for atomistic simulations"
-  homepage: http://mlatom.com/
-  docs_url: http://mlatom.com/manual/
-  license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  labels: ["uip", "ml-iap", "md", "ml-dft", "ml-esm", "transfer-learning", "active-learning", "spectroscopy", "structure-optimization"]
+  # homepage: http://mlatom.com/
+  # docs_url: https://xacs.xmu.edu.cn/docs/mlatom/
+  license: MIT
   pypi_id: MLatom
 - name: fplib
   category: rep-eng
