@@ -1000,9 +1000,9 @@ _General tools for atomistic machine learning._
 	```
 	git clone https://github.com/dralgroup/mlatom
 	```
-- [PyPi](https://pypi.org/project/MLatom) (📥 890 / month · 📦 1 · ⏱️ 15.12.2022):
+- [PyPi](https://pypi.org/project/MLatom) (📥 890 / month · 📦 1 · ⏱️ 25.07.2024):
 	```
-	pip install MLatom
+	pip install mlatom
 	```
 </details>
 <details><summary><b><a href="https://github.com/lab-cosmo/equisolve">Equisolve</a></b> (🥉6 ·  ⭐ 5 · 💤) - A ML toolkit package utilizing the metatensor data format to build models for the prediction of equivariant properties.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>ML-IAP</code></summary>
