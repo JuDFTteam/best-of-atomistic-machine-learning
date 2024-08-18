@@ -1640,8 +1640,10 @@ projects:
   github_id: aimat-lab/ML4pXRDs
 - name: "MEGAN: Multi Explanation Graph Attention Student"
   category: xai
-  license: "MIT"
+  labels: ["rep-learn"]
+  license: MIT
   github_id: aimat-lab/graph_attention_student
+  # package managers: none
 - name: NNsforMD
   resource:
   category: ml-iap
@@ -2262,12 +2264,6 @@ projects:
   github_id: libAtoms/workflow
   # package managers: none
   description: Workflow is a Python toolkit for building interatomic potential creation and atomistic simulation workflows.
-- name: MEGAN
-  category: xai
-  labels: ["xai", "rep-learn"]
-  license: MIT
-  github_id: aimat-lab/graph_attention_student
-  # package managers: none
 - name: ML-for-CurieTemp-Predictions
   category: rep-eng
   labels: ["single-paper", "magnetism"]
@@ -2728,7 +2724,7 @@ projects:
   # package managers: none
 - name: KSR-DFT
   github_id: pedersor/ksr_dft
-  category: ML-DFT
+  category: ml-dft
   # labels: # none
   license: Apache-2.0
   # package managers: none
