@@ -48,9 +48,6 @@ categories:
   - category: "active-learning"
     title: "Active learning"
     subtitle: "Projects that focus on enabling active learning, iterative learning schemes for atomistic ML."
-  - category: "biomolecules"
-    title: "Biomolecules"
-    subtitle: "Projects that focus on biomolecules, protein structure, protein folding, etc. using atomistic ML."
   - category: "community"
     title: "Community resources"
     subtitle: "Projects that collect atomistic ML resources or foster communication within community."
@@ -135,6 +132,7 @@ labels:
     # name: "🧬"
     # name: "&#x1F9EC;"
     url: "https://en.wikipedia.org/wiki/Biomolecule"
+    description: "Projects that focus on biomolecules, protein structure, protein folding, etc. using atomistic ML."
   - label: "community"
     # category: "community"
     name: "community-resource"
@@ -1843,9 +1841,6 @@ projects:
 - name: DeePKS-kit
   category: ml-dft
   github_id: deepmodeling/deepks-kit
-- name: Uni-Fold
-  category: biomolecules
-  github_id: dptech-corp/Uni-Fold
 - name: Uni-Mol
   category: rep-learn
   labels: ["pretrained"]
@@ -2132,9 +2127,6 @@ projects:
   category: ml-wft
   labels: ["transformer"]
   github_id: google-deepmind/ferminet
-- name: AlphaFold
-  category: biomolecules
-  github_id: google-deepmind/alphafold
 - name: KFAC-JAX
   category: math
   # docs_url: https://kfac-jax.readthedocs.io/
