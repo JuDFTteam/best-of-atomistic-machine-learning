@@ -1958,7 +1958,7 @@ projects:
   # homepage: http://mlatom.com/
   # docs_url: https://xacs.xmu.edu.cn/docs/mlatom/
   license: MIT
-  pypi_id: MLatom
+  pypi_id: mlatom
 - name: fplib
   category: rep-eng
   labels: ["lang-c", "single-paper"]
