@@ -2768,7 +2768,7 @@ projects:
 - name: InfGCN for Electron Density Estimation
   github_id: ccr-cheng/infgcn-pytorch
   category: ml-dft
-  labels: ["rep-learn"]
+  labels: ["rep-learn", "neural-operator"]
   license: MIT
   # package managers: none
 - name: MXenes4HER
