@@ -2508,7 +2508,7 @@ projects:
   category: language-models
   license: MIT
   # package managers: none
-- name: ChemNLP project
+- name: OpenBioML ChemNLP
   github_id: OpenBioML/chemnlp
   category: language-models
   labels: ["datasets"]
