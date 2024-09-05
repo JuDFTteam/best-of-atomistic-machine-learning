@@ -528,10 +528,10 @@ projects:
   #
   # # project simple template.
   # - name:
+  #   github_id:
   #   category:
   #   labels: []
   #   license:
-  #   github_id:
   #
   # # resource simple template.
   # - name:
@@ -2922,3 +2922,40 @@ atomistic neural networks based on Gaussian Moments"
   category: community
   license: MIT
   # package managers: none
+- name: Asparagus
+  github_id: MMunibas/Asparagus
+  category: ml-iap
+  labels: ["workflows", "sampling", "md"]
+  license: MIT
+  # package managers: none
+  description: Program Package for Sampling, Training and Applying ML-based Potential models https://doi.org/10.48550/arXiv.2407.15175
+- name: AtomGPT
+  github_id: usnistgov/atomgpt
+  category: language-models
+  labels: ["generative", "pretrained", "transformer"]
+  license: https://github.com/usnistgov/atomgpt/blob/main/LICENSE.rst
+  pypi_id: atomgpt
+- name: NIST ChemNLP
+  github_id: usnistgov/chemnlp
+  category: language-models
+  labels: ["literature-data"]
+  license: MIT
+  pypi_id: chemnlp
+- name: Atomvision
+  github_id: usnistgov/atomvision
+  category: visualization
+  labels: ["computer-vision", "experimental-data", "rep-learn"]
+  license: https://github.com/usnistgov/atomvision/blob/master/LICENSE.md
+  pypi_id: atomvision
+- name: Crystal Toolkit
+  github_id: materialsproject/crystaltoolkit
+  category: visualization
+  # labels: none
+  license: MIT
+  pypi_id: crystal-toolkit
+- name: Elementari
+  github_id: janosh/elementari
+  category: visualization
+  labels: ["lang-js"]
+  license: MIT
+  npm_id: elementari
