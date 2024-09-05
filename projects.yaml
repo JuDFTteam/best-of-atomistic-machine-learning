@@ -377,9 +377,9 @@ labels:
     # image: "&#x26A1;"
     description: "Electrostatics, partial charges, charge transfer, charge equilibration"
     url: "https://en.wikipedia.org/wiki/Electrostatics"
-  - label: "enhanced-sampling"
-    name: "enhanced-sampling"
-    description: "Projects that simplify the application of machine-learning-aided enhanced sampling methods."
+  - label: "sampling"
+    name: "sampling"
+    description: "Projects that simplify the application of machine-learning related atomistic sampling methods."
     # reference: issue #175 https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/175
   - label: "excited-states"
     name: "excited-states"
@@ -2331,7 +2331,7 @@ projects:
   # homepage: https://modnet.readthedocs.io/
 - name: mlcolvar
   category: md
-  labels: ["enhanced-sampling"]
+  labels: ["sampling"]
   license: MIT
   # docs_url: https://mlcolvar.readthedocs.io/
   github_id: luigibonati/mlcolvar
