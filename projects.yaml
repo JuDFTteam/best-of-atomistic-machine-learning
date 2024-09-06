@@ -2959,3 +2959,9 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["lang-js"]
   license: MIT
   npm_id: elementari
+- name: Orb Models
+  github_id: orbital-materials/orb-models
+  category: uip
+  labels: ["ml-iap", "pretrained"]
+  license: https://github.com/orbital-materials/orb-models/blob/main/LICENSE
+  pypi_id: orb-models
