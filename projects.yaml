@@ -2975,3 +2975,10 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "pretrained"]
   license: https://github.com/orbital-materials/orb-models/blob/main/LICENSE
   pypi_id: orb-models
+- name: MLIP Arena Leaderboard
+  homepage: https://huggingface.co/spaces/atomind/mlip-arena
+  github_id: atomind-ai/mlip-arena
+  category: uip
+  labels: ["ml-iap", "community"]
+  license: Apache-2.0
+  # pypi_id: None
