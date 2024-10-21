@@ -904,6 +904,22 @@ projects:
   license: MIT
   description: Datasets OC20, OC22, etc. Formerly known as Open Catalyst Project.
   github_id: FAIR-Chem/fairchem
+  pypi_id: fairchem-core
+- name: Meta Open Materials 2024 (OMat24) Dataset
+  description: Contains over 100 million Density Functional Theory calculations focused on structural and compositional diversity.
+  homepage: https://huggingface.co/datasets/fairchem/OMAT24
+  github_id: https://github.com/FAIR-Chem/fairchem
+  category: datasets
+  # labels: ["ml-iap", "uip", "catalysis"]
+  license: CC-BY-4.0
+  pypi_id: fairchem-core
+- name: fairchem
+  category: ml-iap
+  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
+  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project.
+  # homepage: https://opencatalystproject.org/
+  github_id: FAIR-Chem/fairchem
+  pypi_id: fairchem-core
 - name: MPContribs
   category: datasets
   license: MIT
@@ -1380,12 +1396,6 @@ projects:
   category: unsupervised
   # docs_url: https://bingqingcheng.github.io/
   github_id: BingqingCheng/ASAP
-- name: fairchem
-  category: ml-iap
-  labels: ["pretrained", "rep-learn", "catalysis"]
-  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project (ocp).
-  # homepage: https://opencatalystproject.org/
-  github_id: FAIR-Chem/fairchem
 - name: AdsorbML
   category: rep-learn
   description:
