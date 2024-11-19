@@ -2982,3 +2982,15 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "community"]
   license: Apache-2.0
   # pypi_id: None
+- name: GRACE
+  github_id: ICAMS/grace-tensorpotential
+  category: uip
+  labels: ["ml-iap", "pretrained", "md", "rep-learn", "rep-eng"]
+  license: https://github.com/ICAMS/grace-tensorpotential/blob/master/LICENSE.md
+  # pypi_id: None
+- name: ACE / GRACE support
+  resource: true
+  category: community
+  homepage: https://acesupport.zulipchat.com
+  # group: ACE
+  description: Support forum for the Atomic Cluster Expansion (ACE) and extensions.
