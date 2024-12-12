@@ -2994,3 +2994,10 @@ atomistic neural networks based on Gaussian Moments"
   homepage: https://acesupport.zulipchat.com
   # group: ACE
   description: Support forum for the Atomic Cluster Expansion (ACE) and extensions.
+- name: MLIPX - Machine-Learned Interatomic Potential eXploration
+  category: ml-iap
+  labels: ["benchmarking", "visualization", "workflows"]
+  license: MIT
+  github_id: basf/mlipx
+  pypi_id: mlipx
+  # homepage: https://mlipx.readthedocs.io/
