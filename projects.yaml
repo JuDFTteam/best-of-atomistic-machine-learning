@@ -1867,7 +1867,7 @@ projects:
   resource:
   category: general-tool
   description:
-  labels: ["lang-cpp"]
+  labels: ["lang-cpp", "cheminformatics"]
   # homepage: https://www.rdkit.org/
   # docs_url: https://www.rdkit.org/docs/
   github_id: rdkit/rdkit
@@ -3001,3 +3001,28 @@ atomistic neural networks based on Gaussian Moments"
   github_id: basf/mlipx
   pypi_id: mlipx
   # homepage: https://mlipx.readthedocs.io/
+- name: Autoplex
+  github_id: autoatml/autoplex
+  category: ml-iap
+  labels: ["benchmarking", "workflows"]
+  license: GPL-3.0
+  pypi_id: autoplex
+- name: Molfeat
+  github_id: datamol-io/molfeat
+  category: general-tool
+  labels: ["cheminformatics", "rep-eng", "rep-learn", "generative", "language-models", "pretrained"]
+  license: Apache-2.0
+  conda_id: conda-forge/molfeat
+  pypi_id: molfeat
+- name: Psiflow
+  github_id: molmod/psiflow
+  category: md
+  labels: ["ml-iap", "active-learning", "sampling"]
+  license: MIT
+  # package managers: none
+- name: Graph-PES
+  github_id: jla-gardner/graph-pes
+  category: ml-iap
+  labels: ["rep-learn", "uip", "md", "pretrained"]
+  license: MIT
+  pypi_id: graph-pes
