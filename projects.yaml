@@ -2918,7 +2918,6 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "md", "pretrained"]
   license: GPL-3.0
   # package managers: none
-  description: SevenNet (Scalable EquiVariance Enabled Neural Network) is a graph neural network interatomic potential package that supports parallel molecular dynamics simulations with LAMMPS.
 - name: MatterSim
   resource: true
   homepage: https://www.microsoft.com/en-us/research/blog/mattersim-a-deep-learning-model-for-materials-under-real-world-conditions/
