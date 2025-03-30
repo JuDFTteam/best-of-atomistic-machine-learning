@@ -2913,7 +2913,7 @@ atomistic neural networks based on Gaussian Moments"
   category: uip
   labels: ["ml-iap", "md", "pretrained"]
   license: GPL-3.0
-  # package managers: none
+  pypi_id: sevenn
 - name: MatterSim
   github_id: microsoft/mattersim
   category: uip
