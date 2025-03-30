@@ -2684,14 +2684,6 @@ projects:
   category: rep-learn
   license:  BSD-3
   # package managers: none
-- name: MatterGen
-  resource: true
-  homepage: https://www.microsoft.com/en-us/research/blog/mattergen-property-guided-materials-design/
-  description: A generative model for inorganic materials design https://doi.org/10.48550/arXiv.2312.03687
-  category: materials-discovery
-  labels: ["generative", "proprietary"]
-  # license: # none found
-  # package managers: none
 - name: ACEpsi.jl
   github_id: ACEsuit/ACEpsi.jl
   category: ml-wft
@@ -2923,12 +2915,16 @@ atomistic neural networks based on Gaussian Moments"
   license: GPL-3.0
   # package managers: none
 - name: MatterSim
-  resource: true
-  homepage: https://www.microsoft.com/en-us/research/blog/mattersim-a-deep-learning-model-for-materials-under-real-world-conditions/
-  description: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures https://doi.org/10.48550/arXiv.2405.04967
+  github_id: microsoft/mattersim
   category: uip
-  labels: ["ml-iap", "active-learning", "proprietary"]
-  # license: # none found
+  labels: ["ml-iap", "active-learning", "multimodal", "phase-transition", "pretrained"]
+  license: MIT
+  pypi_id: mattersim
+- name: MatterGen
+  github_id: microsoft/mattergen
+  category: materials-discovery
+  labels: ["generative", "structure-prediction", "pretrained"]
+  license: MIT
   # package managers: none
 - name: Awesome-Crystal-GNNs
   github_id: kdmsit/Awesome-Crystal-GNNs
