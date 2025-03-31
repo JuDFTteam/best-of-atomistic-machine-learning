@@ -3028,3 +3028,13 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["rep-learn", "uip", "md", "pretrained"]
   license: MIT
   pypi_id: graph-pes
+- name: DeePMD-DPA3
+  description: Successor of DPA-2
+  github_id: deepmodeling/deepmd-kit
+  # homepage: https://github.com/deepmodeling/deepmd-kit/discussions/4682
+  category: uip
+  labels: ["ml-iap", "pretrained", "workflows", "datasets"]
+  license: LGPL-3.0
+  pypi_id: deepmd-kit
+  conda_id: conda-forge/deepmd-kit
+  dockerhub_id: deepmodeling/deepmd-kit
