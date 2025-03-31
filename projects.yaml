@@ -1840,6 +1840,7 @@ projects:
   category: ml-iap
   labels: ["lang-cpp"]
   # docs_url: https://docs.deepmodeling.com/projects/deepmd/
+  license: LGPL-3.0
   github_id: deepmodeling/deepmd-kit
   pypi_id: deepmd-kit
   conda_id: deepmodeling/deepmd-kit
@@ -2850,8 +2851,10 @@ projects:
   # homepage: https://github.com/deepmodeling/deepmd-kit/discussions/3772
   category: uip
   labels: ["ml-iap", "pretrained", "workflows", "datasets"]
-  # license: # none found
-  # package managers: none
+  license: LGPL-3.0
+  pypi_id: deepmd-kit
+  conda_id: conda-forge/deepmd-kit
+  dockerhub_id: deepmodeling/deepmd-kit
 - name: nnp-pre-training
   description: Synthetic pre-training for neural-network interatomic potentials
   github_id: jla-gardner/nnp-pre-training
