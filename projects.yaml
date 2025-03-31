@@ -903,27 +903,51 @@ projects:
   labels: ["benchmarking", "single-paper"]
   github_id: BingqingCheng/linear-regression-benchmarks
 - name: FAIR Chemistry datasets
+  github_id: FAIR-Chem/fairchem
+  description: Datasets OC20, OC22, etc. Formerly known as Open Catalyst Project.
   category: datasets
   labels: ["catalysis"]
   license: MIT
-  description: Datasets OC20, OC22, etc. Formerly known as Open Catalyst Project.
-  github_id: FAIR-Chem/fairchem
   pypi_id: fairchem-core
 - name: Meta Open Materials 2024 (OMat24) Dataset
-  description: Contains over 100 million Density Functional Theory calculations focused on structural and compositional diversity.
+  github_id: FAIR-Chem/fairchem
   homepage: https://huggingface.co/datasets/fairchem/OMAT24
-  github_id: https://github.com/FAIR-Chem/fairchem
+  description: Contains over 100 million Density Functional Theory calculations focused on structural and compositional diversity.
   category: datasets
   # labels: ["ml-iap", "uip", "catalysis"]
   license: CC-BY-4.0
   pypi_id: fairchem-core
 - name: fairchem
+  github_id: FAIR-Chem/fairchem
+  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project.
   category: ml-iap
   labels: ["pretrained", "uip", "rep-learn", "catalysis"]
-  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project.
   # homepage: https://opencatalystproject.org/
-  github_id: FAIR-Chem/fairchem
+  license: MIT
   pypi_id: fairchem-core
+- name: FAIRChem EquiformerV2 models
+  github_id: FAIR-Chem/fairchem
+  homepage: https://github.com/FAIR-Chem/fairchem/tree/main/src/fairchem/core/models/equiformer_v2
+  description: FAIRChem implementation of Equiformer V2 (eqV2) models
+  category: uip
+  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
+  license: MIT
+  pypi_id: fairchem-core
+- name: FAIRChem eSEN models
+  github_id: FAIR-Chem/fairchem
+  homepage: https://github.com/janosh/matbench-discovery/tree/main/models/eSEN
+  description: FAIRChem implementation of Smooth Energy Network (eSEN) models arXiv:2502.12147
+  category: uip
+  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
+  license: MIT
+  pypi_id: fairchem-core
+- name: charge-density-models
+  github_id: ulissigroup/charge-density-models
+  category: ml-dft
+  labels: ["rep-learn"]
+  license: MIT
+  # package managers: none
+  description: Tools to build charge density models using [fairchem](https://github.com/FAIR-Chem/fairchem)
 - name: MPContribs
   category: datasets
   license: MIT
@@ -2294,9 +2318,10 @@ projects:
   license: MIT
   # package managers: none
 - name: EquiformerV2
-  category: rep-learn
-  # license: # none found
   github_id: atomicarchitects/equiformer_v2
+  category: ml-iap
+  labels: ["pretrained", "uip", "rep-learn"]
+  license: MIT
   # package managers: none
 - name: GT4SD
   category: generative
@@ -2560,13 +2585,6 @@ projects:
   labels: ["community", "visualization", "lang-js"]
   license: MIT
   # package managers: none
-- name: charge-density-models
-  github_id: ulissigroup/charge-density-models
-  category: ml-dft
-  labels: ["rep-learn"]
-  license: MIT
-  # package managers: none
-  description: Tools to build charge density models using [fairchem](https://github.com/FAIR-Chem/fairchem)
 - name: SciBot
   github_id: CFN-softbio/SciBot
   category: language-models
