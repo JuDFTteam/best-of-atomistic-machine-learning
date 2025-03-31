@@ -2845,7 +2845,7 @@ projects:
   license: MIT
   # package managers: none
 - name: DPA-2
-  description: Towards a universal large atomic model for molecular and material simulation https://doi.org/10.48550/arXiv.2312.15492
+  description: A large atomic model as a multi-task learner https://arxiv.org/abs/2312.15492
   github_id: deepmodeling/deepmd-kit
   # homepage: https://github.com/deepmodeling/deepmd-kit/discussions/3772
   category: uip
