@@ -1,3 +1,6 @@
+# AI
+CLAUDE.md
+
 # IntelliJ
 target/
 .idea/
@@ -88,4 +91,3 @@ hs_err_pid*
 *.swo
 temp/*
 .DS_Store
-
