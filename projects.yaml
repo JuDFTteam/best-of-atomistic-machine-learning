@@ -3056,3 +3056,9 @@ atomistic neural networks based on Gaussian Moments"
   pypi_id: deepmd-kit
   conda_id: conda-forge/deepmd-kit
   dockerhub_id: deepmodeling/deepmd-kit
+- name: EScAIP
+  github_id: ASK-Berkeley/EScAIP
+  category: uip
+  labels: ["ml-iap", "rep-learn", "transformer", "single-paper"]
+  license: MIT
+  # package managers: none
