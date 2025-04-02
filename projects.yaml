@@ -1322,9 +1322,11 @@ projects:
   github_id: lab-cosmo/equisolve
 - name: Metatensor
   category: data-structures
-  labels: ["lang-rust", "lang-c", "lang-cpp", "lang-py"]
-  # docs_url: https://lab-cosmo.github.io/metatensor
-  github_id: lab-cosmo/metatensor
+  labels: ["ml-iap", "md", "lang-rust", "lang-c", "lang-cpp", "lang-py"]
+  # docs_url: https://docs.metatensor.org
+  github_id: metatensor/metatensor
+  license:  BSD-3-Clause
+  pypi_id: metatensor
 - name: Sketchmap
   labels: ["lang-cpp"]
   category: unsupervised
@@ -1334,11 +1336,13 @@ projects:
   description: Collection of programs to benchmark Wigner kernels.
   labels: ["benchmarking"]
   github_id: lab-cosmo/wigner_kernels
-- name: Rascaline
+- name: Featomic
   category: rep-eng
   labels: ["lang-rust", "lang-cpp"]
-  # docs_url: https://luthaf.fr/rascaline/
-  github_id: Luthaf/rascaline
+  # docs_url: https://metatensor.github.io/featomic
+  github_id: metatensor/featomic
+  license:  BSD-3-Clause
+  # package managers: none
 - name: Librascal
   category: rep-eng
   # docs_url: https://lab-cosmo.github.io/librascal/
@@ -2738,8 +2742,13 @@ projects:
   # package managers: none
   # Note. Documentation not linked in repo README at time of writing. So, making an exception and adding it here as homepage.
 - name: rho_learn
-  github_id: jwa7/rho_learn
-  category: ml-dft
+  github_id: m-stack-org/rho_learn
+  category: ["ml-dft", "rep-eng"]
+  license: MIT
+  # package managers: none
+- name: rholearn
+  github_id: lab-cosmo/rholearn
+  category: ["ml-dft", "rep-eng", "density-of-states"]
   license: MIT
   # package managers: none
 - name: Q-stack
