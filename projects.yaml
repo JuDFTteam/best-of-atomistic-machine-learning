@@ -3073,3 +3073,10 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "rep-learn", "transformer", "single-paper"]
   license: MIT
   # package managers: none
+- name: PET-MAD
+  github_id: lab-cosmo/pet-mad
+  category: uip
+  labels: ["ml-iap", "md", "rep-learn", "transformer"]
+  license: BSD-3-Clause
+  pypi_id: pet-mad
+  conda_id: conda:conda-forge/pet-mad
