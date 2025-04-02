@@ -2743,12 +2743,14 @@ projects:
   # Note. Documentation not linked in repo README at time of writing. So, making an exception and adding it here as homepage.
 - name: rho_learn
   github_id: m-stack-org/rho_learn
-  category: ["ml-dft", "rep-eng"]
+  category: ml-dft
+  labels: ["ml-dft", "rep-eng"]
   license: MIT
   # package managers: none
 - name: rholearn
   github_id: lab-cosmo/rholearn
-  category: ["ml-dft", "rep-eng", "density-of-states"]
+  category: ml-dft
+  labels: ["ml-dft", "rep-eng", "density-of-states"]
   license: MIT
   # package managers: none
 - name: Q-stack
