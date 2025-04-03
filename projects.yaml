@@ -815,6 +815,13 @@ projects:
   description: "Computational materials database with the specific focus on materials for renewable energy applications including, but not limited to, photovoltaic materials, materials for photo-electrochemical water splitting, thermoelectrics, etc."
   # license: # none found
   # package managers: none
+- name: QM9 Charge Densities and Energies
+  resource: true
+  category: datasets
+  labels: ml-dft
+  license: CC-BY-4.0
+  homepage: https://data.dtu.dk/articles/dataset/QM9_Charge_Densities_and_Energies_Calculated_with_VASP/16794500
+  description: QM9 molecules calculated with VASP using Atomic Simulation Environment
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
