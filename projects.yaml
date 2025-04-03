@@ -3080,3 +3080,9 @@ atomistic neural networks based on Gaussian Moments"
   license: BSD-3-Clause
   pypi_id: pet-mad
   conda_id: conda:conda-forge/pet-mad
+- name: scdp (scalable charge density prediction)
+  github_id: kyonofx/scdp
+  category: ml-dft
+  labels: ["rep-learn"]
+  license: MIT
+  # package managers: none
