@@ -836,7 +836,7 @@ projects:
 - name: QM9 Charge Densities and Energies
   resource: true
   category: datasets
-  labels: ml-dft
+  labels: ["ml-dft"]
   license: CC-BY-4.0
   homepage: https://data.dtu.dk/articles/dataset/QM9_Charge_Densities_and_Energies_Calculated_with_VASP/16794500
   description: QM9 molecules calculated with VASP using Atomic Simulation Environment
