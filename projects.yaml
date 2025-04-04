@@ -397,6 +397,8 @@ labels:
     name: "long-range"
     description: "Long-range interactions"
     # url: "https://en.wikipedia.org/wiki/Excited_state"
+  - label: "ml-functional"
+    name: "ml-functional"
   - label: "magnetism"
     name: "magnetism"
     # name: "🧲"
@@ -1398,9 +1400,10 @@ projects:
 - name: MatGL (Materials Graph Library)
   category: rep-learn
   labels: ["multifidelity"]
-  # homepage: https://crystals.ai/
+  # homepage: https://matgl.ai
   github_id: materialsvirtuallab/matgl
-  pypi_id: m3gnet
+  pypi_id: matgl
+  dockerhub_id: materialsvirtuallab/matgl
 - name: MAML
   category: general-tool
   # homepage: https://materialsvirtuallab.github.io/maml/
