@@ -730,6 +730,20 @@ projects:
   category: community
   license: Apache-2.0
   # package managers: none
+- name: The Collection of Database and Dataset Resources in Materials Science
+  github_id: sedaoturak/data-resources-for-materials-science
+  category: community
+  labels: ["datasets"]
+  license: None
+  # package managers: none
+- name: LAM Crystal Philately competition 2024
+  github_id: deepmodeling/openlam
+  Description: OpenLAM Challenge crystal structure prediction https://arxiv.org/abs/2501.16358
+  homepage: https://bohrium.dp.tech/competitions/8821838186
+  category: community
+  labels: ["single-paper", "datasets", "structure-prediction", "materials-discovery", "ml-iap", "uip"]
+  # license: none found
+  # package managers: none
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -1056,6 +1070,19 @@ projects:
   labels: ["community", "model-repository"]
   license: LGPL-3.0
   # package managers: none
+- name: OBELiX
+  github_id: NRC-Mila/OBELiX
+  category: datasets
+  labels: ["experimental-data", "transport-phenomena"]
+  # license: none found
+  pypi_id: obelix-data
+- name: MatPES
+  github_id: materialsvirtuallab/matpes
+  homepage: https://matpes.ai/
+  category: datasets
+  labels: ["uip", "ml-iap"]
+  license: BSD-3-Clause
+  pypi_id: matpes
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
@@ -3098,3 +3125,47 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["rep-learn"]
   license: MIT
   # package managers: none
+- name: Metatrain
+  github_id: metatensor/metatrain
+  category: ml-iap
+  labels: ["workflows", "benchmarking", "rep-eng", "rep-learn"]
+  license: BSD-3-Clause
+  pypi_id: metatrain
+- name: MatCalc
+  github_id: materialsvirtuallab/matcalc
+  category: ml-iap
+  labels: ["workflows", "benchmarking", "uip", "pretrained", "model-repository"]
+  license: BSD-3-Clause
+  pypi_id: matcalc
+- name: MatML
+  Description: Full MatML Docker image, including MatGL, MatCalc, MatPES and LAMMPS with ML-GNNP and ML-SNAP
+  github_id: materialsvirtuallab/matml
+  category: ml-iap
+  labels: ["md", "uip", "rep-learn", "pretrained"]
+  license: BSD-3-Clause
+  dockerhub_id: materialsvirtuallab/matml
+- name: CHIPS-FF
+  github_id: usnistgov/chipsff
+  category: uip
+  labels: ["benchmarking", "structure-optimization", "md", "materials-discovery", "transport-phenomena"]
+  license: https://github.com/usnistgov/chipsff/blob/main/LICENSE.rst
+  # package managers: none
+- name: ChemBench
+  github_id: lamalab-org/chembench
+  category: language-models
+  labels: ["benchmarking", "multimodal"]
+  license: MIT
+  pypi_id: chembench
+- name: MaCBench Leaderboard
+  resource: true
+  homepage: https://huggingface.co/spaces/jablonkagroup/MaCBench-Leaderboard
+  Description: Leaderboard for multimodal language models for chemistry & materials research
+  category: language-models
+  labels: ["community", "benchmarking", "datasets"]
+  # license: none found
+- name: CiderPress
+  github_id: mir-group/CiderPress
+  category: ml-dft
+  labels: ["ml-functional", "lang-c"]
+  license: GPL-3.0
+  pypi_id: ciderpress
