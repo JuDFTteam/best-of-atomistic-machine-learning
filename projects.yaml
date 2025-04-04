@@ -1521,6 +1521,10 @@ projects:
   category: md
   github_id: jax-md/jax-md
   pypi_id: jax-md
+- name: torch-sim
+  category: md
+  github_id: Radical-AI/torch-sim
+  pypi_id: torch-sim-atomistic
 - name: Finetuna
   category: active-learning
   # labels: ["active-learning"]
