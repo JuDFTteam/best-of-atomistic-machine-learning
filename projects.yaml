@@ -1399,7 +1399,7 @@ projects:
   pypi_id: megnet
 - name: MatGL (Materials Graph Library)
   category: rep-learn
-  labels: ["multifidelity"]
+  labels: ["ml-iap", "pretrained", "multifidelity"]
   # homepage: https://matgl.ai
   github_id: materialsvirtuallab/matgl
   pypi_id: matgl
