@@ -3169,3 +3169,9 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-functional", "lang-c"]
   license: GPL-3.0
   pypi_id: ciderpress
+- name: TorchSim
+  github_id: Radical-AI/torch-sim
+  category: md
+  labels: ["htc", "uip", "ml-iap", "structure-optimization"]
+  license: MIT
+  pypi_id: torch-sim-atomistic  
