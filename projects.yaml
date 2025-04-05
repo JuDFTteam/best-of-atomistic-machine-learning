@@ -3177,20 +3177,20 @@ atomistic neural networks based on Gaussian Moments"
   pypi_id: torch-sim-atomistic
 - name:: Charting ML Publications in Science
   description: Literature analysis of ML applications in materials science, chemistry, physics
-  github_id: https://github.com/blaiszik/ml_publication_charts
+  github_id: blaiszik/ml_publication_charts
   category: community
   labels: ["literature-data", "general-ml"]
   license: MIT
   # package managers: none
 - name:: Awesome Materials & Chemistry Datasets
   description: A curated list of the most useful datasets in materials science and chemistry for training machine learning and AI foundation models
-  github_id: https://github.com/blaiszik/awesome-matchem-datasets
+  github_id: blaiszik/awesome-matchem-datasets
   category: community
   labels: ["datasets", "experimental-data", "literature-data", "proprietary"]
   license: MIT
   # package managers: none
 - name:: DSM-CORE
-  github_id: https://github.com/MatSciEdu/DSM-CORE
+  github_id: MatSciEdu/DSM-CORE
   homepage: https://matsciedu.github.io/DSM-CORE
   category: educational
   # license: none found
