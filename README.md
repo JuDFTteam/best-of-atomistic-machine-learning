@@ -37,11 +37,11 @@ The current focus of this list is more on simulation data rather than experiment
 ## Contents
 
 - [Active learning](#active-learning) _6 projects_
-- [Community resources](#community-resources) _32 projects_
+- [Community resources](#community-resources) _34 projects_
 - [Datasets](#datasets) _49 projects_
 - [Data Structures](#data-structures) _4 projects_
 - [Density functional theory (ML-DFT)](#density-functional-theory-ml-dft) _36 projects_
-- [Educational Resources](#educational-resources) _28 projects_
+- [Educational Resources](#educational-resources) _29 projects_
 - [Explainable Artificial intelligence (XAI)](#explainable-artificial-intelligence-xai) _3 projects_
 - [Electronic structure methods (ML-ESM)](#electronic-structure-methods-ml-esm) _5 projects_
 - [General Tools](#general-tools) _23 projects_
@@ -91,7 +91,7 @@ _Projects that focus on enabling active learning, iterative learning schemes for
 	git clone https://github.com/mir-group/flare
 	```
 </details>
-<details><summary><b><a href="https://github.com/zincware/IPSuite">IPSuite</a></b> (🥈18 ·  ⭐ 21 · 📈) - A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials. <code><a href="http://bit.ly/2M0xmjV">EPL-2.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>workflows</code> <a href="https://en.wikipedia.org/wiki/High-throughput_computing"><code>HTC</code></a> <a href="https://www.go-fair.org/fair-principles/"><code>FAIR</code></a></summary>
+<details><summary><b><a href="https://github.com/zincware/IPSuite">IPSuite</a></b> (🥈18 ·  ⭐ 21) - A Python toolkit for FAIR development and deployment of machine-learned interatomic potentials. <code><a href="http://bit.ly/2M0xmjV">EPL-2.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>workflows</code> <a href="https://en.wikipedia.org/wiki/High-throughput_computing"><code>HTC</code></a> <a href="https://www.go-fair.org/fair-principles/"><code>FAIR</code></a></summary>
 
 - [GitHub](https://github.com/zincware/IPSuite) (👨‍💻 8 · 🔀 11 · 📦 8 · 📋 160 - 57% open · ⏱️ 04.04.2025):
 
@@ -149,7 +149,7 @@ _Projects that collect atomistic ML resources or foster communication within com
 </details>
 <details><summary><b><a href="https://github.com/janosh/matbench-discovery">MatBench Discovery</a></b> (🥇19 ·  ⭐ 140) - An evaluation framework for machine learning models simulating high-throughput materials discovery. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code> <code>benchmarking</code> <code>model-repository</code></summary>
 
-- [GitHub](https://github.com/janosh/matbench-discovery) (👨‍💻 17 · 🔀 32 · 📦 4 · 📋 56 - 7% open · ⏱️ 01.04.2025):
+- [GitHub](https://github.com/janosh/matbench-discovery) (👨‍💻 17 · 🔀 32 · 📦 4 · 📋 56 - 7% open · ⏱️ 05.04.2025):
 
 	```
 	git clone https://github.com/janosh/matbench-discovery
@@ -245,6 +245,22 @@ _Projects that collect atomistic ML resources or foster communication within com
 
 	```
 	git clone https://github.com/kdmsit/Awesome-Crystal-GNNs
+	```
+</details>
+<details><summary><b><a href="https://github.com/blaiszik/awesome-matchem-datasets">Awesome Materials & Chemistry Datasets</a></b> (🥉8 ·  ⭐ 71 · ➕) - A curated list of the most useful datasets in materials science and chemistry for training machine learning and AI.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code> <a href="https://en.wikipedia.org/wiki/Experimental_physics"><code>experimental-data</code></a> <code>literature-data</code> <a href="https://en.wikipedia.org/wiki/Proprietary_software"><code>proprietary</code></a></summary>
+
+- [GitHub](https://github.com/blaiszik/awesome-matchem-datasets) (👨‍💻 3 · 🔀 10 · ⏱️ 03.04.2025):
+
+	```
+	git clone https://github.com/blaiszik/awesome-matchem-datasets
+	```
+</details>
+<details><summary><b><a href="https://github.com/blaiszik/ml_publication_charts">Charting ML Publications in Science</a></b> (🥉8 ·  ⭐ 41 · ➕) - Literature analysis of ML applications in materials science, chemistry, physics. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>literature-data</code> <code>general-ml</code></summary>
+
+- [GitHub](https://github.com/blaiszik/ml_publication_charts) (👨‍💻 2 · ⏱️ 22.03.2025):
+
+	```
+	git clone https://github.com/blaiszik/ml_publication_charts
 	```
 </details>
 <details><summary><b><a href="https://github.com/sherrylixuecheng/AI_for_Science_paper_collection">AI for Science paper collection</a></b> (🥉7 ·  ⭐ 110 · 💤) - List the AI for Science papers accepted by top conferences. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
@@ -732,6 +748,14 @@ _Tutorials, guides, cookbooks, recipes, etc._
 	git clone https://github.com/ilyes319/mace-tutorials
 	```
 </details>
+<details><summary><b><a href="https://matsciedu.github.io/DSM-CORE">DSM-CORE</a></b> (🥉6 ·  ⭐ 11 · 🐣) - Data Science for Materials - Collection of Open Educational Resources. <code>Unlicensed</code></summary>
+
+- [GitHub](https://github.com/MatSciEdu/DSM-CORE) (👨‍💻 5 · 🔀 6 · 📋 2 - 50% open · ⏱️ 03.04.2025):
+
+	```
+	git clone https://github.com/MatSciEdu/DSM-CORE
+	```
+</details>
 <details><summary>Show 19 hidden projects...</summary>
 
 - <b><a href="https://github.com/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb">Geometric GNN Dojo</a></b> (🥇12 ·  ⭐ 490 · 💀) - New to geometric GNNs: try our practical notebook, prepared for MPhil students at the University of Cambridge. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
@@ -1163,7 +1187,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 </details>
 <details><summary><b><a href="https://github.com/materialsvirtuallab/matcalc">MatCalc</a></b> (🥈21 ·  ⭐ 80) - A python library for calculating materials properties from the PES. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>workflows</code> <code>benchmarking</code> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>pretrained</code> <code>model-repository</code></summary>
 
-- [GitHub](https://github.com/materialsvirtuallab/matcalc) (👨‍💻 12 · 🔀 20 · 📦 8 · 📋 10 - 30% open · ⏱️ 05.04.2025):
+- [GitHub](https://github.com/materialsvirtuallab/matcalc) (👨‍💻 15 · 🔀 20 · 📦 8 · 📋 10 - 30% open · ⏱️ 05.04.2025):
 
 	```
 	git clone https://github.com/materialsvirtuallab/matcalc
@@ -2164,7 +2188,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 	pip install e3nn-jax
 	```
 </details>
-<details><summary><b><a href="https://github.com/aimat-lab/gcnn_keras">kgcnn</a></b> (🥈19 ·  ⭐ 110 · 📈) - Graph convolutions in Keras with TensorFlow, PyTorch or Jax. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/aimat-lab/gcnn_keras">kgcnn</a></b> (🥈19 ·  ⭐ 110) - Graph convolutions in Keras with TensorFlow, PyTorch or Jax. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/aimat-lab/gcnn_keras) (👨‍💻 7 · 🔀 31 · 📦 20 · 📋 87 - 14% open · ⏱️ 05.01.2025):
 
@@ -2419,7 +2443,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	pip install orb-models
 	```
 </details>
-<details><summary><b><a href="https://github.com/CederGroupHub/chgnet">CHGNet</a></b> (🥈20 ·  ⭐ 290 · 📉) - Pretrained universal neural network potential for charge-informed atomistic modeling https://chgnet.lbl.gov. <code><a href="https://github.com/CederGroupHub/chgnet/blob/main/LICENSE">Custom</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Electrostatics"><code>electrostatics</code></a> <code>magnetism</code> <code>structure-relaxation</code></summary>
+<details><summary><b><a href="https://github.com/CederGroupHub/chgnet">CHGNet</a></b> (🥈20 ·  ⭐ 290) - Pretrained universal neural network potential for charge-informed atomistic modeling https://chgnet.lbl.gov. <code><a href="https://github.com/CederGroupHub/chgnet/blob/main/LICENSE">Custom</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Electrostatics"><code>electrostatics</code></a> <code>magnetism</code> <code>structure-relaxation</code></summary>
 
 - [GitHub](https://github.com/CederGroupHub/chgnet) (👨‍💻 10 · 🔀 76 · 📦 54 · 📋 70 - 7% open · ⏱️ 24.03.2025):
 
