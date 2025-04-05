@@ -1521,10 +1521,6 @@ projects:
   category: md
   github_id: jax-md/jax-md
   pypi_id: jax-md
-- name: torch-sim
-  category: md
-  github_id: Radical-AI/torch-sim
-  pypi_id: torch-sim-atomistic
 - name: Finetuna
   category: active-learning
   # labels: ["active-learning"]
@@ -3173,3 +3169,9 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-functional", "lang-c"]
   license: GPL-3.0
   pypi_id: ciderpress
+- name: TorchSim
+  github_id: Radical-AI/torch-sim
+  category: md
+  labels: ["htc", "uip", "ml-iap", "structure-optimization"]
+  license: MIT
+  pypi_id: torch-sim-atomistic  
