@@ -1127,7 +1127,7 @@ projects:
 - name: MPDS API
   github_id: mpds-io/mpds-api
   category: datasets
-  labels: ["community", "literature-data"]
+  labels: ["phase-transition"]
   license: CC-BY-4.0
   pypi_id: mpds_client
 - name: polyVERSE
@@ -3188,7 +3188,7 @@ atomistic neural networks based on Gaussian Moments"
 - name: scdp (scalable charge density prediction)
   github_id: kyonofx/scdp
   category: ml-dft
-  labels: ["rep-learn"]
+  labels: ["rep-learn", "single-paper"]
   license: MIT
   # package managers: none
 - name: Metatrain
