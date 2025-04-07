@@ -107,7 +107,7 @@ categories:
     subtitle: "Machine-learned interatomic potentials (ML-IAP) that have been trained on large, chemically and structural diverse datasets. For materials, this means e.g. datasets that include a majority of the periodic table."
   - category: "unsupervised"
     title: "Unsupervised Learning"
-    subtitle: "Projects that focus on unsupervised learning (USL) for atomistic ML, such as dimensionality reduction, clustering and visualization."
+    subtitle: "Projects that focus on unsupervised, semi- or self-supervised learning for atomistic ML, such as dimensionality reduction, clustering, contrastive learning, etc."
   - category: "visualization"
     title: "Visualization"
     subtitle: "Projects that focus on visualization (viz.) for atomistic ML."
@@ -319,6 +319,10 @@ labels:
     name: "multimodal"
     subtitle: "Multimodal learning"
     url: "https://en.wikipedia.org/wiki/Multimodal_learning"
+  - label: "multitak"
+    name: "multitask"
+    subtitle: "Multitask learning"
+    url: "https://en.wikipedia.org/wiki/Multi-task_learning"
   - label: "neural-operator"
     name: "neural-operator"
     subtitle: "Neural operators"
@@ -330,6 +334,10 @@ labels:
   - label: "pretrained"
     name: "pretrained"
     subtitle: "Pretrained models"
+  - label: "RAG"
+    name: "RAG"
+    subtitle: "Retrieval-augmented generation"
+    url: "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
   - label: "qml"
     name: "QML"
     # name: "⚛️"
@@ -379,6 +387,10 @@ labels:
     # name: "&#x1F48A;"
     description: "Drug discovery"
     url: "https://en.wikipedia.org/wiki/Drug_design#Computer-aided_drug_design"
+  - label: "disordered-materials"
+    name: "Disordered Materials"
+    description: "Projects focusing on amorphous materials, random solid solutions, doping, dilute/disordered systems, or non-crystalline structural disorder."
+    url: "https://www.google.com/search?q=disordered-materials"
   - label: "electrostatics"
     name: "electrostatics"
     # name: "⚡"
@@ -421,6 +433,10 @@ labels:
     name: "sampling"
     description: "Projects that simplify the application of machine-learning related atomistic sampling methods."
     # reference: issue #175 https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/175
+  - label: "soft-matter"
+    name: "soft-matter"
+    description: "Soft matter"
+    url: "https://en.wikipedia.org/wiki/Soft_matter"
   - label: "spectroscopy"
     name: "spectroscopy"
     description: "Spectroscopy"
@@ -758,6 +774,11 @@ projects:
   # package managers: none
   # license: none found
   # package managers: none
+- name: Awesome-Scientific-Language-Models
+  github_id: yuzhimanhua/Awesome-Scientific-Language-Models
+  category: community
+  labels: ["language-models", "general-ml", "pretrained", "multimodal"]
+  license: MIT
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -1097,6 +1118,24 @@ projects:
   labels: ["uip", "ml-iap"]
   license: BSD-3-Clause
   pypi_id: matpes
+- name: nablaDFT
+  github_id: AIRI-Institute/nablaDFT
+  category: datasets
+  labels: ["ml-dft", "ml-wft", "drug-discovery", "ml-iap", "benchmarking"]
+  license: MIT
+  # package managers: none
+- name: MPDS API
+  github_id: mpds-io/mpds-api
+  category: datasets
+  labels: ["community", "literature-data"]
+  license: CC-BY-4.0
+  pypi_id: mpds_client
+- name: polyVERSE
+  github_id: Ramprasad-Group/polyVERSE
+  category: datasets
+  labels: ["soft-matter"]
+  license: https://github.com/Ramprasad-Group/polyVERSE?tab=License-1-ov-file
+  # package managers: none
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
@@ -1234,12 +1273,18 @@ projects:
   category: educational
   license: MPL-2.0
   description: Hands-On Series organized by Chemistry and Materials working group at Argonne Nat Lab.
+  # package managers: none
 - name: DSM-CORE
   github_id: MatSciEdu/DSM-CORE
   homepage: https://matsciedu.github.io/DSM-CORE
   category: educational
   # license: none found
   # package managers: none
+- name: MLforMaterials
+  github_id: aronwalsh/MLforMaterials
+  category: educational
+  labels: ["community", "general-ml", "rep-eng", "materials-discovery"]
+  license: MIT
   # package managers: none
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
@@ -1535,6 +1580,7 @@ projects:
   github_id: atomistic-machine-learning/dtnn
 - name: "Alchemical learning"
   category: ml-iap
+  labels: ["rep-eng", "disordered-materials"]
   description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
   github_id: Luthaf/alchemical-learning
 - name: JAX-MD
@@ -2744,8 +2790,9 @@ projects:
 - name: LLaMP
   github_id: chiang-yuan/llamp
   category: language-models
-  labels: ["materials-discovery", "cheminformatics", "generative", "MD", "multimodal", "language-models", "lang-py", "general-tool"]
+  labels: ["multimodal", "RAG", "materials-discovery", "pretrained", "lang-js", "lang-py"]
   license: BSD-3-Clause
+  # package managers: none
 - name: IPSuite
   github_id: zincware/IPSuite
   category: active-learning
@@ -2785,9 +2832,8 @@ projects:
   labels: ["rep-learn", "magnetism", "lang-c"]
   license: GPL-3.0
   # package managers: none
-- name: MACE-MP
-  description: Pretrained foundation models for materials chemistry
-  github_id: ACEsuit/mace-mp
+- name: MACE-FOUNDATION models
+  github_id: ACEsuit/mace-foundations
   category: uip
   labels: ["ml-iap", "pretrained", "rep-learn", "md"]
   license: MIT
@@ -3138,7 +3184,7 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "md", "rep-learn", "transformer"]
   license: BSD-3-Clause
   pypi_id: pet-mad
-  conda_id: conda:conda-forge/pet-mad
+  conda_id: conda-forge/pet-mad
 - name: scdp (scalable charge density prediction)
   github_id: kyonofx/scdp
   category: ml-dft
@@ -3195,3 +3241,149 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["htc", "uip", "ml-iap", "structure-optimization"]
   license: MIT
   pypi_id: torch-sim-atomistic
+- name: MUSE
+  github_id: chiang-yuan/muse
+  category: md
+  labels: ["ml-iap", "disordered-materials"]
+  license: MIT
+  # package managers: none
+- name: thermo
+  github_id: janosh/thermo
+  category: probabilistic
+  labels: ["materials-discovery", "experimental-data", "active-learning", "transport-phenomena"]
+  license: MIT
+  # package managers: none
+- name: pySIPFENN
+  github_id: PhasesResearchLab/pySIPFENN
+  category: rep-eng
+  labels: ["material-defect", "disordered-materials", "pretrained", "transfer-learning"]
+  license: LGPL-3.0
+  pypi_id: pysipfenn
+  conda_id: conda-forge/pysipfenn
+- name: ChemML
+  github_id: hachmannlab/chemml
+  category: rep-eng
+  labels: ["cheminformatics", "active-learning", "workflows"]
+  license: BSD-3-Clause
+  pypi_id: chemml
+- name: SMACT
+  github_id: WMD-group/SMACT
+  category: materials-discovery
+  labels: ["htc", "structure-prediction", "electrostatics"]
+  license: MIT
+  pypi_id: smact
+  conda_id: conda-forge/smact
+- name: ElementEmbeddings
+  github_id: WMD-group/ElementEmbeddings
+  category: rep-eng
+  labels: ["xai", "unsupervised", "visualization"]
+  license: MIT
+  pypi_id: ElementEmbeddings
+  conda_id: conda-forge/elementembeddings
+- name: SLICES and MatterGPT
+  github_id: xiaohang007/SLICES
+  category: generative
+  labels: ["rep-eng", "language-models", "transformer", "materials-discovery", "structure-prediction"]
+  license: LGPL-2.1
+  pypi_id: slices
+  dockerhub_id: xiaohang07/slices
+- name: Bgolearn
+  github_id: Bin-Cao/Bgolearn
+  homepage: https://bgolearn.netlify.app
+  category: active-learning
+  labels: ["materials-discovery", "probabilistic"]
+  license: MIT
+  pypi_id: Bgolearn
+- name: Graph-Aware-Transformers
+  github_id: lamm-mit/Graph-Aware-Transformers
+  category: rep-learn
+  labels: ["transformer", "graph-data", "pretrained", "single-paper"]
+  license: Apache-2.0
+- name: PDynA
+  github_id: WMD-group/PDynA
+  category: rep-eng
+  labels: ["md"]
+  license: MIT
+  pypi_id: pdyna
+- name: mat_discover
+  github_id: sparks-baird/mat_discover
+  category: unsupervised
+  labels: ["materials-discovery", "rep-eng", "htc"]
+  license: MIT
+  pypi_id: mat_discover
+- name: PolyGNN
+  github_id: Ramprasad-Group/polygnn
+  category: rep-learn
+  labels: ["soft-matter", "multitask", "single-paper"]
+  license: MIT
+# Project 'MacroDensity' commented out because not atomictic ML, but atomistic simulation tool.
+# Ref. https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/241#issuecomment-2781704426
+# - name: MacroDensity
+#   github_id: WMD-group/MacroDensity
+#   category: ml-dft
+#   labels: ["electrostatics", "visualization"]
+#   license: MIT
+#   pypi_id: macrodensity
+- name: ffonons
+  github_id: janosh/ffonons
+  category: uip
+  labels: ["benchmarking", "density-of-states"]
+  license: MIT
+  pypi_id: ffonons
+- name: Crystalformer
+  github_id: omron-sinicx/crystalformer
+  category: rep-learn
+  labels: ["transformer", "single-paper"]
+  license: MIT
+  # package managers: none
+- name: Crystalframer
+  github_id: omron-sinicx/crystalframer
+  category: rep-learn
+  labels: ["transformer", "single-paper"]
+  license: MIT
+  # package managers: none
+- name: 3D-EMGP
+  github_id: jiaor17/3D-EMGP
+  category: unsupervised
+  labels: ["pretrained", "rep-learn", "single-paper"]
+  license: MIT
+- name: BPNET
+  github_id: cometscome/BPNET
+  category: ml-iap
+  labels: ["rep-eng", "lang-fortran"]
+  license: MIT
+  # package managers: none
+- name: LLM4Chem
+  github_id: OSU-NLP-Group/LLM4Chem
+  category: language-models
+  labels: ["cheminformatics", "datasets"]
+  license: MIT
+- name: AtomAI
+  github_id: pycroscopy/atomai
+  category: general-tool
+  labels: ["computer-vision", "unsupervised", "experimental-data"]
+  license: MIT
+  pypi_id: atomai
+- name: xtal2png
+  github_id: sparks-baird/xtal2png
+  category: rep-learn
+  labels: ["computer-vision"]
+  license: MIT
+  pypi_id: xtal2png
+- name: Geom3D
+  github_id: chao1224/Geom3D
+  category: rep-learn
+  labels: ["benchmarking", "single-paper"]
+  license: MIT
+  # package managers: none
+- name: molecular-vae
+  github_id: aksub99/molecular-vae
+  category: generative
+  labels: ["rep-learn", "cheminformatics", "single-paper"]
+  license: MIT
+- name: pumml
+  github_id: ncfrey/pumml
+  category: unsupervised
+  labels: ["materials-discovery"]
+  license: MIT
+  pypi_id: pumml
