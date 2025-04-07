@@ -765,7 +765,7 @@ _Tutorials, guides, cookbooks, recipes, etc._
 	git clone https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks
 	```
 </details>
-<details><summary><b><a href="https://github.com/ceriottm/iam-notebooks">iam-notebooks</a></b> (🥈10 ·  ⭐ 28 · 📈) - Jupyter notebooks for the lectures of the Introduction to Atomistic Modeling. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ceriottm/iam-notebooks">iam-notebooks</a></b> (🥈10 ·  ⭐ 28) - Jupyter notebooks for the lectures of the Introduction to Atomistic Modeling. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/ceriottm/iam-notebooks) (👨‍💻 6 · 🔀 5 · ⏱️ 07.01.2025):
 
@@ -980,9 +980,9 @@ _General tools for atomistic machine learning._
 	conda install -c conda-forge jarvis-tools
 	```
 </details>
-<details><summary><b><a href="https://github.com/datamol-io/molfeat">Molfeat</a></b> (🥈19 ·  ⭐ 200 · 📉) - molfeat - the hub for all your molecular featurizers. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Cheminformatics"><code>cheminformatics</code></a> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Generative_model"><code>generative</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a> <code>pretrained</code></summary>
+<details><summary><b><a href="https://github.com/datamol-io/molfeat">Molfeat</a></b> (🥈21 ·  ⭐ 200 · 📈) - molfeat - the hub for all your molecular featurizers. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Cheminformatics"><code>cheminformatics</code></a> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Generative_model"><code>generative</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/datamol-io/molfeat) (👨‍💻 19 · 🔀 22 · 📋 54 - 20% open · ⏱️ 27.11.2024):
+- [GitHub](https://github.com/datamol-io/molfeat) (👨‍💻 19 · 🔀 22 · 📦 65 · 📋 54 - 20% open · ⏱️ 27.11.2024):
 
 	```
 	git clone https://github.com/datamol-io/molfeat
@@ -1098,7 +1098,7 @@ _Projects that implement generative models for atomistic ML._
 	pip install gt4sd
 	```
 </details>
-<details><summary><b><a href="https://github.com/xiaohang007/SLICES">SLICES and MatterGPT</a></b> (🥈14 ·  ⭐ 100 · 📉) - SLICES: An Invertible, Invariant, and String-based Crystal Representation [2023, Nature Communications] MatterGPT,.. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <code>structure-prediction</code></summary>
+<details><summary><b><a href="https://github.com/xiaohang007/SLICES">SLICES and MatterGPT</a></b> (🥈14 ·  ⭐ 100) - SLICES: An Invertible, Invariant, and String-based Crystal Representation [2023, Nature Communications] MatterGPT,.. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <code>structure-prediction</code></summary>
 
 - [GitHub](https://github.com/xiaohang007/SLICES) (👨‍💻 1 · 🔀 43 · 📦 5 · 📋 16 - 25% open · ⏱️ 26.03.2025):
 
@@ -1785,7 +1785,7 @@ _Projects that implement materials discovery methods using atomistic ML._
 </details>
 <details><summary><b><a href="https://github.com/microsoft/mattergen">MatterGen</a></b> (🥇18 ·  ⭐ 1.3K · 🐣) - Official implementation of MatterGen -- a generative model for inorganic materials design across the periodic table.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Generative_model"><code>generative</code></a> <code>structure-prediction</code> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/microsoft/mattergen) (👨‍💻 9 · 🔀 190 · 📋 81 - 4% open · ⏱️ 27.03.2025):
+- [GitHub](https://github.com/microsoft/mattergen) (👨‍💻 9 · 🔀 190 · 📋 81 - 3% open · ⏱️ 27.03.2025):
 
 	```
 	git clone https://github.com/microsoft/mattergen
@@ -2000,7 +2000,7 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 	conda install -c conda-forge openmm-ml
 	```
 </details>
-<details><summary><b><a href="https://github.com/Radical-AI/torch-sim">TorchSim</a></b> (🥉14 ·  ⭐ 140 · 🐣) - Torch-native, batchable, atomistic simulation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/High-throughput_computing"><code>HTC</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>ML-IAP</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>structure-optimization</code></a></summary>
+<details><summary><b><a href="https://github.com/Radical-AI/torch-sim">TorchSim</a></b> (🥉14 ·  ⭐ 150 · 🐣) - Torch-native, batchable, atomistic simulation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/High-throughput_computing"><code>HTC</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>ML-IAP</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>structure-optimization</code></a></summary>
 
 - [GitHub](https://github.com/Radical-AI/torch-sim) (👨‍💻 6 · 🔀 11 · 📋 41 - 51% open · ⏱️ 03.04.2025):
 
@@ -2679,7 +2679,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	pip install m3gnet
 	```
 </details>
-<details><summary><b><a href="https://github.com/ACEsuit/mace-foundations">MACE-FOUNDATION models</a></b> (🥉18 ·  ⭐ 640 · 📉) - MACE-MP models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>ML-IAP</code> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a></summary>
+<details><summary><b><a href="https://github.com/ACEsuit/mace-foundations">MACE-FOUNDATION models</a></b> (🥉18 ·  ⭐ 640) - MACE-MP models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>ML-IAP</code> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a></summary>
 
 - [GitHub](https://github.com/ACEsuit/mace-foundations) (👨‍💻 2 · 🔀 250 · 📥 99K · 📋 16 - 18% open · ⏱️ 28.03.2025):
 
