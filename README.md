@@ -20,13 +20,13 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-490-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-500-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/JuDFTteam/best-of-atomistic-machine-learning?color=green&label=updated"></a>
     <a href="https://doi.org/10.5281/zenodo.10430261"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10430261.svg" alt="DOI"></a>
 </p>
 
-This curated list contains 490 awesome open-source projects with a total of 210K stars grouped into 23 categories. All projects are ranked by a [project-quality score](https://github.com/best-of-lists/best-of-generator#project-quality-score), which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
+This curated list contains 500 awesome open-source projects with a total of 210K stars grouped into 23 categories. All projects are ranked by a [project-quality score](https://github.com/best-of-lists/best-of-generator#project-quality-score), which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
 
 The current focus of this list is more on simulation data rather than experimental data, and more on materials rather than drug design. Nevertheless, contributions from other fields are warmly welcome!
 
@@ -49,7 +49,7 @@ The current focus of this list is more on simulation data rather than experiment
 - [Interatomic Potentials (ML-IAP)](#interatomic-potentials-ml-iap) _78 projects_
 - [Language Models](#language-models) _25 projects_
 - [Materials Discovery](#materials-discovery) _13 projects_
-- [Mathematical tools](#mathematical-tools) _11 projects_
+- [Mathematical tools](#mathematical-tools) _12 projects_
 - [Molecular Dynamics](#molecular-dynamics) _13 projects_
 - [Probabilistic ML](#probabilistic-ml) _1 projects_
 - [Reinforcement Learning](#reinforcement-learning) _2 projects_
@@ -58,7 +58,7 @@ The current focus of this list is more on simulation data rather than experiment
 - [Universal Potentials](#universal-potentials) _19 projects_
 - [Unsupervised Learning](#unsupervised-learning) _10 projects_
 - [Visualization](#visualization) _6 projects_
-- [Wavefunction methods (ML-WFT)](#wavefunction-methods-ml-wft) _5 projects_
+- [Wavefunction methods (ML-WFT)](#wavefunction-methods-ml-wft) _6 projects_
 - [Others](#others) _1 projects_
 
 ## Explanation
@@ -1920,9 +1920,10 @@ _Projects that implement mathematical objects used in atomistic machine learning
 	git clone https://github.com/risi-kondor/cnine
 	```
 </details>
-<details><summary>Show 5 hidden projects...</summary>
+<details><summary>Show 6 hidden projects...</summary>
 
 - <b><a href="https://github.com/lie-nn/lie-nn">lie-nn</a></b> (🥉9 ·  ⭐ 30 · 💀) - Tools for building equivariant polynomials on reductive Lie groups. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
+- <b><a href="https://github.com/YWolfeee/lapjax">LapJAX</a></b> (🥉8 ·  ⭐ 71 · 💀) - A JAX based package designed for efficient second order operators (e.g., laplacian) computation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/aced-differentiate/EquivariantOperators.jl">EquivariantOperators.jl</a></b> (🥉6 ·  ⭐ 19 · 💀) - This package is deprecated. Functionalities are migrating to Porcupine.jl. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>Julia</code>
 - <b><a href="https://github.com/lab-cosmo/toolbox">COSMO Toolbox</a></b> (🥉6 ·  ⭐ 7 · 💀) - Assorted libraries and utilities for atomistic simulation analysis. <code>Unlicensed</code> <code>C++</code>
 - <b><a href="https://github.com/lab-cosmo/torch_spex">torch_spex</a></b> (🥉3 ·  ⭐ 2 · 💀) - Spherical expansions in PyTorch. <code>Unlicensed</code>
@@ -2054,7 +2055,7 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 
 _Projects that focus on probabilistic, Bayesian, Gaussian process and adversarial methods for atomistic ML, for optimization, uncertainty quantification (UQ), etc._
 
-<details><summary><b><a href="https://github.com/janosh/thermo">thermo</a></b> (🥇5 ·  ⭐ 16 · 💤) - Data-driven risk-conscious thermoelectric materials discovery. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <a href="https://en.wikipedia.org/wiki/Experimental_physics"><code>experimental-data</code></a> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a> <a href="https://en.wikipedia.org/wiki/Transport_phenomena"><code>transport-phenomena</code></a></summary>
+<details><summary><b><a href="https://github.com/janosh/thermo">thermo</a></b> (🥇6 ·  ⭐ 16 · 💤) - Data-driven risk-conscious thermoelectric materials discovery. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <a href="https://en.wikipedia.org/wiki/Experimental_physics"><code>experimental-data</code></a> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a> <a href="https://en.wikipedia.org/wiki/Transport_phenomena"><code>transport-phenomena</code></a></summary>
 
 - [GitHub](https://github.com/janosh/thermo) (👨‍💻 2 · 🔀 4 · ⏱️ 22.08.2024):
 
@@ -2325,11 +2326,11 @@ _General models that learn a representations aka embeddings of atomistic systems
 	```
 	git clone https://github.com/materialsvirtuallab/matgl
 	```
-- [PyPi](https://pypi.org/project/matgl) (📥 33K / month · 📦 26 · ⏱️ 03.04.2025):
+- [PyPi](https://pypi.org/project/matgl) (📥 33K / month · 📦 26 · ⏱️ 07.04.2025):
 	```
 	pip install matgl
 	```
-- [Docker Hub](https://hub.docker.com/r/materialsvirtuallab/matgl) (📥 35 · ⭐ 1 · ⏱️ 03.04.2025):
+- [Docker Hub](https://hub.docker.com/r/materialsvirtuallab/matgl) (📥 36 · ⭐ 1 · ⏱️ 07.04.2025):
 	```
 	docker pull materialsvirtuallab/matgl
 	```
@@ -2588,9 +2589,9 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	docker pull deepmodeling/deepmd-kit
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DeePMD-DPA3</a></b> (🥇28 ·  ⭐ 1.6K) - Successor of DPA-2. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <code>pretrained</code> <code>workflows</code> <code>datasets</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DeePMD-DPA3</a></b> (🥇27 ·  ⭐ 1.6K · 📉) - Successor of DPA-2. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <code>pretrained</code> <code>workflows</code> <code>datasets</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 900 - 10% open · ⏱️ 02.03.2025):
+- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📋 900 - 10% open · ⏱️ 02.03.2025):
 
 	```
 	git clone https://github.com/deepmodeling/deepmd-kit
@@ -2752,7 +2753,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	git clone https://github.com/ASK-Berkeley/EScAIP
 	```
 </details>
-<details><summary><b><a href="https://github.com/janosh/ffonons">ffonons</a></b> (🥉6 ·  ⭐ 18) - Phonons from ML force fields. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Density_of_states"><code>density-of-states</code></a></summary>
+<details><summary><b><a href="https://github.com/janosh/ffonons">ffonons</a></b> (🥉7 ·  ⭐ 18 · 📈) - Phonons from ML force fields. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Density_of_states"><code>density-of-states</code></a></summary>
 
 - [GitHub](https://github.com/janosh/ffonons) (👨‍💻 2 · 🔀 1 · 📦 2 · ⏱️ 08.12.2024):
 
@@ -2932,6 +2933,14 @@ _Projects and models that focus on quantities of wavefunction theory methods, su
 - [PyPi](https://pypi.org/project/deeperwin) (📥 160 / month · ⏱️ 14.12.2021):
 	```
 	pip install deeperwin
+	```
+</details>
+<details><summary><b><a href="https://github.com/bytedance/LapNet">LapNet</a></b> (🥉5 ·  ⭐ 61 · 📈) - Efficient and Accurate Neural-Network Ansatz for Quantum Monte Carlo. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/bytedance/LapNet) (👨‍💻 4 · 🔀 11 · ⏱️ 04.12.2024):
+
+	```
+	git clone https://github.com/bytedance/LapNet
 	```
 </details>
 <details><summary>Show 2 hidden projects...</summary>
