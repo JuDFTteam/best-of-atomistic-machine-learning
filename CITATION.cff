@@ -1,5 +1,15 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
+#
+# CFF Schema guide at
+# https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
+#
+# String quoting: Note that in YAML you generally don't need to quote strings. But you should use " quotes when a string value contains whitespace, contains special characters (e.g., any of :{}[],&*#?|-<>=!%, or any of ` and @ at the beginning), consists only of numbers (e.g., is the string "42", not the number 42), or is "true", "false", "yes" or "no".
+#
+# Personal opinion: No, you don't need to quote a string if it contains whitespace.
+#
+# More on CFF
+# https://book.the-turing-way.org/communication/citable/citable-cff
 
 cff-version: 1.2.0
 title: Best of Atomistic Machine Learning
@@ -7,6 +17,41 @@ message: >-
   If you use this dataset, please cite it using the metadata
   from this file.
 type: dataset
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10430261
+    description: >-
+      This DOI represents all versions, and will always
+      resolve to the latest one.
+repository-code: >-
+  https://github.com/JuDFTteam/best-of-atomistic-machine-learning
+url: >-
+  https://github.com/JuDFTteam/best-of-atomistic-machine-learning
+abstract: >-
+  A ranked list of awesome atomistic machine learning
+  projects.
+keywords:
+  - ai4science
+  - atomistic-machine-learning
+  - scientific-machine-learning
+  - community-resource
+  - living-document
+  - best-of-list
+  - awesome-list
+  - molecular-dynamics
+  - density-functional-theory
+  - computational-materials-science
+  - computational-chemistry
+  - quantum-chemistry
+  - materials-discovery
+  - materials-informatics
+  - drug-discovery
+  - surrogate-models
+  - electronic-structure
+  - interatomic-potentials
+  - materials-datasets
+  - chemistry-datasets
+license: CC-BY-SA-4.0
 authors:
   - given-names: Johannes
     family-names: Wasmer
@@ -36,40 +81,37 @@ authors:
     family-names: Zills
     affiliation: University of Stuttgart
     orcid: "https://orcid.org/0000-0002-6936-4692"
-    email: faibian.zills@icp.uni-stuttgart.de
+    email: fabian.zills@icp.uni-stuttgart.de
     website: "https://github.com/PythonFZ"
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.10430261
-    description: >-
-      This DOI represents all versions, and will always
-      resolve to the latest one.
-repository-code: >-
-  https://github.com/JuDFTteam/best-of-atomistic-machine-learning
-url: >-
-  https://github.com/JuDFTteam/best-of-atomistic-machine-learning
-abstract: >-
-  A ranked list of awesome atomistic machine learning
-  projects.
-keywords:
-  - ai4science
-  - "atomistic-machine-learning"
-  - scientific-machine-learning
-  - community-resource
-  - living-document
-  - best-of-list
-  - "awesome-list"
-  - molecular-dynamics
-  - density-functional-theory
-  - "computational-materials-science"
-  - computational-chemistry
-  - quantum-chemistry
-  - materials-discovery
-  - materials-informatics
-  - drug-discovery
-  - surrogate-models
-  - electronic-structure
-  - interatomic-potentials
-  - materials-datasets
-  - chemistry-datasets
-license: CC-BY-SA-4.0
+  - given-names: Pavlo
+    name-particle: O
+    family-names: Dral
+    affiliation: Xiamen University
+    orcid: "https://orcid.org/0000-0002-2975-9876"
+    email: dral@xmu.edu.cn
+    website: "https://dr-dral.com"
+  - given-names: Kamal
+    family-names: Choudhary
+    affiliation: National Institute of Standards and Technology (NIST)
+    orcid: "https://orcid.org/0000-0001-9737-8074"
+    email: kamal.choudhary@nist.gov
+    website: "https://github.com/knc6"
+  - given-names: Andrew
+    name-particle: S
+    family-names: Rosen
+    affiliation: Princeton University
+    orcid: "https://orcid.org/0000-0002-0141-7006"
+    email: asrosen@princeton.edu
+    website: "https://cbe.princeton.edu/people/andrew-rosen"
+  - given-names: Luis Itza
+    family-names: Vazquez-Salazar
+    affiliation: Heidelberg University
+    orcid: "https://orcid.org/0000-0001-6347-5108"
+    email: litzavazquezs@gmail.com
+    website: "https://livazquezs.github.io/"
+  - given-names: Orion Archer
+    family-names: Cohen
+    affiliation: Lawrence Berkeley National Laboratory
+    orcid: "https://orcid.org/0000-0003-3940-2456"
+    email: orion@lbl.gov
+    website: "https://orioncohen.com"
