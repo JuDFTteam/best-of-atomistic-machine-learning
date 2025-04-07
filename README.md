@@ -58,7 +58,7 @@ The current focus of this list is more on simulation data rather than experiment
 - [Universal Potentials](#universal-potentials) _19 projects_
 - [Unsupervised Learning](#unsupervised-learning) _10 projects_
 - [Visualization](#visualization) _6 projects_
-- [Wavefunction methods (ML-WFT)](#wavefunction-methods-ml-wft) _6 projects_
+- [Wavefunction methods (ML-WFT)](#wavefunction-methods-ml-wft) _7 projects_
 - [Others](#others) _1 projects_
 
 ## Explanation
@@ -2330,7 +2330,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 	```
 	pip install matgl
 	```
-- [Docker Hub](https://hub.docker.com/r/materialsvirtuallab/matgl) (📥 36 · ⭐ 1 · ⏱️ 07.04.2025):
+- [Docker Hub](https://hub.docker.com/r/materialsvirtuallab/matgl) (📥 42 · ⭐ 1 · ⏱️ 07.04.2025):
 	```
 	docker pull materialsvirtuallab/matgl
 	```
@@ -2589,9 +2589,9 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	docker pull deepmodeling/deepmd-kit
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DeePMD-DPA3</a></b> (🥇27 ·  ⭐ 1.6K · 📉) - Successor of DPA-2. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <code>pretrained</code> <code>workflows</code> <code>datasets</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DeePMD-DPA3</a></b> (🥇28 ·  ⭐ 1.6K · 📈) - Successor of DPA-2. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <code>pretrained</code> <code>workflows</code> <code>datasets</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📋 900 - 10% open · ⏱️ 02.03.2025):
+- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 900 - 10% open · ⏱️ 02.03.2025):
 
 	```
 	git clone https://github.com/deepmodeling/deepmd-kit
@@ -2753,7 +2753,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	git clone https://github.com/ASK-Berkeley/EScAIP
 	```
 </details>
-<details><summary><b><a href="https://github.com/janosh/ffonons">ffonons</a></b> (🥉7 ·  ⭐ 18 · 📈) - Phonons from ML force fields. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Density_of_states"><code>density-of-states</code></a></summary>
+<details><summary><b><a href="https://github.com/janosh/ffonons">ffonons</a></b> (🥉7 ·  ⭐ 18) - Phonons from ML force fields. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Density_of_states"><code>density-of-states</code></a></summary>
 
 - [GitHub](https://github.com/janosh/ffonons) (👨‍💻 2 · 🔀 1 · 📦 2 · ⏱️ 08.12.2024):
 
@@ -2935,7 +2935,15 @@ _Projects and models that focus on quantities of wavefunction theory methods, su
 	pip install deeperwin
 	```
 </details>
-<details><summary><b><a href="https://github.com/bytedance/LapNet">LapNet</a></b> (🥉5 ·  ⭐ 61 · 📈) - Efficient and Accurate Neural-Network Ansatz for Quantum Monte Carlo. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bytedance/jaqmc">JaQMC</a></b> (🥉6 ·  ⭐ 74 · ➕) - JAX accelerated Quantum Monte Carlo. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/bytedance/jaqmc) (👨‍💻 2 · 🔀 7 · ⏱️ 10.03.2025):
+
+	```
+	git clone https://github.com/bytedance/jaqmc
+	```
+</details>
+<details><summary><b><a href="https://github.com/bytedance/LapNet">LapNet</a></b> (🥉5 ·  ⭐ 61) - Efficient and Accurate Neural-Network Ansatz for Quantum Monte Carlo. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/bytedance/LapNet) (👨‍💻 4 · 🔀 11 · ⏱️ 04.12.2024):
 
