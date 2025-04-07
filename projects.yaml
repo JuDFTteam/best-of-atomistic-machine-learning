@@ -3413,18 +3413,18 @@ atomistic neural networks based on Gaussian Moments"
   description: Using explainable artificial intelligence (XAI) techniques to analyze ElemNet. https://doi.org/10.1038/s41598-024-76535-2
   github_id: KWang1998/XElemNet
   category: xai
-  Labels: ["rep-eng", "single-paper"]
+  labels: ["rep-eng", "single-paper"]
   # license: none found
   # package managers: none
 - name: GNNOpt
   github_id: nguyen-group/GNNOpt
   category: rep-learn
-  Labels: ["optics", "single-paper"]
+  labels: ["optical-properties", "single-paper"]
   license: MIT
   # package managers: none
 - name: descriptors-inversion
   github_id: MCobe94/descriptors-inversion
   category: generative
-  Labels: ["rep-eng", "single-paper"]
-  License: MIT
+  labels: ["rep-eng", "single-paper"]
+  license: MIT
   # package managers: none
