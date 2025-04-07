@@ -861,7 +861,7 @@ _Projects that focus on explainability and model interpretability in atomistic M
 
 - <b><a href="https://github.com/aimat-lab/graph_attention_student">MEGAN: Multi Explanation Graph Attention Student</a></b> (🥈3 ·  ⭐ 9) - Minimal implementation of graph attention student model architecture. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 - <b><a href="https://github.com/CitrineInformatics-ERD-public/linear-vs-blackbox">Linear vs blackbox</a></b> (🥈3 ·  ⭐ 2 · 💀) - Code and data related to the publication: Interpretable models for extrapolation in scientific machine learning. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"><code>XAI</code></a> <code>single-paper</code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a>
-- <b><a href="https://github.com/KWang1998/XElemNet">XElemNet</a></b> (🥉2 · 💤) - Using explainable artificial intelligence (XAI) techniques to analyze ElemNet... <code>Unlicensed</code>
+- <b><a href="https://github.com/KWang1998/XElemNet">XElemNet</a></b> (🥉2 · 💤) - Using explainable artificial intelligence (XAI) techniques to analyze ElemNet... <code>Unlicensed</code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <code>single-paper</code>
 </details>
 <br>
 
@@ -978,7 +978,7 @@ _General tools for atomistic machine learning._
 	```
 	pip install jarvis-tools
 	```
-- [Conda](https://anaconda.org/conda-forge/jarvis-tools) (📥 97K · ⏱️ 25.03.2025):
+- [Conda](https://anaconda.org/conda-forge/jarvis-tools) (📥 98K · ⏱️ 25.03.2025):
 	```
 	conda install -c conda-forge jarvis-tools
 	```
@@ -1162,7 +1162,7 @@ _Projects that implement generative models for atomistic ML._
 - <b><a href="https://github.com/terraytherapeutics/COATI">COATI</a></b> (🥉5 ·  ⭐ 110 · 💀) - COATI: multi-modal contrastive pre-training for representing and traversing chemical space. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Drug_design#Computer-aided_drug_design"><code>drug-discovery</code></a> <a href="https://en.wikipedia.org/wiki/Multimodal_learning"><code>multimodal</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 - <b><a href="https://github.com/tsudalab/MolSLEPA">MolSLEPA</a></b> (🥉5 ·  ⭐ 5 · 💀) - Interpretable Fragment-based Molecule Design with Self-learning Entropic Population Annealing. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"><code>XAI</code></a>
 - <b><a href="https://github.com/arnoldjulian/Mapping-out-phase-diagrams-with-generative-classifiers">Mapping out phase diagrams with generative classifiers</a></b> (🥉4 ·  ⭐ 7 · 💀) - Repository for our ``Mapping out phase diagrams with generative models paper. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Phase_transition"><code>phase-transition</code></a>
-- <b><a href="https://github.com/MCobe94/descriptors-inversion">descriptors-inversion</a></b> (🥉4 ·  ⭐ 6 · 💀) - Local inversion of the chemical environment representations. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/MCobe94/descriptors-inversion">descriptors-inversion</a></b> (🥉4 ·  ⭐ 6 · 💀) - Local inversion of the chemical environment representations. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <code>single-paper</code>
 </details>
 <br>
 
@@ -1215,7 +1215,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 	```
 	pip install nequip
 	```
-- [Conda](https://anaconda.org/conda-forge/nequip) (📥 8.7K · ⏱️ 25.03.2025):
+- [Conda](https://anaconda.org/conda-forge/nequip) (📥 8.8K · ⏱️ 25.03.2025):
 	```
 	conda install -c conda-forge nequip
 	```
@@ -1999,7 +1999,7 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 	```
 	git clone https://github.com/openmm/openmm-ml
 	```
-- [Conda](https://anaconda.org/conda-forge/openmm-ml) (📥 7.4K · ⏱️ 25.03.2025):
+- [Conda](https://anaconda.org/conda-forge/openmm-ml) (📥 7.5K · ⏱️ 25.03.2025):
 	```
 	conda install -c conda-forge openmm-ml
 	```
@@ -2466,7 +2466,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 	git clone https://github.com/llnl/graphite
 	```
 </details>
-<details><summary><b><a href="https://github.com/nguyen-group/GNNOpt">GNNOpt</a></b> (🥉8 ·  ⭐ 24 · ➕) - Universal Ensemble-Embedding Graph Neural Network for Direct Prediction of Optical Spectra from Crystal Structures. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nguyen-group/GNNOpt">GNNOpt</a></b> (🥉8 ·  ⭐ 24) - Universal Ensemble-Embedding Graph Neural Network for Direct Prediction of Optical Spectra from Crystal Structures. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Optical_properties"><code>optical-properties</code></a> <code>single-paper</code></summary>
 
 - [GitHub](https://github.com/nguyen-group/GNNOpt) (🔀 8 · ⏱️ 19.12.2024):
 
