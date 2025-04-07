@@ -574,6 +574,12 @@ projects:
   license: GPL-3.0 license
   homepage: https://www.air4.science/map
   description: Interactive mindmap of the AI4Science research field, including atomistic machine learning, including papers, packages, learning resources.
+- name: ASE ecosystem
+  resource: true
+  category: community
+  homepage: https://wiki.fysik.dtu.dk/ase/ecosystem.html
+  labels: ["md, ml-iap"]
+  description: This is a list of software packages related to ASE or using ASE.
 - name: Atomic Cluster Expansion
   resource: true
   category: community
@@ -3395,5 +3401,30 @@ atomistic neural networks based on Gaussian Moments"
 - name: LapJAX
   github_id: https://github.com/YWolfeee/lapjax
   Category: math
+  License: MIT
+  # package managers: none
+- name: ElemNet
+  github_id: NU-CUCIS/ElemNet
+  category: rep-eng
+  labels: ["single-paper"]
+  # license: none found
+  # package managers: none
+- name: XElemNet
+  description: Using explainable artificial intelligence (XAI) techniques to analyze ElemNet. https://doi.org/10.1038/s41598-024-76535-2
+  github_id: KWang1998/XElemNet
+  category: xai
+  Labels: ["rep-eng", "single-paper"]
+  # license: none found
+  # package managers: none
+- name: GNNOpt
+  github_id: nguyen-group/GNNOpt
+  category: rep-learn
+  Labels: ["optics", "single-paper"]
+  license: MIT
+  # package managers: none
+- name: descriptors-inversion
+  github_id: MCobe94/descriptors-inversion
+  category: generative
+  Labels: ["rep-eng", "single-paper"]
   License: MIT
   # package managers: none
