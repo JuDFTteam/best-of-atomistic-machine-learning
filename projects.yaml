@@ -3394,12 +3394,12 @@ atomistic neural networks based on Gaussian Moments"
   license: MIT
   pypi_id: pumml
 - name: LapNet
-  github_id: https://github.com/bytedance/LapNet
+  github_id: bytedance/LapNet
   category: ml-wft
   license: Apache-2.0
   # package managers: none
 - name: LapJAX
-  github_id: https://github.com/YWolfeee/lapjax
+  github_id: YWolfeee/lapjax
   category: math
   license: MIT
   # package managers: none
