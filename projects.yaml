@@ -1402,8 +1402,10 @@ projects:
   # group_id: ACE
   github_id: ACEsuit/ACEHAL
 - name: DeePKS-kit
-  category: ml-dft
   github_id: deepmodeling/deepks-kit
+  category: ml-dft
+  labels: ["ml-functional"]
+  license: LGPL-3.0
 - name: cmlkit
   category: rep-eng
   labels: ["benchmarking"]
@@ -1977,7 +1979,7 @@ projects:
   github_id: NVIDIA/DeepLearningExamples
 - name: DeePMD-kit
   category: ml-iap
-  labels: ["lang-cpp"]
+  labels: ["md", "workflows", "lang-cpp"]
   # docs_url: https://docs.deepmodeling.com/projects/deepmd/
   license: LGPL-3.0
   github_id: deepmodeling/deepmd-kit
@@ -1985,9 +1987,10 @@ projects:
   conda_id: deepmodeling/deepmd-kit
   dockerhub_id: deepmodeling/deepmd-kit
 - name: DP-GEN
-  category: ml-iap
-  labels: ["workflows"]
+  category: active-learning
+  labels: ["ml-iap", "md", "workflows"]
   # docs_url: https://docs.deepmodeling.com/projects/dpgen/
+  license: LGPL-3.0
   github_id: deepmodeling/dpgen
   pypi_id: dpgen
   conda_id: deepmodeling/dpgen
@@ -1998,8 +2001,10 @@ projects:
   pypi_id: dpdata
   conda_id: deepmodeling/dpdata
 - name: DMFF
-  category: ml-iap
   github_id: deepmodeling/DMFF
+  category: md
+  labels: ["lang-cpp"]
+  license: LGPL-3.0
 - name: DeePKS-kit
   category: ml-dft
   github_id: deepmodeling/deepks-kit
@@ -3433,3 +3438,41 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["rep-eng", "single-paper"]
   license: MIT
   # package managers: none
+- name: dftio
+  github_id: deepmodeling/dftio
+  category: ml-dft
+  labels: ["data-structures", "workflows"]
+  license: LGPL-3.0
+  # package managers: none
+- name: CrystalFormer
+  github_id: deepmodeling/CrystalFormer
+  category: materials-discovery
+  labels: ["generative", "structure-prediction", "rep-learn", "probabilistic", "reinforcement-learning", "transformer"]
+  license: Apache-2.0
+  # package managers: none
+- name: DeePTB
+  github_id: deepmodeling/DeePTB
+  category: ml-esm
+  labels: ["ml-dft"]
+  license: LGPL-3.0
+  pypi_id: dptb
+- name: DeepMD-GNN
+  github_id: deepmodeling/deepmd-gnn
+  category: ml-iap
+  labels: ["rep-learn", "md", "uip", "lang-cpp"]
+  license: LGPL-3.0
+  # package managers: none
+- name: DP-GEN2
+  github_id: deepmodeling/dpgen2
+  category: active-learning
+  labels: ["ml-iap", "md", "workflows"]
+  license: LGPL-3.0
+  # package managers: none
+- name: DeepModeling Projects
+  github_id: deepmodeling/deepmodeling-projects
+  category: community
+  license: CC-BY-4.0
+- name: DeepModeling Tutorials
+  github_id: deepmodeling/tutorials
+  category: educational
+  # license: none found
