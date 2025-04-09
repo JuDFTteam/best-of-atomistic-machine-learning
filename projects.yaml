@@ -568,6 +568,12 @@ projects:
   # ################################################################################
   # COMMUNITY with resource: true (list here alphabetically)
   # ################################################################################
+- name: ACE / GRACE support
+  resource: true
+  category: community
+  homepage: https://acesupport.zulipchat.com
+  # group: ACE
+  description: Support forum for the Atomic Cluster Expansion (ACE) and extensions.
 - name: AI for Science Map
   resource: true
   category: community
@@ -785,6 +791,15 @@ projects:
   category: community
   labels: ["language-models", "general-ml", "pretrained", "multimodal"]
   license: MIT
+- name: Awesome-Crystal-GNNs
+  github_id: kdmsit/Awesome-Crystal-GNNs
+  category: community
+  license: MIT
+  # package managers: none
+- name: DeepModeling Projects
+  github_id: deepmodeling/deepmodeling-projects
+  category: community
+  license: CC-BY-4.0
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -983,37 +998,6 @@ projects:
   # labels: ["ml-iap", "uip", "catalysis"]
   license: CC-BY-4.0
   pypi_id: fairchem-core
-- name: fairchem
-  github_id: FAIR-Chem/fairchem
-  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project.
-  category: ml-iap
-  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
-  # homepage: https://opencatalystproject.org/
-  license: MIT
-  pypi_id: fairchem-core
-- name: FAIRChem EquiformerV2 models
-  github_id: FAIR-Chem/fairchem
-  homepage: https://github.com/FAIR-Chem/fairchem/tree/main/src/fairchem/core/models/equiformer_v2
-  description: FAIRChem implementation of Equiformer V2 (eqV2) models
-  category: uip
-  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
-  license: MIT
-  pypi_id: fairchem-core
-- name: FAIRChem eSEN models
-  github_id: FAIR-Chem/fairchem
-  homepage: https://github.com/janosh/matbench-discovery/tree/main/models/eSEN
-  description: FAIRChem implementation of Smooth Energy Network (eSEN) models arXiv:2502.12147
-  category: uip
-  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
-  license: MIT
-  pypi_id: fairchem-core
-- name: charge-density-models
-  github_id: ulissigroup/charge-density-models
-  category: ml-dft
-  labels: ["rep-learn"]
-  license: MIT
-  # package managers: none
-  description: Tools to build charge density models using [fairchem](https://github.com/FAIR-Chem/fairchem)
 - name: MPContribs
   category: datasets
   license: MIT
@@ -1292,6 +1276,10 @@ projects:
   labels: ["community", "general-ml", "rep-eng", "materials-discovery"]
   license: MIT
   # package managers: none
+- name: DeepModeling Tutorials
+  github_id: deepmodeling/tutorials
+  category: educational
+  # license: none found
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
   # ################################################################################
@@ -3074,11 +3062,6 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["generative", "structure-prediction", "pretrained"]
   license: MIT
   # package managers: none
-- name: Awesome-Crystal-GNNs
-  github_id: kdmsit/Awesome-Crystal-GNNs
-  category: community
-  license: MIT
-  # package managers: none
 - name: Asparagus
   github_id: MMunibas/Asparagus
   category: ml-iap
@@ -3135,12 +3118,6 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "pretrained", "md", "rep-learn", "rep-eng"]
   license: https://github.com/ICAMS/grace-tensorpotential/blob/master/LICENSE.md
   # pypi_id: None
-- name: ACE / GRACE support
-  resource: true
-  category: community
-  homepage: https://acesupport.zulipchat.com
-  # group: ACE
-  description: Support forum for the Atomic Cluster Expansion (ACE) and extensions.
 - name: MLIPX - Machine-Learned Interatomic Potential eXploration
   category: ml-iap
   labels: ["benchmarking", "visualization", "workflows"]
@@ -3468,11 +3445,34 @@ atomistic neural networks based on Gaussian Moments"
   labels: ["ml-iap", "md", "workflows"]
   license: LGPL-3.0
   # package managers: none
-- name: DeepModeling Projects
-  github_id: deepmodeling/deepmodeling-projects
-  category: community
-  license: CC-BY-4.0
-- name: DeepModeling Tutorials
-  github_id: deepmodeling/tutorials
-  category: educational
-  # license: none found
+- name: fairchem
+  github_id: FAIR-Chem/fairchem
+  description: FAIR Chemistry's library of machine learning methods for chemistry. Formerly known as Open Catalyst Project.
+  category: ml-iap
+  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
+  # homepage: https://opencatalystproject.org/
+  license: MIT
+  pypi_id: fairchem-core
+- name: FAIRChem EquiformerV2 models
+  github_id: FAIR-Chem/fairchem
+  homepage: https://github.com/FAIR-Chem/fairchem/tree/main/src/fairchem/core/models/equiformer_v2
+  description: FAIRChem implementation of Equiformer V2 (eqV2) models
+  category: uip
+  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
+  license: MIT
+  pypi_id: fairchem-core
+- name: FAIRChem eSEN models
+  github_id: FAIR-Chem/fairchem
+  homepage: https://github.com/janosh/matbench-discovery/tree/main/models/eSEN
+  description: FAIRChem implementation of Smooth Energy Network (eSEN) models arXiv:2502.12147
+  category: uip
+  labels: ["pretrained", "uip", "rep-learn", "catalysis"]
+  license: MIT
+  pypi_id: fairchem-core
+- name: charge-density-models
+  github_id: ulissigroup/charge-density-models
+  category: ml-dft
+  labels: ["rep-learn"]
+  license: MIT
+  # package managers: none
+  description: Tools to build charge density models using [fairchem](https://github.com/FAIR-Chem/fairchem)
