@@ -20,13 +20,13 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-500-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-510-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/JuDFTteam/best-of-atomistic-machine-learning/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/JuDFTteam/best-of-atomistic-machine-learning?color=green&label=updated"></a>
     <a href="https://doi.org/10.5281/zenodo.10430261"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10430261.svg" alt="DOI"></a>
 </p>
 
-This curated list contains 500 awesome open-source projects with a total of 210K stars grouped into 23 categories. All projects are ranked by a [project-quality score](https://github.com/best-of-lists/best-of-generator#project-quality-score), which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
+This curated list contains 510 awesome open-source projects with a total of 210K stars grouped into 23 categories. All projects are ranked by a [project-quality score](https://github.com/best-of-lists/best-of-generator#project-quality-score), which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/issues/new/choose), submit a [pull request](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pulls), or directly edit the [projects.yaml](https://github.com/JuDFTteam/best-of-atomistic-machine-learning/edit/main/projects.yaml).
 
 The current focus of this list is more on simulation data rather than experimental data, and more on materials rather than drug design. Nevertheless, contributions from other fields are warmly welcome!
 
@@ -37,11 +37,11 @@ The current focus of this list is more on simulation data rather than experiment
 ## Contents
 
 - [Active learning](#active-learning) _9 projects_
-- [Community resources](#community-resources) _37 projects_
+- [Community resources](#community-resources) _38 projects_
 - [Datasets](#datasets) _52 projects_
 - [Data Structures](#data-structures) _4 projects_
 - [Density functional theory (ML-DFT)](#density-functional-theory-ml-dft) _37 projects_
-- [Educational Resources](#educational-resources) _31 projects_
+- [Educational Resources](#educational-resources) _32 projects_
 - [Explainable Artificial intelligence (XAI)](#explainable-artificial-intelligence-xai) _4 projects_
 - [Electronic structure methods (ML-ESM)](#electronic-structure-methods-ml-esm) _6 projects_
 - [General Tools](#general-tools) _24 projects_
@@ -49,7 +49,7 @@ The current focus of this list is more on simulation data rather than experiment
 - [Interatomic Potentials (ML-IAP)](#interatomic-potentials-ml-iap) _77 projects_
 - [Language Models](#language-models) _25 projects_
 - [Materials Discovery](#materials-discovery) _13 projects_
-- [Mathematical tools](#mathematical-tools) _12 projects_
+- [Mathematical tools](#mathematical-tools) _14 projects_
 - [Molecular Dynamics](#molecular-dynamics) _14 projects_
 - [Probabilistic ML](#probabilistic-ml) _1 projects_
 - [Reinforcement Learning](#reinforcement-learning) _2 projects_
@@ -100,7 +100,7 @@ _Projects that focus on enabling active learning, iterative learning schemes for
 	conda install -c deepmodeling dpgen
 	```
 </details>
-<details><summary><b><a href="https://github.com/mir-group/flare">FLARE</a></b> (🥈18 ·  ⭐ 310) - An open-source Python package for creating fast and accurate interatomic potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>C++</code> <code>ML-IAP</code></summary>
+<details><summary><b><a href="https://github.com/mir-group/flare">FLARE</a></b> (🥈18 ·  ⭐ 320) - An open-source Python package for creating fast and accurate interatomic potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>C++</code> <code>ML-IAP</code></summary>
 
 - [GitHub](https://github.com/mir-group/flare) (👨‍💻 43 · 🔀 71 · 📥 8 · 📦 12 · 📋 220 - 16% open · ⏱️ 22.03.2025):
 
@@ -120,7 +120,7 @@ _Projects that focus on enabling active learning, iterative learning schemes for
 	pip install ipsuite
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/dpgen2">DP-GEN2</a></b> (🥈14 ·  ⭐ 38 · ➕) - 2nd generation of the Deep Potential GENerator. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>workflows</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/dpgen2">DP-GEN2</a></b> (🥈14 ·  ⭐ 38) - 2nd generation of the Deep Potential GENerator. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>workflows</code></summary>
 
 - [GitHub](https://github.com/deepmodeling/dpgen2) (👨‍💻 14 · 🔀 28 · 📦 6 · 📋 35 - 34% open · ⏱️ 07.04.2025):
 
@@ -140,7 +140,7 @@ _Projects that focus on enabling active learning, iterative learning schemes for
 	pip install Bgolearn
 	```
 </details>
-<details><summary><b><a href="https://github.com/ulissigroup/finetuna">Finetuna</a></b> (🥉9 ·  ⭐ 53 · 💤) - Active Learning for Machine Learning Potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ulissigroup/finetuna">Finetuna</a></b> (🥉9 ·  ⭐ 54 · 💤) - Active Learning for Machine Learning Potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ulissigroup/finetuna) (👨‍💻 11 · 🔀 12 · 📦 1 · 📋 20 - 25% open · ⏱️ 15.05.2024):
 
@@ -162,6 +162,8 @@ _Projects that focus on enabling active learning, iterative learning schemes for
 
 _Projects that collect atomistic ML resources or foster communication within community._
 
+🔗&nbsp;<b><a href="https://acesupport.zulipchat.com">ACE / GRACE support</a></b>  - Support forum for the Atomic Cluster Expansion (ACE) and extensions.
+
 🔗&nbsp;<b><a href="https://www.air4.science/map">AI for Science Map</a></b>  - Interactive mindmap of the AI4Science research field, including atomistic machine learning, including papers,..
 
 🔗&nbsp;<b><a href="https://wiki.fysik.dtu.dk/ase/ecosystem.html">ASE ecosystem</a></b>  - This is a list of software packages related to ASE or using ASE. <code>md, ml-iap</code>
@@ -176,8 +178,6 @@ _Projects that collect atomistic ML resources or foster communication within com
 
 🔗&nbsp;<b><a href="https://mattermodeling.stackexchange.com/questions/tagged/machine-learning">Matter Modeling Stack Exchange - Machine Learning</a></b>  - Forum StackExchange, site Matter Modeling, ML-tagged questions.
 
-🔗&nbsp;<b><a href="https://acesupport.zulipchat.com">ACE / GRACE support</a></b>  - Support forum for the Atomic Cluster Expansion (ACE) and extensions.
-
 <details><summary><b><a href="https://github.com/ml-tooling/best-of-ml-python">Best-of Machine Learning with Python</a></b> (🥇22 ·  ⭐ 20K) - A ranked list of awesome machine learning Python libraries. Updated weekly. <code><a href="https://tldrlegal.com/search?q=CC-BY-4.0">CC-BY-4.0</a></code> <code>general-ml</code> <code>Python</code></summary>
 
 - [GitHub](https://github.com/ml-tooling/best-of-ml-python) (👨‍💻 52 · 🔀 2.7K · 📋 61 - 44% open · ⏱️ 03.04.2025):
@@ -186,9 +186,21 @@ _Projects that collect atomistic ML resources or foster communication within com
 	git clone https://github.com/ml-tooling/best-of-ml-python
 	```
 </details>
+<details><summary><b><a href="https://thegardens.ai/">Garden</a></b> (🥇20 ·  ⭐ 26 · ➕) - FAIR AI/ML Model Publishing Framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>model-repository</code></summary>
+
+- [GitHub](https://github.com/Garden-AI/garden) (👨‍💻 13 · 🔀 4 · 📦 6 · 📋 330 - 3% open · ⏱️ 28.03.2025):
+
+	```
+	git clone https://github.com/Garden-AI/garden
+	```
+- [PyPi](https://pypi.org/project/garden-ai) (📥 2.1K / month · ⏱️ 04.04.2025):
+	```
+	pip install garden-ai
+	```
+</details>
 <details><summary><b><a href="https://github.com/janosh/matbench-discovery">MatBench Discovery</a></b> (🥇19 ·  ⭐ 140) - An evaluation framework for machine learning models simulating high-throughput materials discovery. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code> <code>benchmarking</code> <code>model-repository</code></summary>
 
-- [GitHub](https://github.com/janosh/matbench-discovery) (👨‍💻 17 · 🔀 32 · 📦 4 · 📋 56 - 7% open · ⏱️ 08.04.2025):
+- [GitHub](https://github.com/janosh/matbench-discovery) (👨‍💻 17 · 🔀 32 · 📦 4 · 📋 57 - 7% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/janosh/matbench-discovery
@@ -198,7 +210,7 @@ _Projects that collect atomistic ML resources or foster communication within com
 	pip install matbench-discovery
 	```
 </details>
-<details><summary><b><a href="https://github.com/openml/OpenML">OpenML</a></b> (🥇18 ·  ⭐ 680) - Open Machine Learning. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>datasets</code></summary>
+<details><summary><b><a href="https://github.com/openml/OpenML">OpenML</a></b> (🥈18 ·  ⭐ 680) - Open Machine Learning. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>datasets</code></summary>
 
 - [GitHub](https://github.com/openml/OpenML) (👨‍💻 35 · 🔀 95 · 📋 930 - 39% open · ⏱️ 07.12.2024):
 
@@ -254,7 +266,7 @@ _Projects that collect atomistic ML resources or foster communication within com
 	git clone https://github.com/google-deepmind/materials_discovery
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/deepmodeling-projects">DeepModeling Projects</a></b> (🥈10 ·  ⭐ 6 · ➕) - DeepModeling projects. <code><a href="https://tldrlegal.com/search?q=CC-BY-4.0">CC-BY-4.0</a></code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/deepmodeling-projects">DeepModeling Projects</a></b> (🥈10 ·  ⭐ 6) - DeepModeling projects. <code><a href="https://tldrlegal.com/search?q=CC-BY-4.0">CC-BY-4.0</a></code></summary>
 
 - [GitHub](https://github.com/deepmodeling/deepmodeling-projects) (👨‍💻 4 · 🔀 2 · ⏱️ 04.04.2025):
 
@@ -262,15 +274,15 @@ _Projects that collect atomistic ML resources or foster communication within com
 	git clone https://github.com/deepmodeling/deepmodeling-projects
 	```
 </details>
-<details><summary><b><a href="https://github.com/tilde-lab/awesome-materials-informatics">Awesome Materials Informatics</a></b> (🥈9 ·  ⭐ 430 · 💤) - Curated list of known efforts in materials informatics, i.e. in modern materials science. <code><a href="https://github.com/tilde-lab/awesome-materials-informatics#license">Custom</a></code></summary>
+<details><summary><b><a href="https://github.com/tilde-lab/awesome-materials-informatics">Awesome Materials Informatics</a></b> (🥉9 ·  ⭐ 430 · 💤) - Curated list of known efforts in materials informatics, i.e. in modern materials science. <code><a href="https://github.com/tilde-lab/awesome-materials-informatics#license">Custom</a></code></summary>
 
-- [GitHub](https://github.com/tilde-lab/awesome-materials-informatics) (👨‍💻 19 · 🔀 88 · 📋 9 - 11% open · ⏱️ 18.09.2024):
+- [GitHub](https://github.com/tilde-lab/awesome-materials-informatics) (👨‍💻 19 · 🔀 89 · 📋 9 - 11% open · ⏱️ 18.09.2024):
 
 	```
 	git clone https://github.com/tilde-lab/awesome-materials-informatics
 	```
 </details>
-<details><summary><b><a href="https://optimade.science">optimade.science</a></b> (🥈9 ·  ⭐ 8 · 💤) - A sky-scanner Optimade browser-only GUI. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code></summary>
+<details><summary><b><a href="https://optimade.science">optimade.science</a></b> (🥉9 ·  ⭐ 8 · 💤) - A sky-scanner Optimade browser-only GUI. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code></summary>
 
 - [GitHub](https://github.com/tilde-lab/optimade.science) (👨‍💻 8 · 🔀 3 · 📋 26 - 26% open · ⏱️ 10.06.2024):
 
@@ -302,7 +314,7 @@ _Projects that collect atomistic ML resources or foster communication within com
 	git clone https://github.com/kdmsit/Awesome-Crystal-GNNs
 	```
 </details>
-<details><summary><b><a href="https://github.com/blaiszik/awesome-matchem-datasets">Awesome Materials & Chemistry Datasets</a></b> (🥉8 ·  ⭐ 77) - A curated list of the most useful datasets in materials science and chemistry for training machine learning and AI.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code> <a href="https://en.wikipedia.org/wiki/Experimental_physics"><code>experimental-data</code></a> <code>literature-data</code> <a href="https://en.wikipedia.org/wiki/Proprietary_software"><code>proprietary</code></a></summary>
+<details><summary><b><a href="https://github.com/blaiszik/awesome-matchem-datasets">Awesome Materials & Chemistry Datasets</a></b> (🥉8 ·  ⭐ 78) - A curated list of the most useful datasets in materials science and chemistry for training machine learning and AI.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code> <a href="https://en.wikipedia.org/wiki/Experimental_physics"><code>experimental-data</code></a> <code>literature-data</code> <a href="https://en.wikipedia.org/wiki/Proprietary_software"><code>proprietary</code></a></summary>
 
 - [GitHub](https://github.com/blaiszik/awesome-matchem-datasets) (👨‍💻 4 · 🔀 11 · ⏱️ 07.04.2025):
 
@@ -345,12 +357,12 @@ _Projects that collect atomistic ML resources or foster communication within com
 <details><summary>Show 9 hidden projects...</summary>
 
 - <b><a href="https://github.com/materialsproject/matbench">MatBench</a></b> (🥈17 ·  ⭐ 150 · 💀) - Matbench: Benchmarks for materials science property prediction. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code> <code>benchmarking</code> <code>model-repository</code>
-- <b><a href="https://molformer.res.ibm.com/">MoLFormers UI</a></b> (🥈9 ·  ⭐ 300 · 💀) - A family of foundation models trained on chemicals. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Drug_design#Computer-aided_drug_design"><code>drug-discovery</code></a>
+- <b><a href="https://molformer.res.ibm.com/">MoLFormers UI</a></b> (🥉9 ·  ⭐ 300 · 💀) - A family of foundation models trained on chemicals. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Drug_design#Computer-aided_drug_design"><code>drug-discovery</code></a>
 - <b><a href="MADICES/MADICES.github.io/blob/main/docs/awesome_interoperability.md">MADICES Awesome Interoperability</a></b> (🥉8 ·  ⭐ 1) - Linked data interoperability resources of the Machine-actionable data interoperability for the chemical sciences.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code>
 - <b><a href="https://github.com/ncfrey/resources">A Highly Opinionated List of Open-Source Materials Informatics Resources</a></b> (🥉7 ·  ⭐ 130 · 💀) - A Highly Opinionated List of Open Source Materials Informatics Resources. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/AlexDuvalinho/geometric-gnns">Geometric-GNNs</a></b> (🥉4 ·  ⭐ 100 · 💀) - List of Geometric GNNs for 3D atomic systems. <code>Unlicensed</code> <code>datasets</code> <code>educational</code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 - <b><a href="https://thismaterialdoesnotexist.com/">Does this material exist?</a></b> (🥉4 ·  ⭐ 18 · 💤) - Vote on whether you think predicted crystal structures could be synthesised. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>for-fun</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a>
-- <b><a href="https://bohrium.dp.tech/competitions/8821838186">LAM Crystal Philately competition 2024</a></b> (🥉3 ·  ⭐ 17) -  <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <code>single-paper</code> <code>datasets</code> <code>structure-prediction</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <code>ML-IAP</code> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a>
+- <b><a href="https://bohrium.dp.tech/competitions/8821838186">LAM Crystal Philately competition 2024</a></b> (🥉4 ·  ⭐ 17) - OpenLAM Challenge crystal structure prediction https://arxiv.org/abs/2501.16358. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <code>single-paper</code> <code>datasets</code> <code>structure-prediction</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <code>ML-IAP</code> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a>
 - <b><a href="https://github.com/topics/materials-informatics">GitHub topic materials-informatics</a></b> (🥉1) - GitHub topic materials-informatics. <code>Unlicensed</code>
 - <b><a href="https://ma.issp.u-tokyo.ac.jp/en/">MateriApps</a></b> (🥉1) - A Portal Site of Materials Science Simulation. <code>Unlicensed</code>
 </details>
@@ -530,7 +542,7 @@ _Datasets, databases and trained models for atomistic ML._
 </details>
 <details><summary><b><a href="https://github.com/NRC-Mila/OBELiX">OBELiX</a></b> (🥈11 ·  ⭐ 13 · 🐣) - A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State.. <code>Unlicensed</code> <a href="https://en.wikipedia.org/wiki/Experimental_physics"><code>experimental-data</code></a> <a href="https://en.wikipedia.org/wiki/Transport_phenomena"><code>transport-phenomena</code></a></summary>
 
-- [GitHub](https://github.com/NRC-Mila/OBELiX) (👨‍💻 5 · 🔀 3 · ⏱️ 02.04.2025):
+- [GitHub](https://github.com/NRC-Mila/OBELiX) (👨‍💻 5 · 🔀 3 · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/NRC-Mila/OBELiX
@@ -578,9 +590,9 @@ _Datasets, databases and trained models for atomistic ML._
 - <b><a href="https://github.com/Jesperkemist/perovskitedatabase">The Perovskite Database Project</a></b> (🥉5 ·  ⭐ 64 · 💀) - Perovskite Database Project aims at making all perovskite device data, both past and future, available in a form.. <code>Unlicensed</code> <code>community-resource</code>
 - <b><a href="https://github.com/aimat-lab/3DSC">3DSC Database</a></b> (🥉4 ·  ⭐ 18) - Repo for the paper publishing the superconductor database with 3D crystal structures. <code><a href="https://github.com/aimat-lab/3DSC/blob/main/LICENSE.md">Custom</a></code> <a href="https://en.wikipedia.org/wiki/Superconductivity"><code>superconductors</code></a> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a>
 - <b><a href="https://github.com/mathsphy/paper-data-redundancy">paper-data-redundancy</a></b> (🥉4 ·  ⭐ 10 · 💤) - Repo for the paper Exploiting redundancy in large materials datasets for efficient machine learning with less data. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>small-data</code> <code>single-paper</code>
+- <b><a href="https://github.com/aimat-lab/visual_graph_datasets">Visual Graph Datasets</a></b> (🥉4 ·  ⭐ 3) - Datasets for the training of graph neural networks (GNNs) and subsequent visualization of attributional explanations.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"><code>XAI</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 - <b><a href="https://github.com/BingqingCheng/linear-regression-benchmarks">linear-regression-benchmarks</a></b> (🥉4 ·  ⭐ 1 · 💀) - Data sets used for linear regression benchmarks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <code>single-paper</code>
 - <b><a href="https://www.optimade.org/providers-dashboard/">OPTIMADE providers dashboard</a></b> (🥉4 ·  ⭐ 1) - A dashboard of known providers. <code>Unlicensed</code>
-- <b><a href="https://github.com/aimat-lab/visual_graph_datasets">Visual Graph Datasets</a></b> (🥉3 ·  ⭐ 3) - Datasets for the training of graph neural networks (GNNs) and subsequent visualization of attributional explanations.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"><code>XAI</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 - <b><a href="https://gitlab.com/brucefan1983/nep-data">nep-data</a></b> (🥉2 ·  ⭐ 15 · 💀) - Data related to the NEP machine-learned potential of GPUMD. <code>Unlicensed</code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://en.wikipedia.org/wiki/Transport_phenomena"><code>transport-phenomena</code></a>
 - <b><a href="https://github.com/ulissigroup/tmQM_wB97MV">tmQM_wB97MV Dataset</a></b> (🥉1 ·  ⭐ 7 · 💤) - Code for Applying Large Graph Neural Networks to Predict Transition Metal Complex Energies Using the tmQM_wB97MV.. <code>Unlicensed</code> <a href="https://en.wikipedia.org/wiki/Catalysis"><code>catalysis</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 </details>
@@ -610,7 +622,7 @@ _Projects that focus on providing data structures used in atomistic machine lear
 </details>
 <details><summary><b><a href="https://github.com/metatensor/metatensor">Metatensor</a></b> (🥈22 ·  ⭐ 65) - Self-describing sparse tensor data format for atomistic machine learning and beyond. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>Rust</code> <code>C-lang</code> <code>C++</code> <code>Python</code></summary>
 
-- [GitHub](https://github.com/metatensor/metatensor) (👨‍💻 27 · 🔀 20 · 📥 44K · 📦 13 · 📋 260 - 33% open · ⏱️ 04.04.2025):
+- [GitHub](https://github.com/metatensor/metatensor) (👨‍💻 27 · 🔀 20 · 📥 44K · 📦 13 · 📋 260 - 33% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/metatensor/metatensor
@@ -652,13 +664,13 @@ _Projects and models that focus on quantities of DFT, such as density functional
 
 <details><summary><b><a href="https://github.com/google-research/google-research/tree/master/jax_dft">JAX-DFT</a></b> (🥇25 ·  ⭐ 35K) - This library provides basic building blocks that can construct DFT calculations as a differentiable program. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/google-research/google-research) (👨‍💻 830 · 🔀 8K · 📋 1.8K - 81% open · ⏱️ 05.04.2025):
+- [GitHub](https://github.com/google-research/google-research) (👨‍💻 830 · 🔀 8K · 📋 1.8K - 81% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/google-research/google-research
 	```
 </details>
-<details><summary><b><a href="https://github.com/mala-project/mala">MALA</a></b> (🥇20 ·  ⭐ 89) - Materials Learning Algorithms. A framework for machine learning materials properties from first-principles data. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mala-project/mala">MALA</a></b> (🥇20 ·  ⭐ 90) - Materials Learning Algorithms. A framework for machine learning materials properties from first-principles data. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/mala-project/mala) (👨‍💻 45 · 🔀 26 · 📦 2 · 📋 300 - 12% open · ⏱️ 02.04.2025):
 
@@ -712,15 +724,23 @@ _Projects and models that focus on quantities of DFT, such as density functional
 </details>
 <details><summary><b><a href="https://github.com/lcmd-epfl/Q-stack">Q-stack</a></b> (🥈9 ·  ⭐ 17) - Stack of codes for dedicated pre- and post-processing tasks for Quantum Machine Learning (QML). <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Excited_state"><code>excited-states</code></a> <code>general-tool</code></summary>
 
-- [GitHub](https://github.com/lcmd-epfl/Q-stack) (👨‍💻 7 · 🔀 5 · 📋 34 - 32% open · ⏱️ 25.03.2025):
+- [GitHub](https://github.com/lcmd-epfl/Q-stack) (👨‍💻 7 · 🔀 5 · 📋 34 - 29% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/lcmd-epfl/Q-stack
 	```
 </details>
-<details><summary><b><a href="https://github.com/QuantumLab-ZY/HamGNN">HamGNN</a></b> (🥈7 ·  ⭐ 91 · 📉) - An E(3) equivariant Graph Neural Network for predicting electronic Hamiltonian matrix. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <code>magnetism</code> <code>C-lang</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/dftio">dftio</a></b> (🥈8 ·  ⭐ 8 · 📈) - dftio is to assist machine learning communities to transcript DFT output into a format that is easy to read or used by.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>data-structures</code> <code>workflows</code></summary>
 
-- [GitHub](https://github.com/QuantumLab-ZY/HamGNN) (👨‍💻 2 · 🔀 16 · 📋 38 - 84% open · ⏱️ 01.04.2025):
+- [GitHub](https://github.com/deepmodeling/dftio) (👨‍💻 4 · 🔀 4 · 📋 3 - 33% open · ⏱️ 08.04.2025):
+
+	```
+	git clone https://github.com/deepmodeling/dftio
+	```
+</details>
+<details><summary><b><a href="https://github.com/QuantumLab-ZY/HamGNN">HamGNN</a></b> (🥈7 ·  ⭐ 91) - An E(3) equivariant Graph Neural Network for predicting electronic Hamiltonian matrix. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <code>magnetism</code> <code>C-lang</code></summary>
+
+- [GitHub](https://github.com/QuantumLab-ZY/HamGNN) (👨‍💻 2 · 🔀 16 · 📋 38 - 84% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/QuantumLab-ZY/HamGNN
@@ -742,18 +762,10 @@ _Projects and models that focus on quantities of DFT, such as density functional
 	git clone https://github.com/kyonofx/scdp
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/dftio">dftio</a></b> (🥉6 ·  ⭐ 8 · ➕) - dftio is to assist machine learning communities to transcript DFT output into a format that is easy to read or used by.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>data-structures</code> <code>workflows</code></summary>
-
-- [GitHub](https://github.com/deepmodeling/dftio) (👨‍💻 3 · 🔀 4 · 📋 3 - 33% open · ⏱️ 21.12.2024):
-
-	```
-	git clone https://github.com/deepmodeling/dftio
-	```
-</details>
 <details><summary>Show 24 hidden projects...</summary>
 
 - <b><a href="https://github.com/google-deepmind/deepmind-research/tree/master/density_functional_approximation_dm21">DM21</a></b> (🥇20 ·  ⭐ 14K · 💀) - This package provides a PySCF interface to the DM21 (DeepMind 21) family of exchange-correlation functionals described.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/XanaduAI/GradDFT">Grad DFT</a></b> (🥈10 ·  ⭐ 85 · 💀) - GradDFT is a JAX-based library enabling the differentiable design and experimentation of exchange-correlation.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/XanaduAI/GradDFT">Grad DFT</a></b> (🥈10 ·  ⭐ 86 · 💀) - GradDFT is a JAX-based library enabling the differentiable design and experimentation of exchange-correlation.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/semodi/neuralxc">NeuralXC</a></b> (🥈10 ·  ⭐ 36 · 💀) - Implementation of a machine learned density functional. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/biklooost/PROPhet">PROPhet</a></b> (🥈9 ·  ⭐ 65 · 💀) - PROPhet is a code to integrate machine learning techniques with first-principles quantum chemistry approaches. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>single-paper</code> <code>C++</code>
 - <b><a href="https://github.com/ACEsuit/ACEhamiltonians.jl">ACEhamiltonians</a></b> (🥈9 ·  ⭐ 16 · 💀) - Provides tools for constructing, fitting, and predicting self-consistent Hamiltonian and overlap matrices in solid-.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>Julia</code>
@@ -791,9 +803,9 @@ _Tutorials, guides, cookbooks, recipes, etc._
 
 🔗&nbsp;<b><a href="https://www.elsevier.com/books-and-journals/book-companion/9780323900492">Quantum Chemistry in the Age of Machine Learning</a></b>  - Book, 2022.
 
-<details><summary><b><a href="https://github.com/schwallergroup/ai4chem_course">AI4Chemistry course</a></b> (🥇12 ·  ⭐ 170) - EPFL AI for chemistry course, Spring 2023. https://schwallergroup.github.io/ai4chem_course. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>chemistry</code></summary>
+<details><summary><b><a href="https://github.com/schwallergroup/ai4chem_course">AI4Chemistry course</a></b> (🥇13 ·  ⭐ 170) - EPFL AI for chemistry course, Spring 2023. https://schwallergroup.github.io/ai4chem_course. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>chemistry</code></summary>
 
-- [GitHub](https://github.com/schwallergroup/ai4chem_course) (👨‍💻 7 · 🔀 41 · 📋 4 - 25% open · ⏱️ 01.04.2025):
+- [GitHub](https://github.com/schwallergroup/ai4chem_course) (👨‍💻 7 · 🔀 41 · 📋 4 - 25% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/schwallergroup/ai4chem_course
@@ -839,7 +851,7 @@ _Tutorials, guides, cookbooks, recipes, etc._
 	git clone https://github.com/aronwalsh/MLforMaterials
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/tutorials">DeepModeling Tutorials</a></b> (🥉7 ·  ⭐ 15 · ➕) - Tutorials for DeepModeling projects. <code>Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/tutorials">DeepModeling Tutorials</a></b> (🥉7 ·  ⭐ 15) - Tutorials for DeepModeling projects. <code>Unlicensed</code></summary>
 
 - [GitHub](https://github.com/deepmodeling/tutorials) (👨‍💻 11 · 🔀 23 · ⏱️ 03.04.2025):
 
@@ -863,11 +875,12 @@ _Tutorials, guides, cookbooks, recipes, etc._
 	git clone https://github.com/MatSciEdu/DSM-CORE
 	```
 </details>
-<details><summary>Show 19 hidden projects...</summary>
+<details><summary>Show 20 hidden projects...</summary>
 
-- <b><a href="https://github.com/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb">Geometric GNN Dojo</a></b> (🥇12 ·  ⭐ 490 · 💀) - New to geometric GNNs: try our practical notebook, prepared for MPhil students at the University of Cambridge. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
+- <b><a href="https://github.com/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb">Geometric GNN Dojo</a></b> (🥇12 ·  ⭐ 500 · 💀) - New to geometric GNNs: try our practical notebook, prepared for MPhil students at the University of Cambridge. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a>
 - <b><a href="https://github.com/deepchem/DeepLearningLifeSciences">DeepLearningLifeSciences</a></b> (🥇12 ·  ⭐ 370 · 💀) - Example code from the book Deep Learning for the Life Sciences. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://dmol.pub/">Deep Learning for Molecules and Materials Book</a></b> (🥈11 ·  ⭐ 640 · 💀) - Deep learning for molecules and materials book. <code><a href="https://github.com/whitead/dmol-book/blob/main/LICENSE">Custom</a></code>
+- <b><a href="https://github.com/argonne-lcf/ai-science-training-series">Introduction to AI-driven Science on Supercomputers: A Student Training Series</a></b> (🥈11 ·  ⭐ 220 · ➕) -  <code>Unlicensed</code> <code>general-ml</code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Language_model"><code>language-models</code></a>
 - <b><a href="https://github.com/Materials-Consortia/optimade-tutorial-exercises">OPTIMADE Tutorial Exercises</a></b> (🥈9 ·  ⭐ 15 · 💀) - Tutorial exercises for the OPTIMADE API. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>datasets</code>
 - <b><a href="https://github.com/rdkit/rdkit-tutorials">RDKit Tutorials</a></b> (🥈8 ·  ⭐ 280 · 💀) - Tutorials to learn how to work with the RDKit. <code><a href="https://github.com/rdkit/rdkit-tutorials/blob/master/LICENSE">Custom</a></code>
 - <b><a href="https://github.com/anthony-wang/BestPractices">BestPractices</a></b> (🥈8 ·  ⭐ 180 · 💀) - Things that you should (and should not) do in your Materials Informatics research. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
@@ -877,7 +890,7 @@ _Tutorials, guides, cookbooks, recipes, etc._
 - <b><a href="https://github.com/Teoroo-CMC/DoE_Course_Material">Data Handling, DoE and Statistical Analysis for Material Chemists</a></b> (🥉6 ·  ⭐ 4 · 💀) - Notebooks for workshops of DoE course, hosted by the Computational Materials Chemistry group at Uppsala University. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/deepmodeling/AI4Science101">AI4Science101</a></b> (🥉5 ·  ⭐ 90 · 💀) - AI for Science. <code>Unlicensed</code>
 - <b><a href="https://github.com/CompPhysVienna/MLSummerSchoolVienna2022">Machine Learning for Materials Hard and Soft</a></b> (🥉5 ·  ⭐ 36 · 💀) - ESI-DCAFM-TACO-VDSP Summer School on Machine Learning for Materials Hard and Soft. <code>Unlicensed</code>
-- <b><a href="https://github.com/BingqingCheng/ML-in-chemistry-101">ML-in-chemistry-101</a></b> (🥉4 ·  ⭐ 75 · 💀) - The course materials for Machine Learning in Chemistry 101. <code>Unlicensed</code>
+- <b><a href="https://github.com/BingqingCheng/ML-in-chemistry-101">ML-in-chemistry-101</a></b> (🥉4 ·  ⭐ 76 · 💀) - The course materials for Machine Learning in Chemistry 101. <code>Unlicensed</code>
 - <b><a href="https://github.com/gabor1/chemrev-gpr">chemrev-gpr</a></b> (🥉4 ·  ⭐ 10 · 💀) - Notebooks accompanying the paper on GPR in materials and molecules in Chemical Reviews 2020. <code>Unlicensed</code>
 - <b><a href="https://github.com/ai4chemmat/ai4chemmat.github.io">AI4ChemMat Hands-On Series</a></b> (🥉4 ·  ⭐ 1 · 💤) - Hands-On Series organized by Chemistry and Materials working group at Argonne Nat Lab. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code>
 - <b><a href="https://github.com/Teoroo-CMC/PiNN_lab">PiNN Lab</a></b> (🥉3 ·  ⭐ 3 · 💀) - Material for running a lab session on atomic neural networks. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
@@ -919,9 +932,9 @@ _Projects that focus on explainability and model interpretability in atomistic M
 
 _Projects and models that focus on quantities of electronic structure methods, which do not fit into either of the categories ML-WFT or ML-DFT._
 
-<details><summary><b><a href="https://github.com/deepmodeling/DeePTB">DeePTB</a></b> (🥇15 ·  ⭐ 71 · ➕) - DeePTB: A deep learning package for tight-binding approach with ab initio accuracy. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-DFT</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/DeePTB">DeePTB</a></b> (🥇15 ·  ⭐ 71) - DeePTB: A deep learning package for tight-binding approach with ab initio accuracy. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-DFT</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/DeePTB) (👨‍💻 11 · 🔀 17 · 📦 2 · 📋 44 - 31% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/deepmodeling/DeePTB) (👨‍💻 11 · 🔀 17 · 📦 2 · 📋 45 - 33% open · ⏱️ 07.04.2025):
 
 	```
 	git clone https://github.com/deepmodeling/DeePTB
@@ -949,7 +962,7 @@ _General tools for atomistic machine learning._
 
 <details><summary><b><a href="https://github.com/rdkit/rdkit">RDKit</a></b> (🥇36 ·  ⭐ 2.9K) -  <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>C++</code> <a href="https://en.wikipedia.org/wiki/Cheminformatics"><code>cheminformatics</code></a></summary>
 
-- [GitHub](https://github.com/rdkit/rdkit) (👨‍💻 240 · 🔀 880 · 📦 3 · 📋 4K - 16% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/rdkit/rdkit) (👨‍💻 240 · 🔀 880 · 📦 3 · 📋 4K - 16% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/rdkit/rdkit
@@ -994,7 +1007,7 @@ _General tools for atomistic machine learning._
 	```
 	pip install matminer
 	```
-- [Conda](https://anaconda.org/conda-forge/matminer) (📥 85K · ⏱️ 25.03.2025):
+- [Conda](https://anaconda.org/conda-forge/matminer) (📥 86K · ⏱️ 25.03.2025):
 	```
 	conda install -c conda-forge matminer
 	```
@@ -1061,7 +1074,7 @@ _General tools for atomistic machine learning._
 </details>
 <details><summary><b><a href="https://github.com/uw-cmg/MAST-ML">MAST-ML</a></b> (🥈18 ·  ⭐ 110) - MAterials Simulation Toolkit for Machine Learning (MAST-ML). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/uw-cmg/MAST-ML) (👨‍💻 19 · 🔀 61 · 📥 140 · 📦 46 · 📋 220 - 14% open · ⏱️ 18.03.2025):
+- [GitHub](https://github.com/uw-cmg/MAST-ML) (👨‍💻 19 · 🔀 61 · 📥 140 · 📦 47 · 📋 220 - 14% open · ⏱️ 18.03.2025):
 
 	```
 	git clone https://github.com/uw-cmg/MAST-ML
@@ -1234,7 +1247,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 
 <details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DeePMD-kit</a></b> (🥇27 ·  ⭐ 1.6K) - A deep learning package for many-body potential energy representation and molecular dynamics. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>workflows</code> <code>C++</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 900 - 10% open · ⏱️ 02.03.2025):
+- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 890 - 10% open · ⏱️ 02.03.2025):
 
 	```
 	git clone https://github.com/deepmodeling/deepmd-kit
@@ -1264,7 +1277,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 	pip install fairchem-core
 	```
 </details>
-<details><summary><b><a href="https://github.com/mir-group/nequip">NequIP</a></b> (🥇24 ·  ⭐ 700) - NequIP is a code for building E(3)-equivariant interatomic potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mir-group/nequip">NequIP</a></b> (🥇24 ·  ⭐ 710) - NequIP is a code for building E(3)-equivariant interatomic potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/mir-group/nequip) (👨‍💻 13 · 🔀 150 · 📦 37 · 📋 99 - 25% open · ⏱️ 22.03.2025):
 
@@ -1282,7 +1295,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 </details>
 <details><summary><b><a href="https://github.com/ACEsuit/mace">MACE</a></b> (🥇23 ·  ⭐ 670) - MACE - Fast and accurate machine learning interatomic potentials with higher order equivariant message passing. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/ACEsuit/mace) (👨‍💻 53 · 🔀 250 · 📋 370 - 21% open · ⏱️ 28.03.2025):
+- [GitHub](https://github.com/ACEsuit/mace) (👨‍💻 53 · 🔀 260 · 📋 370 - 21% open · ⏱️ 28.03.2025):
 
 	```
 	git clone https://github.com/ACEsuit/mace
@@ -1290,7 +1303,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 </details>
 <details><summary><b><a href="https://github.com/torchmd/torchmd-net">TorchMD-NET</a></b> (🥇23 ·  ⭐ 390) - Training neural network potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/torchmd/torchmd-net) (👨‍💻 17 · 🔀 80 · 📥 50 · 📋 130 - 33% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/torchmd/torchmd-net) (👨‍💻 17 · 🔀 83 · 📥 58 · 📋 130 - 33% open · ⏱️ 07.04.2025):
 
 	```
 	git clone https://github.com/torchmd/torchmd-net
@@ -1302,7 +1315,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 </details>
 <details><summary><b><a href="https://github.com/brucefan1983/GPUMD">GPUMD</a></b> (🥇21 ·  ⭐ 540) - GPUMD is a highly efficient general-purpose molecular dynamic (MD) package and enables machine-learned potentials.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>C++</code> <a href="https://en.wikipedia.org/wiki/Electrostatics"><code>electrostatics</code></a></summary>
 
-- [GitHub](https://github.com/brucefan1983/GPUMD) (👨‍💻 45 · 🔀 130 · 📋 210 - 9% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/brucefan1983/GPUMD) (👨‍💻 45 · 🔀 130 · 📋 210 - 9% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/brucefan1983/GPUMD
@@ -1322,7 +1335,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 </details>
 <details><summary><b><a href="https://github.com/metatensor/metatrain">Metatrain</a></b> (🥈19 ·  ⭐ 29) - Training and evaluating machine learning models for atomistic systems. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>workflows</code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a></summary>
 
-- [GitHub](https://github.com/metatensor/metatrain) (👨‍💻 15 · 🔀 8 · 📥 4 · 📦 3 · 📋 170 - 32% open · ⏱️ 06.04.2025):
+- [GitHub](https://github.com/metatensor/metatrain) (👨‍💻 15 · 🔀 8 · 📥 4 · 📦 3 · 📋 170 - 32% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/metatensor/metatrain
@@ -1334,7 +1347,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 </details>
 <details><summary><b><a href="https://github.com/apax-hub/apax">apax</a></b> (🥈19 ·  ⭐ 19) - A flexible and performant framework for training machine learning potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/apax-hub/apax) (👨‍💻 9 · 🔀 3 · 📦 4 · 📋 140 - 12% open · ⏱️ 25.03.2025):
+- [GitHub](https://github.com/apax-hub/apax) (👨‍💻 9 · 🔀 3 · 📦 4 · 📋 140 - 12% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/apax-hub/apax
@@ -1354,6 +1367,22 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 - [PyPi](https://pypi.org/project/autoplex) (📥 440 / month · ⏱️ 05.02.2025):
 	```
 	pip install autoplex
+	```
+</details>
+<details><summary><b><a href="https://github.com/openkim/kliff">KLIFF</a></b> (🥈18 ·  ⭐ 35 · 📈) - KIM-based Learning-Integrated Fitting Framework for interatomic potentials. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <code>probabilistic</code> <code>workflows</code></summary>
+
+- [GitHub](https://github.com/openkim/kliff) (👨‍💻 11 · 🔀 21 · 📦 4 · 📋 44 - 56% open · ⏱️ 08.04.2025):
+
+	```
+	git clone https://github.com/openkim/kliff
+	```
+- [PyPi](https://pypi.org/project/kliff) (📥 430 / month · ⏱️ 17.12.2023):
+	```
+	pip install kliff
+	```
+- [Conda](https://anaconda.org/conda-forge/kliff) (📥 150K · ⏱️ 25.03.2025):
+	```
+	conda install -c conda-forge kliff
 	```
 </details>
 <details><summary><b><a href="https://github.com/mir-group/allegro">Allegro</a></b> (🥈17 ·  ⭐ 380) - Allegro is an open-source code for building highly scalable and accurate equivariant deep learning interatomic.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
@@ -1380,32 +1409,16 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 	git clone https://github.com/CompPhysVienna/n2p2
 	```
 </details>
-<details><summary><b><a href="https://github.com/jla-gardner/graph-pes">Graph-PES</a></b> (🥈16 ·  ⭐ 80) - train and use graph-based ML models of potential energy surfaces. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>pretrained</code></summary>
+<details><summary><b><a href="https://github.com/jla-gardner/graph-pes">Graph-PES</a></b> (🥈16 ·  ⭐ 81) - train and use graph-based ML models of potential energy surfaces. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/jla-gardner/graph-pes) (👨‍💻 3 · 🔀 4 · 📦 2 · 📋 16 - 31% open · ⏱️ 03.04.2025):
+- [GitHub](https://github.com/jla-gardner/graph-pes) (👨‍💻 3 · 🔀 4 · 📦 2 · 📋 15 - 26% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/jla-gardner/graph-pes
 	```
-- [PyPi](https://pypi.org/project/graph-pes) (📥 1.6K / month · ⏱️ 03.04.2025):
+- [PyPi](https://pypi.org/project/graph-pes) (📥 1.6K / month · ⏱️ 09.04.2025):
 	```
 	pip install graph-pes
-	```
-</details>
-<details><summary><b><a href="https://github.com/openkim/kliff">KLIFF</a></b> (🥈16 ·  ⭐ 35) - KIM-based Learning-Integrated Fitting Framework for interatomic potentials. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code> <code>probabilistic</code> <code>workflows</code></summary>
-
-- [GitHub](https://github.com/openkim/kliff) (👨‍💻 11 · 🔀 21 · 📦 4 · 📋 44 - 56% open · ⏱️ 27.03.2025):
-
-	```
-	git clone https://github.com/openkim/kliff
-	```
-- [PyPi](https://pypi.org/project/kliff) (📥 430 / month · ⏱️ 17.12.2023):
-	```
-	pip install kliff
-	```
-- [Conda](https://anaconda.org/conda-forge/kliff) (📥 150K · ⏱️ 25.03.2025):
-	```
-	conda install -c conda-forge kliff
 	```
 </details>
 <details><summary><b><a href="https://github.com/basf/mlipx">MLIPX - Machine-Learned Interatomic Potential eXploration</a></b> (🥈15 ·  ⭐ 76 · 🐣) - Machine-Learned Interatomic Potential eXploration (mlipx) is designed at BASF for evaluating machine-learned.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Visualization"><code>viz</code></a> <code>workflows</code></summary>
@@ -1520,7 +1533,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 	git clone https://github.com/ACEsuit/ACE.jl
 	```
 </details>
-<details><summary><b><a href="https://github.com/deepmodeling/deepmd-gnn">DeepMD-GNN</a></b> (🥉9 ·  ⭐ 39 · ➕) - DeePMD-kit plugin for various graph neural network models. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>C++</code></summary>
+<details><summary><b><a href="https://github.com/deepmodeling/deepmd-gnn">DeepMD-GNN</a></b> (🥉9 ·  ⭐ 39) - DeePMD-kit plugin for various graph neural network models. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>C++</code></summary>
 
 - [GitHub](https://github.com/deepmodeling/deepmd-gnn) (👨‍💻 5 · 🔀 6 · 📋 6 - 83% open · ⏱️ 28.03.2025):
 
@@ -1584,7 +1597,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 	git clone https://github.com/libAtoms/GAP
 	```
 </details>
-<details><summary><b><a href="https://github.com/mcaroba/turbogap">TurboGAP</a></b> (🥉8 ·  ⭐ 16) - The TurboGAP code. <code><a href="https://github.com/mcaroba/turbogap/blob/master/LICENSE.md">Custom</a></code> <code>Fortran</code></summary>
+<details><summary><b><a href="https://github.com/mcaroba/turbogap">TurboGAP</a></b> (🥉8 ·  ⭐ 17) - The TurboGAP code. <code><a href="https://github.com/mcaroba/turbogap/blob/master/LICENSE.md">Custom</a></code> <code>Fortran</code></summary>
 
 - [GitHub](https://github.com/mcaroba/turbogap) (👨‍💻 8 · 🔀 11 · 📋 11 - 63% open · ⏱️ 17.12.2024):
 
@@ -1629,7 +1642,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 - <b><a href="https://github.com/learningmatter-mit/Atomistic-Adversarial-Attacks">Atomistic Adversarial Attacks</a></b> (🥉8 ·  ⭐ 36 · 💀) - Code for performing adversarial attacks on atomistic systems using NN potentials. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>probabilistic</code>
 - <b><a href="https://github.com/HSE-LAMBDA/MEGNetSparse">MEGNetSparse</a></b> (🥉8 ·  ⭐ 4) - A library imlementing a graph neural network with sparse representation from Code for Kazeev, N., Al-Maeeni, A.R.,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Crystallographic_defect"><code>material-defect</code></a>
 - <b><a href="https://github.com/MMunibas/PhysNet">PhysNet</a></b> (🥉7 ·  ⭐ 100 · 💀) - Code for training PhysNet models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Electrostatics"><code>electrostatics</code></a>
-- <b><a href="https://github.com/materialsvirtuallab/matml">MatML</a></b> (🥉7 ·  ⭐ 3 · 📈) - Tools for managing the MatML ecosystem. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <code>pretrained</code>
+- <b><a href="https://github.com/materialsvirtuallab/matml">MatML</a></b> (🥉7 ·  ⭐ 4) - Full MatML Docker image, including MatGL, MatCalc, MatPES and LAMMPS with ML-GNNP and ML-SNAP. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <code>pretrained</code>
 - <b><a href="https://github.com/cometscome/BPNET">BPNET</a></b> (🥉7 ·  ⭐ 2 · 🐣) - Behler-Parrinello type neural networks in Fortran2008. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <code>Fortran</code>
 - <b><a href="https://gitlab.com/ashapeev/mlip-3">MLIP-3</a></b> (🥉6 ·  ⭐ 24 · 💀) - MLIP-3: Active learning on atomic environments with Moment Tensor Potentials (MTP). <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code>C++</code>
 - <b><a href="https://github.com/libAtoms/testing-framework">testing-framework</a></b> (🥉6 ·  ⭐ 11 · 💀) - The purpose of this repository is to aid the testing of a large number of interatomic potentials for a variety of.. <code>Unlicensed</code> <code>benchmarking</code>
@@ -1638,7 +1651,7 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 - <b><a href="https://gitlab.com/zaverkin_v/gmnn">GN-MM</a></b> (🥉5 ·  ⭐ 10 · 💀) - The Gaussian Moment Neural Network (GM-NN) package developed for large-scale atomistic simulations employing atomistic.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <code>magnetism</code>
 - <b><a href="https://github.com/Luthaf/alchemical-learning">Alchemical learning</a></b> (🥉5 ·  ⭐ 2 · 💀) - Code for the Modeling high-entropy transition metal alloys with alchemical compression article. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <a href="https://en.wikipedia.org/wiki/Feature_engineering"><code>rep-eng</code></a> <a href="https://www.google.com/search?q=disordered-materials"><code>Disordered Materials</code></a>
 - <b><a href="https://github.com/ACEsuit/ACE1pack.jl">ACE1Pack.jl</a></b> (🥉5 ·  ⭐ 1 · 💀) - Provides convenience functionality for the usage of ACE1.jl, ACEfit.jl, JuLIP.jl for fitting interatomic potentials.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>Julia</code>
-- <b><a href="https://github.com/sirmarcel/glp">glp</a></b> (🥉4 ·  ⭐ 20 · 💀) - tools for graph-based machine-learning potentials in jax. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/sirmarcel/glp">glp</a></b> (🥉4 ·  ⭐ 21 · 💀) - tools for graph-based machine-learning potentials in jax. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/ibayashi-hikaru/allegro-legato">Allegro-Legato</a></b> (🥉4 ·  ⭐ 20 · 💀) - An extension of Allegro with enhanced robustness and time-to-failure. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a>
 - <b><a href="https://github.com/ACEsuit/ACEworkflows">ACE Workflows</a></b> (🥉4 · 💀) - Workflow Examples for ACE Models. <code>Unlicensed</code> <code>Julia</code> <code>workflows</code>
 - <b><a href="https://github.com/AaltoRSE/PeriodicPotentials">PeriodicPotentials</a></b> (🥉4 · 💀) - A Periodic table app that displays potentials based on the selected elements. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>community-resource</code> <a href="https://en.wikipedia.org/wiki/Visualization"><code>viz</code></a> <code>JavaScript</code>
@@ -1659,9 +1672,9 @@ _Machine learning interatomic potentials (aka ML-IAP, MLIAP, MLIP, MLP) and forc
 
 _Projects that use (large) language models (LMs, LLMs) or natural language procesing (NLP) techniques for atomistic ML._
 
-🔗&nbsp;<b><a href="https://huggingface.co/spaces/jablonkagroup/MaCBench-Leaderboard">MaCBench Leaderboard</a></b>   <code>community-resource</code> <code>benchmarking</code> <code>datasets</code>
+🔗&nbsp;<b><a href="https://huggingface.co/spaces/jablonkagroup/MaCBench-Leaderboard">MaCBench Leaderboard</a></b>  - Leaderboard for multimodal language models for chemistry & materials research. <code>community-resource</code> <code>benchmarking</code> <code>datasets</code>
 
-<details><summary><b><a href="https://github.com/lamalab-org/chembench">ChemBench</a></b> (🥇20 ·  ⭐ 69) - How good are LLMs at chemistry?. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Multimodal_learning"><code>multimodal</code></a></summary>
+<details><summary><b><a href="https://github.com/lamalab-org/chembench">ChemBench</a></b> (🥇20 ·  ⭐ 70) - How good are LLMs at chemistry?. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code> <a href="https://en.wikipedia.org/wiki/Multimodal_learning"><code>multimodal</code></a></summary>
 
 - [GitHub](https://github.com/lamalab-org/chembench) (👨‍💻 14 · 🔀 8 · 📦 2 · 📋 320 - 14% open · ⏱️ 26.03.2025):
 
@@ -1697,9 +1710,9 @@ _Projects that use (large) language models (LMs, LLMs) or natural language proce
 	pip install paper-qa
 	```
 </details>
-<details><summary><b><a href="https://github.com/ur-whitelab/chemcrow-public">ChemCrow</a></b> (🥈15 ·  ⭐ 730) - Open source package for the accurate solution of reasoning-intensive chemical tasks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Large_language_model#Agency"><code>ai-agent</code></a></summary>
+<details><summary><b><a href="https://github.com/ur-whitelab/chemcrow-public">ChemCrow</a></b> (🥈16 ·  ⭐ 730 · 📈) - Open source package for the accurate solution of reasoning-intensive chemical tasks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Large_language_model#Agency"><code>ai-agent</code></a></summary>
 
-- [GitHub](https://github.com/ur-whitelab/chemcrow-public) (👨‍💻 3 · 🔀 100 · 📦 9 · 📋 23 - 39% open · ⏱️ 19.12.2024):
+- [GitHub](https://github.com/ur-whitelab/chemcrow-public) (👨‍💻 3 · 🔀 100 · 📦 10 · 📋 23 - 39% open · ⏱️ 19.12.2024):
 
 	```
 	git clone https://github.com/ur-whitelab/chemcrow-public
@@ -1745,7 +1758,7 @@ _Projects that use (large) language models (LMs, LLMs) or natural language proce
 	pip install chatmof
 	```
 </details>
-<details><summary><b><a href="https://github.com/chiang-yuan/llamp">LLaMP</a></b> (🥉8 ·  ⭐ 75) - A web app and Python API for multi-modal RAG framework to ground LLMs on high-fidelity materials informatics. An.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <a href="https://en.wikipedia.org/wiki/Multimodal_learning"><code>multimodal</code></a> <a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation"><code>RAG</code></a> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <code>pretrained</code> <code>JavaScript</code> <code>Python</code></summary>
+<details><summary><b><a href="https://github.com/chiang-yuan/llamp">LLaMP</a></b> (🥉8 ·  ⭐ 79) - A web app and Python API for multi-modal RAG framework to ground LLMs on high-fidelity materials informatics. An.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <a href="https://en.wikipedia.org/wiki/Multimodal_learning"><code>multimodal</code></a> <a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation"><code>RAG</code></a> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>materials-discovery</code></a> <code>pretrained</code> <code>JavaScript</code> <code>Python</code></summary>
 
 - [GitHub](https://github.com/chiang-yuan/llamp) (👨‍💻 6 · 🔀 13 · 📋 25 - 32% open · ⏱️ 14.10.2024):
 
@@ -1833,14 +1846,14 @@ _Projects that implement materials discovery methods using atomistic ML._
 	```
 	pip install smact
 	```
-- [Conda](https://anaconda.org/conda-forge/smact) (📥 4.2K · ⏱️ 25.03.2025):
+- [Conda](https://anaconda.org/conda-forge/smact) (📥 4.3K · ⏱️ 25.03.2025):
 	```
 	conda install -c conda-forge smact
 	```
 </details>
 <details><summary><b><a href="https://github.com/microsoft/mattergen">MatterGen</a></b> (🥇18 ·  ⭐ 1.3K · 🐣) - Official implementation of MatterGen -- a generative model for inorganic materials design across the periodic table.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Generative_model"><code>generative</code></a> <code>structure-prediction</code> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/microsoft/mattergen) (👨‍💻 9 · 🔀 190 · 📋 81 - 3% open · ⏱️ 27.03.2025):
+- [GitHub](https://github.com/microsoft/mattergen) (👨‍💻 9 · 🔀 190 · 📋 82 - 4% open · ⏱️ 27.03.2025):
 
 	```
 	git clone https://github.com/microsoft/mattergen
@@ -1913,7 +1926,7 @@ _Projects that implement mathematical objects used in atomistic machine learning
 
 <details><summary><b><a href="https://github.com/google-deepmind/kfac-jax">KFAC-JAX</a></b> (🥇19 ·  ⭐ 270) - Second Order Optimization and Curvature Estimation with K-FAC in JAX. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/google-deepmind/kfac-jax) (👨‍💻 18 · 🔀 23 · 📦 11 · 📋 21 - 47% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/google-deepmind/kfac-jax) (👨‍💻 18 · 🔀 24 · 📦 11 · 📋 21 - 47% open · ⏱️ 07.04.2025):
 
 	```
 	git clone https://github.com/google-deepmind/kfac-jax
@@ -1923,7 +1936,23 @@ _Projects that implement mathematical objects used in atomistic machine learning
 	pip install kfac-jax
 	```
 </details>
-<details><summary><b><a href="https://github.com/lab-cosmo/sphericart">SpheriCart</a></b> (🥇18 ·  ⭐ 83) - Multi-language library for the calculation of spherical harmonics in Cartesian coordinates. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/NVIDIA/cuEquivariance">cuEquivariance</a></b> (🥇19 ·  ⭐ 210 · 🐣) - cuEquivariance is a math library that is a collective of low-level primitives and tensor ops to accelerate widely-used.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a></summary>
+
+- [GitHub](https://github.com/NVIDIA/cuEquivariance) (👨‍💻 4 · 🔀 11 · 📋 21 - 28% open · ⏱️ 09.04.2025):
+
+	```
+	git clone https://github.com/NVIDIA/cuEquivariance
+	```
+- [PyPi](https://pypi.org/project/cuequivariance) (📥 8.2K / month · 📦 2 · ⏱️ 07.03.2025):
+	```
+	pip install cuequivariance
+	```
+- [Conda](https://anaconda.org/conda-forge/cuequivariance) (📥 1.2K · ⏱️ 25.03.2025):
+	```
+	conda install -c conda-forge cuequivariance
+	```
+</details>
+<details><summary><b><a href="https://github.com/lab-cosmo/sphericart">SpheriCart</a></b> (🥈18 ·  ⭐ 83) - Multi-language library for the calculation of spherical harmonics in Cartesian coordinates. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/lab-cosmo/sphericart) (👨‍💻 11 · 🔀 14 · 📥 270 · 📦 6 · 📋 44 - 47% open · ⏱️ 03.04.2025):
 
@@ -1961,6 +1990,14 @@ _Projects that implement mathematical objects used in atomistic machine learning
 
 	```
 	git clone https://github.com/risi-kondor/GElib
+	```
+</details>
+<details><summary><b><a href="https://github.com/PASSIONLab/OpenEquivariance">OpenEquivariance</a></b> (🥉10 ·  ⭐ 47 · ➕) - OpenEquivariance: a fast, open-source GPU JIT kernel generator for the Clebsch-Gordon Tensor Product. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a></summary>
+
+- [GitHub](https://github.com/PASSIONLab/OpenEquivariance) (👨‍💻 3 · 🔀 3 · 📋 7 - 14% open · ⏱️ 03.04.2025):
+
+	```
+	git clone https://github.com/PASSIONLab/OpenEquivariance
 	```
 </details>
 <details><summary><b><a href="https://github.com/risi-kondor/cnine">cnine</a></b> (🥉6 ·  ⭐ 5) - Cnine tensor library. <code>Unlicensed</code> <code>C++</code></summary>
@@ -2014,7 +2051,7 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 </details>
 <details><summary><b><a href="https://github.com/openmm/openmm-torch">openmm-torch</a></b> (🥈18 ·  ⭐ 190) - OpenMM plugin to define forces with neural networks. <code><a href="https://github.com/openmm/openmm-torch#license">Custom</a></code> <code>ML-IAP</code> <code>C++</code></summary>
 
-- [GitHub](https://github.com/openmm/openmm-torch) (👨‍💻 9 · 🔀 27 · 📋 96 - 29% open · ⏱️ 20.02.2025):
+- [GitHub](https://github.com/openmm/openmm-torch) (👨‍💻 9 · 🔀 28 · 📋 96 - 29% open · ⏱️ 20.02.2025):
 
 	```
 	git clone https://github.com/openmm/openmm-torch
@@ -2036,9 +2073,9 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 	conda install -c conda-forge fitsnap3
 	```
 </details>
-<details><summary><b><a href="https://github.com/Radical-AI/torch-sim">TorchSim</a></b> (🥈15 ·  ⭐ 150 · 🐣) - Torch-native, batchable, atomistic simulation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/High-throughput_computing"><code>HTC</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>ML-IAP</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>structure-optimization</code></a></summary>
+<details><summary><b><a href="https://github.com/Radical-AI/torch-sim">TorchSim</a></b> (🥈16 ·  ⭐ 170 · 🐣) - Torch-native, batchable, atomistic simulation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/High-throughput_computing"><code>HTC</code></a> <a href="https://www.google.com/search?q=universal+interatomic+potential"><code>UIP</code></a> <code>ML-IAP</code> <a href="https://www.psik2022.net/program/symposia#h.p_hM6hJbQD9dex"><code>structure-optimization</code></a></summary>
 
-- [GitHub](https://github.com/Radical-AI/torch-sim) (👨‍💻 6 · 🔀 12 · 📋 42 - 52% open · ⏱️ 03.04.2025):
+- [GitHub](https://github.com/Radical-AI/torch-sim) (👨‍💻 6 · 🔀 15 · 📋 42 - 50% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/Radical-AI/torch-sim
@@ -2050,7 +2087,7 @@ _Projects that simplify the integration of molecular dynamics and atomistic mach
 </details>
 <details><summary><b><a href="https://github.com/molmod/psiflow">Psiflow</a></b> (🥈15 ·  ⭐ 130) - scalable molecular simulation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a> <code>sampling</code></summary>
 
-- [GitHub](https://github.com/molmod/psiflow) (👨‍💻 4 · 🔀 11 · 📋 52 - 19% open · ⏱️ 14.03.2025):
+- [GitHub](https://github.com/molmod/psiflow) (👨‍💻 5 · 🔀 11 · 📋 52 - 17% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/molmod/psiflow
@@ -2168,7 +2205,7 @@ _Projects that offer implementations of representations aka descriptors, fingerp
 	conda install -c conda-forge dscribe
 	```
 </details>
-<details><summary><b><a href="https://github.com/ppdebreuck/modnet">MODNet</a></b> (🥇17 ·  ⭐ 91) - MODNet: a framework for machine learning materials properties. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>pretrained</code> <code>small-data</code> <a href="https://en.wikipedia.org/wiki/Transfer_learning"><code>transfer-learning</code></a></summary>
+<details><summary><b><a href="https://github.com/ppdebreuck/modnet">MODNet</a></b> (🥇16 ·  ⭐ 91 · 📉) - MODNet: a framework for machine learning materials properties. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>pretrained</code> <code>small-data</code> <a href="https://en.wikipedia.org/wiki/Transfer_learning"><code>transfer-learning</code></a></summary>
 
 - [GitHub](https://github.com/ppdebreuck/modnet) (👨‍💻 11 · 🔀 34 · 📦 11 · 📋 63 - 50% open · ⏱️ 25.03.2025):
 
@@ -2176,7 +2213,7 @@ _Projects that offer implementations of representations aka descriptors, fingerp
 	git clone https://github.com/ppdebreuck/modnet
 	```
 </details>
-<details><summary><b><a href="https://github.com/WMD-group/ElementEmbeddings">ElementEmbeddings</a></b> (🥈16 ·  ⭐ 41) - Python package to interact with high-dimensional representations of the chemical elements. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"><code>XAI</code></a> <a href="https://en.wikipedia.org/wiki/Unsupervised_learning"><code>USL</code></a> <a href="https://en.wikipedia.org/wiki/Visualization"><code>viz</code></a></summary>
+<details><summary><b><a href="https://github.com/WMD-group/ElementEmbeddings">ElementEmbeddings</a></b> (🥇16 ·  ⭐ 41) - Python package to interact with high-dimensional representations of the chemical elements. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"><code>XAI</code></a> <a href="https://en.wikipedia.org/wiki/Unsupervised_learning"><code>USL</code></a> <a href="https://en.wikipedia.org/wiki/Visualization"><code>viz</code></a></summary>
 
 - [GitHub](https://github.com/WMD-group/ElementEmbeddings) (👨‍💻 6 · 🔀 4 · 📦 5 · 📋 22 - 22% open · ⏱️ 09.01.2025):
 
@@ -2192,7 +2229,7 @@ _Projects that offer implementations of representations aka descriptors, fingerp
 	conda install -c conda-forge elementembeddings
 	```
 </details>
-<details><summary><b><a href="https://github.com/PhasesResearchLab/pySIPFENN">pySIPFENN</a></b> (🥈16 ·  ⭐ 23) - Python python toolset for Structure-Informed Property and Feature Engineering with Neural Networks. It offers unique.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Crystallographic_defect"><code>material-defect</code></a> <a href="https://www.google.com/search?q=disordered-materials"><code>Disordered Materials</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Transfer_learning"><code>transfer-learning</code></a></summary>
+<details><summary><b><a href="https://github.com/PhasesResearchLab/pySIPFENN">pySIPFENN</a></b> (🥇16 ·  ⭐ 23) - Python python toolset for Structure-Informed Property and Feature Engineering with Neural Networks. It offers unique.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Crystallographic_defect"><code>material-defect</code></a> <a href="https://www.google.com/search?q=disordered-materials"><code>Disordered Materials</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Transfer_learning"><code>transfer-learning</code></a></summary>
 
 - [GitHub](https://github.com/PhasesResearchLab/pySIPFENN) (👨‍💻 4 · 🔀 4 · 📥 110 · 📦 7 · 📋 6 - 66% open · ⏱️ 06.03.2025):
 
@@ -2222,7 +2259,7 @@ _Projects that offer implementations of representations aka descriptors, fingerp
 </details>
 <details><summary><b><a href="https://github.com/metatensor/featomic">Featomic</a></b> (🥈15 ·  ⭐ 69) - Computing representations for atomistic machine learning. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>Rust</code> <code>C++</code></summary>
 
-- [GitHub](https://github.com/metatensor/featomic) (👨‍💻 16 · 🔀 15 · 📥 100 · 📋 84 - 51% open · ⏱️ 25.02.2025):
+- [GitHub](https://github.com/metatensor/featomic) (👨‍💻 16 · 🔀 15 · 📥 110 · 📋 84 - 51% open · ⏱️ 25.02.2025):
 
 	```
 	git clone https://github.com/metatensor/featomic
@@ -2294,7 +2331,7 @@ _Projects that offer implementations of representations aka descriptors, fingerp
 </details>
 <details><summary>Show 16 hidden projects...</summary>
 
-- <b><a href="https://github.com/SUNCAT-Center/CatLearn">CatLearn</a></b> (🥈16 ·  ⭐ 110 · 💀) -  <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Surface_science"><code>surface-science</code></a>
+- <b><a href="https://github.com/SUNCAT-Center/CatLearn">CatLearn</a></b> (🥇16 ·  ⭐ 110 · 💀) -  <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <a href="https://en.wikipedia.org/wiki/Surface_science"><code>surface-science</code></a>
 - <b><a href="https://github.com/lab-cosmo/librascal">Librascal</a></b> (🥈13 ·  ⭐ 80 · 💀) - A scalable and versatile library to generate representations for atomic-scale learning. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">LGPL-2.1</a></code>
 - <b><a href="https://github.com/Kaaiian/CBFV">CBFV</a></b> (🥈13 ·  ⭐ 27 · 💀) - Tool to quickly create a composition-based feature vector. <code>Unlicensed</code>
 - <b><a href="https://github.com/sirmarcel/cmlkit">cmlkit</a></b> (🥉11 ·  ⭐ 34 · 💀) - tools for machine learning in condensed matter physics and quantum chemistry. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>benchmarking</code>
@@ -2337,7 +2374,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 </details>
 <details><summary><b><a href="https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/nn/models">PyG Models</a></b> (🥇34 ·  ⭐ 22K) - Representation learning models implemented in PyTorch Geometric. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>general-ml</code></summary>
 
-- [GitHub](https://github.com/pyg-team/pytorch_geometric) (👨‍💻 540 · 🔀 3.8K · 📦 8.6K · 📋 3.9K - 30% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/pyg-team/pytorch_geometric) (👨‍💻 540 · 🔀 3.8K · 📦 8.6K · 📋 3.9K - 30% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/pyg-team/pytorch_geometric
@@ -2382,7 +2419,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 	```
 	pip install matgl
 	```
-- [Docker Hub](https://hub.docker.com/r/materialsvirtuallab/matgl) (📥 48 · ⭐ 1 · ⏱️ 07.04.2025):
+- [Docker Hub](https://hub.docker.com/r/materialsvirtuallab/matgl) (📥 56 · ⭐ 1 · ⏱️ 08.04.2025):
 	```
 	docker pull materialsvirtuallab/matgl
 	```
@@ -2433,7 +2470,7 @@ _General models that learn a representations aka embeddings of atomistic systems
 </details>
 <details><summary><b><a href="https://github.com/deepmodeling/Uni-Mol">Uni-Mol</a></b> (🥈17 ·  ⭐ 830) - Official Repository for the Uni-Mol Series Methods. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/Uni-Mol) (👨‍💻 19 · 🔀 140 · 📥 18K · 📋 200 - 47% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/deepmodeling/Uni-Mol) (👨‍💻 19 · 🔀 140 · 📥 18K · 📋 200 - 46% open · ⏱️ 07.04.2025):
 
 	```
 	git clone https://github.com/deepmodeling/Uni-Mol
@@ -2487,9 +2524,9 @@ _General models that learn a representations aka embeddings of atomistic systems
 	pip install crabnet
 	```
 </details>
-<details><summary><b><a href="https://github.com/lanl/hippynn">hippynn</a></b> (🥈11 ·  ⭐ 76) - python library for atomistic machine learning. <code><a href="https://github.com/lanl/hippynn/blob/main/LICENSE.txt">Custom</a></code> <code>workflows</code></summary>
+<details><summary><b><a href="https://github.com/lanl/hippynn">hippynn</a></b> (🥈13 ·  ⭐ 76 · 📈) - python library for atomistic machine learning. <code><a href="https://github.com/lanl/hippynn/blob/main/LICENSE.txt">Custom</a></code> <code>workflows</code></summary>
 
-- [GitHub](https://github.com/lanl/hippynn) (👨‍💻 16 · 🔀 25 · 📦 2 · 📋 26 - 26% open · ⏱️ 01.04.2025):
+- [GitHub](https://github.com/lanl/hippynn) (👨‍💻 16 · 🔀 25 · 📦 2 · 📋 26 - 26% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/lanl/hippynn
@@ -2623,7 +2660,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 
 <details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DPA-2</a></b> (🥇28 ·  ⭐ 1.6K) - A large atomic model as a multi-task learner https://arxiv.org/abs/2312.15492. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <code>pretrained</code> <code>workflows</code> <code>datasets</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 900 - 10% open · ⏱️ 02.03.2025):
+- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 890 - 10% open · ⏱️ 02.03.2025):
 
 	```
 	git clone https://github.com/deepmodeling/deepmd-kit
@@ -2643,7 +2680,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 </details>
 <details><summary><b><a href="https://github.com/deepmodeling/deepmd-kit">DeePMD-DPA3</a></b> (🥇28 ·  ⭐ 1.6K) - Successor of DPA-2. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code> <code>ML-IAP</code> <code>pretrained</code> <code>workflows</code> <code>datasets</code></summary>
 
-- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 900 - 10% open · ⏱️ 02.03.2025):
+- [GitHub](https://github.com/deepmodeling/deepmd-kit) (👨‍💻 75 · 🔀 540 · 📥 51K · 📦 28 · 📋 890 - 10% open · ⏱️ 02.03.2025):
 
 	```
 	git clone https://github.com/deepmodeling/deepmd-kit
@@ -2687,7 +2724,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 </details>
 <details><summary><b><a href="https://github.com/MDIL-SNU/SevenNet">SevenNet</a></b> (🥈23 ·  ⭐ 160) - SevenNet - a graph neural network interatomic potential package supporting efficient multi-GPU parallel molecular.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/MDIL-SNU/SevenNet) (👨‍💻 16 · 🔀 25 · 📥 810 · 📦 13 · 📋 52 - 19% open · ⏱️ 07.04.2025):
+- [GitHub](https://github.com/MDIL-SNU/SevenNet) (👨‍💻 16 · 🔀 25 · 📥 860 · 📦 13 · 📋 52 - 19% open · ⏱️ 09.04.2025):
 
 	```
 	git clone https://github.com/MDIL-SNU/SevenNet
@@ -2699,19 +2736,19 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 </details>
 <details><summary><b><a href="https://github.com/orbital-materials/orb-models">Orb Models</a></b> (🥈20 ·  ⭐ 380) - ORB forcefield models from Orbital Materials. <code><a href="https://github.com/orbital-materials/orb-models/blob/main/LICENSE">Custom</a></code> <code>ML-IAP</code> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/orbital-materials/orb-models) (👨‍💻 11 · 🔀 48 · 📦 11 · 📋 33 - 12% open · ⏱️ 06.04.2025):
+- [GitHub](https://github.com/orbital-materials/orb-models) (👨‍💻 11 · 🔀 49 · 📦 11 · 📋 33 - 12% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/orbital-materials/orb-models
 	```
-- [PyPi](https://pypi.org/project/orb-models) (📥 5K / month · 📦 5 · ⏱️ 06.02.2025):
+- [PyPi](https://pypi.org/project/orb-models) (📥 5K / month · 📦 9 · ⏱️ 08.04.2025):
 	```
 	pip install orb-models
 	```
 </details>
 <details><summary><b><a href="https://github.com/CederGroupHub/chgnet">CHGNet</a></b> (🥈20 ·  ⭐ 290) - Pretrained universal neural network potential for charge-informed atomistic modeling https://chgnet.lbl.gov. <code><a href="https://github.com/CederGroupHub/chgnet/blob/main/LICENSE">Custom</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <code>pretrained</code> <a href="https://en.wikipedia.org/wiki/Electrostatics"><code>electrostatics</code></a> <code>magnetism</code> <code>structure-relaxation</code></summary>
 
-- [GitHub](https://github.com/CederGroupHub/chgnet) (👨‍💻 10 · 🔀 76 · 📦 54 · 📋 70 - 7% open · ⏱️ 24.03.2025):
+- [GitHub](https://github.com/CederGroupHub/chgnet) (👨‍💻 10 · 🔀 77 · 📦 54 · 📋 70 - 7% open · ⏱️ 24.03.2025):
 
 	```
 	git clone https://github.com/CederGroupHub/chgnet
@@ -2723,7 +2760,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 </details>
 <details><summary><b><a href="https://github.com/microsoft/mattersim">MatterSim</a></b> (🥉19 ·  ⭐ 370) - MatterSim: A deep learning atomistic model across elements, temperatures and pressures. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"><code>active-learning</code></a> <a href="https://en.wikipedia.org/wiki/Multimodal_learning"><code>multimodal</code></a> <a href="https://en.wikipedia.org/wiki/Phase_transition"><code>phase-transition</code></a> <code>pretrained</code></summary>
 
-- [GitHub](https://github.com/microsoft/mattersim) (👨‍💻 14 · 🔀 40 · 📥 17 · 📋 25 - 32% open · ⏱️ 02.04.2025):
+- [GitHub](https://github.com/microsoft/mattersim) (👨‍💻 14 · 🔀 40 · 📥 18 · 📋 25 - 32% open · ⏱️ 02.04.2025):
 
 	```
 	git clone https://github.com/microsoft/mattersim
@@ -2745,7 +2782,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 	pip install mace-torch
 	```
 </details>
-<details><summary><b><a href="https://github.com/materialsvirtuallab/m3gnet">M3GNet</a></b> (🥉18 ·  ⭐ 280 · 📉) - Materials graph network with 3-body interactions featuring a DFT surrogate crystal relaxer and a state-of-the-art.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>ML-IAP</code> <code>pretrained</code></summary>
+<details><summary><b><a href="https://github.com/materialsvirtuallab/m3gnet">M3GNet</a></b> (🥉18 ·  ⭐ 280) - Materials graph network with 3-body interactions featuring a DFT surrogate crystal relaxer and a state-of-the-art.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>ML-IAP</code> <code>pretrained</code></summary>
 
 - [GitHub](https://github.com/materialsvirtuallab/m3gnet) (👨‍💻 16 · 🔀 67 · 📦 34 · 📋 35 - 42% open · ⏱️ 07.04.2025):
 
@@ -2783,7 +2820,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 </details>
 <details><summary><b><a href="https://github.com/lab-cosmo/pet-mad">PET-MAD</a></b> (🥉8 ·  ⭐ 55 · 🐣) - PET-MAD, a universal interatomic potential for advanced materials modeling. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Molecular_dynamics"><code>MD</code></a> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a></summary>
 
-- [GitHub](https://github.com/lab-cosmo/pet-mad) (👨‍💻 6 · 🔀 2 · ⏱️ 01.04.2025):
+- [GitHub](https://github.com/lab-cosmo/pet-mad) (👨‍💻 6 · 🔀 2 · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/lab-cosmo/pet-mad
@@ -2799,7 +2836,7 @@ _Machine-learned interatomic potentials (ML-IAP) that have been trained on large
 </details>
 <details><summary><b><a href="https://github.com/ASK-Berkeley/EScAIP">EScAIP</a></b> (🥉7 ·  ⭐ 47) - [NeurIPS 2024] Official implementation of the Efficiently Scaled Attention Interatomic Potential. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>ML-IAP</code> <a href="https://en.wikipedia.org/wiki/Feature_learning"><code>rep-learn</code></a> <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><code>transformer</code></a> <code>single-paper</code></summary>
 
-- [GitHub](https://github.com/ASK-Berkeley/EScAIP) (👨‍💻 2 · 🔀 4 · 📥 3 · 📋 5 - 60% open · ⏱️ 06.03.2025):
+- [GitHub](https://github.com/ASK-Berkeley/EScAIP) (👨‍💻 2 · 🔀 5 · 📥 3 · 📋 5 - 60% open · ⏱️ 06.03.2025):
 
 	```
 	git clone https://github.com/ASK-Berkeley/EScAIP
@@ -2885,7 +2922,7 @@ _Projects that focus on visualization (viz.) for atomistic ML._
 
 <details><summary><b><a href="https://github.com/janosh/pymatviz">pymatviz</a></b> (🥇23 ·  ⭐ 200) - A toolkit for visualizations in materials informatics. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>general-tool</code> <code>probabilistic</code></summary>
 
-- [GitHub](https://github.com/janosh/pymatviz) (👨‍💻 11 · 🔀 23 · 📦 21 · 📋 59 - 20% open · ⏱️ 02.04.2025):
+- [GitHub](https://github.com/janosh/pymatviz) (👨‍💻 11 · 🔀 23 · 📦 21 · 📋 59 - 20% open · ⏱️ 08.04.2025):
 
 	```
 	git clone https://github.com/janosh/pymatviz
@@ -2914,7 +2951,7 @@ _Projects that focus on visualization (viz.) for atomistic ML._
 	```
 	git clone https://github.com/lab-cosmo/chemiscope
 	```
-- [npm](https://www.npmjs.com/package/chemiscope) (📥 170 / month · 📦 3 · ⏱️ 15.03.2023):
+- [npm](https://www.npmjs.com/package/chemiscope) (📥 210 / month · 📦 3 · ⏱️ 15.03.2023):
 	```
 	npm install chemiscope
 	```
@@ -2938,7 +2975,7 @@ _Projects that focus on visualization (viz.) for atomistic ML._
 	```
 	git clone https://github.com/janosh/elementari
 	```
-- [npm](https://www.npmjs.com/package/elementari) (📥 680 / month · 📦 2 · ⏱️ 05.04.2025):
+- [npm](https://www.npmjs.com/package/elementari) (📥 690 / month · 📦 2 · ⏱️ 05.04.2025):
 	```
 	npm install elementari
 	```
@@ -2995,7 +3032,7 @@ _Projects and models that focus on quantities of wavefunction theory methods, su
 	git clone https://github.com/bytedance/jaqmc
 	```
 </details>
-<details><summary><b><a href="https://github.com/bytedance/LapNet">LapNet</a></b> (🥉5 ·  ⭐ 61) - Efficient and Accurate Neural-Network Ansatz for Quantum Monte Carlo. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bytedance/LapNet">LapNet</a></b> (🥉5 ·  ⭐ 62) - Efficient and Accurate Neural-Network Ansatz for Quantum Monte Carlo. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/bytedance/LapNet) (👨‍💻 4 · 🔀 11 · ⏱️ 04.12.2024):
 
