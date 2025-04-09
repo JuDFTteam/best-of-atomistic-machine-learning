@@ -800,6 +800,14 @@ projects:
   github_id: deepmodeling/deepmodeling-projects
   category: community
   license: CC-BY-4.0
+- name: Garden
+  Description: FAIR AI/ML Model Publishing Framework
+  github_id: Garden-AI/garden
+  Homepage: https://thegardens.ai/
+  category: community
+  labels: ["model-repository"]
+  license: MIT
+  pypi_id: garden-ai
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -1280,6 +1288,12 @@ projects:
   github_id: deepmodeling/tutorials
   category: educational
   # license: none found
+- name: Introduction to AI-driven Science on Supercomputers: A Student Training Series
+  github_id: argonne-lcf/ai-science-training-series
+  category: educational
+  labels: ["general-ml", "rep-learn", "language-models"]
+  # license: none found
+  # package managers: none
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
   # ################################################################################
@@ -3476,3 +3490,16 @@ atomistic neural networks based on Gaussian Moments"
   license: MIT
   # package managers: none
   description: Tools to build charge density models using [fairchem](https://github.com/FAIR-Chem/fairchem)
+- name: cuEquivariance
+  github_id: NVIDIA/cuEquivariance
+  category: math
+  labels: ["rep-learn"]
+  license: Apache-2.0
+  pypi_id: cuequivariance
+  conda_id: conda-forge/cuequivariance
+- name: OpenEquivariance
+  github_id: PASSIONLab/OpenEquivariance
+  category: math
+  labels: ["rep-learn"]
+  license: BSD-3-Clause
+  # package managers: none
