@@ -2773,8 +2773,8 @@ projects:
   description: "A Neural Network Potential with Rigorous Treatment of Long-Range Dispersion https://doi.org/10.1039/D2DD00150K"
 - name: GPUMD
   github_id: brucefan1983/GPUMD
-  category: ml-iap
-  labels: ["md", "lang-cpp", "electrostatics"]
+  category: md
+  labels: ["ml-iap", "lang-cpp", "electrostatics"]
   license: GPL-3.0
   # package managers: none
   description: "GPUMD is a highly efficient general-purpose molecular dynamic (MD) package and enables machine-learned potentials called neuroevolution potentials (NEPs)"
@@ -3122,7 +3122,7 @@ projects:
   homepage: https://huggingface.co/spaces/atomind/mlip-arena
   github_id: atomind-ai/mlip-arena
   category: uip
-  labels: ["ml-iap", "community"]
+  labels: ["ml-iap", "benchmarking"]
   license: Apache-2.0
   # pypi_id: None
 - name: GRACE
