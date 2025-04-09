@@ -766,7 +766,7 @@ projects:
   # package managers: none
 - name: LAM Crystal Philately competition 2024
   github_id: deepmodeling/openlam
-  Description: OpenLAM Challenge crystal structure prediction https://arxiv.org/abs/2501.16358
+  description: OpenLAM Challenge crystal structure prediction https://arxiv.org/abs/2501.16358
   homepage: https://bohrium.dp.tech/competitions/8821838186
   category: community
   labels: ["single-paper", "datasets", "structure-prediction", "materials-discovery", "ml-iap", "uip"]
@@ -801,9 +801,9 @@ projects:
   category: community
   license: CC-BY-4.0
 - name: Garden
-  Description: FAIR AI/ML Model Publishing Framework
+  description: FAIR AI/ML Model Publishing Framework
   github_id: Garden-AI/garden
-  Homepage: https://thegardens.ai/
+  homepage: https://thegardens.ai/
   category: community
   labels: ["model-repository"]
   license: MIT
@@ -1288,7 +1288,7 @@ projects:
   github_id: deepmodeling/tutorials
   category: educational
   # license: none found
-- name: Introduction to AI-driven Science on Supercomputers: A Student Training Series
+- name: "Introduction to AI-driven Science on Supercomputers: A Student Training Series"
   github_id: argonne-lcf/ai-science-training-series
   category: educational
   labels: ["general-ml", "rep-learn", "language-models"]
@@ -3032,8 +3032,7 @@ projects:
   # license: # none found
   # package managers: none
 - name: GN-MM
-  description: "The Gaussian Moment Neural Network (GM-NN) package developed for large-scale atomistic simulations employing
-atomistic neural networks based on Gaussian Moments"
+  description: "The Gaussian Moment Neural Network (GM-NN) package developed for large-scale atomistic simulations employing atomistic neural networks based on Gaussian Moments"
   gitlab_id: zaverkin_v/gmnn
   category: ml-iap
   labels: ["active-learning", "md", "rep-eng", "magnetism"]
@@ -3206,7 +3205,7 @@ atomistic neural networks based on Gaussian Moments"
   license: BSD-3-Clause
   pypi_id: matcalc
 - name: MatML
-  Description: Full MatML Docker image, including MatGL, MatCalc, MatPES and LAMMPS with ML-GNNP and ML-SNAP
+  description: Full MatML Docker image, including MatGL, MatCalc, MatPES and LAMMPS with ML-GNNP and ML-SNAP
   github_id: materialsvirtuallab/matml
   category: ml-iap
   labels: ["md", "uip", "rep-learn", "pretrained"]
@@ -3227,7 +3226,7 @@ atomistic neural networks based on Gaussian Moments"
 - name: MaCBench Leaderboard
   resource: true
   homepage: https://huggingface.co/spaces/jablonkagroup/MaCBench-Leaderboard
-  Description: Leaderboard for multimodal language models for chemistry & materials research
+  description: Leaderboard for multimodal language models for chemistry & materials research
   category: language-models
   labels: ["community", "benchmarking", "datasets"]
   # license: none found
