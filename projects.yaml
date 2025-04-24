@@ -3502,3 +3502,9 @@ projects:
   labels: ["rep-learn"]
   license: BSD-3-Clause
   # package managers: none
+- name: janus-core
+  category: ml-iap
+  labels: ["benchmarking", "workflows"]
+  license: BSD-3-Clause
+  github_id: stfc/janus-core
+  pypi_id: janus-core
