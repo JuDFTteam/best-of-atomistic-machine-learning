@@ -387,10 +387,10 @@ labels:
     # name: "&#x1F48A;"
     description: "Drug discovery"
     url: "https://en.wikipedia.org/wiki/Drug_design#Computer-aided_drug_design"
-  - label: "disordered-materials"
-    name: "Disordered Materials"
-    description: "Projects focusing on amorphous materials, random solid solutions, doping, dilute/disordered systems, or non-crystalline structural disorder."
-    url: "https://www.google.com/search?q=disordered-materials"
+  - label: "defects-disorder"
+    name: "Defects & Disorder"
+    description: "Projects focusing on imperfections in materials: Localized defects / doping, or any kind of extended disorder (disordered materials)."
+    url: "https://www.google.com/search?q=defects+and+disorder+in+materials"
   - label: "electrostatics"
     name: "electrostatics"
     # name: "⚡"
@@ -1590,7 +1590,7 @@ projects:
   github_id: atomistic-machine-learning/dtnn
 - name: "Alchemical learning"
   category: ml-iap
-  labels: ["rep-eng", "disordered-materials"]
+  labels: ["rep-eng", "defects-disorder"]
   description: "Code for the 'Modeling high-entropy transition metal alloys with alchemical compression' article"
   github_id: Luthaf/alchemical-learning
 - name: JAX-MD
@@ -3245,7 +3245,7 @@ projects:
 - name: MUSE
   github_id: chiang-yuan/muse
   category: md
-  labels: ["ml-iap", "disordered-materials"]
+  labels: ["ml-iap", "defects-disorder"]
   license: MIT
   # package managers: none
 - name: thermo
@@ -3257,7 +3257,7 @@ projects:
 - name: pySIPFENN
   github_id: PhasesResearchLab/pySIPFENN
   category: rep-eng
-  labels: ["material-defect", "disordered-materials", "pretrained", "transfer-learning"]
+  labels: ["material-defect", "defects-disorder", "pretrained", "transfer-learning"]
   license: LGPL-3.0
   pypi_id: pysipfenn
   conda_id: conda-forge/pysipfenn
