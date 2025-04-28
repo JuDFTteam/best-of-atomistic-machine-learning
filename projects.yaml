@@ -904,6 +904,20 @@ projects:
   license: CC-BY-4.0
   homepage: https://data.dtu.dk/articles/dataset/QM9_Charge_Densities_and_Energies_Calculated_with_VASP/16794500
   description: QM9 molecules calculated with VASP using Atomic Simulation Environment
+- name: QM40 Dataset
+  resource: true
+  description: A More Realistic QM Dataset for Machine Learning in Molecular Science https://doi.org/10.1038/s41597-024-04206-y
+  homepage: https://doi.org/10.6084/m9.figshare.25993060.v1
+  category: datasets
+  labels: ["drug-discovery"]
+  license: CC-BY-4.0
+- name: QMugs dataset
+  resource: true
+  description: Quantum Mechanical Properties of Drug-like Molecules https://doi.org/10.1038/s41597-022-01390-7
+  homepage: CC-BY-3.0
+  category: datasets
+  labels: ["drug-discovery"]
+  license: CC-BY-3.0
 - name: "Quantum-Machine.org Datasets"
   resource: true
   category: datasets
@@ -1134,6 +1148,13 @@ projects:
   labels: ["soft-matter"]
   license: https://github.com/Ramprasad-Group/polyVERSE?tab=License-1-ov-file
   # package managers: none
+- name: OpenQDC
+  github_id: valence-labs/openQDC
+  homepage: https://www.openqdc.io/
+  category: datasets
+  license: CC-BY-4.0
+  pypi_id: openqdc
+  conda_id: conda-forge/openqdc
   # ################################################################################
   # EDUCATIONAL with resource: true (list here alphabetically)
   # ################################################################################
@@ -3508,3 +3529,29 @@ projects:
   license: BSD-3-Clause
   github_id: stfc/janus-core
   pypi_id: janus-core
+- name: aiida-mlip
+  github_id: ElliottKasoar/aiida-mlip
+  category: ml-iap
+  labels: ["workflows", "structure-optimization", "md"]
+  license: BSD-3-Clause
+  pypi_id: aiida-mlip
+- name: M-OFDFT
+  resource: true
+  homepage: https://zenodo.org/records/10616893
+  description: Overcoming the Barrier of Orbital-Free Density Functional Theory in Molecular Systems Using Deep Learning https://doi.org/10.1038/s43588-024-00605-8
+  category: ml-dft
+  labels: ["transformer", "single-paper"]
+  # license: none found
+- name: ofdft_nflows
+  github_id: ChemAI-Lab/ofdft_nflows
+  category: ml-dft
+  labels: ["generative"]
+  # license: none found
+  # package managers: none
+- name: MOLPIPx
+  description: Differentiable version of Permutationally Invariant Polynomial (PIP) models in JAX and Rust.
+  github_id: ChemAI-Lab/molpipx
+  category: rep-eng
+  labels: ["lang-py", "lang-rust"]
+  license: Apache-2.0
+  # package managers: none
