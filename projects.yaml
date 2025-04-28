@@ -3504,7 +3504,7 @@ projects:
   # package managers: none
 - name: janus-core
   category: ml-iap
-  labels: ["benchmarking", "workflows"]
+  labels: ["benchmarking", "workflows", "structure-optimization", "md", "transport-phenomena"]
   license: BSD-3-Clause
   github_id: stfc/janus-core
   pypi_id: janus-core
