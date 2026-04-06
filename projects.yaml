@@ -3522,7 +3522,7 @@ projects:
   category: math
   labels: ["rep-learn"]
   license: BSD-3-Clause
-  # package managers: none
+  pypi_id: openequivariance
 - name: janus-core
   category: ml-iap
   labels: ["benchmarking", "workflows", "structure-optimization", "md", "transport-phenomena"]
