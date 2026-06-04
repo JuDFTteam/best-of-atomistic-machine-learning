@@ -3555,3 +3555,9 @@ projects:
   labels: ["lang-py", "lang-rust"]
   license: Apache-2.0
   # package managers: none
+- name: Atomcraft
+  description: AI operating system for accelerated materials discovery. Generates crystal structures, predicts properties (11 models), assesses synthesis feasibility, orchestrates DFT simulations, and runs closed-loop active learning.
+  github_id: fridayowl/atomcraft
+  category: materials-discovery
+  labels: ["active-learning", "generative", "lang-py", "lang-js", "ai-agent", "scikit-learn", "structure-prediction", "xrd"]
+  license: MIT
