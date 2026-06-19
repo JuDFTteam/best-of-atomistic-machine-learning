@@ -1589,6 +1589,10 @@ projects:
 - name: G-SchNet
   category: generative
   github_id: atomistic-machine-learning/G-SchNet
+- name: Matcha
+  category: generative
+  labels: ["drug-discovery", "cheminformatics", "rep-learn", "benchmarking"]
+  github_id: LigandPro/Matcha
 - name: SchNOrb
   category: ml-wft
   github_id: atomistic-machine-learning/SchNOrb
