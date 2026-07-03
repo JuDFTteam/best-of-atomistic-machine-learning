@@ -808,6 +808,14 @@ projects:
   labels: ["model-repository"]
   license: MIT
   pypi_id: garden-ai
+- name: ML-PEG
+  github_id: ddmms/ml-peg
+  category: community
+  labels: ["benchmarking", "visualization", "datasets", "structure-optimization", "md", "transport-phenomena", "biomolecules", "long-range", "electrostatics"]
+  license: "GPL-3.0"
+  description: ML Performance and Extrapolation Guide
+  homepage: https://ml-peg.stfc.ac.uk/
+  pypi_id: ml-peg
   # ################################################################################
   # DATASETS with resource: true (list here alphabetically)
   # ################################################################################
@@ -3555,10 +3563,3 @@ projects:
   labels: ["lang-py", "lang-rust"]
   license: Apache-2.0
   # package managers: none
-- name: ML-PEG
-  description: ML Performance and Extrapolation Guide
-  category: community
-  labels: ["benchmarking", "datasets", "structure-optimization", "md", "transport-phenomena", "biomolecules", "long-range", "electrostatics"]
-  license: "GPL-3.0"
-  github_id: ddmms/ml-peg
-  pypi_id: ml-peg
