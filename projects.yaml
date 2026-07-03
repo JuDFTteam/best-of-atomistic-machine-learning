@@ -3558,7 +3558,7 @@ projects:
 - name: ML-PEG
   description: ML Performance and Extrapolation Guide
   category: community
-  labels: ["datasets", "benchmarking", "structure-optimization", "md", "transport-phenomena", "biomolecules", "long-range", "electrostatics"]
+  labels: ["benchmarking", "datasets", "structure-optimization", "md", "transport-phenomena", "biomolecules", "long-range", "electrostatics"]
   license: "GPL-3.0"
   github_id: ddmms/ml-peg
   pypi_id: ml-peg
