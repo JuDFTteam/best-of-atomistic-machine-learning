@@ -3530,7 +3530,7 @@ projects:
   github_id: stfc/janus-core
   pypi_id: janus-core
 - name: aiida-mlip
-  github_id: ElliottKasoar/aiida-mlip
+  github_id: stfc/aiida-mlip
   category: ml-iap
   labels: ["workflows", "structure-optimization", "md"]
   license: BSD-3-Clause
