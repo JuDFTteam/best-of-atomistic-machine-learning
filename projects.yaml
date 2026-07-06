@@ -3555,3 +3555,10 @@ projects:
   labels: ["lang-py", "lang-rust"]
   license: Apache-2.0
   # package managers: none
+- name: CARE
+  github_id: LopezGroup-ICIQ/care
+  pypi_id: care-crn
+  license: MIT
+  labels: ["materials-discovery", "ml-dft"]
+  category: materials-discovery
+  description: Automated ML-powered chemical reaction network (CRN) generation for heterogenous catalysis
