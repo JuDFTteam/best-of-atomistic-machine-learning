@@ -1,3 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(git merge *)",
+      "Bash(python3 -c \"import yaml,sys; yaml.safe_load\\(open\\('.github/workflows/update-best-of-list.yml'\\)\\); print\\('YAML OK'\\)\")",
+      "Bash(command -v actionlint)",
+      "Bash(actionlint .github/workflows/update-best-of-list.yml)",
+      "Bash(git fetch *)",
+      "Bash(xargs -n 50 git push origin --delete)"
+    ]
+  },
   "enableAllProjectMcpServers": false
 }
