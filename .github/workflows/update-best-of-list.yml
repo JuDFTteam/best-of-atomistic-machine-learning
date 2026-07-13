@@ -26,6 +26,19 @@ jobs:
         name: set-version-via-date
         run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
       - uses: actions/checkout@v4
+      - name: close-stale-update-prs
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Older auto-update PRs are always superseded by this run (README.md /
+          # latest-changes.md are fully regenerated), so close them to prevent the
+          # pile-up that causes merge conflicts when merged out of order.
+          gh pr list --state open --json number,headRefName \
+            --jq '.[] | select(.headRefName | startswith("${{ env.BRANCH_PREFIX }}")) | .number' \
+          | while read -r pr; do
+              gh pr close "$pr" --delete-branch --comment "Superseded by a newer best-of update." || true
+            done
       - name: check-version-tag
         shell: bash
         run: |
