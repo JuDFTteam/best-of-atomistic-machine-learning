@@ -1,0 +1,13 @@
+{
+  "sessions": {
+    "5c7d5c23-0691-4467-b98e-0fb865b4a639": {
+      "user_message_count": 3,
+      "agent_message_count": 56,
+      "start_timestamp": "2026-07-13T13:40:49.286Z",
+      "end_timestamp": "2026-07-13T13:53:53.491Z",
+      "markdown_size_bytes": 54259,
+      "provider": "claude-code",
+      "last_updated": "2026-07-13T13:53:54Z"
+    }
+  }
+}
