@@ -3567,3 +3567,9 @@ projects:
   labels: ["lang-py", "lang-rust"]
   license: Apache-2.0
   # package managers: none
+- name: CARE
+  github_id: LopezGroup-ICIQ/care
+  pypi_id: care-crn
+  license: MIT
+  labels: ["catalysis", "cheminformatics", "ml-iap", "lang-julia"]
+  category: materials-discovery
