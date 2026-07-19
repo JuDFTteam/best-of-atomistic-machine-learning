@@ -3559,6 +3559,5 @@ projects:
   github_id: LopezGroup-ICIQ/care
   pypi_id: care-crn
   license: MIT
-  labels: ["materials-discovery", "ml-dft"]
+  labels: ["catalysis", "cheminformatics", "ml-iap", "lang-julia"]
   category: materials-discovery
-  description: Automated ML-powered chemical reaction network (CRN) generation for heterogenous catalysis
