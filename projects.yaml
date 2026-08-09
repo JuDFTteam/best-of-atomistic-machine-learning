@@ -1715,6 +1715,7 @@ projects:
   github_id: dilkins/TENSOAP
 - name: SALTED
   category: ml-dft
+  description: Symmetry-Adapted Learning of Three-dimensional Electron Densities (and their electrostatic response)
   github_id: andreagrisafi/SALTED
 - name: Compositionally-Restricted Attention-Based Network (CrabNet)
   category: rep-learn
