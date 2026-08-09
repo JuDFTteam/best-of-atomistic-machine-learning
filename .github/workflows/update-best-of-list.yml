@@ -57,6 +57,25 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # TEMPORARY - delete once the GraphQL token question is settled (see PR description).
+      # Since the 2026-07-23 run, every GitHub GraphQL query returned no repository data while
+      # the REST calls kept working. best-of 0.8.5 swallows that silently, so this prints the
+      # raw response for both tokens to show which one GitHub still answers.
+      - name: debug-graphql-token
+        shell: bash
+        env:
+          DEFAULT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.GH_API_TOKEN }}
+        run: |
+          for name in DEFAULT_TOKEN PAT_TOKEN; do
+            token="${!name}"
+            echo "=== $name ==="
+            if [ -z "$token" ]; then echo "(not set)"; continue; fi
+            curl -sS -w '\nHTTP %{http_code}\n' \
+              -H "Authorization: token $token" \
+              -d '{"query":"{repository(owner:\"andreagrisafi\",name:\"SALTED\"){url stargazers{totalCount}}}"}' \
+              https://api.github.com/graphql
+          done
       - name: update-best-of-list
         # original action, last update, release v0.8.5 on Jan 11, 2022
         uses: best-of-lists/best-of-update-action@v0.8.5
@@ -66,7 +85,28 @@ jobs:
         # uses: Irratzo/best-of-lists_best-of-update-action@v0.1.1
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
-          github_key: ${{ secrets.GITHUB_TOKEN }}
+          # NOT secrets.GITHUB_TOKEN: the Actions token can no longer resolve *other*
+          # repositories through the GitHub GraphQL API, which is where the generator gets
+          # descriptions, homepages, stars, issue and commit counts. GH_API_TOKEN is a classic
+          # PAT with no scopes (public-repo read is all that is needed).
+          github_key: ${{ secrets.GH_API_TOKEN }}
+      - name: check-generation-sanity
+        shell: bash
+        run: |
+          python3 - <<'EOF'
+          import csv, glob, sys
+
+          # Absolute fill-rate floor rather than a diff against the previous run: the failure
+          # this guards against is a *total* GraphQL outage, which ran green for three weeks.
+          # commit_count is the sentinel because only the GraphQL query sets it - there is no
+          # libraries.io fallback, so it drops to ~0 the moment GraphQL stops answering.
+          path = sorted(glob.glob("history/*_projects.csv"))[-1]
+          rows = [r for r in csv.DictReader(open(path)) if r["github_id"]]
+          filled = sum(1 for r in rows if r["commit_count"])
+          print(f"{path}: {filled}/{len(rows)} GitHub projects have commit_count")
+          if filled < 0.5 * len(rows):
+              sys.exit("GitHub GraphQL metadata fetch looks broken - refusing to publish.")
+          EOF
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
