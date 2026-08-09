@@ -66,7 +66,34 @@ jobs:
         # uses: Irratzo/best-of-lists_best-of-update-action@v0.1.1
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
-          github_key: ${{ secrets.GITHUB_TOKEN }}
+          # NOT secrets.GITHUB_TOKEN: the Actions token can no longer resolve *other*
+          # repositories through the GitHub GraphQL API, which is where the generator gets
+          # descriptions, homepages, stars, issue and commit counts. GH_API_TOKEN is a classic
+          # PAT with no scopes (public-repo read is all that is needed).
+          github_key: ${{ secrets.GH_API_TOKEN }}
+      - name: check-generation-sanity
+        shell: bash
+        run: |
+          python3 - <<'EOF'
+          import csv, glob, sys
+
+          # Absolute fill-rate floor rather than a diff against the previous run: the failure
+          # this guards against is a *total* GraphQL outage, which ran green for three weeks.
+          # commit_count is the sentinel because only the GraphQL query sets it - there is no
+          # libraries.io fallback, so it drops to ~0 the moment GraphQL stops answering.
+          files = sorted(glob.glob("history/*_projects.csv"))
+          if not files:
+              sys.exit("No history/*_projects.csv was written - generation did not complete.")
+
+          # ponytail: newest-by-filename, so this cannot tell a stale CSV from a fresh one.
+          # Fine here - the generator step fails the job by itself if it does not finish.
+          path = files[-1]
+          rows = [r for r in csv.DictReader(open(path)) if r["github_id"]]
+          filled = sum(1 for r in rows if r["commit_count"])
+          print(f"{path}: {filled}/{len(rows)} GitHub projects have commit_count")
+          if filled < 0.5 * len(rows):
+              sys.exit("GitHub GraphQL metadata fetch looks broken - refusing to publish.")
+          EOF
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
