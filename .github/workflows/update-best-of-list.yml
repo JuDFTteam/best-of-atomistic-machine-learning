@@ -57,25 +57,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # TEMPORARY - delete once the GraphQL token question is settled (see PR description).
-      # Since the 2026-07-23 run, every GitHub GraphQL query returned no repository data while
-      # the REST calls kept working. best-of 0.8.5 swallows that silently, so this prints the
-      # raw response for both tokens to show which one GitHub still answers.
-      - name: debug-graphql-token
-        shell: bash
-        env:
-          DEFAULT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PAT_TOKEN: ${{ secrets.GH_API_TOKEN }}
-        run: |
-          for name in DEFAULT_TOKEN PAT_TOKEN; do
-            token="${!name}"
-            echo "=== $name ==="
-            if [ -z "$token" ]; then echo "(not set)"; continue; fi
-            curl -sS -w '\nHTTP %{http_code}\n' \
-              -H "Authorization: token $token" \
-              -d '{"query":"{repository(owner:\"andreagrisafi\",name:\"SALTED\"){url stargazers{totalCount}}}"}' \
-              https://api.github.com/graphql
-          done
       - name: update-best-of-list
         # original action, last update, release v0.8.5 on Jan 11, 2022
         uses: best-of-lists/best-of-update-action@v0.8.5
