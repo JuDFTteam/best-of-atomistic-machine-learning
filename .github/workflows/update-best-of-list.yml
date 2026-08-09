@@ -81,7 +81,13 @@ jobs:
           # this guards against is a *total* GraphQL outage, which ran green for three weeks.
           # commit_count is the sentinel because only the GraphQL query sets it - there is no
           # libraries.io fallback, so it drops to ~0 the moment GraphQL stops answering.
-          path = sorted(glob.glob("history/*_projects.csv"))[-1]
+          files = sorted(glob.glob("history/*_projects.csv"))
+          if not files:
+              sys.exit("No history/*_projects.csv was written - generation did not complete.")
+
+          # ponytail: newest-by-filename, so this cannot tell a stale CSV from a fresh one.
+          # Fine here - the generator step fails the job by itself if it does not finish.
+          path = files[-1]
           rows = [r for r in csv.DictReader(open(path)) if r["github_id"]]
           filled = sum(1 for r in rows if r["commit_count"])
           print(f"{path}: {filled}/{len(rows)} GitHub projects have commit_count")
