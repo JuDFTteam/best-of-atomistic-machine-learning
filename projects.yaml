@@ -1323,6 +1323,12 @@ projects:
   labels: ["general-ml", "rep-learn", "language-models"]
   # license: none found
   # package managers: none
+- name: ML-for-Materials-Science
+  github_id: NabKh/ML-for-Materials-Science
+  category: educational
+  labels: ["general-ml", "rep-eng", "xai"]
+  license: MIT
+  # package managers: none
   # ################################################################################
   # ALL THE REST (sorted by CI/CD)
   # ################################################################################
